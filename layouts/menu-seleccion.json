@@ -26,16 +26,33 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
       "keepRatio": true,
       "layer": "",
       "name": "NewText",
       "persistentUuid": "9f8e427e-b2b7-4509-bf14-42439fa26b9d",
-      "width": 0,
-      "x": 32,
-      "y": 28,
-      "zOrder": 2,
+      "width": 357,
+      "x": 469,
+      "y": 254,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 720,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "e9bcc52b-c4c7-4887-aac8-f3dc40d341a9",
+      "width": 1280,
+      "x": 1,
+      "y": -1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -93,6 +110,66 @@
         "characterSize": 50,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "WhatsApp Image 2024-05-19 at 23.37.17.jpeg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 804,
+                        "y": 0
+                      },
+                      {
+                        "x": 804,
+                        "y": 544
+                      },
+                      {
+                        "x": 0,
+                        "y": 544
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -103,6 +180,9 @@
       },
       {
         "objectName": "NewText"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },

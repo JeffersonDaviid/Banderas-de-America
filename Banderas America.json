@@ -96,6 +96,15 @@
         "name": "assets\\Menu\\socket",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "WhatsApp Image 2024-05-19 at 23.37.17.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2024-05-19 at 23.37.17.jpeg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
