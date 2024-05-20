@@ -47,7 +47,7 @@
       "depth": 1,
       "height": 720,
       "layer": "",
-      "name": "NewSprite2",
+      "name": "BackgroundCielo",
       "persistentUuid": "e9bcc52b-c4c7-4887-aac8-f3dc40d341a9",
       "width": 1280,
       "x": 1,
@@ -114,7 +114,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite2",
+      "name": "BackgroundCielo",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -182,7 +182,7 @@
         "objectName": "NewText"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "BackgroundCielo"
       }
     ]
   },
