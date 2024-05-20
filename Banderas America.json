@@ -54,7 +54,13 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
-    "extensionProperties": [],
+    "extensionProperties": [
+      {
+        "extension": "AdMob",
+        "property": "AdMobAppIdAndroid",
+        "value": ""
+      }
+    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
