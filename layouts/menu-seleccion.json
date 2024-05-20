@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.39251611754882265,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,15 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 74,
-      "keepRatio": true,
+      "depth": 1.2105405405405405,
+      "height": 90,
       "layer": "",
-      "name": "NewText",
+      "name": "Title_Selection_Menu",
       "persistentUuid": "9f8e427e-b2b7-4509-bf14-42439fa26b9d",
-      "width": 357,
-      "x": 469,
-      "y": 254,
+      "width": 575,
+      "x": 340,
+      "y": 43,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -72,43 +71,43 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
-      "name": "NewText",
+      "name": "Title_Selection_Menu",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Menu seleccion",
+      "string": "Selecciona un Pais",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 50,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
+        "bold": true,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 5,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
-        "shadowDistance": 4,
+        "shadowDistance": 1,
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Menu seleccion",
+        "text": "Selecciona un Pais",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "characterSize": 50,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -179,7 +178,7 @@
         "objectName": "NewSprite"
       },
       {
-        "objectName": "NewText"
+        "objectName": "Title_Selection_Menu"
       },
       {
         "objectName": "BackgroundCielo"
