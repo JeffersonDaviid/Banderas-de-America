@@ -152,6 +152,24 @@
         "name": "assets\\Menu-Seleccion\\icons8-cursor-100.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/BackgroundMar.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\BackgroundMar.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/BotonRegreso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\BotonRegreso.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
