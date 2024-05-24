@@ -125,6 +125,15 @@
         "name": "Explorador.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/boton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icons8-botón-de-radio-comprobado-48.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
