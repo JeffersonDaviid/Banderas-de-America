@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.39251611754882265,
+    "zoomFactor": 0.5843784410740935,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -52,6 +52,23 @@
       "x": 1,
       "y": -1,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 195,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Explorador",
+      "persistentUuid": "bb772c0b-d41d-4ee2-ab9d-702bd3c13c24",
+      "width": 191,
+      "x": 13,
+      "y": 510,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -169,6 +186,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Explorador",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explorador.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 104,
+                        "y": 13
+                      },
+                      {
+                        "x": 383,
+                        "y": 13
+                      },
+                      {
+                        "x": 383,
+                        "y": 473
+                      },
+                      {
+                        "x": 104,
+                        "y": 473
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -182,6 +259,9 @@
       },
       {
         "objectName": "BackgroundCielo"
+      },
+      {
+        "objectName": "Explorador"
       }
     ]
   },

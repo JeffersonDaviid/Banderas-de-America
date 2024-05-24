@@ -116,6 +116,15 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Explorador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explorador.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
