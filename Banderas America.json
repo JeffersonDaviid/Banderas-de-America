@@ -134,6 +134,24 @@
         "name": "icons8-botón-de-radio-comprobado-48.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/icons8-izquierda-círculo-64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\icons8-izquierda-círculo-64.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/icons8-cursor-100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\icons8-cursor-100.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
