@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740935,
+    "zoomFactor": 0.31119749424452087,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,30 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1.2105405405405405,
-      "height": 90,
-      "layer": "",
-      "name": "Title_Selection_Menu",
-      "persistentUuid": "9f8e427e-b2b7-4509-bf14-42439fa26b9d",
-      "width": 575,
-      "x": 340,
-      "y": 45,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
-      "height": 720,
+      "height": 2000,
       "layer": "",
       "name": "BackgroundCielo",
       "persistentUuid": "e9bcc52b-c4c7-4887-aac8-f3dc40d341a9",
-      "width": 1280,
-      "x": 1,
-      "y": -1,
+      "width": 1500,
+      "x": -102,
+      "y": -461,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -66,8 +50,8 @@
       "name": "Explorador",
       "persistentUuid": "bb772c0b-d41d-4ee2-ab9d-702bd3c13c24",
       "width": 200,
-      "x": 40,
-      "y": 503,
+      "x": 44,
+      "y": 490,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,13 +78,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 50,
+      "height": 40,
       "keepRatio": true,
       "layer": "",
       "name": "Cursor",
       "persistentUuid": "87cfe127-4cc9-41d5-9b67-dbd474f4c275",
-      "width": 50,
-      "x": 945,
+      "width": 40,
+      "x": 941,
       "y": 532,
       "zOrder": 7,
       "numberProperties": [],
@@ -109,58 +93,6 @@
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "Title_Selection_Menu",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Selecciona un Pais",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 50,
-      "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "0;0;0",
-        "outlineThickness": 5,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 1,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Selecciona un Pais",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 50,
-        "color": "255;255;255"
-      }
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -365,7 +297,60 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 5,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 50,
+          "RightwardSpeedMax": 50,
+          "UpwardSpeedMax": 50,
+          "DownwardSpeedMax": 50,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -422,12 +407,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "Title_Selection_Menu"
-      },
-      {
         "objectName": "BackgroundCielo"
       },
       {
@@ -478,6 +457,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -552,8 +536,8 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     }
   ]
 }
