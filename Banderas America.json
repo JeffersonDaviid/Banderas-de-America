@@ -173,7 +173,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Arentina_2.png",
+        "file": "assets/Menu-Seleccion/Argentina.png",
         "kind": "image",
         "metadata": "",
         "name": "Arentina_2.png",
@@ -182,7 +182,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Arentina-removebg-preview.png",
+        "file": "assets/Menu-Seleccion/Argentina_Select.png",
         "kind": "image",
         "metadata": "",
         "name": "Arentina-removebg-preview.png",
@@ -191,7 +191,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/White Square Decorated Button_Hovered.png",
+        "file": "assets/Menu-Seleccion/White Square Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Hovered.png",
@@ -204,7 +204,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/White Square Decorated Button_Idle.png",
+        "file": "assets/Menu-Seleccion/White Square Decorated Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Idle.png",
@@ -217,7 +217,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/White Square Decorated Button_Pressed.png",
+        "file": "assets/Menu-Seleccion/White Square Decorated Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Pressed.png",
@@ -238,6 +238,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
           "name": "mononoki-Regular.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Chile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Chile_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Select_Chile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chile_Hitbox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Chile_Hitbox.png\"}",
+        "name": "Chile_Hitbox",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Argentina_Hitbox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Argentina_Hitbox",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

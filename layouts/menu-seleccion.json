@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.31119749424452087,
+    "zoomFactor": 0.5117784035210203,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -32,9 +32,9 @@
       "layer": "",
       "name": "BackgroundCielo",
       "persistentUuid": "e9bcc52b-c4c7-4887-aac8-f3dc40d341a9",
-      "width": 1500,
-      "x": -102,
-      "y": -461,
+      "width": 1573,
+      "x": -137,
+      "y": -565,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -84,41 +84,9 @@
       "name": "Cursor",
       "persistentUuid": "87cfe127-4cc9-41d5-9b67-dbd474f4c275",
       "width": 40,
-      "x": 941,
-      "y": 532,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "9b43ac3d-75a3-469c-aee7-d167bf994c90",
-      "width": 0,
-      "x": 547,
-      "y": -85,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Apintada",
-      "persistentUuid": "9de942d7-1a7d-4043-890c-e499deed7558",
-      "width": 0,
-      "x": 547,
-      "y": -85,
-      "zOrder": 9,
+      "x": 1093,
+      "y": 573,
+      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -135,6 +103,291 @@
       "x": 1058,
       "y": 43,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina",
+      "persistentUuid": "2ab25150-60af-4e9b-927a-39ae80d3b530",
+      "width": 0,
+      "x": 524,
+      "y": 154,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 717,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Select",
+      "persistentUuid": "964b1ab4-e89f-4822-a289-de8dcf4a2ddb",
+      "width": 323,
+      "x": 532,
+      "y": 164,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chile",
+      "persistentUuid": "2a933750-4478-40be-8077-09d46640b21c",
+      "width": 0,
+      "x": 514,
+      "y": 60,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 797,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chile_Select",
+      "persistentUuid": "7d12567d-d9eb-4b89-bb3f-1c1bde71e95e",
+      "width": 259,
+      "x": 522,
+      "y": 75,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 316,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "21ffb384-a394-487f-95fa-7d2294138fe9",
+      "width": 93,
+      "x": 597,
+      "y": 185,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 377,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "f535ad3e-b218-4ded-b884-3e840efeee29",
+      "width": 68,
+      "x": 650,
+      "y": 210,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 341,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "8b2d977a-695e-44ce-8311-cf97d519bfcc",
+      "width": 70,
+      "x": 681,
+      "y": 226,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 244,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "337bc0ad-9726-488d-a812-3f8bf7bbee88",
+      "width": 91,
+      "x": 703,
+      "y": 281,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "7ec49a74-f86c-4e5e-b53b-946cf35ee408",
+      "width": 0,
+      "x": 759,
+      "y": 460,
+      "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 113,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "4066a18a-7b54-467f-a4ef-f7e0359f2f66",
+      "width": 89,
+      "x": 603,
+      "y": 469,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 187,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "0363042b-9738-4598-bb70-28cbce204a0f",
+      "width": 56,
+      "x": 658,
+      "y": 579,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "61b4eb6b-2c03-4963-8e69-f24e6439a4bc",
+      "width": 0,
+      "x": 617,
+      "y": 570,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 187,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "89e62ff5-f0d1-40ee-af64-a25a1b44a02e",
+      "width": 25,
+      "x": 540,
+      "y": 167,
+      "zOrder": -9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 140,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "27ee6ac3-95d6-4b4c-ba14-2d7a26c6a583",
+      "width": 19,
+      "x": 552,
+      "y": 386,
+      "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 58,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "4b28a883-3605-47ab-ad2e-9d2aa8474017",
+      "width": 17,
+      "x": 542,
+      "y": 327,
+      "zOrder": -10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "a74d4929-b489-4043-93cc-40661520dfcf",
+      "width": 19,
+      "x": 562,
+      "y": 519,
+      "zOrder": -7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "4fde9d60-857a-4a1b-a42a-d5613920ed7d",
+      "width": 17,
+      "x": 611,
+      "y": 654,
+      "zOrder": -6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -260,22 +513,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bottomMargin": 0,
-      "height": 32,
-      "leftMargin": 0,
-      "name": "NewPanelSprite",
-      "rightMargin": 0,
-      "texture": "",
-      "tiled": true,
-      "topMargin": 0,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -451,20 +688,9 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "NewTiledSprite",
-      "texture": "",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "Argentina",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -524,7 +750,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Apintada",
+      "name": "Argentina_Select",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -663,6 +889,248 @@
           "width": 192
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chile",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 126,
+                        "y": 51
+                      },
+                      {
+                        "x": 236,
+                        "y": 51
+                      },
+                      {
+                        "x": 236,
+                        "y": 637
+                      },
+                      {
+                        "x": 126,
+                        "y": 637
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chile_Select",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Select_Chile.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 108,
+                        "y": 17
+                      },
+                      {
+                        "x": 230,
+                        "y": 17
+                      },
+                      {
+                        "x": 230,
+                        "y": 720
+                      },
+                      {
+                        "x": 108,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Chile_Hitbox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Chile_Hitbox",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chile_Hitbox",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Argentina_Hitbox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Argentina_Hitbox",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Argentina_Hitbox",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -672,16 +1140,10 @@
         "objectName": "BackgroundCielo"
       },
       {
-        "objectName": "NewTiledSprite"
-      },
-      {
-        "objectName": "NewSprite"
+        "objectName": "Argentina"
       },
       {
         "objectName": "Explorador"
-      },
-      {
-        "objectName": "NewPanelSprite"
       },
       {
         "objectName": "boton_de_regreso"
@@ -690,10 +1152,22 @@
         "objectName": "Cursor"
       },
       {
-        "objectName": "Apintada"
+        "objectName": "Argentina_Select"
+      },
+      {
+        "objectName": "Chile_Hitbox"
       },
       {
         "objectName": "Puntaje"
+      },
+      {
+        "objectName": "Chile"
+      },
+      {
+        "objectName": "Chile_Select"
+      },
+      {
+        "objectName": "Argentina_Hitbox"
       }
     ]
   },
@@ -744,7 +1218,15 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Apintada"
+                "Argentina_Select"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Chile_Select"
               ]
             }
           ]
@@ -769,7 +1251,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "NewSprite",
+                "Argentina_Hitbox",
                 "",
                 "",
                 ""
@@ -782,7 +1264,34 @@
                 "value": "Montre"
               },
               "parameters": [
-                "Apintada",
+                "Argentina_Select",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Chile_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Chile_Select",
                 ""
               ]
             }
