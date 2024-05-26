@@ -46,7 +46,7 @@
       "depth": 1,
       "height": 200,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "Explorador",
       "persistentUuid": "bb772c0b-d41d-4ee2-ab9d-702bd3c13c24",
       "width": 200,
@@ -63,7 +63,7 @@
       "depth": 1,
       "height": 89,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "boton_de_regreso",
       "persistentUuid": "50804fa8-99d8-455c-ada0-1246cce2ab43",
       "width": 95,
@@ -96,7 +96,7 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "Puntaje",
       "persistentUuid": "d7b8c99f-cc57-47cd-8782-5a6b50a476b6",
       "width": 0,
@@ -398,7 +398,7 @@
       "depth": 1,
       "height": 200,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "Dialogo",
       "persistentUuid": "e6c9d2c8-296e-4a6e-beb5-5dcf5d0171f1",
       "width": 300,
@@ -415,7 +415,7 @@
       "depth": 1,
       "height": 65,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "Dialogo2",
       "persistentUuid": "906fdfe1-d485-428f-ac83-869e5941822f",
       "width": 220,
@@ -496,7 +496,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -556,7 +567,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -847,7 +869,18 @@
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "LeftPadding": 16,
         "RightPadding": 16,
@@ -1539,9 +1572,46 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "InterfazDeUsuario",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
