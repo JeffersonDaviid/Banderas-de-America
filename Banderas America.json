@@ -99,6 +99,15 @@
         "name": "assets\\Menu\\Portada.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón Play.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
