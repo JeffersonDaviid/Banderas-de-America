@@ -90,6 +90,15 @@
         "name": "assets\\Menu\\socket",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Portada.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Portada.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

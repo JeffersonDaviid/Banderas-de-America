@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6897782140104509,
+    "zoomFactor": 0.27253598967729364,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,28 +30,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "faeceb4f-670c-42fb-9a21-68f869db546e",
+      "name": "Portada",
+      "persistentUuid": "0237edab-a33a-4020-a383-06a49eccc304",
       "width": 0,
-      "x": 479,
-      "y": 281,
+      "x": -336,
+      "y": -203,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "icon",
-      "persistentUuid": "96922df1-8b40-4945-87a9-828b8ef1b324",
-      "width": 0,
-      "x": 847,
-      "y": 247,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -102,7 +86,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "icon",
+      "name": "Portada",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -120,7 +104,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\socket.png",
+                  "image": "assets\\Menu\\Portada.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -140,16 +124,16 @@
                         "y": 0
                       },
                       {
-                        "x": 150,
+                        "x": 1920,
                         "y": 0
                       },
                       {
-                        "x": 150,
-                        "y": 150
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 150
+                        "y": 1080
                       }
                     ]
                   ]
@@ -168,7 +152,7 @@
         "objectName": "NewText"
       },
       {
-        "objectName": "icon"
+        "objectName": "Portada"
       }
     ]
   },
