@@ -84,8 +84,8 @@
       "name": "Cursor",
       "persistentUuid": "87cfe127-4cc9-41d5-9b67-dbd474f4c275",
       "width": 40,
-      "x": 1093,
-      "y": 573,
+      "x": 1109,
+      "y": 992,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -374,13 +374,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -445,13 +445,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -707,13 +707,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 0,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1216,34 +1216,6 @@
           "actions": [
             {
               "type": {
-                "value": "CacheSouris"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Cursor",
-                "=",
-                "CursorX()"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Cursor",
-                "=",
-                "CursorY()"
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -1411,7 +1383,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(), Cursor.X(), 1)",
+                "lerp(CameraX(), CursorX(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
                 "\"SeleccionPaises\"",
                 ""
               ]
@@ -1423,7 +1395,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(), Cursor.Y(), 1)",
+                "lerp(CameraY(), CursorY(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
                 "\"SeleccionPaises\"",
                 ""
               ]
@@ -1435,7 +1407,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(), Cursor.X(), 1)",
+                "lerp(CameraX(), CursorX(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
                 "\"FondoPaises\"",
                 ""
               ]
@@ -1447,7 +1419,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(), Cursor.Y(), 1)",
+                "lerp(CameraY(), CursorY(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
                 "\"FondoPaises\"",
                 ""
               ]
@@ -1459,7 +1431,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraX(), Cursor.X(), 1)",
+                "lerp(CameraX(), CursorX(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
                 "\"SeleccionPaises\"",
                 ""
               ]
@@ -1471,7 +1443,7 @@
               "parameters": [
                 "",
                 "=",
-                "lerp(CameraY(), Cursor.Y(), 1)",
+                "lerp(CameraY(), CursorY(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
                 "\"SeleccionPaises\"",
                 ""
               ]
@@ -1537,7 +1509,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "FondoPaises",
       "renderingType": "",
       "visibility": true,
@@ -1570,7 +1542,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "SeleccionPaises",
       "renderingType": "",
       "visibility": true,
@@ -1603,7 +1575,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "InterfazDeUsuario",
       "renderingType": "",
       "visibility": true,
