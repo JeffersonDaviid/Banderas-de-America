@@ -298,6 +298,12 @@
       "name": "seleccionarPais",
       "type": "string",
       "value": "Selecciona un pais"
+    },
+    {
+      "folded": true,
+      "name": "tamañoDeSeguimientoDelMouse",
+      "type": "number",
+      "value": 2
     }
   ],
   "layouts": [
