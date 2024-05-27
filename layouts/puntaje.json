@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33253870912507744,
+    "zoomFactor": 0.2386775827025784,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,15 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 2000,
-      "keepRatio": true,
+      "depth": 1.28,
+      "height": 1080,
       "layer": "",
       "name": "Fondo",
       "persistentUuid": "344093f8-f8d4-4a6e-a842-968f24763fe5",
-      "width": 1500,
-      "x": -102,
-      "y": -461,
+      "width": 1920,
+      "x": 0,
+      "y": 0,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -45,15 +44,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 89,
+      "height": 90,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "boton_de_regreso",
       "persistentUuid": "697b5612-bd64-49b2-91ba-0b7cdbdcbcaa",
-      "width": 89,
-      "x": 82,
-      "y": 45,
-      "zOrder": 6,
+      "width": 90,
+      "x": 80,
+      "y": 40,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -128,7 +127,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -204,7 +214,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -237,9 +247,46 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "InterfazDeUsuario",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"

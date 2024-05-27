@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3673257545058864,
+    "zoomFactor": 0.20220707303602103,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,13 +28,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 787,
+      "height": 1080,
       "layer": "",
       "name": "FondoCielo",
       "persistentUuid": "e9bcc52b-c4c7-4887-aac8-f3dc40d341a9",
-      "width": 1307,
-      "x": -13,
-      "y": -37,
+      "width": 1920,
+      "x": 0,
+      "y": 0,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,14 +61,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 89,
-      "keepRatio": true,
+      "height": 90,
       "layer": "InterfazDeUsuario",
       "name": "BotonRegresar",
       "persistentUuid": "50804fa8-99d8-455c-ada0-1246cce2ab43",
-      "width": 95,
-      "x": 82,
-      "y": 45,
+      "width": 90,
+      "x": 80,
+      "y": 40,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -301,17 +300,7 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [
-        {
-          "effectType": "Noise",
-          "name": "Effect",
-          "doubleParameters": {
-            "noise": 0.5
-          },
-          "stringParameters": {},
-          "booleanParameters": {}
-        }
-      ],
+      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1465,7 +1454,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "",
       "renderingType": "",
       "visibility": true,
