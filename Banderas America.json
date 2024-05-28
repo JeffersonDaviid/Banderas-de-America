@@ -261,6 +261,36 @@
         "name": "assets\\Menu\\BotonSalirSegundo2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/ClickButtons.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\ClickButtons.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/ClickButtons.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\ClickButtons.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/Soundtrack-Menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\Soundtrack-Menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

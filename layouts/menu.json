@@ -801,6 +801,34 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "assets\\Menu\\SFX\\Soundtrack-Menu.wav",
+            "1",
+            "yes",
+            "100",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
