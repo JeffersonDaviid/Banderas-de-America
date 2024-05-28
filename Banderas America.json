@@ -23,8 +23,8 @@
     "name": "Banderas de America",
     "description": "",
     "author": "",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -95,7 +95,7 @@
         "alwaysLoaded": false,
         "file": "assets/Menu/Portada.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Menu/Portada.png\",\"extension\":\".png\"}",
         "name": "assets\\Menu\\Portada.png",
         "smoothed": true,
         "userAdded": true
@@ -108,6 +108,150 @@
         "name": "assets\\Menu\\Botón Play.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón_Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón_Play.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotónCréditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotónCréditos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotonSalir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotonSalir.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/TextoDescubriendoAmerica.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\TextoDescubriendoAmerica.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón PlaySegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón PlaySegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Menu_Botón PlaySegundo.png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotónCréditosSegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotónCréditosSegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotonSalirSegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotonSalirSegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_BotonSalirSegundo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\BotonSalirSegundo",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -144,7 +288,12 @@
       "referenceTo": "/layouts/creditos"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/menueventos"
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
