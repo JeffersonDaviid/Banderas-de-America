@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,9 +17,9 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.546875,
-    "windowMask": false
+    "snap": true,
+    "zoomFactor": 0.8141881203709918,
+    "windowMask": true
   },
   "objectsGroups": [],
   "variables": [],
@@ -28,14 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 172,
+      "height": 99,
       "keepRatio": true,
       "layer": "",
-      "name": "Boton_Retroceder",
+      "name": "Boton_Menu",
       "persistentUuid": "e02a0584-0fc4-4060-925e-eb02a8d67163",
-      "width": 226,
-      "x": -23,
-      "y": -52,
+      "width": 224,
+      "x": 32,
+      "y": 29,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -45,14 +45,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 181,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "Boton_Siguiente",
       "persistentUuid": "cd211d2d-b62c-43c6-8945-e4c431c221fc",
-      "width": 218,
-      "x": 1045,
-      "y": -17,
+      "width": 96,
+      "x": 1120,
+      "y": 32,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -63,7 +63,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Boton_Retroceder",
+      "name": "Boton_Menu",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -81,12 +81,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
+                  "image": "Menu.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": -2,
+                    "y": 1.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -97,20 +97,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 25
+                        "x": 64,
+                        "y": 64
                       },
                       {
-                        "x": 51,
-                        "y": 25
+                        "x": 1984,
+                        "y": 64
                       },
                       {
-                        "x": 51,
-                        "y": 41
+                        "x": 1984,
+                        "y": 1024
                       },
                       {
-                        "x": 11,
-                        "y": 41
+                        "x": 64,
+                        "y": 1024
                       }
                     ]
                   ]
@@ -142,7 +142,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
+                  "image": "Next.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -158,20 +158,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 13
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 58,
-                        "y": 13
+                        "x": 980,
+                        "y": 0
                       },
                       {
-                        "x": 58,
-                        "y": 32
+                        "x": 980,
+                        "y": 844
                       },
                       {
-                        "x": 11,
-                        "y": 32
+                        "x": 0,
+                        "y": 844
                       }
                     ]
                   ]
@@ -187,7 +187,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Boton_Retroceder"
+        "objectName": "Boton_Menu"
       },
       {
         "objectName": "Boton_Siguiente"
@@ -203,7 +203,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Boton_Retroceder",
+            "Boton_Menu",
             "",
             "",
             ""

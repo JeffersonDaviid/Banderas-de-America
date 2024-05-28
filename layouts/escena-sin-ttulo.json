@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.546875,
+    "snap": true,
+    "zoomFactor": 0.6897782140104496,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,14 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 578,
+      "height": 128,
       "keepRatio": true,
       "layer": "",
       "name": "boton_inicio",
       "persistentUuid": "fca7f780-1681-4619-9a76-adeadf14a389",
-      "width": 725,
-      "x": 236,
-      "y": 77,
+      "width": 419,
+      "x": 445,
+      "y": 544,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,7 +64,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite4",
+                  "image": "NewSprite7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -80,20 +80,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 11
+                        "x": 110,
+                        "y": 60
                       },
                       {
-                        "x": 60,
-                        "y": 11
+                        "x": 470,
+                        "y": 60
                       },
                       {
-                        "x": 60,
-                        "y": 37
+                        "x": 470,
+                        "y": 190
                       },
                       {
-                        "x": 9,
-                        "y": 37
+                        "x": 110,
+                        "y": 190
                       }
                     ]
                   ]

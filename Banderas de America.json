@@ -66,48 +66,57 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite.png",
+        "file": "Menu.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
+        "metadata": "{\"localFilePath\":\"Menu.png\",\"extension\":\".png\"}",
+        "name": "Menu.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite2.png",
+        "file": "Next.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
+        "metadata": "{\"localFilePath\":\"Next.png\",\"extension\":\".png\"}",
+        "name": "Next.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite3.png",
+        "file": "Next2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
+        "metadata": "",
+        "name": "Next2.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite4.png",
+        "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
+        "name": "NewSprite6",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite5.png",
+        "file": "Credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Credits.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
+        "name": "NewSprite7",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
       }
     ],
     "resourceFolders": []
