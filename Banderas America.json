@@ -288,10 +288,10 @@
         "alwaysLoaded": false,
         "file": "assets/GameOver/BotonMenu.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Captura de pantalla 2024-05-27 195653",
+        "metadata": "",
+        "name": "assets\\GameOver\\BotonMenu.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
       }
     ],
     "resourceFolders": []

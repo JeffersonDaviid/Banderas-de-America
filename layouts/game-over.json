@@ -46,11 +46,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "ae8fc9ec-544c-4155-84b9-1772249a09aa",
+      "name": "BotonMenu",
+      "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
       "width": 0,
-      "x": 910,
-      "y": 560,
+      "x": 904,
+      "y": 530,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,7 +102,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "BotonMenu",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -110,17 +110,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Captura de pantalla 2024-05-27 195653",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Captura de pantalla 2024-05-27 195653",
+                  "image": "assets\\GameOver\\BotonMenu.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -140,16 +139,16 @@
                         "y": 0
                       },
                       {
-                        "x": 217,
+                        "x": 334,
                         "y": 0
                       },
                       {
-                        "x": 217,
-                        "y": 76
+                        "x": 334,
+                        "y": 114
                       },
                       {
                         "x": 0,
-                        "y": 76
+                        "y": 114
                       }
                     ]
                   ]
@@ -168,11 +167,49 @@
         "objectName": "NewText"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "BotonMenu"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonMenu",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
