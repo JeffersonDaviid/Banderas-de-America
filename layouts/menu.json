@@ -829,6 +829,34 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Menu\\SFX\\ClickButtons.wav",
+            "no",
+            "100",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
