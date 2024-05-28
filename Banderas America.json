@@ -283,6 +283,24 @@
         "name": "Dialogo.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Captura de pantalla 2024-05-27 195653.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Captura de pantalla 2024-05-27 195653.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Captura de pantalla 2024-05-27 195653.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Captura de pantalla 2024-05-27 195653",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
