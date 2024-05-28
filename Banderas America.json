@@ -252,6 +252,15 @@
         "name": "assets\\Menu\\BotonSalirSegundo",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_BotonSalirSegundo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\BotonSalirSegundo2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

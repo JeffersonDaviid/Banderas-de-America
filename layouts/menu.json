@@ -234,7 +234,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\Botón_Play4",
+                  "image": "assets\\Menu\\Botón_Play.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -250,20 +250,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
+                        "x": 7,
                         "y": 1
                       },
                       {
-                        "x": 396,
+                        "x": 695,
                         "y": 1
                       },
                       {
-                        "x": 396,
-                        "y": 131
+                        "x": 695,
+                        "y": 235
                       },
                       {
-                        "x": 5,
-                        "y": 131
+                        "x": 7,
+                        "y": 235
                       }
                     ]
                   ]
@@ -283,7 +283,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\Botón PlaySegundo4",
+                  "image": "assets\\Menu\\Botón PlaySegundo.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -299,20 +299,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 5,
+                        "x": 7,
                         "y": 1
                       },
                       {
-                        "x": 396,
+                        "x": 695,
                         "y": 1
                       },
                       {
-                        "x": 396,
-                        "y": 131
+                        "x": 695,
+                        "y": 235
                       },
                       {
-                        "x": 5,
-                        "y": 131
+                        "x": 7,
+                        "y": 235
                       }
                     ]
                   ]
@@ -500,7 +500,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\BotonSalirSegundo",
+                  "image": "assets\\Menu\\BotonSalirSegundo.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
