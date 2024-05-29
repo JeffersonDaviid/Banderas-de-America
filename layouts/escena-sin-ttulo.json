@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.6897782140104496,
+    "zoomFactor": 0.6455105703311478,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -59,11 +59,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Credits2.png",
+                  "image": "Estatico2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

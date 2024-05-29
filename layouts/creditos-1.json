@@ -240,7 +240,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Next2.png",
+                  "image": "Presionado2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
