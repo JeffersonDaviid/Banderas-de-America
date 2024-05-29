@@ -90,6 +90,60 @@
         "name": "assets\\Menu\\socket",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Country_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Country_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Flags_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Flags_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Hearts_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Hearts_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Info_Country_Background - copia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Info_Country_Background - copia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Leaderboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Leaderboard.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
