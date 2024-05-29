@@ -54,7 +54,55 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Estatico",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Credits2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 110,
+                        "y": 60
+                      },
+                      {
+                        "x": 470,
+                        "y": 60
+                      },
+                      {
+                        "x": 470,
+                        "y": 190
+                      },
+                      {
+                        "x": 110,
+                        "y": 190
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Presionado",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -64,7 +112,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "estatico",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -147,6 +195,17 @@
             "",
             "\"Creditos 1\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "boton_inicio",
+            "Animation",
+            "=",
+            "\"Presionado\""
           ]
         }
       ]

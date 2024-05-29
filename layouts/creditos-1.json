@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.8141881203709918,
+    "zoomFactor": 0.7619362677197604,
     "windowMask": true
   },
   "objectsGroups": [],
@@ -71,7 +71,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Estatico",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -81,7 +81,56 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Menu.png",
+                  "image": "NewSprite3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": -2,
+                    "y": 1.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 1984,
+                        "y": 64
+                      },
+                      {
+                        "x": 1984,
+                        "y": 1024
+                      },
+                      {
+                        "x": 64,
+                        "y": 1024
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Presionado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Presionado",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -132,7 +181,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Estatico",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -142,7 +191,56 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Next.png",
+                  "image": "NewSprite5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 980,
+                        "y": 0
+                      },
+                      {
+                        "x": 980,
+                        "y": 844
+                      },
+                      {
+                        "x": 0,
+                        "y": 844
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Presionado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Next2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -237,6 +335,17 @@
             "\"Escena sin título\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Boton_Menu",
+            "Animation",
+            "=",
+            "\"Presionado\""
+          ]
         }
       ]
     },
@@ -273,6 +382,17 @@
             "",
             "\"Creditos 2\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Boton_Siguiente",
+            "Animation",
+            "=",
+            "\"Presionado\""
           ]
         }
       ]

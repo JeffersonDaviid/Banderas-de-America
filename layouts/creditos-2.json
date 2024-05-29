@@ -54,7 +54,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Estatico",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -65,6 +65,55 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 980,
+                        "y": 0
+                      },
+                      {
+                        "x": 980,
+                        "y": 844
+                      },
+                      {
+                        "x": 0,
+                        "y": 844
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Presionado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Next3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -147,6 +196,17 @@
             "",
             "\"Creditos 1\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Boton_Retroceder",
+            "Animation",
+            "=",
+            "\"Presionado\""
           ]
         }
       ]
