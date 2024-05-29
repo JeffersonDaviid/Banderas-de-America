@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33253870912507744,
+    "zoomFactor": 0.34375202416123163,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,7 +33,7 @@
       "name": "NewText",
       "persistentUuid": "702f8220-6fb8-4a1f-9fb1-b5aeb7044d0b",
       "width": 0,
-      "x": 857,
+      "x": 917,
       "y": 41,
       "zOrder": 1,
       "numberProperties": [],
@@ -43,7 +43,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 1080,
       "layer": "",
       "name": "Fondo",
@@ -61,13 +61,13 @@
       "customSize": true,
       "depth": 1,
       "height": 720,
-      "layer": "",
+      "layer": "Fondos",
       "name": "Fondo_mapa",
       "persistentUuid": "617ce137-6191-4fe0-bd34-e940374cccb6",
       "width": 800,
-      "x": 564,
-      "y": 110,
-      "zOrder": 3,
+      "x": 540,
+      "y": 104,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -83,7 +83,7 @@
       "width": 400,
       "x": 81,
       "y": 133,
-      "zOrder": 4,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -99,7 +99,7 @@
       "width": 400,
       "x": 80,
       "y": 418,
-      "zOrder": 4,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -115,7 +115,7 @@
       "width": 400,
       "x": 80,
       "y": 704,
-      "zOrder": 4,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -129,9 +129,9 @@
       "name": "Fondo_corazones",
       "persistentUuid": "f63ff125-87a7-4282-90e1-feffa358b050",
       "width": 420,
-      "x": 1438,
-      "y": 54,
-      "zOrder": 5,
+      "x": 1441,
+      "y": 33,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -139,16 +139,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 578,
-      "keepRatio": true,
-      "layer": "",
+      "depth": 0.986159169550173,
+      "height": 570,
+      "layer": "Fondos",
       "name": "Fondo_informacion",
       "persistentUuid": "1a0d7587-e8b2-4bb5-add9-4c9ebf3b0797",
-      "width": 458,
-      "x": 1411,
-      "y": 180,
-      "zOrder": 6,
+      "width": 450,
+      "x": 1421,
+      "y": 192,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -161,10 +160,111 @@
       "layer": "",
       "name": "Copa",
       "persistentUuid": "81e351f1-7e94-4890-8ae6-bb6d37676145",
-      "width": 249.99444444444444,
-      "x": 1536,
-      "y": 824,
-      "zOrder": 7,
+      "width": 250,
+      "x": 1534,
+      "y": 830,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Estrella",
+      "persistentUuid": "5f2645f6-b49a-4586-a88e-cf59703607a0",
+      "width": 50,
+      "x": 1631,
+      "y": 779,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.0781521739130435,
+      "height": 250,
+      "layer": "Fondo Bandera elegida",
+      "name": "Fondo_bandera_elegida",
+      "persistentUuid": "0264431e-4a8c-400b-b3fe-f57c2c481fc4",
+      "width": 400,
+      "x": 724,
+      "y": 742,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Corazon",
+      "persistentUuid": "98a1e446-3735-4a95-b664-4aa03fcdc2bb",
+      "width": 60,
+      "x": 1537,
+      "y": 65,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Corazon",
+      "persistentUuid": "0d1c7b46-ea63-4f7a-9b5b-3c6bf7e9160c",
+      "width": 60,
+      "x": 1639,
+      "y": 65,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Corazon",
+      "persistentUuid": "f3bfa7a3-dc55-49cb-b163-9d357a847a72",
+      "width": 60,
+      "x": 1744,
+      "y": 68,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 700,
+      "keepRatio": true,
+      "layer": "Mapa",
+      "name": "Mapa_pais",
+      "persistentUuid": "de047a51-93fd-4a3c-a163-db055cd64801",
+      "width": 700,
+      "x": 589,
+      "y": 116,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -571,6 +671,246 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Estrella",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Temporal_Star.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 65,
+                        "y": 48
+                      },
+                      {
+                        "x": 959,
+                        "y": 48
+                      },
+                      {
+                        "x": 959,
+                        "y": 900
+                      },
+                      {
+                        "x": 65,
+                        "y": 900
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fondo_bandera_elegida",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Temporal_Selected_Flag_Background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 64,
+                        "y": 1
+                      },
+                      {
+                        "x": 64,
+                        "y": 63
+                      },
+                      {
+                        "x": 0,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Corazon",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Temporal_Heart.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 18
+                      },
+                      {
+                        "x": 185,
+                        "y": 18
+                      },
+                      {
+                        "x": 185,
+                        "y": 177
+                      },
+                      {
+                        "x": 10,
+                        "y": 177
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mapa_pais",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Temporal_Country.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 124,
+                        "y": 56
+                      },
+                      {
+                        "x": 876,
+                        "y": 56
+                      },
+                      {
+                        "x": 876,
+                        "y": 955
+                      },
+                      {
+                        "x": 124,
+                        "y": 955
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -596,6 +936,18 @@
       },
       {
         "objectName": "Fondo_informacion"
+      },
+      {
+        "objectName": "Estrella"
+      },
+      {
+        "objectName": "Fondo_bandera_elegida"
+      },
+      {
+        "objectName": "Corazon"
+      },
+      {
+        "objectName": "Mapa_pais"
       }
     ]
   },
@@ -657,6 +1009,72 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "Fondos",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Mapa",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Fondo Bandera elegida",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

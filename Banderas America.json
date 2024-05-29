@@ -144,6 +144,42 @@
         "name": "assets\\Juego\\Temporal_Leaderboard.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Selected_Flag_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Selected_Flag_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Heart.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Country.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Country.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
