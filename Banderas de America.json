@@ -252,6 +252,24 @@
         "name": "Estatico2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fondo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fondo.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fondo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fondo.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
