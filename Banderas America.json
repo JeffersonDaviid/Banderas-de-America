@@ -23,8 +23,10 @@
     "name": "Banderas de America",
     "description": "",
     "author": "",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -54,7 +56,13 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [],
-    "extensionProperties": [],
+    "extensionProperties": [
+      {
+        "extension": "AdMob",
+        "property": "AdMobAppIdAndroid",
+        "value": ""
+      }
+    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -90,6 +98,493 @@
         "name": "assets\\Menu\\socket",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/BackgroundMar.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "WhatsApp Image 2024-05-19 at 23.37.17.jpeg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FrederickatheGreat-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Explorador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Explorador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/boton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "icons8-botón-de-radio-comprobado-48.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/BotonRegreso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\icons8-izquierda-círculo-64.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/cursor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\icons8-cursor-100.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/BackgroundMar.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\BackgroundMar.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/BotonRegreso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\BotonRegreso.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Argentina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arentina_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Argentina_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arentina-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/White Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/77717e5c1f84f3ba9a3dd6e314bc0bdc3233351c657e8f6df40b7f50e8911b2b_White Square Decorated Button_Hovered.png",
+          "name": "White Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/White Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c4444ea8d2cd97df3af29acc29f4928549ab31e18156a304a78f6d838ea9f152_White Square Decorated Button_Idle.png",
+          "name": "White Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/White Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c3bdc36afb89e6dea691d9ca8c0a74f06fb3f37f910ae730f0654d5df7d10472_White Square Decorated Button_Pressed.png",
+          "name": "White Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "mononoki-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Chile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Chile_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Select_Chile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chile_Hitbox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Chile_Hitbox.png\"}",
+        "name": "Chile_Hitbox",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Argentina_Hitbox.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Argentina_Hitbox.png\"}",
+        "name": "Argentina_Hitbox",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Dialogo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dialogo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/BotonMenu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\BotonMenu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Portada.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Menu/Portada.png\",\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Portada.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón Play.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón_Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón_Play.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotónCréditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotónCréditos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotonSalir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotonSalir.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/TextoDescubriendoAmerica.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\TextoDescubriendoAmerica.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón PlaySegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón PlaySegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Menu_Botón PlaySegundo.png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotónCréditosSegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotónCréditosSegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotonSalirSegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotonSalirSegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_BotonSalirSegundo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\BotonSalirSegundo",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_BotonSalirSegundo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\BotonSalirSegundo2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/ClickButtons.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\ClickButtons.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/ClickButtons.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\ClickButtons.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/Soundtrack-Menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\Soundtrack-Menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Country_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Country_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Flags_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Flags_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Hearts_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Hearts_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Info_Country_Background - copia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Info_Country_Background - copia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Leaderboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Leaderboard.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Selected_Flag_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Selected_Flag_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Heart.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Country.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Country.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -99,7 +594,20 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "seleccionarPais",
+      "type": "string",
+      "value": "Selecciona un pais"
+    },
+    {
+      "folded": true,
+      "name": "tamañoDeSeguimientoDelMouse",
+      "type": "number",
+      "value": 2
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -126,7 +634,12 @@
       "referenceTo": "/layouts/creditos"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/menueventos"
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": [],
   "externalSourceFiles": []
