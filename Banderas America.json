@@ -583,6 +583,141 @@
         "name": "assets\\Juego\\Temporal_Country.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/General/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\General\\Background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/General/Soporte_Mapa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/Soporte_Bandera.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuador_MP_Base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Base.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuador_MP_Logro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Logro.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Salud/1_vida.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Salud\\1_vida.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Salud/2_vidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Salud\\2_vidas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Salud/3_vidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Salud\\3_vidas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Informacion/Soporte_Bandera_Selec.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Bandera_Selec.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Informacion/Soporte_Nom_Pais.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Nom_Pais.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Informacion/Soporte_Info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Ecuador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Quito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Quito.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Alemana_(1935–1945).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Alemana_(1935–1945).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Botones/Btn_Ayuda.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Botones/Btn_Ayuda.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Botones\\Btn_Ayuda.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -609,7 +744,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Fondos\\Banderas\\Soporte_Bandera.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -669,7 +804,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Mapas\\Ecuador\\Ecuador_MP_Base.png",
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Base.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -705,7 +840,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Mapas\\Ecuador\\Ecuador_MP_Logro.png",
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Logro.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -766,7 +901,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Fondo1.jpg",
+                  "image": "assets\\Juego\\Botones\\Btn_Ayuda.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -782,20 +917,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 48,
+                        "y": 126
                       },
                       {
-                        "x": 1300,
-                        "y": 0
+                        "x": 49,
+                        "y": 126
                       },
                       {
-                        "x": 1300,
-                        "y": 961
+                        "x": 49,
+                        "y": 127
                       },
                       {
-                        "x": 0,
-                        "y": 961
+                        "x": 48,
+                        "y": 127
                       }
                     ]
                   ]
@@ -856,7 +991,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Salud\\3_vidas.png",
+                  "image": "assets\\Juego\\Salud\\3_vidas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -892,7 +1027,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Salud\\2_vidas.png",
+                  "image": "assets\\Juego\\Salud\\2_vidas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -928,7 +1063,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Salud\\1_vida.png",
+                  "image": "assets\\Juego\\Salud\\1_vida.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -989,7 +1124,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Fondos\\Informacion\\Soporte_Bandera_Selec.png",
+                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Bandera_Selec.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1050,7 +1185,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Fondos\\General\\Soporte_Mapa.png",
+                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1111,7 +1246,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Fondos\\Informacion\\Soporte_Nom_Pais.png",
+                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Nom_Pais.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

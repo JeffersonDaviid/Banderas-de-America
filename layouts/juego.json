@@ -150,9 +150,9 @@
       "name": "socalo",
       "persistentUuid": "6ae50c2c-96d1-418f-aafc-ba12dde76098",
       "width": 54,
-      "x": 938,
-      "y": 357,
-      "zOrder": 0,
+      "x": 989,
+      "y": 316,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -214,8 +214,8 @@
       "name": "Socalo_Mapa",
       "persistentUuid": "331a691d-86c9-49bf-a29c-2a1386da2c98",
       "width": 850,
-      "x": 553,
-      "y": 92,
+      "x": 570,
+      "y": 84,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -231,8 +231,8 @@
       "name": "Socalo_Paises",
       "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
       "width": 650,
-      "x": 678,
-      "y": 106,
+      "x": 722,
+      "y": 88,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -283,23 +283,6 @@
       "x": 1542,
       "y": 250,
       "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 225,
-      "height": 150,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Boton_Ayuda",
-      "persistentUuid": "3cc7cab2-e604-4948-8e8f-2b8b17352c4d",
-      "width": 150,
-      "x": 204,
-      "y": 854,
-      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -364,7 +347,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Ecuador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -430,7 +413,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Quito.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -496,7 +479,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Banderas\\Ecuador\\Bandera_Alemana_(1935–1945).png",
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Alemana_(1935–1945).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -543,7 +526,7 @@
       "leftMargin": 64,
       "name": "WoodBackground",
       "rightMargin": 64,
-      "texture": "Imgenes_Tem\\Fondos\\General\\Background.png",
+      "texture": "assets\\Juego\\Fondos\\General\\Background.png",
       "tiled": true,
       "topMargin": 64,
       "type": "PanelSpriteObject::PanelSprite",
@@ -572,7 +555,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Imgenes_Tem\\Fondos\\Informacion\\Soporte_Info.png",
+                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
