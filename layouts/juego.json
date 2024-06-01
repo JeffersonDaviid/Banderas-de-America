@@ -116,7 +116,7 @@
       "name": "bandera2",
       "persistentUuid": "d75c66af-c42d-4a1c-a77b-4cde31b69bd8",
       "width": 242,
-      "x": 171,
+      "x": 173,
       "y": 410,
       "zOrder": 4,
       "numberProperties": [],
@@ -128,12 +128,11 @@
       "customSize": true,
       "depth": 1,
       "height": 133,
-      "keepRatio": true,
       "layer": "",
       "name": "bandera3",
       "persistentUuid": "c7b336be-407f-4099-a1e2-106fcdd10cb5",
       "width": 242,
-      "x": 178,
+      "x": 173,
       "y": 645,
       "zOrder": 5,
       "numberProperties": [],
@@ -334,6 +333,10 @@
           "name": "Arrastrable",
           "type": "DraggableBehavior::Draggable",
           "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -400,6 +403,10 @@
           "name": "Arrastrable",
           "type": "DraggableBehavior::Draggable",
           "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -466,6 +473,10 @@
           "name": "Arrastrable",
           "type": "DraggableBehavior::Draggable",
           "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -970,6 +981,85 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera1",
+            "Tween",
+            "\"SobreBandera1\"",
+            "0.1",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera1",
+            "Tween",
+            "\"NoSobreBandera1\"",
+            "0.08",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1149,6 +1239,85 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera2",
+            "Tween",
+            "\"SobreBandera2\"",
+            "0.23",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera2",
+            "Tween",
+            "\"NoSobreBandera2\"",
+            "0.2",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -1285,6 +1454,85 @@
                 ""
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera3",
+            "Tween",
+            "\"SobreBandera3\"",
+            "0.25",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera3",
+            "Tween",
+            "\"NoSobreBandera2\"",
+            "0.2",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
           ]
         }
       ]
@@ -1534,6 +1782,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
