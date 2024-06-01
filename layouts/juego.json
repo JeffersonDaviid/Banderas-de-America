@@ -1016,6 +1016,15 @@
             "",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"NoSobreBandera1\""
+          ]
         }
       ]
     },
@@ -1055,6 +1064,15 @@
             "1.5",
             "",
             "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"SobreBandera1\""
           ]
         }
       ]
@@ -1274,6 +1292,15 @@
             "",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"NoSobreBandera2\""
+          ]
         }
       ]
     },
@@ -1313,6 +1340,15 @@
             "1.5",
             "",
             "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"SobreBandera2\""
           ]
         }
       ]
@@ -1494,6 +1530,15 @@
             "",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"NoSobreBandera3\""
+          ]
         }
       ]
     },
@@ -1533,6 +1578,15 @@
             "1.5",
             "",
             "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"SobreBandera3\""
           ]
         }
       ]
