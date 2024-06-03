@@ -25,8 +25,6 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "windowWidth": 1920,
-    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -583,6 +581,33 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Juego\\Temporal_Country.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Puntaje/BackgroundMar.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Puntaje\\BackgroundMar.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Puntaje/regresar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Puntaje\\regresar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Puntaje/regresar_seleccionado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Puntaje\\regresar_seleccionado.png",
         "smoothed": true,
         "userAdded": false
       }
