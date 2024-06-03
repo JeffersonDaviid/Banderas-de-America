@@ -728,7 +728,12 @@
       "referenceTo": "/externalEvents/menueventos"
     }
   ],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pinchgesture"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
