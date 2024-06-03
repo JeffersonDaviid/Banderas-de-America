@@ -857,14 +857,43 @@
           "actions": [
             {
               "type": {
-                "value": "MettreXY"
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
                 "bandera1",
-                "=",
+                "Tween",
+                "\"Bandera1SitioErroneo\"",
                 "173",
-                "=",
-                "170"
+                "170",
+                "\"easeInOutQuad\"",
+                "0.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"Bandera1SitioErroneo\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera1SitioErroneo\""
               ]
             }
           ]
@@ -1152,14 +1181,43 @@
           "actions": [
             {
               "type": {
-                "value": "MettreXY"
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
                 "bandera2",
-                "=",
+                "Tween",
+                "\"Bandera2SitioErroneo\"",
                 "173",
-                "=",
-                "385"
+                "385",
+                "\"easeInOutQuad\"",
+                "0.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"Bandera2SitioErroneo\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera2SitioErroneo\""
               ]
             }
           ]
@@ -1428,14 +1486,43 @@
           "actions": [
             {
               "type": {
-                "value": "MettreXY"
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
                 "bandera3",
-                "=",
+                "Tween",
+                "\"Bandera3SitioErroneo\"",
                 "173",
-                "=",
-                "620"
+                "620",
+                "\"easeInOutQuad\"",
+                "0.5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "bandera3",
+                "Tween",
+                "\"Bandera3SitioErroneo\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera3SitioErroneo\""
               ]
             }
           ]
