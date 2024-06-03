@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.495084007374895,
+    "zoomFactor": 0.405751890594388,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -313,7 +313,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "WhatsApp Image 2024-05-19 at 23.37.17.jpeg",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\BackgroundMar.jpeg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -384,7 +384,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Explorador.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -455,7 +455,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\icons8-izquierda-círculo-64.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\BotonRegreso.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -528,7 +528,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\icons8-cursor-100.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\cursor.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -544,20 +544,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 14
+                        "x": 14,
+                        "y": 5
                       },
                       {
-                        "x": 92,
-                        "y": 14
+                        "x": 40,
+                        "y": 5
                       },
                       {
-                        "x": 92,
-                        "y": 86
+                        "x": 40,
+                        "y": 47
                       },
                       {
-                        "x": 9,
-                        "y": 86
+                        "x": 14,
+                        "y": 47
                       }
                     ]
                   ]
@@ -588,7 +588,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arentina_2.png",
+                  "image": "assets\\Menu-Seleccion\\PaisSinSeleccionar\\Argentina.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -604,20 +604,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 13
+                        "x": 36,
+                        "y": 4
                       },
                       {
-                        "x": 336,
-                        "y": 13
+                        "x": 331,
+                        "y": 4
                       },
                       {
-                        "x": 336,
-                        "y": 728
+                        "x": 331,
+                        "y": 736
                       },
                       {
-                        "x": 3,
-                        "y": 728
+                        "x": 36,
+                        "y": 736
                       }
                     ]
                   ]
@@ -648,7 +648,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Arentina-removebg-preview.png",
+                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Argentina_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -664,20 +664,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 535
+                        "x": 35,
+                        "y": 4
                       },
                       {
-                        "x": 121,
-                        "y": 535
+                        "x": 331,
+                        "y": 4
                       },
                       {
-                        "x": 121,
-                        "y": 730
+                        "x": 331,
+                        "y": 736
                       },
                       {
-                        "x": 3,
-                        "y": 730
+                        "x": 35,
+                        "y": 736
                       }
                     ]
                   ]
@@ -1055,13 +1055,54 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "FondoCielo"
+        "folderName": "Textos",
+        "children": [
+          {
+            "objectName": "TextoDeDialogo"
+          }
+        ]
+      },
+      {
+        "folderName": "PaisHitBox",
+        "children": [
+          {
+            "objectName": "Argentina_Hitbox"
+          },
+          {
+            "objectName": "Chile_Hitbox"
+          }
+        ]
+      },
+      {
+        "folderName": "PaisGanado"
+      },
+      {
+        "folderName": "PaisSeleccionado",
+        "children": [
+          {
+            "objectName": "Chile_Select"
+          },
+          {
+            "objectName": "Argentina_Select"
+          }
+        ]
+      },
+      {
+        "folderName": "PaisSinSeleccionar",
+        "children": [
+          {
+            "objectName": "Chile"
+          },
+          {
+            "objectName": "Argentina"
+          }
+        ]
       },
       {
         "folderName": "SpritesInterfazDeUsuario",
         "children": [
           {
-            "objectName": "TextoDeDialogo"
+            "objectName": "FondoCielo"
           },
           {
             "objectName": "BurbujaDeDialogo"
@@ -1077,29 +1118,6 @@
           },
           {
             "objectName": "BotonRegresar"
-          }
-        ]
-      },
-      {
-        "folderName": "SpritesPaises",
-        "children": [
-          {
-            "objectName": "Chile_Select"
-          },
-          {
-            "objectName": "Chile"
-          },
-          {
-            "objectName": "Chile_Hitbox"
-          },
-          {
-            "objectName": "Argentina_Select"
-          },
-          {
-            "objectName": "Argentina"
-          },
-          {
-            "objectName": "Argentina_Hitbox"
           }
         ]
       }
