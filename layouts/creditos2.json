@@ -1,26 +1,14 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Creditos",
-  "name": "Creditos",
+  "mangledName": "Creditos2",
+  "name": "Creditos2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
-  "uiSettings": {
-    "grid": false,
-    "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
-    "gridOffsetX": 0,
-    "gridOffsetY": 0,
-    "gridColor": 10401023,
-    "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.546875,
-    "windowMask": false
-  },
+  "uiSettings": {},
   "objectsGroups": [],
   "variables": [],
   "instances": [
@@ -28,32 +16,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Boton_menu",
-      "persistentUuid": "6b42d933-ca67-4842-9204-4214e2c58f15",
-      "width": 256,
-      "x": 32,
-      "y": 32,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "Boton_Siguiente",
-      "persistentUuid": "c2323d5d-a464-4bed-b9a9-cccbfaa0d8a1",
-      "width": 96,
-      "x": 1152,
+      "name": "Boton_Volver",
+      "persistentUuid": "8c73bf54-dbdf-4c51-b090-1bc78af34a36",
+      "width": 128,
+      "x": 32,
       "y": 32,
-      "zOrder": 2,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -63,7 +34,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Boton_menu",
+      "name": "Boton_Volver",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -80,67 +51,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\NewSprite9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 1984,
-                        "y": 64
-                      },
-                      {
-                        "x": 1984,
-                        "y": 1024
-                      },
-                      {
-                        "x": 64,
-                        "y": 1024
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Boton_Siguiente",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\NewSprite10.png",
+                  "image": "assets\\NewSprite6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -185,10 +96,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Boton_menu"
-      },
-      {
-        "objectName": "Boton_Siguiente"
+        "objectName": "Boton_Volver"
       }
     ]
   },
@@ -201,52 +109,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Boton_menu",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "HasAnyTouchOrMouseStarted"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Escena sin título\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "Boton_Siguiente",
+            "Boton_Volver",
             "",
             "",
             ""
@@ -269,7 +132,7 @@
           },
           "parameters": [
             "",
-            "\"Creditos2\"",
+            "\"Creditos\"",
             ""
           ]
         }
