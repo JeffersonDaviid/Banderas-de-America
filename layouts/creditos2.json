@@ -1,57 +1,30 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "game_32over",
-  "name": "game over",
+  "mangledName": "Creditos2",
+  "name": "Creditos2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
   "v": 209,
-  "uiSettings": {
-    "grid": false,
-    "gridType": "rectangular",
-    "gridWidth": 32,
-    "gridHeight": 32,
-    "gridOffsetX": 0,
-    "gridOffsetY": 0,
-    "gridColor": 10401023,
-    "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.546875,
-    "windowMask": false
-  },
+  "uiSettings": {},
   "objectsGroups": [],
   "variables": [],
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "185cf2ce-8a06-4bcb-aac0-993fb3231431",
-      "width": 0,
-      "x": 517,
-      "y": 306,
+      "name": "Boton_Volver",
+      "persistentUuid": "8c73bf54-dbdf-4c51-b090-1bc78af34a36",
+      "width": 128,
+      "x": 32,
+      "y": 32,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BotonMenu",
-      "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
-      "width": 0,
-      "x": 904,
-      "y": 530,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -59,50 +32,9 @@
   ],
   "objects": [
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Game over",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Game over",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 50,
-        "color": "0;0;0"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "BotonMenu",
+      "name": "Boton_Volver",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -119,7 +51,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\BotonMenu.png",
+                  "image": "assets\\NewSprite6.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -139,16 +71,16 @@
                         "y": 0
                       },
                       {
-                        "x": 334,
+                        "x": 980,
                         "y": 0
                       },
                       {
-                        "x": 334,
-                        "y": 114
+                        "x": 980,
+                        "y": 844
                       },
                       {
                         "x": 0,
-                        "y": 114
+                        "y": 844
                       }
                     ]
                   ]
@@ -164,10 +96,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
-      },
-      {
-        "objectName": "BotonMenu"
+        "objectName": "Boton_Volver"
       }
     ]
   },
@@ -180,7 +109,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "BotonMenu",
+            "Boton_Volver",
             "",
             "",
             ""
@@ -203,7 +132,7 @@
           },
           "parameters": [
             "",
-            "\"Menu\"",
+            "\"Creditos\"",
             ""
           ]
         }
@@ -270,10 +199,6 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
-      "name": "Health",
-      "type": "Health::Health"
-    },
-    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
@@ -284,10 +209,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

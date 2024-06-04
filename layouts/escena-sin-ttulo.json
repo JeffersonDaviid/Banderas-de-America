@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.6897782140104496,
+    "snap": false,
+    "zoomFactor": 0.546875,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,14 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 128,
+      "height": 176,
       "keepRatio": true,
       "layer": "",
-      "name": "boton_inicio",
-      "persistentUuid": "fca7f780-1681-4619-9a76-adeadf14a389",
-      "width": 419,
-      "x": 445,
-      "y": 544,
+      "name": "Boton_creditos",
+      "persistentUuid": "11769f71-8ec4-40ec-9e80-fa76c9e6a53c",
+      "width": 464,
+      "x": 432,
+      "y": 528,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,9 +44,9 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "boton_inicio",
+      "name": "Boton_creditos",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -54,17 +54,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite7",
+                  "image": "assets\\Credits.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -109,7 +108,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "boton_inicio"
+        "objectName": "Boton_creditos"
       }
     ]
   },
@@ -122,7 +121,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "boton_inicio",
+            "Boton_creditos",
             "",
             "",
             ""
@@ -145,16 +144,11 @@
           },
           "parameters": [
             "",
-            "\"Creditos 1\"",
+            "\"Creditos\"",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
