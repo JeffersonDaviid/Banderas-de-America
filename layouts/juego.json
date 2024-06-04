@@ -869,6 +869,21 @@
                 "0.5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"Bandera1SitioErroneoColor\"",
+                "\"241;86;86\"",
+                "\"easeInQuad\"",
+                "0.07",
+                "",
+                "\"linear\""
+              ]
             }
           ]
         },
@@ -894,6 +909,30 @@
               "parameters": [
                 "",
                 "\"Bandera1SitioErroneo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera1SitioErroneoColor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"Bandera1SitioErroneoColor\"",
+                "\"255;255;255\"",
+                "\"easeInQuad\"",
+                "0.04",
+                "",
+                "\"linear\""
               ]
             }
           ]
@@ -1193,6 +1232,21 @@
                 "0.5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"Bandera2SitioErroneoColor\"",
+                "\"241;86;86\"",
+                "\"easeInQuad\"",
+                "0.07",
+                "",
+                "\"linear\""
+              ]
             }
           ]
         },
@@ -1218,6 +1272,30 @@
               "parameters": [
                 "",
                 "\"Bandera2SitioErroneo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera2SitioErroneoColor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"Bandera2SitioErroneoColor\"",
+                "\"255;255;255\"",
+                "\"easeInQuad\"",
+                "0.04",
+                "",
+                "\"linear\""
               ]
             }
           ]
@@ -1498,6 +1576,21 @@
                 "0.5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera3",
+                "Tween",
+                "\"Bandera3SitioErroneoColor\"",
+                "\"241;86;86\"",
+                "\"easeInQuad\"",
+                "0.07",
+                "",
+                "\"linear\""
+              ]
             }
           ]
         },
@@ -1523,6 +1616,30 @@
               "parameters": [
                 "",
                 "\"Bandera3SitioErroneo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera3SitioErroneoColor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera3",
+                "Tween",
+                "\"Bandera3SitioErroneoColor\"",
+                "\"255;255;255\"",
+                "\"easeInQuad\"",
+                "0.04",
+                "",
+                "\"linear\""
               ]
             }
           ]
