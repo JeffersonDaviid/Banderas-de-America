@@ -223,15 +223,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.00987841945288754,
-      "height": 650,
+      "depth": 1,
+      "height": 517,
       "keepRatio": true,
       "layer": "",
       "name": "Socalo_Paises",
       "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
-      "width": 650,
-      "x": 722,
-      "y": 88,
+      "width": 507,
+      "x": 739,
+      "y": 159,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -844,6 +844,92 @@
                 },
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Socalo_Paises",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "estaTocando",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "Socalo_Paises",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "bandera1",
+                "=",
+                "socalo.X()",
+                "=",
+                "socalo.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Socalo_Paises",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera1",
+                "Arrastrable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
@@ -942,79 +1028,19 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "bandera1",
-                "socalo",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "estaTocando",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "Socalo_Paises",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "bandera1",
-                "=",
-                "socalo.X()",
-                "=",
-                "socalo.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-              },
-              "parameters": [
-                "Socalo_Paises",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "bandera1",
-                "Arrastrable",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Arrastrable"
+                  ]
+                },
                 {
                   "type": {
                     "value": "CollisionNP"
@@ -1207,6 +1233,73 @@
                 },
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Socalo_Bandera_Pais",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "CopyOfestaTocando",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "bandera2",
+                "=",
+                "Socalo_Bandera_Pais.X() + 50",
+                "=",
+                "Socalo_Bandera_Pais.Y() + 20"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera2",
+                "Arrastrable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
@@ -1305,67 +1398,26 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "bandera2",
-                "Socalo_Bandera_Pais",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "CopyOfestaTocando",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "bandera2",
-                "=",
-                "Socalo_Bandera_Pais.X() + 50",
-                "=",
-                "Socalo_Bandera_Pais.Y() + 30"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "bandera2",
-                "Arrastrable",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Arrastrable"
+                  ]
+                },
                 {
                   "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
                     "bandera2",
-                    "socalo",
+                    "Socalo_Paises",
                     "",
                     "",
                     ""
@@ -1521,6 +1573,75 @@
           "conditions": [
             {
               "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera3",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Socalo_Paises",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Socalo_Bandera_Pais",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "vidas",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SceneVariableAsBoolean"
               },
               "parameters": [
@@ -1640,58 +1761,6 @@
                 "0.04",
                 "",
                 "\"linear\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bandera3",
-                    "socalo",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bandera3",
-                    "Socalo_Bandera_Pais",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "vidas",
-                "Health",
-                "1",
-                "no",
-                "no",
-                ""
               ]
             }
           ]
