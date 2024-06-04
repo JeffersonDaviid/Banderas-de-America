@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2386775827025784,
+    "zoomFactor": 0.2233600589381141,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,14 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1.28,
-      "height": 1080,
+      "depth": 1,
+      "height": 1286,
       "layer": "",
       "name": "Fondo",
       "persistentUuid": "344093f8-f8d4-4a6e-a842-968f24763fe5",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
+      "width": 2359,
+      "x": -215,
+      "y": -112,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,15 +44,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 90,
+      "height": 125,
       "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "boton_de_regreso",
-      "persistentUuid": "697b5612-bd64-49b2-91ba-0b7cdbdcbcaa",
-      "width": 90,
-      "x": 80,
-      "y": 40,
-      "zOrder": 3,
+      "layer": "",
+      "name": "Regresar",
+      "persistentUuid": "aacb62d5-ca46-4480-a8ab-4aa0214c06f3",
+      "width": 200,
+      "x": 75,
+      "y": 60,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -79,7 +79,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\BackgroundMar.jpeg",
+                  "image": "assets\\Puntaje\\BackgroundMar.jpeg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -122,26 +122,15 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "boton_de_regreso",
+      "name": "Regresar",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 1,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 1,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "SinSeleccionar",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -150,7 +139,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\BotonRegreso.png",
+                  "image": "assets\\Puntaje\\regresar.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -166,20 +155,68 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 19,
+                        "y": 14
                       },
                       {
-                        "x": 60,
-                        "y": 2
+                        "x": 290,
+                        "y": 14
                       },
                       {
-                        "x": 60,
-                        "y": 60
+                        "x": 290,
+                        "y": 177
                       },
                       {
-                        "x": 2,
-                        "y": 60
+                        "x": 19,
+                        "y": 177
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seleccionado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Puntaje\\regresar_seleccionado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 14
+                      },
+                      {
+                        "x": 290,
+                        "y": 14
+                      },
+                      {
+                        "x": 290,
+                        "y": 177
+                      },
+                      {
+                        "x": 19,
+                        "y": 177
                       }
                     ]
                   ]
@@ -198,11 +235,132 @@
         "objectName": "Fondo"
       },
       {
-        "objectName": "boton_de_regreso"
+        "objectName": "Regresar"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Cursor",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Regresar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Regresar",
+                "Animation",
+                "=",
+                "\"Seleccionado\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Regresar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Regresar",
+                "Animation",
+                "=",
+                "\"SinSeleccionar\""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Cambio Escena",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Regresar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu seleccion\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -214,7 +372,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -284,10 +442,6 @@
   ],
   "behaviorsSharedData": [
     {
-      "name": "Anchor",
-      "type": "AnchorBehavior::AnchorBehavior"
-    },
-    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
     },
@@ -298,6 +452,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "Opacity",
