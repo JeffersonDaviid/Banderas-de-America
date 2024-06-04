@@ -718,6 +718,15 @@
         "name": "assets\\Juego\\Botones\\Btn_Ayuda.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/General/Soporte_Salud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\General\\Soporte_Salud.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1064,6 +1073,42 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Juego\\Salud\\1_vida.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Salud.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
