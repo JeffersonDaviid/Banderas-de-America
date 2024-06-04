@@ -270,14 +270,14 @@
         "alwaysLoaded": false,
         "file": "assets/Argentina_Hitbox.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Argentina_Hitbox.png\"}",
         "name": "Argentina_Hitbox",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "Dialogo.png",
+        "file": "assets/Menu-Seleccion/Dialogo.png",
         "kind": "image",
         "metadata": "",
         "name": "Dialogo.png",
@@ -328,13 +328,1080 @@
         "name": "assets\\GameOver\\Background.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Portada.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Menu/Portada.png\",\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Portada.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón Play.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón_Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón_Play.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotónCréditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotónCréditos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotonSalir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotonSalir.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/TextoDescubriendoAmerica.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\TextoDescubriendoAmerica.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Botón PlaySegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Botón PlaySegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Menu_Botón PlaySegundo.png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón_Play4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón_Play4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_Botón PlaySegundo4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\Botón PlaySegundo4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotónCréditosSegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotónCréditosSegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/BotonSalirSegundo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\BotonSalirSegundo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_BotonSalirSegundo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\BotonSalirSegundo",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu_BotonSalirSegundo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu\\BotonSalirSegundo2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/ClickButtons.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\ClickButtons.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/ClickButtons.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\ClickButtons.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Menu/SFX/Soundtrack-Menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Menu\\SFX\\Soundtrack-Menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Country_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Country_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Flags_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Flags_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Hearts_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Hearts_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Info_Country_Background - copia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Info_Country_Background - copia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Leaderboard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Leaderboard.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Selected_Flag_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Selected_Flag_Background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Heart.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Temporal_Country.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Temporal_Country.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/General/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\General\\Background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/General/Soporte_Mapa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/Soporte_Bandera.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuador_MP_Base.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Base.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuador_MP_Logro.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Logro.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Salud/1_vida.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Salud\\1_vida.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Salud/2_vidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Salud\\2_vidas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Salud/3_vidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Salud\\3_vidas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Informacion/Soporte_Bandera_Selec.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Bandera_Selec.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Informacion/Soporte_Nom_Pais.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Nom_Pais.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Informacion/Soporte_Info.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Ecuador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Quito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Quito.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Alemana_(1935–1945).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Alemana_(1935–1945).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Botones/Btn_Ayuda.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Botones/Btn_Ayuda.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Botones\\Btn_Ayuda.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/General/Soporte_Salud.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\General\\Soporte_Salud.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Botones/Boton_Ayuda.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Botones\\Boton_Ayuda.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Socalo_Banderas",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "socaloDePaíses",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 499,
+                        "y": 0
+                      },
+                      {
+                        "x": 499,
+                        "y": 266
+                      },
+                      {
+                        "x": 0,
+                        "y": 266
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Socalo_Paises",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Base.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 980,
+                        "y": 1
+                      },
+                      {
+                        "x": 980,
+                        "y": 979
+                      },
+                      {
+                        "x": 0,
+                        "y": 979
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Logro.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 1
+                      },
+                      {
+                        "x": 980,
+                        "y": 1
+                      },
+                      {
+                        "x": 980,
+                        "y": 979
+                      },
+                      {
+                        "x": 0,
+                        "y": 979
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "socalo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "socalo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Botones\\Btn_Ayuda.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 48,
+                        "y": 126
+                      },
+                      {
+                        "x": 49,
+                        "y": 126
+                      },
+                      {
+                        "x": 49,
+                        "y": 127
+                      },
+                      {
+                        "x": 48,
+                        "y": 127
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "vidas",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 5,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 0,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "vidas",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Salud\\3_vidas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Salud\\2_vidas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Salud\\1_vida.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Salud.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 0
+                      },
+                      {
+                        "x": 474,
+                        "y": 140
+                      },
+                      {
+                        "x": 0,
+                        "y": 140
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Socalo_Bandera_Pais",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "socaloNombrePais",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Bandera_Selec.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 0
+                      },
+                      {
+                        "x": 512,
+                        "y": 382
+                      },
+                      {
+                        "x": 0,
+                        "y": 382
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Socalo_Mapa",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Socalo_Mapa",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1300,
+                        "y": 0
+                      },
+                      {
+                        "x": 1300,
+                        "y": 961
+                      },
+                      {
+                        "x": 0,
+                        "y": 961
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Socalo_Nombre_Pais",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "socaloNombrePais",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Nom_Pais.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 906,
+                        "y": 0
+                      },
+                      {
+                        "x": 906,
+                        "y": 163
+                      },
+                      {
+                        "x": 0,
+                        "y": 163
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Socalo_Mapa"
+      },
+      {
+        "objectName": "socalo"
+      },
+      {
+        "objectName": "Socalo_Banderas"
+      },
+      {
+        "objectName": "Socalo_Paises"
+      },
+      {
+        "objectName": "vidas"
+      },
+      {
+        "objectName": "Socalo_Bandera_Pais"
+      },
+      {
+        "objectName": "Socalo_Nombre_Pais"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -343,6 +1410,18 @@
       "name": "seleccionarPais",
       "type": "string",
       "value": "Selecciona un pais"
+    },
+    {
+      "folded": true,
+      "name": "tamañoDeSeguimientoDelMouse",
+      "type": "number",
+      "value": 2
+    },
+    {
+      "folded": true,
+      "name": "numeroDeVidas",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -374,25 +1453,13 @@
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/eventos-externos-sin-ttulo"
+      "referenceTo": "/externalEvents/menueventos"
     }
   ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/isonscreen"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+      "referenceTo": "/eventsFunctionsExtensions/health"
     }
   ],
   "externalLayouts": [],

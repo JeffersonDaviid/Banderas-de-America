@@ -18,24 +18,318 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.3553434558816985,
     "windowMask": false
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "estaTocando",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "CopyOfestaTocando",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "salioDeSocalo",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "layer": "",
+      "name": "Socalo_Banderas",
+      "persistentUuid": "efba964b-c0ba-493e-9f27-a667c1c8a636",
+      "width": 350,
+      "x": 74,
+      "y": 71,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "layer": "",
+      "name": "Socalo_Banderas",
+      "persistentUuid": "6a119d50-f386-4428-9835-4767eed68116",
+      "width": 350,
+      "x": 72,
+      "y": 343,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "layer": "",
+      "name": "Socalo_Banderas",
+      "persistentUuid": "5610e971-7838-429c-bf29-054e93bc723d",
+      "width": 350,
+      "x": 65,
+      "y": 618,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 133,
+      "layer": "",
+      "name": "bandera1",
+      "persistentUuid": "e5821fb3-82d2-4094-9e7e-ab978d05d9d1",
+      "width": 242,
+      "x": 116,
+      "y": 105,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1.0390625,
+      "height": 133,
+      "layer": "",
+      "name": "bandera2",
+      "persistentUuid": "d75c66af-c42d-4a1c-a77b-4cde31b69bd8",
+      "width": 242,
+      "x": 116,
+      "y": 385,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 133,
+      "layer": "",
+      "name": "bandera3",
+      "persistentUuid": "c7b336be-407f-4099-a1e2-106fcdd10cb5",
+      "width": 242,
+      "x": 112,
+      "y": 652,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "",
+      "name": "socalo",
+      "persistentUuid": "6ae50c2c-96d1-418f-aafc-ba12dde76098",
+      "width": 54,
+      "x": 989,
+      "y": 316,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.3911614730878188,
+      "height": 115,
+      "layer": "",
+      "name": "vidas",
+      "persistentUuid": "5e7d3dec-dad6-41b3-8495-393045c275e3",
+      "width": 350,
+      "x": 1486,
+      "y": 55,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 200,
+      "layer": "",
+      "name": "Socalo_Bandera_Pais",
+      "persistentUuid": "95920cd0-c63b-41d5-8799-f2ab8f989df2",
+      "width": 350,
+      "x": 771,
+      "y": 749,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "",
+      "name": "WoodBackground",
+      "persistentUuid": "010413b4-2c85-4570-9327-6ce9f272d022",
+      "width": 1920,
+      "x": 0,
+      "y": -2,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Socalo_Mapa",
+      "persistentUuid": "331a691d-86c9-49bf-a29c-2a1386da2c98",
+      "width": 850,
+      "x": 529,
+      "y": 100,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 517,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Socalo_Paises",
+      "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
+      "width": 507,
+      "x": 732,
+      "y": 161,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 700,
+      "layer": "",
+      "name": "Socalo_Información",
+      "persistentUuid": "f910c470-1988-43cf-903e-2cb2e09affbe",
+      "width": 400,
+      "x": 1460,
+      "y": 224,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 566,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Informacion",
+      "persistentUuid": "bbf649fe-cf75-4aa0-ba83-60ad2f13cbee",
+      "width": 361,
+      "x": 1484,
+      "y": 323,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
     {
       "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "702f8220-6fb8-4a1f-9fb1-b5aeb7044d0b",
+      "name": "Nombre_País",
+      "persistentUuid": "c31fa766-f878-4d0f-a0fa-42d6b46cc4f8",
       "width": 0,
-      "x": 418,
-      "y": 335,
+      "x": 1542,
+      "y": 250,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 120,
+      "layer": "",
+      "name": "Socalo_Nombre_Pais",
+      "persistentUuid": "1cbc731c-c938-4522-8ba2-f55c7711faa1",
+      "width": 900,
+      "x": 505,
+      "y": 917,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Nombre_País",
+      "persistentUuid": "33d2a40f-39fb-4af3-beab-f7e1443b639c",
+      "width": 0,
+      "x": 827,
+      "y": 963,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130,
+      "layer": "BotonAyuda",
+      "name": "Boton_Ayuda",
+      "persistentUuid": "fcc5d4e7-d14a-4676-8834-084a7ca5ed4b",
+      "width": 150,
+      "x": 159,
+      "y": 891,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -43,20 +337,347 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bandera1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Arrastrable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2560,
+                        "y": 0
+                      },
+                      {
+                        "x": 2560,
+                        "y": 1707
+                      },
+                      {
+                        "x": 0,
+                        "y": 1707
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bandera2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Arrastrable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 800
+                      },
+                      {
+                        "x": 0,
+                        "y": 800
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bandera3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Arrastrable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Alemana_(1935–1945).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "08d9802965c3beec17416c0e0ff3f459710d2e2bf155c0e0ece4459d4efa98ec",
+      "bottomMargin": 64,
+      "height": 192,
+      "leftMargin": 64,
+      "name": "WoodBackground",
+      "rightMargin": 64,
+      "texture": "assets\\Juego\\Fondos\\General\\Background.png",
+      "tiled": true,
+      "topMargin": 64,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 192,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Socalo_Información",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 235,
+                        "y": 0
+                      },
+                      {
+                        "x": 235,
+                        "y": 405
+                      },
+                      {
+                        "x": 0,
+                        "y": 405
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "NewText",
+      "name": "Informacion",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Pantalla de juego",
+      "string": "Se localizan 21 volcanes;  13 están activos y 8 están inactivos o extintos. \nUbicado en el extremo norte de la Placa de Nazca, el archipiélago se mueve constantemente hacia el este.\nLas especies de tortugas gigantes son las residentes más famosas de las Islas Galápagos.",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 32,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Se localizan 21 volcanes;  13 están activos y 8 están inactivos o extintos. \nUbicado en el extremo norte de la Placa de Nazca, el archipiélago se mueve constantemente hacia el este.\nLas especies de tortugas gigantes son las residentes más famosas de las Islas Galápagos.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 32,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Nombre_País",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "ECUADOR",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 46,
       "color": {
         "b": 0,
         "g": 0,
@@ -76,24 +697,1409 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Pantalla de juego",
+        "text": "ECUADOR",
         "font": "",
         "textAlignment": "left",
-        "characterSize": 50,
+        "characterSize": 46,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Boton_Ayuda",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "ayuda",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Botones\\Boton_Ayuda.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3000,
+                        "y": 0
+                      },
+                      {
+                        "x": 3000,
+                        "y": 3158
+                      },
+                      {
+                        "x": 0,
+                        "y": 3158
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
+        "objectName": "bandera1"
+      },
+      {
+        "objectName": "bandera2"
+      },
+      {
+        "objectName": "bandera3"
+      },
+      {
+        "objectName": "WoodBackground"
+      },
+      {
+        "objectName": "Socalo_Información"
+      },
+      {
+        "objectName": "Informacion"
+      },
+      {
+        "objectName": "Nombre_País"
+      },
+      {
+        "objectName": "Boton_Ayuda"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "Socalo_Paises",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+          },
+          "parameters": [
+            "vidas",
+            "Animation"
+          ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::SetMaxHealthOp"
+          },
+          "parameters": [
+            "vidas",
+            "Health",
+            "=",
+            "3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "numeroDeVidas",
+            "=",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "MecanicasDeLaBandera"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DoesSceneExist"
+          },
+          "parameters": [
+            "",
+            "\"juego\""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "estaTocando",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Socalo_Paises",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "estaTocando",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "Socalo_Paises",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "bandera1",
+                "=",
+                "socalo.X()",
+                "=",
+                "socalo.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+              },
+              "parameters": [
+                "Socalo_Paises",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera1",
+                "Arrastrable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "estaTocando",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"Bandera1SitioErroneo\"",
+                "173",
+                "170",
+                "\"easeInOutQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"Bandera1SitioErroneoColor\"",
+                "\"241;86;86\"",
+                "\"easeInQuad\"",
+                "0.07",
+                "",
+                "\"linear\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"Bandera1SitioErroneo\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera1SitioErroneo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera1SitioErroneoColor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"Bandera1SitioErroneoColor\"",
+                "\"255;255;255\"",
+                "\"easeInQuad\"",
+                "0.04",
+                "",
+                "\"linear\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Socalo_Bandera_Pais",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "vidas",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera1",
+            "Tween",
+            "\"SobreBandera1\"",
+            "0.1",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"NoSobreBandera1\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera1",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera1",
+            "Tween",
+            "\"NoSobreBandera1\"",
+            "0.08",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"SobreBandera1\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "BanderaDos"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DoesSceneExist"
+          },
+          "parameters": [
+            "",
+            "\"juego\""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "CopyOfestaTocando",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Socalo_Bandera_Pais",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "CopyOfestaTocando",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "bandera2",
+                "=",
+                "Socalo_Bandera_Pais.X() + 50",
+                "=",
+                "Socalo_Bandera_Pais.Y() + 20"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera2",
+                "Arrastrable",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "CopyOfestaTocando",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"Bandera2SitioErroneo\"",
+                "173",
+                "385",
+                "\"easeInOutQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"Bandera2SitioErroneoColor\"",
+                "\"241;86;86\"",
+                "\"easeInQuad\"",
+                "0.07",
+                "",
+                "\"linear\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"Bandera2SitioErroneo\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera2SitioErroneo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera2SitioErroneoColor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"Bandera2SitioErroneoColor\"",
+                "\"255;255;255\"",
+                "\"easeInQuad\"",
+                "0.04",
+                "",
+                "\"linear\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Socalo_Paises",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "vidas",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera2",
+            "Tween",
+            "\"SobreBandera2\"",
+            "0.23",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"NoSobreBandera2\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera2",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera2",
+            "Tween",
+            "\"NoSobreBandera2\"",
+            "0.2",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"SobreBandera2\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "BanderaTres"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DoesSceneExist"
+          },
+          "parameters": [
+            "",
+            "\"juego\""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera3",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Socalo_Paises",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Socalo_Bandera_Pais",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "vidas",
+                "Health",
+                "1",
+                "no",
+                "no",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "CopyOfestaTocando2",
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "bandera3",
+                    "Arrastrable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "CopyOfestaTocando2",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "bandera3",
+                "Tween",
+                "\"Bandera3SitioErroneo\"",
+                "173",
+                "620",
+                "\"easeInOutQuad\"",
+                "0.5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera3",
+                "Tween",
+                "\"Bandera3SitioErroneoColor\"",
+                "\"241;86;86\"",
+                "\"easeInQuad\"",
+                "0.07",
+                "",
+                "\"linear\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "bandera3",
+                "Tween",
+                "\"Bandera3SitioErroneo\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera3SitioErroneo\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"Bandera3SitioErroneoColor\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera3",
+                "Tween",
+                "\"Bandera3SitioErroneoColor\"",
+                "\"255;255;255\"",
+                "\"easeInQuad\"",
+                "0.04",
+                "",
+                "\"linear\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera3",
+            "Tween",
+            "\"SobreBandera3\"",
+            "0.25",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"NoSobreBandera3\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+          },
+          "parameters": [
+            "bandera3",
+            "Tween",
+            "\"NoSobreBandera2\"",
+            "0.2",
+            "\"elastic\"",
+            "1.5",
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"SobreBandera3\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "AnimacionesVida"
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DoesSceneExist"
+          },
+          "parameters": [
+            "",
+            "\"juego\""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "vidas",
+                "Health",
+                "=",
+                "2",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "vidas",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "vidas",
+                "Animation"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::Health"
+              },
+              "parameters": [
+                "vidas",
+                "Health",
+                "=",
+                "1",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "vidas",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "vidas",
+                "Animation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::IsDead"
+          },
+          "parameters": [
+            "vidas",
+            "Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"pantallaDePerder\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "atras",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -137,16 +2143,65 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "BotonAyuda",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",
@@ -155,6 +2210,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }

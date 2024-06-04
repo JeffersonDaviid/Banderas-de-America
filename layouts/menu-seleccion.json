@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740989,
+    "zoomFactor": 0.5290357402156904,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,14 +28,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2000,
+      "height": 1080,
       "layer": "",
-      "name": "BackgroundCielo",
+      "name": "FondoCielo",
       "persistentUuid": "e9bcc52b-c4c7-4887-aac8-f3dc40d341a9",
-      "width": 1500,
-      "x": -104,
-      "y": -563,
-      "zOrder": 3,
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -46,13 +46,13 @@
       "depth": 1,
       "height": 200,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "Explorador",
       "persistentUuid": "bb772c0b-d41d-4ee2-ab9d-702bd3c13c24",
       "width": 200,
       "x": 37,
       "y": 523,
-      "zOrder": 5,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -61,15 +61,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 89,
-      "keepRatio": true,
-      "layer": "",
-      "name": "boton_de_regreso",
+      "height": 90,
+      "layer": "InterfazDeUsuario",
+      "name": "BotonRegresar",
       "persistentUuid": "50804fa8-99d8-455c-ada0-1246cce2ab43",
-      "width": 95,
-      "x": 82,
-      "y": 45,
-      "zOrder": 6,
+      "width": 90,
+      "x": 80,
+      "y": 40,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -80,13 +79,13 @@
       "depth": 0,
       "height": 40,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "Cursor",
       "persistentUuid": "87cfe127-4cc9-41d5-9b67-dbd474f4c275",
       "width": 40,
-      "x": 1093,
-      "y": 573,
-      "zOrder": 22,
+      "x": 1109,
+      "y": 992,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -96,13 +95,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "Puntaje",
       "persistentUuid": "d7b8c99f-cc57-47cd-8782-5a6b50a476b6",
       "width": 0,
       "x": 1058,
       "y": 43,
-      "zOrder": 10,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -112,13 +111,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "FondoPaises",
       "name": "Argentina",
       "persistentUuid": "2ab25150-60af-4e9b-927a-39ae80d3b530",
       "width": 0,
       "x": 524,
       "y": 154,
-      "zOrder": 15,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -129,113 +128,12 @@
       "depth": 1,
       "height": 717,
       "keepRatio": true,
-      "layer": "",
+      "layer": "SeleccionPaises",
       "name": "Argentina_Select",
       "persistentUuid": "964b1ab4-e89f-4822-a289-de8dcf4a2ddb",
       "width": 323,
       "x": 532,
       "y": 164,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chile",
-      "persistentUuid": "2a933750-4478-40be-8077-09d46640b21c",
-      "width": 0,
-      "x": 514,
-      "y": 60,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 797,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chile_Select",
-      "persistentUuid": "7d12567d-d9eb-4b89-bb3f-1c1bde71e95e",
-      "width": 259,
-      "x": 522,
-      "y": 75,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 316,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "21ffb384-a394-487f-95fa-7d2294138fe9",
-      "width": 93,
-      "x": 597,
-      "y": 185,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 377,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "f535ad3e-b218-4ded-b884-3e840efeee29",
-      "width": 68,
-      "x": 650,
-      "y": 210,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 341,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "8b2d977a-695e-44ce-8311-cf97d519bfcc",
-      "width": 70,
-      "x": 681,
-      "y": 226,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 244,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "337bc0ad-9726-488d-a812-3f8bf7bbee88",
-      "width": 91,
-      "x": 703,
-      "y": 281,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -246,13 +144,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "7ec49a74-f86c-4e5e-b53b-946cf35ee408",
+      "layer": "FondoPaises",
+      "name": "Chile",
+      "persistentUuid": "2a933750-4478-40be-8077-09d46640b21c",
       "width": 0,
-      "x": 759,
-      "y": 460,
-      "zOrder": -2,
+      "x": 514,
+      "y": 60,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -261,133 +159,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 113,
+      "height": 797,
       "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "4066a18a-7b54-467f-a4ef-f7e0359f2f66",
-      "width": 89,
-      "x": 603,
-      "y": 469,
-      "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 187,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "0363042b-9738-4598-bb70-28cbce204a0f",
-      "width": 56,
-      "x": 658,
-      "y": 579,
-      "zOrder": -5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "61b4eb6b-2c03-4963-8e69-f24e6439a4bc",
-      "width": 0,
-      "x": 617,
-      "y": 570,
-      "zOrder": -4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 187,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "89e62ff5-f0d1-40ee-af64-a25a1b44a02e",
-      "width": 25,
-      "x": 540,
-      "y": 167,
-      "zOrder": -9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 140,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "27ee6ac3-95d6-4b4c-ba14-2d7a26c6a583",
-      "width": 19,
-      "x": 552,
-      "y": 386,
-      "zOrder": -8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 58,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "4b28a883-3605-47ab-ad2e-9d2aa8474017",
-      "width": 17,
-      "x": 542,
-      "y": 327,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "a74d4929-b489-4043-93cc-40661520dfcf",
-      "width": 19,
-      "x": 562,
-      "y": 519,
-      "zOrder": -7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "4fde9d60-857a-4a1b-a42a-d5613920ed7d",
-      "width": 17,
-      "x": 611,
-      "y": 654,
-      "zOrder": -6,
+      "layer": "SeleccionPaises",
+      "name": "Chile_Select",
+      "persistentUuid": "7d12567d-d9eb-4b89-bb3f-1c1bde71e95e",
+      "width": 259,
+      "x": 522,
+      "y": 75,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -398,13 +178,13 @@
       "depth": 1,
       "height": 200,
       "keepRatio": true,
-      "layer": "",
-      "name": "Dialogo",
+      "layer": "InterfazDeUsuario",
+      "name": "BurbujaDeDialogo",
       "persistentUuid": "e6c9d2c8-296e-4a6e-beb5-5dcf5d0171f1",
       "width": 300,
       "x": 18,
       "y": 336,
-      "zOrder": 23,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -415,13 +195,98 @@
       "depth": 1,
       "height": 65,
       "keepRatio": true,
-      "layer": "",
-      "name": "Dialogo2",
+      "layer": "InterfazDeUsuario",
+      "name": "TextoDeDialogo",
       "persistentUuid": "906fdfe1-d485-428f-ac83-869e5941822f",
       "width": 220,
       "x": 60,
       "y": 415,
-      "zOrder": 24,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 311,
+      "keepRatio": true,
+      "layer": "FondoPaises",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "a2ce4f83-256b-45a0-9070-7c572b55d73b",
+      "width": 46,
+      "x": 520,
+      "y": 144,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 311,
+      "keepRatio": true,
+      "layer": "FondoPaises",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "14cb947f-be02-498f-a9da-8b66de837287",
+      "width": 46,
+      "x": 536,
+      "y": 427,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "FondoPaises",
+      "name": "Chile_Hitbox",
+      "persistentUuid": "35df9b56-a8d4-4f28-8af9-048fd08501e1",
+      "width": 46,
+      "x": 578,
+      "y": 641,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 385,
+      "keepRatio": true,
+      "layer": "FondoPaises",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "9b748ae3-cc45-43d1-8407-467700e978ca",
+      "width": 242,
+      "x": 594,
+      "y": 160,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 354,
+      "keepRatio": true,
+      "layer": "FondoPaises",
+      "name": "Argentina_Hitbox",
+      "persistentUuid": "df4beafd-48a6-4943-8e6e-4dbe5f13fe8d",
+      "width": 144,
+      "x": 623,
+      "y": 537,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -431,7 +296,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "BackgroundCielo",
+      "name": "FondoCielo",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -496,7 +361,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -551,12 +427,23 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "boton_de_regreso",
+      "name": "BotonRegresar",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -615,61 +502,21 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
-      "behaviors": [
+      "effects": [
         {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.9,
-          "RightwardSpeed": 0.9,
-          "UpwardSpeed": 0.9,
-          "DownwardSpeed": 0.9,
-          "FollowOnX": true,
-          "FollowOnY": true,
-          "FollowFreeAreaLeft": 0,
-          "FollowFreeAreaRight": 0,
-          "FollowFreeAreaTop": 0,
-          "FollowFreeAreaBottom": 5,
-          "CameraOffsetX": 0,
-          "CameraOffsetY": 0,
-          "CameraDelay": 0,
-          "ForecastTime": 0,
-          "ForecastHistoryDuration": 0,
-          "LogLeftwardSpeed": 2.0247e-320,
-          "LogRightwardSpeed": 2.0247e-320,
-          "LogDownwardSpeed": 2.0247e-320,
-          "LogUpwardSpeed": 2.0247e-320,
-          "DelayedCenterX": 2.0247e-320,
-          "DelayedCenterY": 2.0247e-320,
-          "ForecastHistoryMeanX": 2.0247e-320,
-          "ForecastHistoryMeanY": 2.0247e-320,
-          "ForecastHistoryVarianceX": 2.0247e-320,
-          "ForecastHistoryCovariance": 2.0247e-320,
-          "ForecastHistoryLinearA": 2.0247e-320,
-          "ForecastHistoryLinearB": 2.0247e-320,
-          "ForecastedX": 2.0247e-320,
-          "ForecastedY": 2.0247e-320,
-          "ProjectedNewestX": 2.0247e-320,
-          "ProjectedNewestY": 2.0247e-320,
-          "ProjectedOldestX": 2.0247e-320,
-          "ProjectedOldestY": 2.0247e-320,
-          "ForecastHistoryVarianceY": 2.0247e-320,
-          "Index": 2.0247e-320,
-          "CameraDelayCatchUpSpeed": 0,
-          "CameraExtraDelay": 2.0247e-320,
-          "WaitingSpeedXMax": 2.0247e-320,
-          "WaitingSpeedYMax": 2.0247e-320,
-          "WaitingEnd": 2.0247e-320,
-          "CameraDelayCatchUpDuration": 2.0247e-320,
-          "LeftwardSpeedMax": 50,
-          "RightwardSpeedMax": 50,
-          "UpwardSpeedMax": 50,
-          "DownwardSpeedMax": 50,
-          "OldX": 9000.000000007454,
-          "OldY": 9000.000000007454,
-          "IsCalledManually": false
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 2
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
         }
       ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -847,82 +694,18 @@
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "content": {
-        "LeftPadding": 16,
-        "RightPadding": 16,
-        "PressedLabelOffsetY": 6,
-        "BottomPadding": 24,
-        "TopPadding": 20,
-        "HoveredFadeOutDuration": 0.25
-      },
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "White Square Decorated Button_Hovered.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Idle": {
-          "bottomMargin": 22,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "White Square Decorated Button_Idle.png",
-          "tiled": true,
-          "topMargin": 16,
-          "width": 192
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "Button",
-          "font": "mononoki-Regular.ttf",
-          "textAlignment": "center",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Button",
-            "font": "mononoki-Regular.ttf",
-            "textAlignment": "center",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 16,
-          "height": 64,
-          "leftMargin": 16,
-          "rightMargin": 16,
-          "texture": "White Square Decorated Button_Pressed.png",
-          "tiled": true,
-          "topMargin": 22,
-          "width": 192
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
         }
-      }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1064,7 +847,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Chile_Hitbox",
                   "points": [],
                   "originPoint": {
@@ -1125,7 +908,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "Argentina_Hitbox",
                   "points": [],
                   "originPoint": {
@@ -1169,7 +952,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Dialogo",
+      "name": "BurbujaDeDialogo",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1230,7 +1013,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Dialogo2",
+      "name": "TextoDeDialogo",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1272,43 +1055,53 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "BackgroundCielo"
+        "objectName": "FondoCielo"
       },
       {
-        "objectName": "Argentina"
+        "folderName": "SpritesInterfazDeUsuario",
+        "children": [
+          {
+            "objectName": "TextoDeDialogo"
+          },
+          {
+            "objectName": "BurbujaDeDialogo"
+          },
+          {
+            "objectName": "Puntaje"
+          },
+          {
+            "objectName": "Cursor"
+          },
+          {
+            "objectName": "Explorador"
+          },
+          {
+            "objectName": "BotonRegresar"
+          }
+        ]
       },
       {
-        "objectName": "Explorador"
-      },
-      {
-        "objectName": "boton_de_regreso"
-      },
-      {
-        "objectName": "Cursor"
-      },
-      {
-        "objectName": "Argentina_Select"
-      },
-      {
-        "objectName": "Chile_Hitbox"
-      },
-      {
-        "objectName": "Puntaje"
-      },
-      {
-        "objectName": "Chile"
-      },
-      {
-        "objectName": "Chile_Select"
-      },
-      {
-        "objectName": "Argentina_Hitbox"
-      },
-      {
-        "objectName": "Dialogo"
-      },
-      {
-        "objectName": "Dialogo2"
+        "folderName": "SpritesPaises",
+        "children": [
+          {
+            "objectName": "Chile_Select"
+          },
+          {
+            "objectName": "Chile"
+          },
+          {
+            "objectName": "Chile_Hitbox"
+          },
+          {
+            "objectName": "Argentina_Select"
+          },
+          {
+            "objectName": "Argentina"
+          },
+          {
+            "objectName": "Argentina_Hitbox"
+          }
+        ]
       }
     ]
   },
@@ -1324,36 +1117,17 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
+          "conditions": [
             {
               "type": {
-                "value": "CacheSouris"
+                "value": "IsMouseInsideCanvas"
               },
               "parameters": [
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "MettreX"
-              },
-              "parameters": [
-                "Cursor",
-                "=",
-                "CursorX()"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreY"
-              },
-              "parameters": [
-                "Cursor",
-                "=",
-                "CursorY()"
-              ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Cache"
@@ -1375,7 +1149,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Dialogo2",
+                "TextoDeDialogo",
                 "Text",
                 "=",
                 "\"Selecciona un pais\""
@@ -1435,7 +1209,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Dialogo2",
+                "TextoDeDialogo",
                 "Text",
                 "=",
                 "GlobalVariableString(seleccionarPais)"
@@ -1483,10 +1257,109 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "Dialogo2",
+                "TextoDeDialogo",
                 "Text",
                 "=",
                 "GlobalVariableString(seleccionarPais)"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camara",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsMouseInsideCanvas"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), CursorX(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
+                "\"SeleccionPaises\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), CursorY(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
+                "\"SeleccionPaises\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), CursorX(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
+                "\"FondoPaises\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), CursorY(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
+                "\"FondoPaises\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), CursorX(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
+                "\"SeleccionPaises\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), CursorY(), GlobalVariable(tamañoDeSeguimientoDelMouse))",
+                "\"SeleccionPaises\"",
+                ""
               ]
             }
           ]
@@ -1506,7 +1379,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -1539,9 +1412,112 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "FondoPaises",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "SeleccionPaises",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "InterfazDeUsuario",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
@@ -1555,6 +1531,10 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
     },
@@ -1565,10 +1545,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "SmoothCamera",
-      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",
