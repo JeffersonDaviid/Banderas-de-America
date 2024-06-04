@@ -772,6 +772,33 @@
         "name": "assets\\Juego\\Botones\\Boton_Ayuda.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Puntaje/BackgroundMar.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Puntaje\\BackgroundMar.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Puntaje/regresar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Puntaje\\regresar.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Puntaje/regresar_seleccionado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Puntaje\\regresar_seleccionado.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
