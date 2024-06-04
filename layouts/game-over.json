@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.3925161175488227,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,79 +26,56 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 117.75449101796409,
       "keepRatio": true,
       "layer": "",
-      "name": "NewText",
-      "persistentUuid": "185cf2ce-8a06-4bcb-aac0-993fb3231431",
-      "width": 0,
-      "x": 517,
-      "y": 306,
-      "zOrder": 1,
+      "name": "BotonMenu",
+      "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
+      "width": 345,
+      "x": 1285,
+      "y": 826,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0.7483731019522776,
+      "height": 142.19088937093275,
       "keepRatio": true,
       "layer": "",
-      "name": "BotonMenu",
-      "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
-      "width": 0,
-      "x": 904,
-      "y": 530,
-      "zOrder": 2,
+      "name": "BotonTryAgain",
+      "persistentUuid": "47c742f2-29cb-4aac-8f67-ecece499c270",
+      "width": 345,
+      "x": 265,
+      "y": 818,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "a9ea8603-ecca-4f3f-b70b-8194490f6b90",
+      "width": 1920,
+      "x": -2,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Game over",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 50,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Game over",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 50,
-        "color": "0;0;0"
-      }
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -158,16 +135,139 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BotonTryAgain",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\GameOver\\tryAgain.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 377,
+                        "y": 0
+                      },
+                      {
+                        "x": 377,
+                        "y": 127
+                      },
+                      {
+                        "x": 0,
+                        "y": 127
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\GameOver\\Background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 829,
+                        "y": 0
+                      },
+                      {
+                        "x": 829,
+                        "y": 470
+                      },
+                      {
+                        "x": 0,
+                        "y": 470
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
+        "objectName": "BotonMenu"
       },
       {
-        "objectName": "BotonMenu"
+        "objectName": "BotonTryAgain"
+      },
+      {
+        "objectName": "Background"
       }
     ]
   },
@@ -208,6 +308,48 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonTryAgain",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu seleccion\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

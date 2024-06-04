@@ -23,8 +23,8 @@
     "name": "Banderas de America",
     "description": "",
     "author": "",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -290,6 +290,42 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\GameOver\\BotonMenu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tryAgain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tryAgain.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gameOver.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gameOver.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/tryAgain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\tryAgain.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\Background.png",
         "smoothed": true,
         "userAdded": true
       }
