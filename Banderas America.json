@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "e04b6f10-dd3d-4876-9d45-1460802cbacf",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -155,7 +155,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/BackgroundMar.jpeg",
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/BackgroundMar.jpeg",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Menu-Seleccion\\BackgroundMar.jpeg",
@@ -191,7 +191,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/White Square Decorated Button_Hovered.png",
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/White Square Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Hovered.png",
@@ -204,7 +204,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/White Square Decorated Button_Idle.png",
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/White Square Decorated Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Idle.png",
@@ -217,7 +217,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/White Square Decorated Button_Pressed.png",
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/White Square Decorated Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Pressed.png",
@@ -241,7 +241,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/Chile.png",
+        "file": "assets/Menu-Seleccion/PaisSinSeleccionar/Chile.png",
         "kind": "image",
         "metadata": "",
         "name": "Chile.png",
@@ -250,7 +250,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/Chile_Select.png",
+        "file": "assets/Menu-Seleccion/PaisSeleccionado/Chile_Select.png",
         "kind": "image",
         "metadata": "",
         "name": "Select_Chile.png",
@@ -277,7 +277,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/Dialogo.png",
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/Dialogo.png",
         "kind": "image",
         "metadata": "",
         "name": "Dialogo.png",
@@ -799,6 +799,96 @@
         "name": "assets\\Puntaje\\regresar_seleccionado.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/cursor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\cursor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/Explorador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/PaisSeleccionado/Argentina_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\PaisSeleccionado\\Argentina_Select.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/PaisSinSeleccionar/Argentina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\PaisSinSeleccionar\\Argentina.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/BackgroundMar.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\BackgroundMar.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/BotonRegreso.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\BotonRegreso.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/regresar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/regresar_select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar_select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntaje_select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje_select.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1486,7 +1576,7 @@
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/health"
+      "referenceTo": "/eventsFunctionsExtensions/pinchgesture"
     }
   ],
   "externalLayouts": [],
