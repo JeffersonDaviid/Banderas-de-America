@@ -317,22 +317,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Boton_Ayuda",
-      "persistentUuid": "d262f60a-aeeb-4c5e-af56-9b5fbdc607d7",
-      "width": 0,
-      "x": 213,
-      "y": 908,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
