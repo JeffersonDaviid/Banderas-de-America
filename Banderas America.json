@@ -1339,22 +1339,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bottomMargin": 0,
-      "height": 32,
-      "leftMargin": 0,
-      "name": "Boton_Ayuda",
-      "rightMargin": 0,
-      "texture": "assets\\Juego\\Botones\\Boton_Ayuda.png",
-      "tiled": true,
-      "topMargin": 0,
-      "type": "PanelSpriteObject::PanelSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1380,9 +1364,6 @@
       },
       {
         "objectName": "Socalo_Nombre_Pais"
-      },
-      {
-        "objectName": "Boton_Ayuda"
       }
     ]
   },
