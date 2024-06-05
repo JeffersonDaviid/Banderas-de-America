@@ -110,7 +110,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1.0390625,
+      "depth": 1,
       "height": 133,
       "layer": "",
       "name": "bandera2",
@@ -1387,8 +1387,8 @@
                 "bandera2",
                 "Tween",
                 "\"Bandera2SitioErroneo\"",
-                "173",
-                "385",
+                "125",
+                "350",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
@@ -1759,8 +1759,8 @@
                 "bandera3",
                 "Tween",
                 "\"Bandera3SitioErroneo\"",
-                "173",
-                "620",
+                "120",
+                "630",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
