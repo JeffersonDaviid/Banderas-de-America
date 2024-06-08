@@ -1267,6 +1267,24 @@
         "name": "assets\\Menu-Seleccion\\PaisSeleccionado\\Venezuela_Select.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/PaisCompletado/Argentina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\PaisCompletado\\Argentina.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/PaisCompletado/Belice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\PaisCompletado\\Belice.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
