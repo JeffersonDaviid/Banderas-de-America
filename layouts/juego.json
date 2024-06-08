@@ -1008,7 +1008,7 @@
               "parameters": [
                 "bandera1",
                 "=",
-                "socalo.X()",
+                "socalo.X() - 150",
                 "=",
                 "socalo.Y()"
               ]
@@ -1030,6 +1030,16 @@
                 "bandera1",
                 "Arrastrable",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "no"
               ]
             }
           ]
@@ -1400,7 +1410,7 @@
                 "=",
                 "Socalo_Bandera_Pais.X() + 50",
                 "=",
-                "Socalo_Bandera_Pais.Y() + 20"
+                "Socalo_Bandera_Pais.Y() + 10"
               ]
             },
             {
@@ -1411,6 +1421,16 @@
                 "bandera2",
                 "Arrastrable",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "no"
               ]
             }
           ]
