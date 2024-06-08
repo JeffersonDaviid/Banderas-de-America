@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3553434558817057,
+    "zoomFactor": 0.2817259932079618,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1658,7 +1658,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Colombia_Hitbox",
           "useMultipleDirections": false,
           "directions": [
             {
