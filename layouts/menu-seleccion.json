@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2817259932079618,
+    "zoomFactor": 0.2386775827025837,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -331,15 +331,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 32,
+      "depth": 0.46875,
+      "height": 15,
       "keepRatio": true,
       "layer": "FondoPaises",
       "name": "ElSalvador_Hitbox",
       "persistentUuid": "a5a5f1ae-c2c9-462d-97bd-d921f7c2800d",
-      "width": 32,
-      "x": 832,
-      "y": 480,
+      "width": 15,
+      "x": 840,
+      "y": 488,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -348,13 +348,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 32,
+      "depth": 1.25,
+      "height": 40,
       "keepRatio": true,
       "layer": "FondoPaises",
       "name": "Guatemala_Hitbox",
       "persistentUuid": "71f1b3f3-6242-42ae-b3bc-45af161c3252",
-      "width": 32,
+      "width": 40,
       "x": 800,
       "y": 448,
       "zOrder": 21,
@@ -398,32 +398,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "PuertoRico_Hitbox",
-      "persistentUuid": "13f453b5-16fe-49f2-b6c2-586bb465e3d3",
-      "width": 32,
-      "x": 1280,
-      "y": 384,
-      "zOrder": 24,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
+      "depth": 1.09375,
+      "height": 35,
       "keepRatio": true,
       "layer": "FondoPaises",
       "name": "Honduras_Hitbox",
       "persistentUuid": "9f766f2c-39c7-42eb-af0d-4058f990e34e",
-      "width": 32,
-      "x": 896,
-      "y": 448,
+      "width": 35,
+      "x": 880,
+      "y": 460,
       "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
@@ -450,12 +433,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 192,
+      "height": 224,
       "keepRatio": true,
       "layer": "FondoPaises",
       "name": "Mexico_Hitbox",
       "persistentUuid": "33313c7f-c355-4aec-bddd-85d3d35d8f4b",
-      "width": 160,
+      "width": 224,
       "x": 544,
       "y": 224,
       "zOrder": 27,
@@ -583,15 +566,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
       "keepRatio": true,
       "layer": "FondoPaises",
       "name": "Uruguay_Hitbox",
       "persistentUuid": "541200d0-8462-47ee-9267-54f618a160f0",
-      "width": 0,
+      "width": 64,
       "x": 1472,
-      "y": 1504,
+      "y": 1536,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -1113,32 +1097,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Argentina_Hitbox",
+          "name": "Argentina",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Argentina_Hitbox2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1574,32 +1539,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Bolivia_Hitbox",
+          "name": "Bolivia",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "Bolivia_Hitbox",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1616,32 +1562,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Brasil",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1658,32 +1585,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Colombia_Hitbox",
+          "name": "Colombia",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1700,32 +1608,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "CostaRica",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1742,32 +1631,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Ecuador",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1784,32 +1654,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "EEUU",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1826,32 +1677,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "ElSalvador",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite7",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1868,32 +1700,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Guatemala",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite8",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1910,32 +1723,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Haiti",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite9",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -1952,74 +1746,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "RepublicaDominicana",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite10",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "PuertoRico_Hitbox",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite11",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2036,32 +1769,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Honduras",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite12",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2078,32 +1792,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Nicaragua",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite13",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2120,32 +1815,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Mexico",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite14",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2162,32 +1838,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Panama",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite15",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2204,32 +1861,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Paraguay",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite16",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2246,32 +1884,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Peru",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite17",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2288,32 +1907,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Uruguay",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite18",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2330,32 +1930,13 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "Venezuela",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "NewSprite19",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
+              "sprites": []
             }
           ]
         }
@@ -2414,9 +1995,6 @@
           },
           {
             "objectName": "Haiti_Hitbox"
-          },
-          {
-            "objectName": "PuertoRico_Hitbox"
           },
           {
             "objectName": "Honduras_Hitbox"
@@ -3025,7 +2603,7 @@
       "isLocked": false,
       "name": "FondoPaises",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
