@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4140789814490001,
+    "zoomFactor": 0.33936327385971193,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -913,6 +913,22 @@
       "x": 1133,
       "y": 355,
       "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SeleccionPaises",
+      "name": "EEUU_Select",
+      "persistentUuid": "5b0447bf-93c8-4345-b71c-a9fa5eb11ccf",
+      "width": 0,
+      "x": -595,
+      "y": -1013,
+      "zOrder": 57,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
