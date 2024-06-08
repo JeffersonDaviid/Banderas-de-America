@@ -1456,6 +1456,15 @@
         "name": "assets\\Menu-Seleccion\\PaisCompletado\\Venezuela.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
