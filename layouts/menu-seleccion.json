@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.37971210019479906,
+    "snap": true,
+    "zoomFactor": 0.43357743047024544,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -53,72 +53,6 @@
       "x": 75,
       "y": 870,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "Argentina",
-      "persistentUuid": "2ab25150-60af-4e9b-927a-39ae80d3b530",
-      "width": 0,
-      "x": 726,
-      "y": 219,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 717,
-      "keepRatio": true,
-      "layer": "SeleccionPaises",
-      "name": "Argentina_Select",
-      "persistentUuid": "964b1ab4-e89f-4822-a289-de8dcf4a2ddb",
-      "width": 323,
-      "x": 734,
-      "y": 229,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "Chile",
-      "persistentUuid": "2a933750-4478-40be-8077-09d46640b21c",
-      "width": 0,
-      "x": 716,
-      "y": 125,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 797,
-      "keepRatio": true,
-      "layer": "SeleccionPaises",
-      "name": "Chile_Select",
-      "persistentUuid": "7d12567d-d9eb-4b89-bb3f-1c1bde71e95e",
-      "width": 259,
-      "x": 724,
-      "y": 140,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -160,91 +94,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 311,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "a2ce4f83-256b-45a0-9070-7c572b55d73b",
-      "width": 46,
-      "x": 722,
-      "y": 209,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 311,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "14cb947f-be02-498f-a9da-8b66de837287",
-      "width": 46,
-      "x": 738,
-      "y": 492,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "35df9b56-a8d4-4f28-8af9-048fd08501e1",
-      "width": 46,
-      "x": 780,
-      "y": 706,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 385,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "9b748ae3-cc45-43d1-8407-467700e978ca",
-      "width": 242,
-      "x": 796,
-      "y": 225,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 354,
-      "keepRatio": true,
-      "layer": "FondoPaises",
-      "name": "Argentina_Hitbox",
-      "persistentUuid": "df4beafd-48a6-4943-8e6e-4dbe5f13fe8d",
-      "width": 144,
-      "x": 825,
-      "y": 602,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 0,
       "height": 125,
       "keepRatio": true,
@@ -272,6 +121,22 @@
       "x": 1630,
       "y": 60,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "SeleccionPaises",
+      "name": "PaisSinSeleccionar",
+      "persistentUuid": "c6e3f15f-b4b7-49e1-958b-b4c82d136411",
+      "width": 0,
+      "x": -671,
+      "y": -1535,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1160,6 +1025,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PaisSinSeleccionar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Menu-Seleccion\\PaisSinSeleccionar.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 77,
+                        "y": 76
+                      },
+                      {
+                        "x": 3043,
+                        "y": 76
+                      },
+                      {
+                        "x": 3043,
+                        "y": 3683
+                      },
+                      {
+                        "x": 77,
+                        "y": 3683
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1206,6 +1131,9 @@
           },
           {
             "objectName": "Argentina"
+          },
+          {
+            "objectName": "PaisSinSeleccionar"
           }
         ]
       },
@@ -1715,7 +1643,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,

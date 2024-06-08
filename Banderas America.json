@@ -838,7 +838,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/BackgroundMar.jpeg",
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/FondoMar.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\BackgroundMar.jpeg",
@@ -889,6 +889,15 @@
         "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje_select.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/PaisSinSeleccionar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\PaisSinSeleccionar.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
