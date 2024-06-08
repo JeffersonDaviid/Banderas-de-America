@@ -1465,6 +1465,32 @@
         "name": "assets\\Menu-Seleccion\\Hitbox.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Heart Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Empty.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/c0bac0102b6467c3f428f093a162ad8aedc069b2bf3cbe65f344353c3695ecdf_Flat Heart Empty.png",
+          "name": "Flat Heart Empty.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Heart Filled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Heart Filled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
+          "name": "Flat Heart Filled.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -1691,7 +1717,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "vidas",
+      "name": "Socalo_Vidas",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1703,7 +1729,7 @@
           "Health": 3,
           "CurrentHealth": 0,
           "MaxHealth": 3,
-          "DamageCooldown": 5,
+          "DamageCooldown": 0,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
           "DamageToBeApplied": 0,
@@ -1716,7 +1742,7 @@
           "IsJustHealed": false,
           "CurrentShieldPoints": 2.0247e-320,
           "MaxShieldPoints": 0,
-          "ShieldDuration": 0,
+          "ShieldDuration": 5,
           "ShieldRegenRate": 0,
           "BlockExcessDamage": false,
           "ShieldRegenDelay": 0,
@@ -1736,114 +1762,6 @@
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 1,
               "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Salud\\3_vidas.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 474,
-                        "y": 0
-                      },
-                      {
-                        "x": 474,
-                        "y": 140
-                      },
-                      {
-                        "x": 0,
-                        "y": 140
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Salud\\2_vidas.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 474,
-                        "y": 0
-                      },
-                      {
-                        "x": 474,
-                        "y": 140
-                      },
-                      {
-                        "x": 0,
-                        "y": 140
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Salud\\1_vida.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 474,
-                        "y": 0
-                      },
-                      {
-                        "x": 474,
-                        "y": 140
-                      },
-                      {
-                        "x": 0,
-                        "y": 140
-                      }
-                    ]
-                  ]
-                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Juego\\Fondos\\General\\Soporte_Salud.png",
@@ -2086,7 +2004,7 @@
         "objectName": "Socalo_Paises"
       },
       {
-        "objectName": "vidas"
+        "objectName": "Socalo_Vidas"
       },
       {
         "objectName": "Socalo_Bandera_Pais"
@@ -2150,6 +2068,14 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tiledunitsbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/pinchgesture"

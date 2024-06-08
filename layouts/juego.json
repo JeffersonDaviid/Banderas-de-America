@@ -162,7 +162,7 @@
       "depth": 0.3911614730878188,
       "height": 115,
       "layer": "",
-      "name": "vidas",
+      "name": "Socalo_Vidas",
       "persistentUuid": "5e7d3dec-dad6-41b3-8495-393045c275e3",
       "width": 350,
       "x": 1486,
@@ -330,6 +330,22 @@
       "x": 159,
       "y": 891,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FlatHeartBar",
+      "persistentUuid": "d585b083-a96f-4187-a096-356f455f8791",
+      "width": 0,
+      "x": 1525,
+      "y": 66,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -763,6 +779,41 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
+      "name": "FlatHeartBar",
+      "type": "TiledUnitsBar::TiledUnitsBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "UnitWidth": 90,
+        "HideBackground": true,
+        "ShowBackground": false
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 90,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Heart Empty.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 270
+        },
+        "Bar": {
+          "height": 90,
+          "texture": "Flat Heart Empty.png",
+          "width": 90
+        },
+        "FillBar": {
+          "height": 90,
+          "texture": "Flat Heart Filled.png",
+          "width": 90
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -791,6 +842,9 @@
       },
       {
         "objectName": "Boton_Ayuda"
+      },
+      {
+        "objectName": "FlatHeartBar"
       }
     ]
   },
@@ -819,19 +873,10 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-          },
-          "parameters": [
-            "vidas",
-            "Animation"
-          ]
-        },
-        {
-          "type": {
             "value": "Health::Health::SetMaxHealthOp"
           },
           "parameters": [
-            "vidas",
+            "Socalo_Vidas",
             "Health",
             "=",
             "3",
@@ -846,6 +891,17 @@
             "numeroDeVidas",
             "=",
             "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+          },
+          "parameters": [
+            "FlatHeartBar",
+            "=",
+            "Socalo_Vidas.Health::Health()",
+            ""
           ]
         }
       ]
@@ -1130,11 +1186,22 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "vidas",
+                "Socalo_Vidas",
                 "Health",
                 "1",
                 "no",
                 "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+              },
+              "parameters": [
+                "FlatHeartBar",
+                "=",
+                "Socalo_Vidas.Health::Health()",
                 ""
               ]
             }
@@ -1500,11 +1567,22 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "vidas",
+                "Socalo_Vidas",
                 "Health",
                 "1",
                 "no",
                 "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+              },
+              "parameters": [
+                "FlatHeartBar",
+                "=",
+                "Socalo_Vidas.Health::Health()",
                 ""
               ]
             }
@@ -1695,11 +1773,22 @@
                 "value": "Health::Health::Hit"
               },
               "parameters": [
-                "vidas",
+                "Socalo_Vidas",
                 "Health",
                 "1",
                 "no",
                 "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+              },
+              "parameters": [
+                "FlatHeartBar",
+                "=",
+                "Socalo_Vidas.Health::Health()",
                 ""
               ]
             }
@@ -1945,100 +2034,6 @@
       "comment": "AnimacionesVida"
     },
     {
-      "folded": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DoesSceneExist"
-          },
-          "parameters": [
-            "",
-            "\"juego\""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "vidas",
-                "Health",
-                "=",
-                "2",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "vidas",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "vidas",
-                "Animation"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Health::Health::Health"
-              },
-              "parameters": [
-                "vidas",
-                "Health",
-                "=",
-                "1",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "vidas",
-                "=",
-                "2"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "vidas",
-                "Animation"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2046,7 +2041,7 @@
             "value": "Health::Health::IsDead"
           },
           "parameters": [
-            "vidas",
+            "Socalo_Vidas",
             "Health",
             ""
           ]
@@ -2059,7 +2054,7 @@
           },
           "parameters": [
             "",
-            "\"pantallaDePerder\"",
+            "\"game over\"",
             ""
           ]
         }
