@@ -5762,7 +5762,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Pais",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6576,7 +6575,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Camara",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6666,14 +6664,48 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
+              "type": {
+                "value": "PinchGesture::IsPinching"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PinchGesture::EnableCameraPinch"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PinchGesture::SetCameraPinchConstraint"
+              },
+              "parameters": [
+                "",
+                "\"Zoom only\"",
+                ""
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "parameters": []
@@ -6683,7 +6715,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cambios Escenas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6924,7 +6955,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "InterfazDeUsuario",
       "renderingType": "",
       "visibility": true,
