@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3553434558816985,
+    "zoomFactor": 0.43357743047023767,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -241,13 +241,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 700,
+      "height": 625,
       "layer": "",
       "name": "Socalo_Información",
       "persistentUuid": "f910c470-1988-43cf-903e-2cb2e09affbe",
       "width": 400,
-      "x": 1460,
-      "y": 224,
+      "x": 1466,
+      "y": 184,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -263,8 +263,8 @@
       "name": "Informacion",
       "persistentUuid": "bbf649fe-cf75-4aa0-ba83-60ad2f13cbee",
       "width": 361,
-      "x": 1484,
-      "y": 323,
+      "x": 1490,
+      "y": 283,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -279,8 +279,8 @@
       "name": "Nombre_País",
       "persistentUuid": "c31fa766-f878-4d0f-a0fa-42d6b46cc4f8",
       "width": 0,
-      "x": 1542,
-      "y": 250,
+      "x": 1548,
+      "y": 210,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -346,6 +346,54 @@
       "x": 1525,
       "y": 66,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 150,
+      "layer": "",
+      "name": "Puntaje",
+      "persistentUuid": "905e6610-9fcc-4d2f-a6ca-110b33c6232d",
+      "width": 300,
+      "x": 1530,
+      "y": 883,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 70,
+      "layer": "",
+      "name": "Puntaje_Titulo",
+      "persistentUuid": "98954751-1c20-475d-ab5e-c68668478390",
+      "width": 200,
+      "x": 1583,
+      "y": 820,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Cantidad_de_Puntos",
+      "persistentUuid": "0758f0c3-3459-44e4-9edd-0b4876bbaeb8",
+      "width": 0,
+      "x": 1641,
+      "y": 914,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -814,6 +862,148 @@
           "width": 90
         }
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Puntaje",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 499,
+                        "y": 0
+                      },
+                      {
+                        "x": 499,
+                        "y": 266
+                      },
+                      {
+                        "x": 0,
+                        "y": 266
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Puntaje_Titulo",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Puntos",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Puntos",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Cantidad_de_Puntos",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 75,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 75,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -845,6 +1035,15 @@
       },
       {
         "objectName": "FlatHeartBar"
+      },
+      {
+        "objectName": "Puntaje"
+      },
+      {
+        "objectName": "Puntaje_Titulo"
+      },
+      {
+        "objectName": "Cantidad_de_Puntos"
       }
     ]
   },
@@ -902,6 +1101,27 @@
             "=",
             "Socalo_Vidas.Health::Health()",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "puntajeDeNivel",
+            "=",
+            "250"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Cantidad_de_Puntos",
+            "Text",
+            "=",
+            "ToString(GlobalVariable(puntajeDeNivel))"
           ]
         }
       ]
@@ -1213,6 +1433,27 @@
                 "=",
                 "Socalo_Vidas.Health::Health()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntajeDeNivel",
+                "-",
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Cantidad_de_Puntos",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(puntajeDeNivel))"
               ]
             }
           ]
@@ -1605,6 +1846,27 @@
                 "Socalo_Vidas.Health::Health()",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntajeDeNivel",
+                "-",
+                "25"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Cantidad_de_Puntos",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(puntajeDeNivel))"
+              ]
             }
           ]
         }
@@ -1810,6 +2072,27 @@
                 "=",
                 "Socalo_Vidas.Health::Health()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntajeDeNivel",
+                "-",
+                "15"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Cantidad_de_Puntos",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(puntajeDeNivel))"
               ]
             }
           ]
