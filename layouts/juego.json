@@ -1713,6 +1713,27 @@
             "5",
             "\"TimerAyuuda\""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "puntajeDeNivel",
+            "-",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Cantidad_de_Puntos",
+            "Text",
+            "=",
+            "ToString(GlobalVariable(puntajeDeNivel))"
+          ]
         }
       ]
     },
