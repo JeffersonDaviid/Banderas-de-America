@@ -25,19 +25,25 @@
   "variables": [
     {
       "folded": true,
-      "name": "estaTocando",
+      "name": "bandera1Lista",
       "type": "boolean",
       "value": false
     },
     {
       "folded": true,
-      "name": "CopyOfestaTocando",
+      "name": "bandera2Lista",
       "type": "boolean",
       "value": false
     },
     {
       "folded": true,
       "name": "salioDeSocalo",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "completado",
       "type": "boolean",
       "value": false
     }
@@ -1343,7 +1349,7 @@
                 "value": "SceneVariableAsBoolean"
               },
               "parameters": [
-                "estaTocando",
+                "bandera1Lista",
                 ""
               ]
             }
@@ -1389,7 +1395,7 @@
                 "value": "SetSceneVariableAsBoolean"
               },
               "parameters": [
-                "estaTocando",
+                "bandera1Lista",
                 "True"
               ]
             },
@@ -1405,14 +1411,17 @@
             },
             {
               "type": {
-                "value": "MettreXY"
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
                 "bandera1",
-                "=",
+                "Tween",
+                "\"sitioCorrecto1\"",
                 "socalo.X() - 150",
-                "=",
-                "socalo.Y()"
+                "socalo.Y()",
+                "\"swingTo\"",
+                "0.5",
+                ""
               ]
             },
             {
@@ -1433,15 +1442,31 @@
                 "Arrastrable",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "ActivateBehavior"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
                 "bandera1",
                 "Tween",
-                "no"
+                "\"sitioCorrecto1\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"sitioCorrecto1\""
               ]
             }
           ]
@@ -1469,7 +1494,7 @@
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "estaTocando",
+                    "bandera1Lista",
                     ""
                   ]
                 }
@@ -1590,6 +1615,12 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -1851,7 +1882,7 @@
                 "value": "SceneVariableAsBoolean"
               },
               "parameters": [
-                "CopyOfestaTocando",
+                "bandera2Lista",
                 ""
               ]
             }
@@ -1897,20 +1928,23 @@
                 "value": "SetSceneVariableAsBoolean"
               },
               "parameters": [
-                "CopyOfestaTocando",
+                "bandera2Lista",
                 "True"
               ]
             },
             {
               "type": {
-                "value": "MettreXY"
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
               },
               "parameters": [
                 "bandera2",
-                "=",
+                "Tween",
+                "\"sitioCorrecto2\"",
                 "Socalo_Bandera_Pais.X() + 50",
-                "=",
-                "Socalo_Bandera_Pais.Y() + 10"
+                "Socalo_Bandera_Pais.Y() + 10",
+                "\"swingTo\"",
+                "0.5",
+                ""
               ]
             },
             {
@@ -1922,15 +1956,31 @@
                 "Arrastrable",
                 ""
               ]
-            },
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "ActivateBehavior"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
                 "bandera2",
                 "Tween",
-                "no"
+                "\"sitioCorrecto2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::RemoveSceneTween"
+              },
+              "parameters": [
+                "",
+                "\"sitioCorrecto2\""
               ]
             }
           ]
@@ -1958,7 +2008,7 @@
                     "value": "SceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "CopyOfestaTocando",
+                    "bandera2Lista",
                     ""
                   ]
                 }
@@ -2079,6 +2129,12 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -2361,21 +2417,6 @@
           "conditions": [
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "CopyOfestaTocando2",
-                ""
-              ]
-            }
-          ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
@@ -2387,15 +2428,6 @@
                   "parameters": [
                     "bandera3",
                     "Arrastrable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "CopyOfestaTocando2",
-                    ""
                   ]
                 }
               ]
@@ -2617,6 +2649,137 @@
           "parameters": [
             "",
             "\"game over\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "ComprobarNivelCompletado"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "bandera1Lista",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "bandera2Lista",
+                "True",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "bandera3",
+            "Arrastrable",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "completado",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "completado",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectColorTween2"
+          },
+          "parameters": [
+            "bandera2",
+            "Tween",
+            "\"bandera2Correcta\"",
+            "\"122;192;40\"",
+            "\"easeInQuad\"",
+            "0.1",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectColorTween2"
+          },
+          "parameters": [
+            "bandera1",
+            "Tween",
+            "\"bandera1Correcta\"",
+            "\"122;192;40\"",
+            "\"easeInQuad\"",
+            "0.1",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu seleccion\"",
             ""
           ]
         }
