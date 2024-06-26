@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1868141655229243,
+    "zoomFactor": 0.5769175655615276,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -132,8 +132,10 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
+      "locked": true,
       "name": "PaisSinSeleccionar",
       "persistentUuid": "c6e3f15f-b4b7-49e1-958b-b4c82d136411",
+      "sealed": true,
       "width": 0,
       "x": -669,
       "y": -1535,
@@ -301,7 +303,7 @@
       "height": 380,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "EEUU",
+      "name": "EEUU_Hitbox",
       "persistentUuid": "3e0f4d96-3a77-4347-92ff-dcbe1ed959d1",
       "width": 644,
       "x": 326,
@@ -318,7 +320,7 @@
       "height": 288,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "EEUU",
+      "name": "EEUU_Hitbox",
       "persistentUuid": "26b63c35-3256-45db-ae6f-c99d66a8b855",
       "width": 352,
       "x": -256,
@@ -925,8 +927,10 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
+      "locked": true,
       "name": "EEUU_Select",
       "persistentUuid": "5b0447bf-93c8-4345-b71c-a9fa5eb11ccf",
+      "sealed": true,
       "width": 0,
       "x": -595,
       "y": -1013,
@@ -1078,7 +1082,7 @@
       "height": 163,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "EEUU",
+      "name": "EEUU_Hitbox",
       "persistentUuid": "1b34c9e5-c01a-4972-881e-0b78f2c737a6",
       "width": 376,
       "x": 719,
@@ -1095,7 +1099,7 @@
       "height": 388,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "EEUU",
+      "name": "EEUU_Hitbox",
       "persistentUuid": "74034e37-8cba-4076-912c-79b77a68a4ee",
       "width": 374,
       "x": 959,
@@ -1117,13 +1121,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 3,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 3,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1317,7 +1321,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Argentina_Select",
@@ -1437,7 +1448,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Chile_Select",
@@ -1497,7 +1515,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Chile",
@@ -1538,7 +1563,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Argentina",
@@ -1896,7 +1928,13 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "checkCollisionMask": true,
+          "name": "Arrastrable",
+          "type": "DraggableBehavior::Draggable"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1956,7 +1994,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Belice",
@@ -1997,7 +2042,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Bolivia",
@@ -2038,7 +2090,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Brasil",
@@ -2079,7 +2138,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Colombia",
@@ -2120,7 +2186,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "CostaRica",
@@ -2161,7 +2234,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Ecuador",
@@ -2197,12 +2277,19 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "EEUU",
+      "name": "EEUU_Hitbox",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "EEUU",
@@ -2243,7 +2330,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "ElSalvador",
@@ -2284,7 +2378,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Guatemala",
@@ -2325,7 +2426,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Haiti",
@@ -2366,7 +2474,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "RepublicaDominicana",
@@ -2407,7 +2522,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Honduras",
@@ -2448,7 +2570,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Nicaragua",
@@ -2489,7 +2618,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Mexico",
@@ -2530,7 +2666,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Panama",
@@ -2571,7 +2714,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Paraguay",
@@ -2612,7 +2762,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Peru",
@@ -2653,7 +2810,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Uruguay",
@@ -2694,7 +2858,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Venezuela",
@@ -2735,7 +2906,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Belice_Select",
@@ -2795,7 +2973,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Bolivia_Select",
@@ -2855,7 +3040,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Brasil_Select",
@@ -2915,7 +3107,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Colombia_Select",
@@ -2975,7 +3174,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "CostaRica_Select",
@@ -3035,7 +3241,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Ecuador_Select",
@@ -3095,7 +3308,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "EEUU_Select",
@@ -3155,7 +3375,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "ElSalvador_Select",
@@ -3215,7 +3442,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Guatemala_Select",
@@ -3275,7 +3509,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Haiti_Select",
@@ -3335,7 +3576,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Honduras_Select",
@@ -3395,7 +3643,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Mexico_Slect",
@@ -3455,7 +3710,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Nicaragua_Select",
@@ -3515,7 +3777,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Panama_Select",
@@ -3575,7 +3844,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Paraguay_Select",
@@ -3635,7 +3911,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Peru_Select",
@@ -3695,7 +3978,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "RepublicaDominicana_Select",
@@ -3755,7 +4045,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Uruguay_Select",
@@ -3815,7 +4112,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
       "animations": [
         {
           "name": "Venezuela_Select",
@@ -5170,7 +5474,7 @@
             "objectName": "Ecuador_Hitbox"
           },
           {
-            "objectName": "EEUU"
+            "objectName": "EEUU_Hitbox"
           },
           {
             "objectName": "ElSalvador_Hitbox"
@@ -5698,6 +6002,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pais",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6432,7 +6737,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "EEUU",
+                    "EEUU_Hitbox",
                     "",
                     "",
                     ""
@@ -6502,6 +6807,294 @@
             }
           ],
           "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Camara",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PinchGesture::EnableCameraPinch"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PinchGesture::SetCameraPinchConstraint"
+              },
+              "parameters": [
+                "",
+                "\"Zoom only\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PinchGesture::SetCameraPinchLayer"
+              },
+              "parameters": [
+                "",
+                "\"SeleccionPaises\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "EEUU_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Argentina_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Chile_Select2",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Belice_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Brasil_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Colombia_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "CostaRica_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Ecuador_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "ElSalvador_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Guatemala_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Haiti_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Honduras_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Mexico_Slect",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Nicaragua_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Panama_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Paraguay_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Peru_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "RepublicaDominicana_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Uruguay_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Venezuela_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Bolivia_Select",
+                "Sticker",
+                "PaisSinSeleccionar",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -6629,63 +7222,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Camara",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PinchGesture::EnableCameraPinch"
-              },
-              "parameters": [
-                "",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PinchGesture::SetCameraPinchConstraint"
-              },
-              "parameters": [
-                "",
-                "\"Zoom only\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PinchGesture::SetCameraPinchLayer"
-              },
-              "parameters": [
-                "",
-                "\"SeleccionPaises\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "parameters": []
     }
   ],
   "layers": [
@@ -6699,7 +7235,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -6743,7 +7279,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "SeleccionPaises",
       "renderingType": "",
       "visibility": true,
@@ -6832,6 +7368,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "Text",
