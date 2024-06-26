@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.39251611754882276,
+    "zoomFactor": 0.3437520241612317,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -44,6 +44,12 @@
     {
       "folded": true,
       "name": "completado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "ayudaUsada",
       "type": "boolean",
       "value": false
     }
@@ -374,13 +380,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 83,
       "keepRatio": true,
       "layer": "",
       "name": "Cantidad_de_Puntos",
       "persistentUuid": "0758f0c3-3459-44e4-9edd-0b4876bbaeb8",
-      "width": 0,
+      "width": 90,
       "x": 1641,
       "y": 914,
       "zOrder": 23,
@@ -416,7 +423,7 @@
       "persistentUuid": "86642a84-7a58-43cc-8ac9-1a335dd7586d",
       "width": 822,
       "x": 542,
-      "y": 276,
+      "y": 1120,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -440,7 +447,7 @@
       "persistentUuid": "54f68177-6edc-48d1-9b60-3af7c54db887",
       "width": 836,
       "x": 532,
-      "y": 256,
+      "y": 1100,
       "zOrder": 28,
       "numberProperties": [],
       "stringProperties": [],
@@ -1079,7 +1086,12 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "string": "La pista es:\nEl encebollado es originario de este pais.",
       "font": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
       "textAlignment": "center",
@@ -1118,7 +1130,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1293,22 +1310,6 @@
             "Text",
             "=",
             "ToString(GlobalVariable(puntajeDeNivel))"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Texto_de_Ayuda"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "fondoayuda"
           ]
         }
       ]
@@ -1678,40 +1679,100 @@
       "conditions": [
         {
           "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+            "value": "BuiltinCommonInstructions::And"
           },
-          "parameters": [
-            "Boton_Ayuda",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Boton_Ayuda",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ayudaUsada",
+                "False",
+                ""
+              ]
+            }
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Texto_de_Ayuda",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
           },
           "parameters": [
             "fondoayuda",
+            "Tween",
+            "\"ayudaActivadoFondo\"",
+            "532",
+            "256",
+            "\"easeInOutBack\"",
+            "1.5",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "Texto_de_Ayuda",
+            "Tween",
+            "\"ayudaActivadoLabel\"",
+            "532",
+            "276",
+            "\"easeInOutBack\"",
+            "1.5",
             ""
           ]
         },
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "ActivateBehavior"
           },
           "parameters": [
-            "5",
-            "\"TimerAyuuda\""
+            "bandera1",
+            "Arrastrable",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "bandera2",
+            "Arrastrable",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "bandera3",
+            "Arrastrable",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "ayudaUsada",
+            "True"
           ]
         },
         {
@@ -1734,6 +1795,44 @@
             "=",
             "ToString(GlobalVariable(puntajeDeNivel))"
           ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "fondoayuda",
+            "Tween",
+            "\"ayudaActivadoFondo2\"",
+            "532",
+            "1100",
+            "\"easeInOutBack\"",
+            "1.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "Texto_de_Ayuda",
+            "Tween",
+            "\"ayudaActivadoLabel2\"",
+            "532",
+            "1120",
+            "\"easeInOutBack\"",
+            "1.5",
+            ""
+          ]
         }
       ]
     },
@@ -1742,31 +1841,80 @@
       "conditions": [
         {
           "type": {
-            "value": "CompareTimer"
+            "value": "Tween::HasFinished"
           },
           "parameters": [
             "Texto_de_Ayuda",
-            "\"TimerAyuuda\"",
-            ">=",
-            "5"
+            "Tween",
+            "\"ayudaActivadoLabel2\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "ActivateBehavior"
           },
           "parameters": [
-            "Texto_de_Ayuda"
+            "bandera1",
+            "Arrastrable",
+            "yes"
           ]
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "ActivateBehavior"
           },
           "parameters": [
-            "fondoayuda"
+            "bandera2",
+            "Arrastrable",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "bandera3",
+            "Arrastrable",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoFondo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoLabel\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoFondo2\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoLabel2\""
           ]
         }
       ]
@@ -2736,6 +2884,15 @@
           },
           "parameters": [
             "completado",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "ayudaUsada",
             "True"
           ]
         }

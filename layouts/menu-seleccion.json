@@ -1930,9 +1930,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Arrastrable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
