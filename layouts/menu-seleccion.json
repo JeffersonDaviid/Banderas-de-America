@@ -7093,6 +7093,237 @@
                 "PaisSinSeleccionar",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "EEUU_Hitbox",
+                "Sticker",
+                "EEUU_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Argentina_Hitbox",
+                "Sticker",
+                "Argentina_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Bolivia_Hitbox",
+                "Sticker",
+                "Bolivia_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Venezuela_Hitbox",
+                "Sticker",
+                "Venezuela_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Uruguay_Hitbox",
+                "Sticker",
+                "Uruguay_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "RepublicaDominicana_Hitbox",
+                "Sticker",
+                "RepublicaDominicana_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Peru_Hitbox",
+                "Sticker",
+                "Peru_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Paraguay_Hitbox",
+                "Sticker",
+                "Paraguay_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Panama_Hitbox",
+                "Sticker",
+                "Panama_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Nicaragua_Hitbox",
+                "Sticker",
+                "Nicaragua_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Honduras_Hitbox",
+                "Sticker",
+                "Honduras_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Mexico_Hitbox",
+                "Sticker",
+                "Mexico_Slect",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Haiti_Hitbox",
+                "Sticker",
+                "Haiti_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "ElSalvador_Hitbox",
+                "Sticker",
+                "ElSalvador_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Guatemala_Hitbox",
+                "Sticker",
+                "Guatemala_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Ecuador_Hitbox",
+                "Sticker",
+                "Ecuador_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "CostaRica_Hitbox",
+                "Sticker",
+                "CostaRica_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Colombia_Hitbox",
+                "Sticker",
+                "Colombia_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Brasil_Hitbox",
+                "Sticker",
+                "Brasil_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Belice_Hitbox",
+                "Sticker",
+                "Belice_Select",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Chile_Hitbox",
+                "Sticker",
+                "Chile_Select2",
+                ""
+              ]
             }
           ]
         }
