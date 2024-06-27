@@ -1691,6 +1691,105 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
           "name": "CantoraOne-Regular.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\Menu.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_GameOver_FONDO.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\GameOver\\FONDO",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/TextoGO.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/GameOver/TextoGO.png\",\"extension\":\".png\"}",
+        "name": "assets\\GameOver\\TextoGO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_GameOver_FONDO2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\GameOver\\FONDO2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_GameOver_TextoGO.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\GameOver\\TextoGO",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_GameOver_TextoGO2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\GameOver\\TextoGO2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/FONDO.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\FONDO.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_GameOver_tryAgain.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_GameOver_tryAgain.png\"}",
+        "name": "assets\\GameOver\\tryAgain",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/Recurso 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\Recurso 23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/Background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\Background.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
