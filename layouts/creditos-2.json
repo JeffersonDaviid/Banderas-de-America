@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "creditos",
-  "name": "creditos",
+  "mangledName": "creditos_322",
+  "name": "creditos 2",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2636457673770814,
+    "zoomFactor": 0.430340380220766,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -31,12 +31,12 @@
       "height": 1080,
       "keepRatio": true,
       "layer": "",
-      "name": "Unnamed",
-      "persistentUuid": "bf4d7412-2385-4ea3-9b7b-8b5fe980cdf9",
-      "width": 1916,
-      "x": 2,
-      "y": 1,
-      "zOrder": 2,
+      "name": "NewSprite",
+      "persistentUuid": "d92fe3e3-b680-49af-a329-f6e81dcb61b3",
+      "width": 1923,
+      "x": -7,
+      "y": 5,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,14 +45,30 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 317,
+      "height": 167,
       "keepRatio": true,
       "layer": "",
-      "name": "Creditos_Menu",
-      "persistentUuid": "778b0b20-c24e-4c0b-aa8e-71e295e74573",
-      "width": 466,
-      "x": 810,
-      "y": 169,
+      "name": "NewSprite2",
+      "persistentUuid": "53c4af5b-a455-4eac-8ee3-cad13618eac6",
+      "width": 226,
+      "x": 73,
+      "y": 46,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Creditos_Game_Over",
+      "persistentUuid": "f35890ab-f260-4733-ac5d-772b5e0ca6b1",
+      "width": 0,
+      "x": 729,
+      "y": 180,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -64,62 +80,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Creditos_Pantalla_Selección",
-      "persistentUuid": "0ace4f5d-7ea9-4454-b4cd-2caf01167b80",
+      "name": "Creditos_Creditos_Finales",
+      "persistentUuid": "04530134-785d-4a8e-908d-6e26e3da634c",
       "width": 0,
-      "x": 102,
-      "y": 567,
+      "x": 729,
+      "y": 557,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Creditos_Pantalla_de_juego",
-      "persistentUuid": "f663fbfb-462e-4469-ae93-d67edff9616e",
-      "width": 0,
-      "x": 1343,
-      "y": 567,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 163,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "ee495d7e-3d46-4447-9875-b21cbe511be1",
-      "width": 230,
-      "x": 73,
-      "y": 46,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "65451093-1d89-4ac8-ae08-3b1ef3f08a14",
-      "width": 230,
-      "x": 1661,
-      "y": 46,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -129,225 +95,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Unnamed",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "FONDO.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "FONDO.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Creditos_Menu",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Menú Principal\n\nEliana Pinargote\nJhair Zambrano\nIssac Proaño",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Menú Principal\n\nEliana Pinargote\nJhair Zambrano\nIssac Proaño",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 60,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Creditos_Pantalla_Selección",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Pantalla de selección \n\n Kevin Peñafiel\nJuan Chase\n Eduardo Arcos\n Ronny Cartagena\nCamila Sanchez",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Pantalla de selección \n\n Kevin Peñafiel\nJuan Chase\n Eduardo Arcos\n Ronny Cartagena\nCamila Sanchez",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 60,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Creditos_Pantalla_de_juego",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Pantalla de juego\n\nJonathan Angulo \nLuis Guerrero\nIsabel Farinango\nDanny Iñaguazo",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Pantalla de juego\n\nJonathan Angulo \nLuis Guerrero\nIsabel Farinango\nDanny Iñaguazo",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 60,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "NewSprite",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -365,7 +112,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Recurso 20.png",
+                  "image": "FONDO.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -381,20 +128,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 567,
-                        "y": 4
+                        "x": 1980,
+                        "y": 0
                       },
                       {
-                        "x": 567,
-                        "y": 489
+                        "x": 1980,
+                        "y": 1080
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 0,
+                        "y": 1080
                       }
                     ]
                   ]
@@ -464,60 +211,108 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Creditos_Game_Over",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Game over \n\nSebastián Ramos\nSantos Villareal",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Game over \n\nSebastián Ramos\nSantos Villareal",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "Creditos_Creditos_Finales",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Créditos Finales \n\nJulián Narváez\nEric Nono\nJavier Angulo",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Créditos Finales \n\nJulián Narváez\nEric Nono\nJavier Angulo",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Unnamed"
-      },
-      {
-        "objectName": "Creditos_Menu"
-      },
-      {
-        "objectName": "Creditos_Pantalla_Selección"
-      },
-      {
-        "objectName": "Creditos_Pantalla_de_juego"
-      },
-      {
         "objectName": "NewSprite"
       },
       {
         "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "Creditos_Game_Over"
+      },
+      {
+        "objectName": "Creditos_Creditos_Finales"
       }
     ]
   },
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "NewSprite",
-            "",
-            "no",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu\"",
-            ""
-          ]
-        }
-      ]
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -540,7 +335,7 @@
           },
           "parameters": [
             "",
-            "\"creditos 2\"",
+            "\"creditos\"",
             ""
           ]
         }
