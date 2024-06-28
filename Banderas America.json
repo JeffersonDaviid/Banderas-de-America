@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "adaptHeight",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "name": "Banderas de America",
     "description": "",
     "author": "",
@@ -1799,6 +1799,51 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GAME-OVER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GAME-OVER.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logoGO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logoGO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "logoGO2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "logoGO2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/logoGO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\logoGO.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
