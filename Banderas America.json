@@ -1790,6 +1790,16 @@
         "name": "assets\\GameOver\\Background.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/GameOver/SFX/Soundtrack-GameOver.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\GameOver\\SFX\\Soundtrack-GameOver.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

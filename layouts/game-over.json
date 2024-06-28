@@ -348,8 +348,30 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "assets\\GameOver\\SFX\\Soundtrack-GameOver.mp3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
