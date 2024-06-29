@@ -1790,6 +1790,123 @@
         "name": "assets\\GameOver\\Background.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Logo-JUEGO-BANDERAS-F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Logo-JUEGO-BANDERAS-F.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "C:/Users/KealPetu/Downloads/BOTONES[1]/BOTONES/1x/Recurso 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:\\Users\\KealPetu\\Downloads\\BOTONES[1]\\BOTONES\\1x\\Recurso 18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 16.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
