@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3673257545058827,
+    "zoomFactor": 0.36732575450588273,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -365,14 +365,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 70,
       "layer": "Texto",
       "name": "Puntaje_Titulo",
       "persistentUuid": "98954751-1c20-475d-ab5e-c68668478390",
-      "width": 200,
-      "x": 1583,
-      "y": 820,
+      "width": 276,
+      "x": 1539,
+      "y": 888,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -387,9 +387,9 @@
       "layer": "Texto",
       "name": "Cantidad_de_Puntos",
       "persistentUuid": "0758f0c3-3459-44e4-9edd-0b4876bbaeb8",
-      "width": 90,
-      "x": 1641,
-      "y": 914,
+      "width": 239,
+      "x": 1557,
+      "y": 947,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -931,7 +931,7 @@
       "behaviors": [],
       "string": "Puntos",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 50,
       "color": {
         "b": 0,
@@ -954,7 +954,7 @@
         "underlined": false,
         "text": "Puntos",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -972,7 +972,7 @@
       "behaviors": [],
       "string": "0",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 75,
       "color": {
         "b": 0,
@@ -995,7 +995,7 @@
         "underlined": false,
         "text": "0",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "characterSize": 75,
         "color": "0;0;0"
       }
