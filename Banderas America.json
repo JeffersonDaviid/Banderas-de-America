@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "e04b6f10-dd3d-4876-9d45-1460802cbacf",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.1",
@@ -1516,6 +1516,33 @@
         "kind": "image",
         "metadata": "",
         "name": "Recurso 20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Recurso 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Recurso 26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Recurso 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Recurso 20.png",
         "smoothed": true,
         "userAdded": true
       }

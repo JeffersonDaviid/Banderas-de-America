@@ -18,29 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2636457673770814,
+    "zoomFactor": 0.23867758270257944,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Unnamed",
-      "persistentUuid": "bf4d7412-2385-4ea3-9b7b-8b5fe980cdf9",
-      "width": 1916,
-      "x": 2,
-      "y": 1,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -51,8 +34,8 @@
       "name": "Creditos_Menu",
       "persistentUuid": "778b0b20-c24e-4c0b-aa8e-71e295e74573",
       "width": 466,
-      "x": 810,
-      "y": 169,
+      "x": -613,
+      "y": 223,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -67,8 +50,8 @@
       "name": "Creditos_Pantalla_Selección",
       "persistentUuid": "0ace4f5d-7ea9-4454-b4cd-2caf01167b80",
       "width": 0,
-      "x": 102,
-      "y": 567,
+      "x": -727,
+      "y": 663,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -83,8 +66,8 @@
       "name": "Creditos_Pantalla_de_juego",
       "persistentUuid": "f663fbfb-462e-4469-ae93-d67edff9616e",
       "width": 0,
-      "x": 1343,
-      "y": 567,
+      "x": -1203,
+      "y": 101,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,15 +77,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 163,
+      "height": 1124,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "ee495d7e-3d46-4447-9875-b21cbe511be1",
-      "width": 230,
-      "x": 73,
-      "y": 46,
-      "zOrder": 6,
+      "name": "FondoCreditos",
+      "persistentUuid": "24c59772-110f-4a7e-b29a-47cacab923ae",
+      "width": 1976,
+      "x": -28,
+      "y": -18,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -110,118 +93,22 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 160,
+      "depth": 0,
+      "height": 131.2173913043478,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "65451093-1d89-4ac8-ae08-3b1ef3f08a14",
-      "width": 230,
-      "x": 1661,
-      "y": 46,
-      "zOrder": 7,
+      "name": "Regresar",
+      "persistentUuid": "63bd56f6-67b0-4981-a76e-5f7ed3b2ac52",
+      "width": 150,
+      "x": 60,
+      "y": 60,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Unnamed",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "FONDO.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "FONDO.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "bold": true,
@@ -348,12 +235,23 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "FondoCreditos",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "name": "Anchor",
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "relativeToOriginalWindowSize": true,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -365,7 +263,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Recurso 20.png",
+                  "image": "assets\\Creditos\\FONDO.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -381,20 +279,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 567,
-                        "y": 4
+                        "x": 1980,
+                        "y": 0
                       },
                       {
-                        "x": 567,
-                        "y": 489
+                        "x": 1980,
+                        "y": 1080
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 0,
+                        "y": 1080
                       }
                     ]
                   ]
@@ -408,15 +306,26 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite2",
+      "name": "Regresar",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "Sin Seleccionar",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -425,7 +334,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Recurso 20.png",
+                  "image": "assets\\Creditos\\Recurso 26.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -445,11 +354,59 @@
                         "y": 4
                       },
                       {
-                        "x": 567,
+                        "x": 566,
                         "y": 4
                       },
                       {
-                        "x": 567,
+                        "x": 566,
+                        "y": 489
+                      },
+                      {
+                        "x": 9,
+                        "y": 489
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seleccionado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Creditos\\Recurso 20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 4
+                      },
+                      {
+                        "x": 566,
+                        "y": 4
+                      },
+                      {
+                        "x": 566,
                         "y": 489
                       },
                       {
@@ -470,9 +427,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Unnamed"
-      },
-      {
         "objectName": "Creditos_Menu"
       },
       {
@@ -482,69 +436,135 @@
         "objectName": "Creditos_Pantalla_de_juego"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "FondoCreditos"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "Regresar"
       }
     ]
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Cursor",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "NewSprite",
-            "",
-            "no",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Regresar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Regresar",
+                "Animation",
+                "=",
+                "\"Seleccionado\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Regresar",
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Regresar",
+                "Animation",
+                "=",
+                "\"Sin Seleccionar\""
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu\"",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Logica",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "NewSprite2",
-            "",
-            "",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Regresar",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"creditos 2\"",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
@@ -594,6 +614,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
