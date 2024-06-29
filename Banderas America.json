@@ -1845,6 +1845,33 @@
         "name": "assets\\GameOver\\logoGO.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Users/Mateo Narvaez/Downloads/FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Users\\Mateo Narvaez\\Downloads\\FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 20.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2407,6 +2434,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/creditos"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/creditos-2"
     }
   ],
   "externalEvents": [
