@@ -1491,6 +1491,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/4158f811cf0bb821a58f98d8cb78f2257ee590210091ab56b46703e94044ee7a_Flat Heart Filled.png",
           "name": "Flat Heart Filled.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntajeSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/returnSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

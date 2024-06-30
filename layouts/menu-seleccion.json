@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4140789814490053,
+    "zoomFactor": 0.2875077480091841,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1197,7 +1197,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1213,20 +1213,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 104,
-                        "y": 13
+                        "x": 4,
+                        "y": 20
                       },
                       {
-                        "x": 383,
-                        "y": 13
+                        "x": 237,
+                        "y": 20
                       },
                       {
-                        "x": 383,
-                        "y": 473
+                        "x": 237,
+                        "y": 345
                       },
                       {
-                        "x": 104,
-                        "y": 473
+                        "x": 4,
+                        "y": 345
                       }
                     ]
                   ]
@@ -1753,7 +1753,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1769,20 +1769,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
-                        "y": 14
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 290,
-                        "y": 14
+                        "x": 566,
+                        "y": 4
                       },
                       {
-                        "x": 290,
-                        "y": 177
+                        "x": 566,
+                        "y": 489
                       },
                       {
-                        "x": 19,
-                        "y": 177
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -1801,7 +1801,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar_select.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1817,20 +1817,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
-                        "y": 14
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 290,
-                        "y": 14
+                        "x": 566,
+                        "y": 4
                       },
                       {
-                        "x": 290,
-                        "y": 177
+                        "x": 566,
+                        "y": 489
                       },
                       {
-                        "x": 19,
-                        "y": 177
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -1909,7 +1909,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje_select.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -7102,7 +7102,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "SeleccionPaises",
       "renderingType": "",
       "visibility": true,
@@ -7135,7 +7135,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "InterfazDeUsuario",
       "renderingType": "",
       "visibility": true,
