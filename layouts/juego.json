@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4057518905943834,
+    "zoomFactor": 0.3925161175488232,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -236,14 +236,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 517,
+      "height": 621,
       "keepRatio": true,
       "layer": "Objetos",
       "name": "Socalo_Paises",
       "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
-      "width": 507,
-      "x": 732,
-      "y": 161,
+      "width": 812,
+      "x": 545,
+      "y": 129,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -625,7 +625,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Alemana_(1935–1945).png",
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -645,16 +645,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1200,
+                        "x": 200,
                         "y": 0
                       },
                       {
-                        "x": 1200,
-                        "y": 720
+                        "x": 200,
+                        "y": 133
                       },
                       {
                         "x": 0,
-                        "y": 720
+                        "y": 133
                       }
                     ]
                   ]
@@ -1439,6 +1439,39 @@
             "",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "bandera3",
+            "Resizable",
+            "242",
+            "133"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "bandera1",
+            "Resizable",
+            "242",
+            "133"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "bandera2",
+            "Resizable",
+            "242",
+            "133"
+          ]
         }
       ]
     },
@@ -2152,7 +2185,7 @@
             "bandera1",
             "Tween",
             "\"SobreBandera1\"",
-            "0.1",
+            "0.23",
             "\"elastic\"",
             "1.5",
             "",
@@ -2201,7 +2234,7 @@
             "bandera1",
             "Tween",
             "\"NoSobreBandera1\"",
-            "0.08",
+            "0.2",
             "\"elastic\"",
             "1.5",
             "",
@@ -2946,7 +2979,7 @@
             "bandera3",
             "Tween",
             "\"SobreBandera3\"",
-            "0.25",
+            "0.23",
             "\"elastic\"",
             "1.5",
             "",

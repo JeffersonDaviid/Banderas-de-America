@@ -1916,6 +1916,33 @@
         "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuador1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuuador2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Francia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2024,7 +2051,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Base.png",
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2041,26 +2068,26 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 1
+                        "x": 316,
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 979
+                        "x": 316,
+                        "y": 143
                       },
                       {
                         "x": 0,
-                        "y": 979
+                        "y": 143
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Logro.png",
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2077,19 +2104,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 1
+                        "x": 316,
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 979
+                        "x": 316,
+                        "y": 143
                       },
                       {
                         "x": 0,
-                        "y": 979
+                        "y": 143
                       }
                     ]
                   ]
