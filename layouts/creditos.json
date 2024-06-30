@@ -1859,9 +1859,9 @@
                 "epn",
                 "Tween",
                 "\"moveUp\"",
-                "-1284",
+                "-174",
                 "\"linear\"",
-                "45.5",
+                "35",
                 "no"
               ]
             },
@@ -1900,12 +1900,12 @@
           "conditions": [
             {
               "type": {
-                "value": "PosY"
+                "value": "Tween::HasFinished"
               },
               "parameters": [
                 "epn",
-                "=",
-                "-147"
+                "Tween",
+                "\"moveUp\""
               ]
             }
           ],
