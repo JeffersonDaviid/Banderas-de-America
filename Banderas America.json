@@ -1545,6 +1545,62 @@
         "name": "assets\\Creditos\\Recurso 20.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/epn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\epn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/fis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\fis.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/igm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\igm.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "creditos.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "creditos.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Creditos/creditos.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Creditos\\creditos.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -18,61 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2636457673770814,
+    "zoomFactor": 0.2912258866911135,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 317,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Creditos_Menu",
-      "persistentUuid": "778b0b20-c24e-4c0b-aa8e-71e295e74573",
-      "width": 466,
-      "x": -613,
-      "y": 223,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Creditos_Pantalla_Selección",
-      "persistentUuid": "0ace4f5d-7ea9-4454-b4cd-2caf01167b80",
-      "width": 0,
-      "x": -727,
-      "y": 663,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Creditos_Pantalla_de_juego",
-      "persistentUuid": "f663fbfb-462e-4469-ae93-d67edff9616e",
-      "width": 0,
-      "x": -1203,
-      "y": 101,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -85,7 +36,7 @@
       "width": 1976,
       "x": -28,
       "y": -18,
-      "zOrder": 8,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -102,7 +53,7 @@
       "width": 150,
       "x": 60,
       "y": 60,
-      "zOrder": 9,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,144 +62,282 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 92,
+      "height": 124,
       "keepRatio": true,
       "layer": "",
       "name": "Creditos",
       "persistentUuid": "130178e3-4a00-4dbf-914d-8ca231336996",
-      "width": 1817,
-      "x": 51,
-      "y": 37,
-      "zOrder": 10,
+      "width": 1902,
+      "x": 45,
+      "y": 1081,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 228,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Mask",
+      "persistentUuid": "db5f12fc-e77b-49ea-909c-e0e521ccbf10",
+      "width": 2017,
+      "x": -44,
+      "y": -155,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 46,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TituloDir",
+      "persistentUuid": "f2114a8a-460f-442a-9cd7-acb44c7b206c",
+      "width": 1902,
+      "x": 45,
+      "y": 1434,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 308,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CuerpoDir",
+      "persistentUuid": "7ed39948-ec2f-4e70-a543-4cfde7f2c4dd",
+      "width": 1902,
+      "x": 45,
+      "y": 1474,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 48,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TituloCtrl",
+      "persistentUuid": "fb6a2e87-d351-45eb-ad14-1e8929244f82",
+      "width": 1902,
+      "x": 45,
+      "y": 1875,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CuerpoCtrl2",
+      "persistentUuid": "207cc5b1-e52a-4937-8335-bcd9b9521903",
+      "width": 1902,
+      "x": 45,
+      "y": 1915,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 51,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TituloProgr",
+      "persistentUuid": "12c7f0ac-07a4-4697-a87d-242c4ab39cce",
+      "width": 1902,
+      "x": 45,
+      "y": 2000,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1037,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DerProg",
+      "persistentUuid": "b48b2a0e-5077-4181-b5c4-bc15e53d914c",
+      "width": 838,
+      "x": 996,
+      "y": 2050,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1003,
+      "keepRatio": true,
+      "layer": "",
+      "name": "IzqProg",
+      "persistentUuid": "95ac3434-e694-4c9f-a8b1-90e9fdbbb7f1",
+      "width": 580,
+      "x": 395,
+      "y": 2062,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 52,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TituloDis",
+      "persistentUuid": "baca6c3a-4446-41ae-a95e-fefd74191aeb",
+      "width": 1902,
+      "x": 45,
+      "y": 3100,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DerDis",
+      "persistentUuid": "258c6089-fad9-4a52-800e-7bc3e50db9f0",
+      "width": 0,
+      "x": 996,
+      "y": 3150,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 79.68051118210863,
+      "keepRatio": true,
+      "layer": "",
+      "name": "IzqDis",
+      "persistentUuid": "25396d0d-95a8-4081-9df6-ce01f31a71e3",
+      "width": 580,
+      "x": 395,
+      "y": 3160,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TituloLog",
+      "persistentUuid": "c1794807-39c3-41b4-b2e7-93a5d704ac5a",
+      "width": 1902,
+      "x": 35,
+      "y": 3450,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "epn",
+      "persistentUuid": "4d56f530-f158-47ed-91d3-4f1936907c5c",
+      "width": 195.26431718061676,
+      "x": 400,
+      "y": 3520,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "fis",
+      "persistentUuid": "6c7eabc6-3c0a-434b-9224-65fd1fa5ef6c",
+      "width": 256.62518301610544,
+      "x": 800,
+      "y": 3512,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 225,
+      "keepRatio": true,
+      "layer": "",
+      "name": "igm",
+      "persistentUuid": "392d8b05-260b-4515-ae23-5a0c855f1d0d",
+      "width": 225,
+      "x": 1300,
+      "y": 3520,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Creditos_Menu",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Menú Principal\n\nEliana Pinargote\nJhair Zambrano\nIssac Proaño",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Menú Principal\n\nEliana Pinargote\nJhair Zambrano\nIssac Proaño",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 60,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Creditos_Pantalla_Selección",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Pantalla de selección \n\n Kevin Peñafiel\nJuan Chase\n Eduardo Arcos\n Ronny Cartagena\nCamila Sanchez",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Pantalla de selección \n\n Kevin Peñafiel\nJuan Chase\n Eduardo Arcos\n Ronny Cartagena\nCamila Sanchez",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 60,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": true,
-      "name": "Creditos_Pantalla_de_juego",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Pantalla de juego\n\nJonathan Angulo \nLuis Guerrero\nIsabel Farinango\nDanny Iñaguazo",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 60,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": true,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Pantalla de juego\n\nJonathan Angulo \nLuis Guerrero\nIsabel Farinango\nDanny Iñaguazo",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 60,
-        "color": "0;0;0"
-      }
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -451,14 +540,233 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Creditos",
+      "string": "BANDERAS DE AMÉRICA",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 80,
+      "characterSize": 110,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "BANDERAS DE AMÉRICA",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 110,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mask",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Creditos\\Hitbox.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "TituloDir",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Directores de Desarrollo",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Directores de Desarrollo",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "CuerpoDir",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "KEVIN ALEXANDER PAÑAFIEL\nDOMÉNICA CAMILA SÁNCHEZ\nJONATHAN STEEVEN ANGULO\nSEBASTIAN PATRICIO RAMOS\nERIC DANIEL NONO\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "KEVIN ALEXANDER PAÑAFIEL\nDOMÉNICA CAMILA SÁNCHEZ\nJONATHAN STEEVEN ANGULO\nSEBASTIAN PATRICIO RAMOS\nERIC DANIEL NONO\n",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 55,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "DerProg",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Eliana Lisbeth Pinargote\nGregory Jhair Zambrano\nIsaac Joshua Proaño\nDoménica Camila Sánchez\nKevin Alexander Peñafiel \nEduardo Emmanuel Arcos\nJonathan Steveen Angulo \nDorian Joel Albán \nSebastian Patricio Ramos  \nSantos Misael Villareal\nLuis Andrés  Guerrero \nDanny Alexander Iñaguazo\nAlegria Isabel Farinango \nKevin Joel Villacís\nSebastian Patricio Ramos \nSantos Misael Villareal \nEric Daniel Nono\nJulián Aleksei Narváez",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
       "color": {
         "b": 5,
         "g": 117,
@@ -478,26 +786,690 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Creditos",
+        "text": "Eliana Lisbeth Pinargote\nGregory Jhair Zambrano\nIsaac Joshua Proaño\nDoménica Camila Sánchez\nKevin Alexander Peñafiel \nEduardo Emmanuel Arcos\nJonathan Steveen Angulo \nDorian Joel Albán \nSebastian Patricio Ramos  \nSantos Misael Villareal\nLuis Andrés  Guerrero \nDanny Alexander Iñaguazo\nAlegria Isabel Farinango \nKevin Joel Villacís\nSebastian Patricio Ramos \nSantos Misael Villareal \nEric Daniel Nono\nJulián Aleksei Narváez",
         "font": "",
-        "textAlignment": "center",
-        "characterSize": 80,
+        "textAlignment": "left",
+        "characterSize": 50,
         "color": "65;117;5"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "TituloCtrl",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Control de versiones",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Control de versiones",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "CuerpoCtrl2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "JEFFERSON DAVID CHILENO\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 55,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "JEFFERSON DAVID CHILENO\n",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 55,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "TituloProgr",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Programadores",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Programadores",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "IzqProg",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCreditos",
+      "font": "",
+      "textAlignment": "right",
+      "characterSize": 38,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCreditos",
+        "font": "",
+        "textAlignment": "right",
+        "characterSize": 38,
+        "color": "65;117;5"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "TituloDis",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Diseñadores\n",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Diseñadores\n",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "DerDis",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nDirección Geográfica IGM",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nDirección Geográfica IGM",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "65;117;5"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "IzqDis",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Diseño videojuego",
+      "font": "",
+      "textAlignment": "right",
+      "characterSize": 38,
+      "color": {
+        "b": 5,
+        "g": 117,
+        "r": 65
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Diseño videojuego",
+        "font": "",
+        "textAlignment": "right",
+        "characterSize": 38,
+        "color": "65;117;5"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": true,
+      "name": "TituloLog",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Realizado por",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 4,
+        "g": 80,
+        "r": 44
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Realizado por",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "44;80;4"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "epn",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Creditos\\epn.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 195,
+                        "y": 1
+                      },
+                      {
+                        "x": 195,
+                        "y": 226
+                      },
+                      {
+                        "x": 2,
+                        "y": 226
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "fis",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Creditos\\fis.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 1557,
+                        "y": 1
+                      },
+                      {
+                        "x": 1557,
+                        "y": 1365
+                      },
+                      {
+                        "x": 2,
+                        "y": 1365
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "igm",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Creditos\\igm.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 0
+                      },
+                      {
+                        "x": 150,
+                        "y": 150
+                      },
+                      {
+                        "x": 0,
+                        "y": 150
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "Creditos_Menu"
-      },
-      {
-        "objectName": "Creditos_Pantalla_Selección"
-      },
-      {
-        "objectName": "Creditos_Pantalla_de_juego"
-      },
       {
         "objectName": "FondoCreditos"
       },
@@ -506,6 +1478,51 @@
       },
       {
         "objectName": "Creditos"
+      },
+      {
+        "objectName": "TituloDir"
+      },
+      {
+        "objectName": "TituloCtrl"
+      },
+      {
+        "objectName": "TituloProgr"
+      },
+      {
+        "objectName": "TituloDis"
+      },
+      {
+        "objectName": "TituloLog"
+      },
+      {
+        "objectName": "CuerpoDir"
+      },
+      {
+        "objectName": "CuerpoCtrl2"
+      },
+      {
+        "objectName": "DerProg"
+      },
+      {
+        "objectName": "DerDis"
+      },
+      {
+        "objectName": "IzqProg"
+      },
+      {
+        "objectName": "IzqDis"
+      },
+      {
+        "objectName": "Mask"
+      },
+      {
+        "objectName": "epn"
+      },
+      {
+        "objectName": "fis"
+      },
+      {
+        "objectName": "igm"
       }
     ]
   },
@@ -596,6 +1613,33 @@
           "conditions": [
             {
               "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Creditos\\creditos.wav",
+                "",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "MouseButtonPressed"
               },
               "parameters": [
@@ -630,8 +1674,253 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "Creditos",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "15",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "TituloDir",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "20",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "CuerpoDir",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "20.50",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "TituloCtrl",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "25.50",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "CuerpoCtrl2",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "26",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "TituloProgr",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "29",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "DerProg",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "29.50",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "IzqProg",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "29.50",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "TituloDis",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "40",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "DerDis",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "40.5",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "IzqDis",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "40.5",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "TituloLog",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "45",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "epn",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "45.5",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "fis",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "45.5",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "igm",
+                "Tween",
+                "\"moveUp\"",
+                "-1284",
+                "\"linear\"",
+                "45.5",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "epn",
+                "=",
+                "-147"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
