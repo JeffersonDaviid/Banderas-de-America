@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47281954063695764,
+    "zoomFactor": 0.27812914155115215,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -71,40 +71,6 @@
       "x": 90,
       "y": 745,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 125,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "Regresar",
-      "persistentUuid": "24ac2432-b2fd-4b28-b24f-2a583346288b",
-      "width": 199.99867346938777,
-      "x": 75,
-      "y": 60,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 125,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "Puntaje",
-      "persistentUuid": "95aae319-daa5-4a06-b764-b8253dd5fefa",
-      "width": 200,
-      "x": 1630,
-      "y": 60,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1107,6 +1073,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 130.98958333333331,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "Puntaje",
+      "persistentUuid": "4bf1390d-46bb-4130-8bf3-fff41674162d",
+      "width": 150,
+      "x": 1700,
+      "y": 40,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 131.2173913043478,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "Regresar",
+      "persistentUuid": "4596449b-665a-463d-9209-52065a9b0b98",
+      "width": 150,
+      "x": 50,
+      "y": 40,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1203,16 +1203,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1228,20 +1229,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 104,
-                        "y": 13
+                        "x": 4,
+                        "y": 20
                       },
                       {
-                        "x": 383,
-                        "y": 13
+                        "x": 237,
+                        "y": 20
                       },
                       {
-                        "x": 383,
-                        "y": 473
+                        "x": 237,
+                        "y": 345
                       },
                       {
-                        "x": 104,
-                        "y": 473
+                        "x": 4,
+                        "y": 345
                       }
                     ]
                   ]
@@ -1492,13 +1493,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1565,13 +1566,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1604,222 +1605,6 @@
         "characterSize": 30,
         "color": "255;255;255"
       }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Regresar",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "SinSeleccionar",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 177
-                      },
-                      {
-                        "x": 19,
-                        "y": 177
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Seleccionado",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar_select.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 177
-                      },
-                      {
-                        "x": 19,
-                        "y": 177
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Puntaje",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "SinSeleccionar",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 177
-                      },
-                      {
-                        "x": 19,
-                        "y": 177
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Seleccionado",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje_select.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 19,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 14
-                      },
-                      {
-                        "x": 290,
-                        "y": 177
-                      },
-                      {
-                        "x": 19,
-                        "y": 177
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -5331,6 +5116,244 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Puntaje",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "SinSeleccionar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Recurso 27.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 4
+                      },
+                      {
+                        "x": 567,
+                        "y": 4
+                      },
+                      {
+                        "x": 567,
+                        "y": 489
+                      },
+                      {
+                        "x": 9,
+                        "y": 489
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seleccionado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Recurso 21.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 4
+                      },
+                      {
+                        "x": 567,
+                        "y": 4
+                      },
+                      {
+                        "x": 567,
+                        "y": 489
+                      },
+                      {
+                        "x": 9,
+                        "y": 489
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Regresar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 1,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "SinSeleccionar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Recurso 26.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 4
+                      },
+                      {
+                        "x": 566,
+                        "y": 4
+                      },
+                      {
+                        "x": 566,
+                        "y": 489
+                      },
+                      {
+                        "x": 9,
+                        "y": 489
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seleccionado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Recurso 20.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 4
+                      },
+                      {
+                        "x": 566,
+                        "y": 4
+                      },
+                      {
+                        "x": 566,
+                        "y": 489
+                      },
+                      {
+                        "x": 9,
+                        "y": 489
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5560,10 +5583,10 @@
         "folderName": "SpritesInterfazDeUsuario",
         "children": [
           {
-            "objectName": "Regresar"
+            "objectName": "Puntaje"
           },
           {
-            "objectName": "Puntaje"
+            "objectName": "Regresar"
           },
           {
             "objectName": "FondoCielo"
@@ -7403,7 +7426,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "SeleccionPaises",
       "renderingType": "",
       "visibility": true,

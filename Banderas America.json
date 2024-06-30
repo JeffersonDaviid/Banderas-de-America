@@ -1790,6 +1790,51 @@
         "name": "assets\\GameOver\\Background.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu-Seleccion_InterfazDeUsuario_Explorador.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
