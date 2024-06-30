@@ -1907,6 +1907,78 @@
         "name": "Recurso 16.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/creditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\creditos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/creditosSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\creditosSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Logo-JUEGO-BANDERAS-F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Logo-JUEGO-BANDERAS-F.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\play.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/playSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\playSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/salir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\salir.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/salirSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\salirSelect.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
