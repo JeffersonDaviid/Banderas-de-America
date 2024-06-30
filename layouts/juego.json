@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3325387091250778,
+    "zoomFactor": 0.4057518905943834,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -399,14 +399,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 48,
-      "height": 187,
+      "height": 142,
       "keepRatio": true,
       "layer": "BotonAyuda",
       "name": "Boton_Ayuda",
       "persistentUuid": "e35948ae-db0c-47fc-ba08-984dbaa6c14c",
-      "width": 197,
-      "x": 131,
-      "y": 863,
+      "width": 146,
+      "x": 167,
+      "y": 905,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -440,7 +440,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 427,
+      "height": 466,
       "keepRatio": true,
       "layer": "Ayuda",
       "name": "fondoayuda",
@@ -1096,13 +1096,13 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 3,
           "leftEdgeAnchor": 3,
+          "name": "Anchor",
+          "topEdgeAnchor": 3,
+          "type": "AnchorBehavior::AnchorBehavior",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1488,6 +1488,26 @@
       "actions": [
         {
           "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Texto_de_Ayuda",
+            "Anchor",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "fondoayuda",
+            "Anchor",
+            "no"
+          ]
+        },
+        {
+          "type": {
             "value": "Tween::TweenBehavior::AddObjectPositionTween2"
           },
           "parameters": [
@@ -1497,7 +1517,7 @@
             "532",
             "256",
             "\"easeInOutBack\"",
-            "4",
+            "2",
             "no"
           ]
         },
@@ -1512,7 +1532,25 @@
             "532",
             "276",
             "\"easeInOutBack\"",
-            "4",
+            "2",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Texto_de_Ayuda",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "fondoayuda",
             ""
           ]
         },
@@ -1595,7 +1633,7 @@
             "532",
             "1100",
             "\"easeInOutBack\"",
-            "4",
+            "2",
             ""
           ]
         },
@@ -1610,7 +1648,7 @@
             "532",
             "1120",
             "\"easeInOutBack\"",
-            "4",
+            "2",
             ""
           ]
         }

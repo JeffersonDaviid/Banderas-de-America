@@ -1850,11 +1850,11 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 1,
-          "name": "Anchor",
           "topEdgeAnchor": 0,
-          "type": "AnchorBehavior::AnchorBehavior",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
