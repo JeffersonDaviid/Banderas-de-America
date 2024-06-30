@@ -1213,7 +1213,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\personaje.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5148,7 +5148,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\puntaje.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5196,7 +5196,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\puntajeSelect.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5267,7 +5267,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\return.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5315,7 +5315,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\returnSelect.png",
+                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
