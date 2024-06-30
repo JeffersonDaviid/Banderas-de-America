@@ -1872,6 +1872,24 @@
         "name": "Recurso 20.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/menuSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\menuSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/tryAgainSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\tryAgainSelect.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
