@@ -633,7 +633,7 @@
         "alwaysLoaded": false,
         "file": "assets/Juego/Fondos/General/Soporte_Mapa.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/General/Soporte_Mapa.png\",\"extension\":\".png\"}",
         "name": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
         "smoothed": true,
         "userAdded": true
@@ -1943,6 +1943,78 @@
         "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Juego_Fondos_Banderas_Soporte_Bandera.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/socaloNombrePais.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "socaloNombrePais",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelBanderas.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelBanderas.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelInferior.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelVidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelPuntaje.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelPuntaje.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelPuntaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelInformacion.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelInformacion.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInformacion.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1979,8 +2051,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Juego\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2248,7 +2320,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Salud.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2264,20 +2336,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 34,
+                        "y": 48
                       },
                       {
-                        "x": 474,
-                        "y": 0
+                        "x": 1141,
+                        "y": 48
                       },
                       {
-                        "x": 474,
-                        "y": 140
+                        "x": 1141,
+                        "y": 412
                       },
                       {
-                        "x": 0,
-                        "y": 140
+                        "x": 34,
+                        "y": 412
                       }
                     ]
                   ]
@@ -2319,8 +2391,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Bandera_Selec.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Juego\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2408,20 +2480,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 13,
+                        "y": 20
                       },
                       {
-                        "x": 1300,
-                        "y": 0
+                        "x": 1398,
+                        "y": 20
                       },
                       {
-                        "x": 1300,
-                        "y": 961
+                        "x": 1398,
+                        "y": 1171
                       },
                       {
-                        "x": 0,
-                        "y": 961
+                        "x": 13,
+                        "y": 1171
                       }
                     ]
                   ]
@@ -2464,7 +2536,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Nom_Pais.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2480,20 +2552,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 35,
+                        "y": 49
                       },
                       {
-                        "x": 906,
-                        "y": 0
+                        "x": 3084,
+                        "y": 49
                       },
                       {
-                        "x": 906,
-                        "y": 163
+                        "x": 3084,
+                        "y": 412
                       },
                       {
-                        "x": 0,
-                        "y": 163
+                        "x": 35,
+                        "y": 412
                       }
                     ]
                   ]
