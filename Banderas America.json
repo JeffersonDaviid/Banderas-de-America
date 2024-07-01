@@ -2535,15 +2535,129 @@
   "variables": [
     {
       "folded": true,
-      "name": "tamañoDeSeguimientoDelMouse",
-      "type": "number",
-      "value": 2
+      "name": "argentinaCompletado",
+      "type": "boolean",
+      "value": false
     },
     {
       "folded": true,
-      "name": "numeroDeVidas",
-      "type": "number",
-      "value": 0
+      "name": "boliviaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "beliceCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "brasilCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "chileCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "colombiaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "costaRicaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "ecuadorCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "eeuuCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "elSalvadorCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "guatemalaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "haitiCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "hondurasCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "mexicoCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "nicaraguaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "panamaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "paraguayCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "peruCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "republicaDominicanaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "uruguayCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "venezuelaCompletado",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
