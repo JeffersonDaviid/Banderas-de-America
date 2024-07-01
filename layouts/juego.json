@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4335774304702394,
+    "zoomFactor": 0.4789341884535272,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1496,6 +1496,15 @@
       "actions": [
         {
           "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Boton_Ayuda",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "ActivateBehavior"
           },
           "parameters": [
@@ -1511,6 +1520,36 @@
           "parameters": [
             "fondoayuda",
             "Anchor",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "bandera1",
+            "Arrastrable",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "bandera2",
+            "Arrastrable",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "bandera3",
+            "Arrastrable",
             "no"
           ]
         },
@@ -1541,54 +1580,6 @@
             "276",
             "\"easeInOutBack\"",
             "2",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Texto_de_Ayuda",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "fondoayuda",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera1",
-            "Arrastrable",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera2",
-            "Arrastrable",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera3",
-            "Arrastrable",
             "no"
           ]
         },
@@ -1659,6 +1650,42 @@
             "2",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoFondo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoLabel\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoFondo2\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::RemoveSceneTween"
+          },
+          "parameters": [
+            "",
+            "\"ayudaActivadoLabel2\""
+          ]
         }
       ]
     },
@@ -1709,38 +1736,20 @@
         },
         {
           "type": {
-            "value": "Tween::RemoveSceneTween"
+            "value": "Delete"
           },
           "parameters": [
-            "",
-            "\"ayudaActivadoFondo\""
+            "fondoayuda",
+            ""
           ]
         },
         {
           "type": {
-            "value": "Tween::RemoveSceneTween"
+            "value": "Delete"
           },
           "parameters": [
-            "",
-            "\"ayudaActivadoLabel\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"ayudaActivadoFondo2\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"ayudaActivadoLabel2\""
+            "Texto_de_Ayuda",
+            ""
           ]
         }
       ]
@@ -1785,106 +1794,108 @@
               ]
             }
           ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "DraggableBehavior::Dropped"
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dropped"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Arrastrable"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Socalo_Paises",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Socalo_Bandera_Pais",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "bandera1",
-                    "Arrastrable"
+                    "bandera1Lista",
+                    "True"
                   ]
                 },
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "ChangeSprite"
                   },
                   "parameters": [
-                    "bandera1",
                     "Socalo_Paises",
-                    "",
-                    "",
-                    "no"
+                    "=",
+                    "1"
                   ]
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
                     "bandera1",
-                    "Socalo_Bandera_Pais",
-                    "",
-                    "",
+                    "Tween",
+                    "\"sitioCorrecto1\"",
+                    "socalo.X() - 150",
+                    "socalo.Y()",
+                    "\"swingTo\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Socalo_Paises",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Arrastrable",
                     ""
                   ]
                 }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "bandera1Lista",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "Socalo_Paises",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"sitioCorrecto1\"",
-                "socalo.X() - 150",
-                "socalo.Y()",
-                "\"swingTo\"",
-                "0.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-              },
-              "parameters": [
-                "Socalo_Paises",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "bandera1",
-                "Arrastrable",
-                ""
               ]
             }
           ]
@@ -2267,87 +2278,89 @@
               ]
             }
           ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "DraggableBehavior::Dropped"
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dropped"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Arrastrable"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Socalo_Bandera_Pais",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Socalo_Paises",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "bandera2",
-                    "Arrastrable"
+                    "bandera2Lista",
+                    "True"
                   ]
                 },
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
                     "bandera2",
-                    "Socalo_Bandera_Pais",
-                    "",
-                    "",
+                    "Tween",
+                    "\"sitioCorrecto2\"",
+                    "Socalo_Bandera_Pais.X() + 50",
+                    "Socalo_Bandera_Pais.Y() + 10",
+                    "\"swingTo\"",
+                    "0.5",
                     ""
                   ]
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
+                    "value": "ActivateBehavior"
                   },
                   "parameters": [
                     "bandera2",
-                    "Socalo_Paises",
-                    "",
-                    "",
+                    "Arrastrable",
                     ""
                   ]
                 }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "bandera2Lista",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"sitioCorrecto2\"",
-                "Socalo_Bandera_Pais.X() + 50",
-                "Socalo_Bandera_Pais.Y() + 10",
-                "\"swingTo\"",
-                "0.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "bandera2",
-                "Arrastrable",
-                ""
               ]
             }
           ]
