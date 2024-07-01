@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.37971210019479723,
+    "zoomFactor": 0.3925161175488266,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -59,7 +59,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 190,
+      "height": 180,
       "layer": "Socalos",
       "name": "Socalo_Banderas",
       "persistentUuid": "efba964b-c0ba-493e-9f27-a667c1c8a636",
@@ -330,7 +330,7 @@
       "name": "FlatHeartBar",
       "persistentUuid": "d585b083-a96f-4187-a096-356f455f8791",
       "width": 0,
-      "x": 832,
+      "x": 829,
       "y": 37,
       "zOrder": 10,
       "numberProperties": [],
@@ -1407,7 +1407,7 @@
             "Socalo_Mapa",
             "Opacity",
             "=",
-            "200"
+            "255"
           ]
         },
         {

@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.4005715756957917,
+    "snap": true,
+    "zoomFactor": 0.4280418613827651,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -62,14 +62,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 110,
+      "height": 106,
       "keepRatio": true,
       "layer": "InterfazDeUsuario",
       "name": "TextoDeDialogo",
       "persistentUuid": "906fdfe1-d485-428f-ac83-869e5941822f",
       "width": 266,
-      "x": 90,
-      "y": 745,
+      "x": 92,
+      "y": 748,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1068,7 +1068,7 @@
       "persistentUuid": "996448ab-0375-4781-9d0e-f975afb6e1b9",
       "width": 0,
       "x": 0,
-      "y": 0,
+      "y": 2,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -1672,18 +1672,18 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "Selecciona un país.",
-      "font": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
+      "string": "Selecciona \nel país ",
+      "font": "Vanilla Cake Free.ttf",
       "textAlignment": "center",
-      "characterSize": 30,
+      "characterSize": 40,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 78,
+        "g": 60,
+        "r": 45
       },
       "content": {
         "bold": true,
-        "isOutlineEnabled": true,
+        "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "0;0;0",
@@ -1695,11 +1695,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Selecciona un país.",
-        "font": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
+        "text": "Selecciona \nel país ",
+        "font": "Vanilla Cake Free.ttf",
         "textAlignment": "center",
-        "characterSize": 30,
-        "color": "255;255;255"
+        "characterSize": 40,
+        "color": "45;60;78"
       }
     },
     {
