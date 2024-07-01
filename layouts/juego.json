@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4789341884535272,
+    "zoomFactor": 0.34375202416123385,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -241,14 +241,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 650,
+      "height": 455,
       "keepRatio": true,
       "layer": "Objetos",
       "name": "Socalo_Paises",
       "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
-      "width": 850,
-      "x": 535,
-      "y": 100,
+      "width": 834,
+      "x": 541,
+      "y": 233,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -323,14 +323,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 50,
       "keepRatio": true,
       "layer": "Texto",
       "name": "Nombre_País",
       "persistentUuid": "33d2a40f-39fb-4af3-beab-f7e1443b639c",
-      "width": 231,
-      "x": 844.5,
+      "width": 285,
+      "x": 811,
       "y": 950,
       "zOrder": 5,
       "numberProperties": [],
@@ -722,11 +722,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -804,7 +805,7 @@
       },
       "content": {
         "bold": false,
-        "isOutlineEnabled": true,
+        "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
@@ -825,7 +826,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Nombre_País",
       "smoothed": true,
@@ -847,7 +848,7 @@
       ],
       "string": "ECUADOR",
       "font": "",
-      "textAlignment": "left",
+      "textAlignment": "center",
       "characterSize": 46,
       "color": {
         "b": 0,
@@ -855,7 +856,7 @@
         "r": 0
       },
       "content": {
-        "bold": false,
+        "bold": true,
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
@@ -870,7 +871,7 @@
         "underlined": false,
         "text": "ECUADOR",
         "font": "",
-        "textAlignment": "left",
+        "textAlignment": "center",
         "characterSize": 46,
         "color": "0;0;0"
       }
@@ -943,11 +944,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {

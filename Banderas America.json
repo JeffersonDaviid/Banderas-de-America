@@ -642,7 +642,7 @@
         "alwaysLoaded": false,
         "file": "assets/Juego/Fondos/Banderas/Soporte_Bandera.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/Soporte_Bandera.png\",\"extension\":\".png\"}",
         "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
         "smoothed": true,
         "userAdded": true
@@ -714,7 +714,7 @@
         "alwaysLoaded": false,
         "file": "assets/Juego/Fondos/Informacion/Soporte_Info.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Informacion/Soporte_Info.png\",\"extension\":\".png\"}",
         "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
         "smoothed": true,
         "userAdded": true
