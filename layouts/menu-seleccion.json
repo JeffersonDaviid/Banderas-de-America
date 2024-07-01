@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.22794399199471427,
+    "zoomFactor": 0.3748642404671825,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -556,7 +556,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Brasil_Select",
+      "name": "Brasil",
       "persistentUuid": "26effd3e-d35c-4e38-a171-a748f97f6823",
       "width": 0,
       "x": 1133,
@@ -572,7 +572,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Ecuador_Select",
+      "name": "Ecuador",
       "persistentUuid": "1b5006ca-7521-4699-9263-28d2f20bbab8",
       "width": 0,
       "x": 793,
@@ -588,7 +588,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Colombia_Select",
+      "name": "Colombia",
       "persistentUuid": "0c06f26b-e1d1-43d4-a290-0d4c012bfc00",
       "width": 0,
       "x": 1036,
@@ -604,7 +604,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Venezuela_Select",
+      "name": "Venezuela",
       "persistentUuid": "870c6bc0-082e-4272-927e-d571ddc2b4dd",
       "width": 0,
       "x": 1147,
@@ -620,7 +620,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Uruguay_Select",
+      "name": "Uruguay",
       "persistentUuid": "47ee1914-2ea0-454c-8896-058f1fd38a7b",
       "width": 0,
       "x": 1458,
@@ -636,7 +636,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Peru_Select",
+      "name": "Peru",
       "persistentUuid": "70742a88-7aac-4e06-b853-aa55fbf5bf68",
       "width": 0,
       "x": 992,
@@ -652,7 +652,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Bolivia_Select",
+      "name": "Bolivia",
       "persistentUuid": "8462d839-1ad4-4830-951b-adceeeeac0e3",
       "width": 0,
       "x": 1220,
@@ -668,7 +668,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Paraguay_Select",
+      "name": "Paraguay",
       "persistentUuid": "f6b73529-3143-435d-bc4b-7728e9e275e2",
       "width": 0,
       "x": 1363,
@@ -684,7 +684,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Chile_Select",
+      "name": "Chile",
       "persistentUuid": "f0c1c0d5-72eb-4cdd-993d-695fb848827e",
       "width": 0,
       "x": 1042,
@@ -700,7 +700,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Argentina_Select",
+      "name": "Argentina",
       "persistentUuid": "f80c40b1-780e-4259-b7eb-675bba75edff",
       "width": 0,
       "x": 1222,
@@ -715,7 +715,7 @@
       "customSize": false,
       "height": 0,
       "layer": "SeleccionPaises",
-      "name": "Mexico_Slect",
+      "name": "Mexico",
       "persistentUuid": "3b331fda-3e22-4c1a-a26d-d67aa5450bc2",
       "width": 0,
       "x": 324,
@@ -731,7 +731,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Belice_Select",
+      "name": "Belice",
       "persistentUuid": "0abfb539-74bc-4cf3-adc1-fc783d3e7d31",
       "width": 0,
       "x": 848,
@@ -747,7 +747,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Guatemala_Select",
+      "name": "Guatemala",
       "persistentUuid": "f5f99e43-160c-4752-90b8-c41f31a921d3",
       "width": 0,
       "x": 790,
@@ -763,7 +763,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Nicaragua_Select",
+      "name": "Nicaragua",
       "persistentUuid": "be408684-9ebd-479d-994c-3c3db0fce67a",
       "width": 0,
       "x": 875,
@@ -779,7 +779,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "ElSalvador_Select",
+      "name": "ElSalvador",
       "persistentUuid": "18968b62-1a75-4d8e-8fba-75c12eda1c35",
       "width": 0,
       "x": 831,
@@ -796,7 +796,7 @@
       "height": 81,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Honduras_Select",
+      "name": "Honduras",
       "persistentUuid": "adf49b2e-016f-4bbb-8ff5-e20e592e7a0e",
       "width": 121,
       "x": 845,
@@ -812,7 +812,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Panama_Select",
+      "name": "Panama",
       "persistentUuid": "7ae4d3e5-d4b0-46b2-9369-4d38240f647a",
       "width": 0,
       "x": 960,
@@ -828,7 +828,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "CostaRica_Select",
+      "name": "CostaRica",
       "persistentUuid": "a785c60c-bfc3-4873-939e-5f7617af374b",
       "width": 0,
       "x": 881,
@@ -844,7 +844,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "RepublicaDominicana_Select",
+      "name": "RepublicaDominicana",
       "persistentUuid": "e301409b-41e0-4ae2-a893-93a01a74ce02",
       "width": 0,
       "x": 1181,
@@ -860,7 +860,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "SeleccionPaises",
-      "name": "Haiti_Select",
+      "name": "Haiti",
       "persistentUuid": "41c4c993-aaec-4481-a915-8461dfbd2ac6",
       "width": 0,
       "x": 1133,
@@ -877,7 +877,7 @@
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "locked": true,
-      "name": "EEUU_Select",
+      "name": "EEUU",
       "persistentUuid": "5b0447bf-93c8-4345-b71c-a9fa5eb11ccf",
       "sealed": true,
       "width": 0,
@@ -1256,7 +1256,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Argentina_Select",
+      "name": "Argentina",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1371,7 +1371,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Chile_Select",
+      "name": "Chile",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2683,7 +2683,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Belice_Select",
+      "name": "Belice",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2798,7 +2798,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Bolivia_Select",
+      "name": "Bolivia",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2913,7 +2913,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Brasil_Select",
+      "name": "Brasil",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3028,7 +3028,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Colombia_Select",
+      "name": "Colombia",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3143,7 +3143,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "CostaRica_Select",
+      "name": "CostaRica",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3258,7 +3258,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Ecuador_Select",
+      "name": "Ecuador",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3373,7 +3373,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "EEUU_Select",
+      "name": "EEUU",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3488,7 +3488,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "ElSalvador_Select",
+      "name": "ElSalvador",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3555,7 +3555,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Guatemala_Select",
+      "name": "Guatemala",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3670,7 +3670,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Haiti_Select",
+      "name": "Haiti",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3785,7 +3785,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Honduras_Select",
+      "name": "Honduras",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3900,7 +3900,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Mexico_Slect",
+      "name": "Mexico",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4015,7 +4015,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Nicaragua_Select",
+      "name": "Nicaragua",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4130,7 +4130,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Panama_Select",
+      "name": "Panama",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4245,7 +4245,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Paraguay_Select",
+      "name": "Paraguay",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4360,7 +4360,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Peru_Select",
+      "name": "Peru",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4475,7 +4475,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "RepublicaDominicana_Select",
+      "name": "RepublicaDominicana",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4590,7 +4590,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Uruguay_Select",
+      "name": "Uruguay",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4705,7 +4705,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Venezuela_Select",
+      "name": "Venezuela",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -4806,1266 +4806,6 @@
                       },
                       {
                         "x": 0,
-                        "y": 257
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "ArgentinaC",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "ArgentinaC",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Argentina.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 832
-                      },
-                      {
-                        "x": 0,
-                        "y": 832
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Belice",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Belice",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Belice.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 30,
-                        "y": 0
-                      },
-                      {
-                        "x": 30,
-                        "y": 60
-                      },
-                      {
-                        "x": 0,
-                        "y": 60
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Bolivia",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Bolivia",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Bolivia.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 238,
-                        "y": 0
-                      },
-                      {
-                        "x": 238,
-                        "y": 300
-                      },
-                      {
-                        "x": 1,
-                        "y": 300
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Brasil",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Brasil",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Brasil.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 863,
-                        "y": 0
-                      },
-                      {
-                        "x": 863,
-                        "y": 884
-                      },
-                      {
-                        "x": 1,
-                        "y": 884
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "ChileC",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Chile",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Chile.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 331,
-                        "y": 1
-                      },
-                      {
-                        "x": 331,
-                        "y": 954
-                      },
-                      {
-                        "x": 0,
-                        "y": 954
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Colombia",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Colombia",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Colombia.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 234,
-                        "y": 0
-                      },
-                      {
-                        "x": 234,
-                        "y": 370
-                      },
-                      {
-                        "x": 0,
-                        "y": 370
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "CostaRica",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "CostaRica",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\CostaRica.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 91,
-                        "y": 0
-                      },
-                      {
-                        "x": 91,
-                        "y": 126
-                      },
-                      {
-                        "x": 0,
-                        "y": 126
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Ecuador",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Ecuador",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Ecuador.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 143
-                      },
-                      {
-                        "x": 0,
-                        "y": 143
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "EEUUC",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "EEUU",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\EEUU.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 1925,
-                        "y": 0
-                      },
-                      {
-                        "x": 1925,
-                        "y": 1268
-                      },
-                      {
-                        "x": 1,
-                        "y": 1268
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "ElSalvador",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "ElSalvador",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\ElSalvador.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 47,
-                        "y": 0
-                      },
-                      {
-                        "x": 47,
-                        "y": 30
-                      },
-                      {
-                        "x": 0,
-                        "y": 30
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Guatemala",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Guatemala",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Guatemala.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 79,
-                        "y": 0
-                      },
-                      {
-                        "x": 79,
-                        "y": 93
-                      },
-                      {
-                        "x": 1,
-                        "y": 93
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Haiti",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Haiti",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Haiti.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 57,
-                        "y": 0
-                      },
-                      {
-                        "x": 57,
-                        "y": 48
-                      },
-                      {
-                        "x": 0,
-                        "y": 48
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Honduras",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Honduras",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Honduras.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 0
-                      },
-                      {
-                        "x": 120,
-                        "y": 81
-                      },
-                      {
-                        "x": 0,
-                        "y": 81
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Mexico",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Mexico",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Mexico.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 581,
-                        "y": 0
-                      },
-                      {
-                        "x": 581,
-                        "y": 420
-                      },
-                      {
-                        "x": 0,
-                        "y": 420
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Nicaragua",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Nicaragua",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Nicaragua.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 0
-                      },
-                      {
-                        "x": 98,
-                        "y": 97
-                      },
-                      {
-                        "x": 0,
-                        "y": 97
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Panama",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Panama",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Panama.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 1
-                      },
-                      {
-                        "x": 114,
-                        "y": 1
-                      },
-                      {
-                        "x": 114,
-                        "y": 55
-                      },
-                      {
-                        "x": 1,
-                        "y": 55
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Paraguay",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Paraguay",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Paraguay.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 162,
-                        "y": 0
-                      },
-                      {
-                        "x": 162,
-                        "y": 192
-                      },
-                      {
-                        "x": 0,
-                        "y": 192
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Peru",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Peru",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Peru.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 248,
-                        "y": 0
-                      },
-                      {
-                        "x": 248,
-                        "y": 408
-                      },
-                      {
-                        "x": 0,
-                        "y": 408
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "RepublicaDominicana",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "RepublicaDominicana",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\RepublicaDominicana.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 71,
-                        "y": 0
-                      },
-                      {
-                        "x": 71,
-                        "y": 55
-                      },
-                      {
-                        "x": 0,
-                        "y": 55
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Uruguay",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Uruguay",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Uruguay.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 100,
-                        "y": 0
-                      },
-                      {
-                        "x": 100,
-                        "y": 117
-                      },
-                      {
-                        "x": 0,
-                        "y": 117
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Venezuela",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Venezuela",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Venezuela.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 0
-                      },
-                      {
-                        "x": 261,
-                        "y": 0
-                      },
-                      {
-                        "x": 261,
-                        "y": 257
-                      },
-                      {
-                        "x": 1,
                         "y": 257
                       }
                     ]
@@ -6328,90 +5068,84 @@
         ]
       },
       {
-        "folderName": "PaisHitBox",
+        "folderName": "Paises",
         "children": [
           {
-            "objectName": "RepublicaDominicana_Hitbox"
+            "folderName": "PaisesHitBox",
+            "children": [
+              {
+                "objectName": "RepublicaDominicana_Hitbox"
+              },
+              {
+                "objectName": "Brasil_Hitbox"
+              },
+              {
+                "objectName": "Argentina_Hitbox"
+              },
+              {
+                "objectName": "Chile_Hitbox"
+              },
+              {
+                "objectName": "Belice_Hitbox"
+              },
+              {
+                "objectName": "Bolivia_Hitbox"
+              },
+              {
+                "objectName": "Colombia_Hitbox"
+              },
+              {
+                "objectName": "CostaRica_Hitbox"
+              },
+              {
+                "objectName": "Ecuador_Hitbox"
+              },
+              {
+                "objectName": "EEUU_Hitbox"
+              },
+              {
+                "objectName": "ElSalvador_Hitbox"
+              },
+              {
+                "objectName": "Guatemala_Hitbox"
+              },
+              {
+                "objectName": "Haiti_Hitbox"
+              },
+              {
+                "objectName": "Honduras_Hitbox"
+              },
+              {
+                "objectName": "Nicaragua_Hitbox"
+              },
+              {
+                "objectName": "Mexico_Hitbox"
+              },
+              {
+                "objectName": "Panama_Hitbox"
+              },
+              {
+                "objectName": "Paraguay_Hitbox"
+              },
+              {
+                "objectName": "Peru_Hitbox"
+              },
+              {
+                "objectName": "Uruguay_Hitbox"
+              },
+              {
+                "objectName": "Venezuela_Hitbox"
+              }
+            ]
           },
           {
-            "objectName": "Brasil_Hitbox"
-          },
-          {
-            "objectName": "Argentina_Hitbox"
-          },
-          {
-            "objectName": "Chile_Hitbox"
-          },
-          {
-            "objectName": "Belice_Hitbox"
-          },
-          {
-            "objectName": "Bolivia_Hitbox"
-          },
-          {
-            "objectName": "Colombia_Hitbox"
-          },
-          {
-            "objectName": "CostaRica_Hitbox"
-          },
-          {
-            "objectName": "Ecuador_Hitbox"
-          },
-          {
-            "objectName": "EEUU_Hitbox"
-          },
-          {
-            "objectName": "ElSalvador_Hitbox"
-          },
-          {
-            "objectName": "Guatemala_Hitbox"
-          },
-          {
-            "objectName": "Haiti_Hitbox"
-          },
-          {
-            "objectName": "Honduras_Hitbox"
-          },
-          {
-            "objectName": "Nicaragua_Hitbox"
-          },
-          {
-            "objectName": "Mexico_Hitbox"
-          },
-          {
-            "objectName": "Panama_Hitbox"
-          },
-          {
-            "objectName": "Paraguay_Hitbox"
-          },
-          {
-            "objectName": "Peru_Hitbox"
-          },
-          {
-            "objectName": "Uruguay_Hitbox"
-          },
-          {
-            "objectName": "Venezuela_Hitbox"
-          }
-        ]
-      },
-      {
-        "folderName": "PaisGanado",
-        "children": [
-          {
-            "objectName": "ArgentinaC"
+            "objectName": "Chile"
           },
           {
             "objectName": "Belice"
           },
           {
-            "objectName": "Bolivia"
-          },
-          {
             "objectName": "Brasil"
-          },
-          {
-            "objectName": "ChileC"
           },
           {
             "objectName": "Colombia"
@@ -6423,7 +5157,7 @@
             "objectName": "Ecuador"
           },
           {
-            "objectName": "EEUUC"
+            "objectName": "EEUU"
           },
           {
             "objectName": "ElSalvador"
@@ -6460,82 +5194,12 @@
           },
           {
             "objectName": "Venezuela"
-          }
-        ]
-      },
-      {
-        "folderName": "PaisSeleccionado",
-        "children": [
-          {
-            "objectName": "Chile_Select"
           },
           {
-            "objectName": "Belice_Select"
+            "objectName": "Bolivia"
           },
           {
-            "objectName": "Brasil_Select"
-          },
-          {
-            "objectName": "Colombia_Select"
-          },
-          {
-            "objectName": "CostaRica_Select"
-          },
-          {
-            "objectName": "Ecuador_Select"
-          },
-          {
-            "objectName": "EEUU_Select"
-          },
-          {
-            "objectName": "ElSalvador_Select"
-          },
-          {
-            "objectName": "Guatemala_Select"
-          },
-          {
-            "objectName": "Haiti_Select"
-          },
-          {
-            "objectName": "Honduras_Select"
-          },
-          {
-            "objectName": "Mexico_Slect"
-          },
-          {
-            "objectName": "Nicaragua_Select"
-          },
-          {
-            "objectName": "Panama_Select"
-          },
-          {
-            "objectName": "Paraguay_Select"
-          },
-          {
-            "objectName": "Peru_Select"
-          },
-          {
-            "objectName": "RepublicaDominicana_Select"
-          },
-          {
-            "objectName": "Uruguay_Select"
-          },
-          {
-            "objectName": "Venezuela_Select"
-          },
-          {
-            "objectName": "Bolivia_Select"
-          },
-          {
-            "objectName": "Argentina_Select"
-          }
-        ]
-      },
-      {
-        "folderName": "PaisSinSeleccionar",
-        "children": [
-          {
-            "objectName": "PaisSinSeleccionar"
+            "objectName": "Argentina"
           }
         ]
       },
@@ -6558,6 +5222,9 @@
             "objectName": "Explorador"
           }
         ]
+      },
+      {
+        "objectName": "PaisSinSeleccionar"
       }
     ]
   },
@@ -6580,7 +5247,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Argentina_Select"
+                "Argentina"
               ]
             },
             {
@@ -6588,7 +5255,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Bolivia_Select"
+                "Bolivia"
               ]
             },
             {
@@ -6596,7 +5263,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Brasil_Select"
+                "Brasil"
               ]
             },
             {
@@ -6604,7 +5271,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Chile_Select"
+                "Chile"
               ]
             },
             {
@@ -6612,7 +5279,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Colombia_Select"
+                "Colombia"
               ]
             },
             {
@@ -6620,7 +5287,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Ecuador_Select"
+                "Ecuador"
               ]
             },
             {
@@ -6628,7 +5295,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Paraguay_Select"
+                "Paraguay"
               ]
             },
             {
@@ -6636,7 +5303,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Peru_Select"
+                "Peru"
               ]
             },
             {
@@ -6644,7 +5311,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Uruguay_Select"
+                "Uruguay"
               ]
             },
             {
@@ -6652,7 +5319,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Venezuela_Select"
+                "Venezuela"
               ]
             },
             {
@@ -6660,7 +5327,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Belice_Select"
+                "Belice"
               ]
             },
             {
@@ -6668,7 +5335,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "CostaRica_Select"
+                "CostaRica"
               ]
             },
             {
@@ -6676,7 +5343,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "ElSalvador_Select"
+                "ElSalvador"
               ]
             },
             {
@@ -6684,7 +5351,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Guatemala_Select"
+                "Guatemala"
               ]
             },
             {
@@ -6692,7 +5359,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Haiti_Select"
+                "Haiti"
               ]
             },
             {
@@ -6700,7 +5367,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Honduras_Select"
+                "Honduras"
               ]
             },
             {
@@ -6708,7 +5375,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Nicaragua_Select"
+                "Nicaragua"
               ]
             },
             {
@@ -6716,7 +5383,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Panama_Select"
+                "Panama"
               ]
             },
             {
@@ -6724,7 +5391,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "RepublicaDominicana_Select"
+                "RepublicaDominicana"
               ]
             },
             {
@@ -6732,7 +5399,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "EEUU_Select"
+                "EEUU"
               ]
             },
             {
@@ -6740,7 +5407,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Mexico_Slect"
+                "Mexico"
               ]
             },
             {
@@ -6879,6 +5546,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Pais",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6896,6 +5564,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Argentina",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -6904,7 +5583,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Argentina_Select",
+                    "Argentina",
                     ""
                   ]
                 },
@@ -6934,6 +5613,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Bolivia",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -6942,7 +5632,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Bolivia_Select",
+                    "Bolivia",
                     ""
                   ]
                 },
@@ -6972,6 +5662,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Brasil",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -6980,7 +5681,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Brasil_Select",
+                    "Brasil",
                     ""
                   ]
                 },
@@ -7010,6 +5711,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Chile",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7018,7 +5730,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Chile_Select",
+                    "Chile",
                     ""
                   ]
                 },
@@ -7048,6 +5760,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Colombia",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7056,7 +5779,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Colombia_Select",
+                    "Colombia",
                     ""
                   ]
                 },
@@ -7086,6 +5809,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Ecuador",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7094,7 +5828,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Ecuador_Select",
+                    "Ecuador",
                     ""
                   ]
                 },
@@ -7124,6 +5858,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Paraguay",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7132,7 +5877,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Paraguay_Select",
+                    "Paraguay",
                     ""
                   ]
                 },
@@ -7162,6 +5907,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Peru",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7170,7 +5926,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Peru_Select",
+                    "Peru",
                     ""
                   ]
                 },
@@ -7200,6 +5956,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Uruguay",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7208,7 +5975,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Uruguay_Select",
+                    "Uruguay",
                     ""
                   ]
                 },
@@ -7238,6 +6005,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Venezuela",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7246,7 +6024,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Venezuela_Select",
+                    "Venezuela",
                     ""
                   ]
                 },
@@ -7276,6 +6054,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Belice",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7284,7 +6073,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Belice_Select",
+                    "Belice",
                     ""
                   ]
                 },
@@ -7314,6 +6103,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "CostaRica",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7322,7 +6122,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "CostaRica_Select",
+                    "CostaRica",
                     ""
                   ]
                 },
@@ -7352,6 +6152,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "ElSalvador",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7360,7 +6171,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "ElSalvador_Select",
+                    "ElSalvador",
                     ""
                   ]
                 },
@@ -7390,6 +6201,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Guatemala",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7398,7 +6220,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Guatemala_Select",
+                    "Guatemala",
                     ""
                   ]
                 },
@@ -7428,6 +6250,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Haiti",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7436,7 +6269,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Haiti_Select",
+                    "Haiti",
                     ""
                   ]
                 },
@@ -7466,6 +6299,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Honduras",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7474,7 +6318,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Honduras_Select",
+                    "Honduras",
                     ""
                   ]
                 },
@@ -7504,6 +6348,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Nicaragua",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7512,7 +6367,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Nicaragua_Select",
+                    "Nicaragua",
                     ""
                   ]
                 },
@@ -7542,6 +6397,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Panama",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7550,7 +6416,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Panama_Select",
+                    "Panama",
                     ""
                   ]
                 },
@@ -7580,6 +6446,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "RepublicaDominicana",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7588,7 +6465,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "RepublicaDominicana_Select",
+                    "RepublicaDominicana",
                     ""
                   ]
                 },
@@ -7618,6 +6495,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "EEUU",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7626,7 +6514,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "EEUU_Select",
+                    "EEUU",
                     ""
                   ]
                 },
@@ -7656,6 +6544,17 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Mexico",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
                 }
               ],
               "actions": [
@@ -7664,7 +6563,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "Mexico_Slect",
+                    "Mexico",
                     ""
                   ]
                 },
@@ -7744,7 +6643,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "EEUU_Select",
+                "EEUU",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7755,7 +6654,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Argentina_Select",
+                "Argentina",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7766,7 +6665,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Chile_Select",
+                "Chile",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7777,7 +6676,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Belice_Select",
+                "Belice",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7788,7 +6687,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Brasil_Select",
+                "Brasil",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7799,7 +6698,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Colombia_Select",
+                "Colombia",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7810,7 +6709,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "CostaRica_Select",
+                "CostaRica",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7821,7 +6720,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Ecuador_Select",
+                "Ecuador",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7832,7 +6731,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "ElSalvador_Select",
+                "ElSalvador",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7843,7 +6742,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Guatemala_Select",
+                "Guatemala",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7854,7 +6753,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Haiti_Select",
+                "Haiti",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7865,7 +6764,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Honduras_Select",
+                "Honduras",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7876,7 +6775,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Mexico_Slect",
+                "Mexico",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7887,7 +6786,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Nicaragua_Select",
+                "Nicaragua",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7898,7 +6797,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Panama_Select",
+                "Panama",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7909,7 +6808,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Paraguay_Select",
+                "Paraguay",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7920,7 +6819,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Peru_Select",
+                "Peru",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7931,7 +6830,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "RepublicaDominicana_Select",
+                "RepublicaDominicana",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7942,7 +6841,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Uruguay_Select",
+                "Uruguay",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7953,7 +6852,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Venezuela_Select",
+                "Venezuela",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7964,7 +6863,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Bolivia_Select",
+                "Bolivia",
                 "Sticker",
                 "PaisSinSeleccionar",
                 ""
@@ -7977,7 +6876,7 @@
               "parameters": [
                 "EEUU_Hitbox",
                 "Sticker",
-                "EEUU_Select",
+                "EEUU",
                 ""
               ]
             },
@@ -7988,7 +6887,7 @@
               "parameters": [
                 "Argentina_Hitbox",
                 "Sticker",
-                "Argentina_Select",
+                "Argentina",
                 ""
               ]
             },
@@ -7999,7 +6898,7 @@
               "parameters": [
                 "Bolivia_Hitbox",
                 "Sticker",
-                "Bolivia_Select",
+                "Bolivia",
                 ""
               ]
             },
@@ -8010,7 +6909,7 @@
               "parameters": [
                 "Venezuela_Hitbox",
                 "Sticker",
-                "Venezuela_Select",
+                "Venezuela",
                 ""
               ]
             },
@@ -8021,7 +6920,7 @@
               "parameters": [
                 "Uruguay_Hitbox",
                 "Sticker",
-                "Uruguay_Select",
+                "Uruguay",
                 ""
               ]
             },
@@ -8032,7 +6931,7 @@
               "parameters": [
                 "RepublicaDominicana_Hitbox",
                 "Sticker",
-                "RepublicaDominicana_Select",
+                "RepublicaDominicana",
                 ""
               ]
             },
@@ -8043,7 +6942,7 @@
               "parameters": [
                 "Peru_Hitbox",
                 "Sticker",
-                "Peru_Select",
+                "Peru",
                 ""
               ]
             },
@@ -8054,7 +6953,7 @@
               "parameters": [
                 "Paraguay_Hitbox",
                 "Sticker",
-                "Paraguay_Select",
+                "Paraguay",
                 ""
               ]
             },
@@ -8065,7 +6964,7 @@
               "parameters": [
                 "Panama_Hitbox",
                 "Sticker",
-                "Panama_Select",
+                "Panama",
                 ""
               ]
             },
@@ -8076,7 +6975,7 @@
               "parameters": [
                 "Nicaragua_Hitbox",
                 "Sticker",
-                "Nicaragua_Select",
+                "Nicaragua",
                 ""
               ]
             },
@@ -8087,7 +6986,7 @@
               "parameters": [
                 "Honduras_Hitbox",
                 "Sticker",
-                "Honduras_Select",
+                "Honduras",
                 ""
               ]
             },
@@ -8098,7 +6997,7 @@
               "parameters": [
                 "Mexico_Hitbox",
                 "Sticker",
-                "Mexico_Slect",
+                "Mexico",
                 ""
               ]
             },
@@ -8109,7 +7008,7 @@
               "parameters": [
                 "Haiti_Hitbox",
                 "Sticker",
-                "Haiti_Select",
+                "Haiti",
                 ""
               ]
             },
@@ -8120,7 +7019,7 @@
               "parameters": [
                 "ElSalvador_Hitbox",
                 "Sticker",
-                "ElSalvador_Select",
+                "ElSalvador",
                 ""
               ]
             },
@@ -8131,7 +7030,7 @@
               "parameters": [
                 "Guatemala_Hitbox",
                 "Sticker",
-                "Guatemala_Select",
+                "Guatemala",
                 ""
               ]
             },
@@ -8142,7 +7041,7 @@
               "parameters": [
                 "Ecuador_Hitbox",
                 "Sticker",
-                "Ecuador_Select",
+                "Ecuador",
                 ""
               ]
             },
@@ -8153,7 +7052,7 @@
               "parameters": [
                 "CostaRica_Hitbox",
                 "Sticker",
-                "CostaRica_Select",
+                "CostaRica",
                 ""
               ]
             },
@@ -8164,7 +7063,7 @@
               "parameters": [
                 "Colombia_Hitbox",
                 "Sticker",
-                "Colombia_Select",
+                "Colombia",
                 ""
               ]
             },
@@ -8175,7 +7074,7 @@
               "parameters": [
                 "Brasil_Hitbox",
                 "Sticker",
-                "Brasil_Select",
+                "Brasil",
                 ""
               ]
             },
@@ -8186,7 +7085,7 @@
               "parameters": [
                 "Belice_Hitbox",
                 "Sticker",
-                "Belice_Select",
+                "Belice",
                 ""
               ]
             },
@@ -8197,7 +7096,7 @@
               "parameters": [
                 "Chile_Hitbox",
                 "Sticker",
-                "Chile_Select",
+                "Chile",
                 ""
               ]
             }
