@@ -2015,6 +2015,15 @@
         "name": "assets\\Juego\\Fondos\\Banderas\\PanelInformacion.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
