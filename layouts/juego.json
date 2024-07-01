@@ -241,12 +241,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 455,
+      "height": 400,
       "keepRatio": true,
       "layer": "Objetos",
       "name": "Socalo_Paises",
       "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
-      "width": 834,
+      "width": 835,
       "x": 541,
       "y": 233,
       "zOrder": 10,
@@ -1448,6 +1448,16 @@
           "parameters": [
             "",
             "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "ecuadorCompletado",
+            "False",
+            ""
           ]
         }
       ]
@@ -3132,11 +3142,12 @@
         },
         {
           "type": {
-            "value": "SetSceneVariableAsBoolean"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "completado",
-            "True"
+            "ecuadorCompletado",
+            "True",
+            ""
           ]
         },
         {
@@ -3158,7 +3169,7 @@
             "value": "BooleanVariable"
           },
           "parameters": [
-            "completado",
+            "ecuadorCompletado",
             "True",
             ""
           ]
