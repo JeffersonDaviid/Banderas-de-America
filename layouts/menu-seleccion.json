@@ -1673,7 +1673,7 @@
         }
       ],
       "string": "Selecciona \nel país ",
-      "font": "Vanilla Cake Free.ttf",
+      "font": "assets\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
@@ -1696,7 +1696,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Selecciona \nel país ",
-        "font": "Vanilla Cake Free.ttf",
+        "font": "assets\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
         "color": "45;60;78"

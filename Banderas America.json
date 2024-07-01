@@ -2031,6 +2031,13 @@
         "metadata": "",
         "name": "Vanilla Cake Free.ttf",
         "userAdded": true
+      },
+      {
+        "file": "assets/Vanilla Cake Free.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Vanilla Cake Free.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
