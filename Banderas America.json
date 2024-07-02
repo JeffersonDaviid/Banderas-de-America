@@ -2658,9 +2658,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 3,
+          "Health": 2,
           "CurrentHealth": 0,
-          "MaxHealth": 3,
+          "MaxHealth": 2,
           "DamageCooldown": 0,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
