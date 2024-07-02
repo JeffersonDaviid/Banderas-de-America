@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703311552,
+    "zoomFactor": 0.41943397827591095,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -197,8 +197,8 @@
       "name": "Socalo_Bandera_Pais",
       "persistentUuid": "95920cd0-c63b-41d5-8799-f2ab8f989df2",
       "width": 350,
-      "x": 791,
-      "y": 721,
+      "x": 753,
+      "y": 784,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -230,8 +230,8 @@
       "name": "Socalo_Mapa",
       "persistentUuid": "331a691d-86c9-49bf-a29c-2a1386da2c98",
       "width": 839,
-      "x": 537,
-      "y": 146,
+      "x": 532,
+      "y": 145,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -247,8 +247,8 @@
       "name": "Socalo_Paises",
       "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
       "width": 738,
-      "x": 585,
-      "y": 385,
+      "x": 577,
+      "y": 368,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -459,6 +459,38 @@
       "x": 45,
       "y": 145,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Texto",
+      "name": "País",
+      "persistentUuid": "75b606a8-20b9-4dd4-a8f6-370528c58006",
+      "width": 0,
+      "x": 737,
+      "y": 473,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Texto",
+      "name": "Capital",
+      "persistentUuid": "ed0b561b-822d-4370-b3ee-9bf17e6e1351",
+      "width": 0,
+      "x": 680,
+      "y": 882,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1234,11 +1266,99 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "País",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Bandera del país aqui ...",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 100,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Bandera del país aqui ...",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Capital",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Bandera de la capital aqui ...",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 100,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Bandera de la capital aqui ...",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "objectName": "País"
+      },
+      {
+        "objectName": "Capital"
+      },
       {
         "objectName": "bandera1"
       },
@@ -1444,6 +1564,14 @@
             "=",
             "200"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Informacion"
+          ]
         }
       ]
     },
@@ -1587,6 +1715,14 @@
                     "bandera1",
                     "Arrastrable",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "País"
                   ]
                 }
               ]
@@ -1955,6 +2091,14 @@
                     "bandera2",
                     "Arrastrable",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Capital"
                   ]
                 }
               ]
@@ -2566,6 +2710,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Informacion",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Tween::TweenBehavior::AddObjectColorTween2"
