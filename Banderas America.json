@@ -856,42 +856,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/regresar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/regresar_select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\regresar_select.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntaje.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntaje_select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje_select.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Menu-Seleccion/PaisSinSeleccionar.png",
         "kind": "image",
         "metadata": "",
@@ -1604,42 +1568,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntajeSelect.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/return.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/returnSelect.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -2182,96 +2110,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/assets_Menu-Seleccion_InterfazDeUsuario_Explorador.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/personaje.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\personaje.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/return.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\return.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/returnSelect.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\returnSelect.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/puntaje.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\puntaje.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/puntajeSelect.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\puntajeSelect.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/return.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/returnSelect.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntajeSelect.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Juego/Mapas/Ecuador/Ecuador1.png",
         "kind": "image",
         "metadata": "",
@@ -2390,6 +2228,51 @@
         "kind": "font",
         "metadata": "",
         "name": "assets\\Vanilla Cake Free.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/returnSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntajeSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
