@@ -2391,6 +2391,15 @@
         "metadata": "",
         "name": "assets\\Vanilla Cake Free.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/logoGO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\logoGO.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
