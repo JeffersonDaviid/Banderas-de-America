@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3925161175488227,
+    "zoomFactor": 0.43357743047023817,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,15 +27,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 117.75449101796409,
+      "depth": 1,
+      "height": 251,
       "keepRatio": true,
       "layer": "",
       "name": "BotonMenu",
       "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
-      "width": 345,
-      "x": 1285,
-      "y": 826,
+      "width": 523,
+      "x": 1292,
+      "y": 773,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -44,15 +44,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.7483731019522776,
-      "height": 142.19088937093275,
+      "depth": 1,
+      "height": 250,
       "keepRatio": true,
       "layer": "",
       "name": "BotonTryAgain",
       "persistentUuid": "47c742f2-29cb-4aac-8f67-ecece499c270",
-      "width": 345,
-      "x": 265,
-      "y": 818,
+      "width": 502,
+      "x": 132,
+      "y": 764,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -96,7 +96,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\BotonMenu.png",
+                  "image": "assets\\GameOver\\Menu.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -112,20 +112,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 334,
-                        "y": 0
+                        "x": 1015,
+                        "y": 4
                       },
                       {
-                        "x": 334,
-                        "y": 114
+                        "x": 1015,
+                        "y": 488
                       },
                       {
-                        "x": 0,
-                        "y": 114
+                        "x": 9,
+                        "y": 488
                       }
                     ]
                   ]
@@ -172,20 +172,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 9,
+                        "y": 5
                       },
                       {
-                        "x": 377,
-                        "y": 0
+                        "x": 1015,
+                        "y": 5
                       },
                       {
-                        "x": 377,
-                        "y": 127
+                        "x": 1015,
+                        "y": 489
                       },
                       {
-                        "x": 0,
-                        "y": 127
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -216,7 +216,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\Background.png",
+                  "image": "assets\\GameOver\\Background.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -236,16 +236,16 @@
                         "y": 0
                       },
                       {
-                        "x": 829,
+                        "x": 1980,
                         "y": 0
                       },
                       {
-                        "x": 829,
-                        "y": 470
+                        "x": 1980,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 470
+                        "y": 1080
                       }
                     ]
                   ]
@@ -261,13 +261,13 @@
     "folderName": "__ROOT",
     "children": [
       {
+        "objectName": "Background"
+      },
+      {
         "objectName": "BotonMenu"
       },
       {
         "objectName": "BotonTryAgain"
-      },
-      {
-        "objectName": "Background"
       }
     ]
   },
@@ -400,6 +400,10 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
     },
@@ -426,10 +430,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
