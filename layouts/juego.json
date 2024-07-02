@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.3437520241612317,
+    "snap": true,
+    "zoomFactor": 0.4194339782759109,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -60,12 +60,12 @@
       "customSize": true,
       "depth": 1,
       "height": 200,
-      "layer": "",
+      "layer": "Socalos",
       "name": "Socalo_Banderas",
       "persistentUuid": "efba964b-c0ba-493e-9f27-a667c1c8a636",
-      "width": 350,
-      "x": 74,
-      "y": 71,
+      "width": 320,
+      "x": 92,
+      "y": 204,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -76,12 +76,12 @@
       "customSize": true,
       "depth": 1,
       "height": 200,
-      "layer": "",
+      "layer": "Socalos",
       "name": "Socalo_Banderas",
       "persistentUuid": "6a119d50-f386-4428-9835-4767eed68116",
-      "width": 350,
-      "x": 72,
-      "y": 343,
+      "width": 320,
+      "x": 92,
+      "y": 427,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -92,12 +92,12 @@
       "customSize": true,
       "depth": 1,
       "height": 200,
-      "layer": "",
+      "layer": "Socalos",
       "name": "Socalo_Banderas",
       "persistentUuid": "5610e971-7838-429c-bf29-054e93bc723d",
-      "width": 350,
-      "x": 65,
-      "y": 618,
+      "width": 320,
+      "x": 92,
+      "y": 643,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -107,14 +107,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 133,
-      "layer": "",
+      "height": 155,
+      "keepRatio": true,
+      "layer": "Objetos",
       "name": "bandera1",
       "persistentUuid": "e5821fb3-82d2-4094-9e7e-ab978d05d9d1",
-      "width": 242,
-      "x": 116,
-      "y": 105,
-      "zOrder": 3,
+      "width": 265,
+      "x": 117,
+      "y": 225,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -123,14 +124,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 133,
-      "layer": "",
+      "height": 155,
+      "keepRatio": true,
+      "layer": "Objetos",
       "name": "bandera2",
       "persistentUuid": "d75c66af-c42d-4a1c-a77b-4cde31b69bd8",
-      "width": 242,
+      "width": 265,
       "x": 118,
-      "y": 378,
-      "zOrder": 4,
+      "y": 441,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -139,14 +141,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 133,
-      "layer": "",
+      "height": 155,
+      "layer": "Objetos",
       "name": "bandera3",
       "persistentUuid": "c7b336be-407f-4099-a1e2-106fcdd10cb5",
-      "width": 242,
-      "x": 112,
-      "y": 652,
-      "zOrder": 5,
+      "width": 265,
+      "x": 118,
+      "y": 660,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -171,14 +173,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.3911614730878188,
-      "height": 115,
-      "layer": "",
+      "depth": 0.42517551422589006,
+      "height": 125,
+      "keepRatio": true,
+      "layer": "Socalos",
       "name": "Socalo_Vidas",
       "persistentUuid": "5e7d3dec-dad6-41b3-8495-393045c275e3",
-      "width": 350,
-      "x": 1486,
-      "y": 55,
+      "width": 380.43478260869585,
+      "x": 793,
+      "y": 28,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -189,12 +192,13 @@
       "customSize": true,
       "depth": 1,
       "height": 200,
-      "layer": "",
+      "keepRatio": true,
+      "layer": "Socalos",
       "name": "Socalo_Bandera_Pais",
       "persistentUuid": "95920cd0-c63b-41d5-8799-f2ab8f989df2",
       "width": 350,
-      "x": 771,
-      "y": 749,
+      "x": 791,
+      "y": 721,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -209,7 +213,7 @@
       "name": "WoodBackground",
       "persistentUuid": "010413b4-2c85-4570-9327-6ce9f272d022",
       "width": 1920,
-      "x": 0,
+      "x": -2,
       "y": -2,
       "zOrder": 0,
       "numberProperties": [],
@@ -220,13 +224,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 700,
-      "layer": "",
+      "height": 757,
+      "keepRatio": true,
+      "layer": "Socalos",
       "name": "Socalo_Mapa",
       "persistentUuid": "331a691d-86c9-49bf-a29c-2a1386da2c98",
-      "width": 850,
-      "x": 529,
-      "y": 100,
+      "width": 839,
+      "x": 537,
+      "y": 146,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,15 +241,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 517,
+      "height": 304,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Objetos",
       "name": "Socalo_Paises",
       "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
-      "width": 507,
-      "x": 732,
-      "y": 161,
-      "zOrder": 2,
+      "width": 738,
+      "x": 585,
+      "y": 385,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -253,13 +258,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 625,
-      "layer": "",
+      "height": 757,
+      "layer": "Socalos",
       "name": "Socalo_Información",
       "persistentUuid": "f910c470-1988-43cf-903e-2cb2e09affbe",
-      "width": 400,
-      "x": 1466,
-      "y": 184,
+      "width": 448,
+      "x": 1436,
+      "y": 152,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -269,31 +274,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 566,
+      "height": 632,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Texto",
       "name": "Informacion",
       "persistentUuid": "bbf649fe-cf75-4aa0-ba83-60ad2f13cbee",
-      "width": 361,
-      "x": 1490,
-      "y": 283,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Nombre_País",
-      "persistentUuid": "c31fa766-f878-4d0f-a0fa-42d6b46cc4f8",
-      "width": 0,
-      "x": 1548,
-      "y": 210,
-      "zOrder": 16,
+      "width": 363,
+      "x": 1467,
+      "y": 196,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -302,13 +291,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 120,
-      "layer": "",
+      "height": 126.66666666666666,
+      "keepRatio": true,
+      "layer": "Socalos",
       "name": "Socalo_Nombre_Pais",
       "persistentUuid": "1cbc731c-c938-4522-8ba2-f55c7711faa1",
-      "width": 900,
-      "x": 505,
-      "y": 917,
+      "width": 950,
+      "x": 476,
+      "y": 914,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -316,16 +306,17 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 50,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Texto",
       "name": "Nombre_País",
       "persistentUuid": "33d2a40f-39fb-4af3-beab-f7e1443b639c",
-      "width": 0,
-      "x": 827,
-      "y": 963,
-      "zOrder": 18,
+      "width": 893,
+      "x": 497,
+      "y": 944,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -335,13 +326,13 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Objetos",
       "name": "FlatHeartBar",
       "persistentUuid": "d585b083-a96f-4187-a096-356f455f8791",
       "width": 0,
-      "x": 1525,
-      "y": 66,
-      "zOrder": 20,
+      "x": 841,
+      "y": 41,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -350,30 +341,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 150,
-      "layer": "",
+      "height": 175,
+      "keepRatio": true,
+      "layer": "Socalos",
       "name": "Puntaje",
       "persistentUuid": "905e6610-9fcc-4d2f-a6ca-110b33c6232d",
-      "width": 300,
-      "x": 1530,
-      "y": 883,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 70,
-      "layer": "",
-      "name": "Puntaje_Titulo",
-      "persistentUuid": "98954751-1c20-475d-ab5e-c68668478390",
-      "width": 200,
-      "x": 1583,
-      "y": 820,
-      "zOrder": 22,
+      "width": 350,
+      "x": 1482,
+      "y": 894,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -382,15 +358,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 83,
+      "height": 60,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Texto",
+      "name": "Puntaje_Titulo",
+      "persistentUuid": "98954751-1c20-475d-ab5e-c68668478390",
+      "width": 156,
+      "x": 1574,
+      "y": 914,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.7225941422594143,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "Texto",
       "name": "Cantidad_de_Puntos",
       "persistentUuid": "0758f0c3-3459-44e4-9edd-0b4876bbaeb8",
-      "width": 90,
-      "x": 1641,
-      "y": 914,
-      "zOrder": 23,
+      "width": 150,
+      "x": 1577,
+      "y": 968,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -399,15 +392,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 48,
-      "height": 187,
+      "height": 142,
       "keepRatio": true,
-      "layer": "",
+      "layer": "BotonAyuda",
       "name": "Boton_Ayuda",
       "persistentUuid": "e35948ae-db0c-47fc-ba08-984dbaa6c14c",
-      "width": 197,
-      "x": 131,
-      "y": 863,
-      "zOrder": 24,
+      "width": 146,
+      "x": 165,
+      "y": 900,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -418,13 +411,13 @@
       "depth": 1,
       "height": 190,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Ayuda",
       "name": "Texto_de_Ayuda",
       "persistentUuid": "86642a84-7a58-43cc-8ac9-1a335dd7586d",
       "width": 822,
       "x": 542,
       "y": 1120,
-      "zOrder": 29,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -440,15 +433,32 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 427,
+      "height": 466,
       "keepRatio": true,
-      "layer": "",
+      "layer": "Ayuda",
       "name": "fondoayuda",
       "persistentUuid": "54f68177-6edc-48d1-9b60-3af7c54db887",
       "width": 836,
       "x": 532,
       "y": 1100,
-      "zOrder": 28,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 757,
+      "keepRatio": true,
+      "layer": "",
+      "name": "cuadroBanderas",
+      "persistentUuid": "687351a3-6cea-46f4-92b1-7369d2005295",
+      "width": 435,
+      "x": 45,
+      "y": 145,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -625,7 +635,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Alemana_(1935–1945).png",
+                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -645,16 +655,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1200,
+                        "x": 200,
                         "y": 0
                       },
                       {
-                        "x": 1200,
-                        "y": 720
+                        "x": 200,
+                        "y": 133
                       },
                       {
                         "x": 0,
-                        "y": 720
+                        "y": 133
                       }
                     ]
                   ]
@@ -679,7 +689,18 @@
       "width": 192,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -689,19 +710,31 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelInformacion.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -717,20 +750,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 34,
+                        "y": 48
                       },
                       {
-                        "x": 235,
-                        "y": 0
+                        "x": 1351,
+                        "y": 48
                       },
                       {
-                        "x": 235,
-                        "y": 405
+                        "x": 1351,
+                        "y": 2080
                       },
                       {
-                        "x": 0,
-                        "y": 405
+                        "x": 34,
+                        "y": 2080
                       }
                     ]
                   ]
@@ -751,52 +784,22 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "string": "Se localizan 21 volcanes;  13 están activos y 8 están inactivos o extintos. \nUbicado en el extremo norte de la Placa de Nazca, el archipiélago se mueve constantemente hacia el este.\nLas especies de tortugas gigantes son las residentes más famosas de las Islas Galápagos.",
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.",
       "font": "",
-      "textAlignment": "left",
-      "characterSize": 32,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": true,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Se localizan 21 volcanes;  13 están activos y 8 están inactivos o extintos. \nUbicado en el extremo norte de la Placa de Nazca, el archipiélago se mueve constantemente hacia el este.\nLas especies de tortugas gigantes son las residentes más famosas de las Islas Galápagos.",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 32,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Nombre_País",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "ECUADOR",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 46,
+      "textAlignment": "center",
+      "characterSize": 30,
       "color": {
         "b": 0,
         "g": 0,
@@ -816,10 +819,62 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "ECUADOR",
+        "text": "El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.",
         "font": "",
-        "textAlignment": "left",
-        "characterSize": 46,
+        "textAlignment": "center",
+        "characterSize": 30,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Nombre_País",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "ARRASTRA LA BANDERA CORRECTA",
+      "font": "assets\\Vanilla Cake Free.ttf",
+      "textAlignment": "center",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "ARRASTRA LA BANDERA CORRECTA",
+        "font": "assets\\Vanilla Cake Free.ttf",
+        "textAlignment": "center",
+        "characterSize": 45,
         "color": "0;0;0"
       }
     },
@@ -829,7 +884,18 @@
       "type": "TiledUnitsBar::TiledUnitsBar",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "UnitWidth": 90,
         "HideBackground": true,
@@ -866,19 +932,31 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelPuntaje.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -894,20 +972,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 35,
+                        "y": 48
                       },
                       {
-                        "x": 499,
-                        "y": 0
+                        "x": 1020,
+                        "y": 48
                       },
                       {
-                        "x": 499,
-                        "y": 266
+                        "x": 1020,
+                        "y": 513
                       },
                       {
-                        "x": 0,
-                        "y": 266
+                        "x": 35,
+                        "y": 513
                       }
                     ]
                   ]
@@ -928,10 +1006,21 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": "Puntos",
-      "font": "",
-      "textAlignment": "left",
+      "font": "assets\\Vanilla Cake Free.ttf",
+      "textAlignment": "center",
       "characterSize": 50,
       "color": {
         "b": 0,
@@ -953,8 +1042,8 @@
         "smoothed": true,
         "underlined": false,
         "text": "Puntos",
-        "font": "",
-        "textAlignment": "left",
+        "font": "assets\\Vanilla Cake Free.ttf",
+        "textAlignment": "center",
         "characterSize": 50,
         "color": "0;0;0"
       }
@@ -969,11 +1058,22 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": "0",
       "font": "",
-      "textAlignment": "left",
-      "characterSize": 75,
+      "textAlignment": "center",
+      "characterSize": 60,
       "color": {
         "b": 0,
         "g": 0,
@@ -995,159 +1095,105 @@
         "underlined": false,
         "text": "0",
         "font": "",
-        "textAlignment": "left",
-        "characterSize": 75,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "Boton_Ayuda",
-      "type": "PanelSpriteButton::PanelSpriteButton",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {},
-      "childrenContent": {
-        "Hovered": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\Juego\\Botones\\Boton_Ayuda.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Idle": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\Juego\\Botones\\Boton_Ayuda.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Pressed": {
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\Juego\\Botones\\Boton_Ayuda.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 32
-        }
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": true,
-      "italic": false,
-      "name": "Texto_de_Ayuda",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "string": "La pista es:\nEl encebollado es originario de este pais.",
-      "font": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
-      "textAlignment": "center",
-      "characterSize": 90,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "La pista es:\nEl encebollado es originario de este pais.",
-        "font": "e7262cd3e76593f3d9c9c411a3fb89993c9e61fcf50889a383a2309260eae108_FrederickatheGreat-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 90,
+        "characterSize": 60,
         "color": "0;0;0"
       }
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "fondoayuda",
+      "name": "cuadroBanderas",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35,
+                        "y": 48
+                      },
+                      {
+                        "x": 1132,
+                        "y": 48
+                      },
+                      {
+                        "x": 1132,
+                        "y": 2467
+                      },
+                      {
+                        "x": 35,
+                        "y": 2467
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite20",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1167,16 +1213,16 @@
                         "y": 0
                       },
                       {
-                        "x": 235,
+                        "x": 64,
                         "y": 0
                       },
                       {
-                        "x": 235,
-                        "y": 405
+                        "x": 64,
+                        "y": 64
                       },
                       {
                         "x": 0,
-                        "y": 405
+                        "y": 64
                       }
                     ]
                   ]
@@ -1225,13 +1271,13 @@
         "objectName": "Cantidad_de_Puntos"
       },
       {
-        "objectName": "Boton_Ayuda"
+        "objectName": "cuadroBanderas"
       },
       {
-        "objectName": "Texto_de_Ayuda"
+        "objectName": "NewSprite"
       },
       {
-        "objectName": "fondoayuda"
+        "objectName": "NewSprite2"
       }
     ]
   },
@@ -1311,6 +1357,91 @@
             "=",
             "ToString(GlobalVariable(puntajeDeNivel))"
           ]
+        },
+        {
+          "type": {
+            "value": "SetAdaptGameResolutionAtRuntime"
+          },
+          "parameters": [
+            "",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "ecuadorCompletado",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Socalo_Información",
+            "Opacity",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Puntaje",
+            "Opacity",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Socalo_Mapa",
+            "Opacity",
+            "=",
+            "255"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Socalo_Nombre_Pais",
+            "Opacity",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "cuadroBanderas",
+            "Opacity",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Socalo_Vidas",
+            "Opacity",
+            "=",
+            "200"
+          ]
         }
       ]
     },
@@ -1327,7 +1458,6 @@
       "comment": "MecanicasDeLaBandera"
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -1355,93 +1485,108 @@
               ]
             }
           ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "DraggableBehavior::Dropped"
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dropped"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Arrastrable"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Socalo_Paises",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Socalo_Bandera_Pais",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "bandera1",
-                    "Arrastrable"
+                    "bandera1Lista",
+                    "True"
                   ]
                 },
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Socalo_Paises",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
                     "bandera1",
+                    "Tween",
+                    "\"sitioCorrecto1\"",
+                    "socalo.X() - 150",
+                    "socalo.Y()",
+                    "\"swingTo\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
                     "Socalo_Paises",
-                    "",
-                    "",
-                    "no"
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Arrastrable",
+                    ""
                   ]
                 }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "bandera1Lista",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeSprite"
-              },
-              "parameters": [
-                "Socalo_Paises",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"sitioCorrecto1\"",
-                "socalo.X() - 150",
-                "socalo.Y()",
-                "\"swingTo\"",
-                "0.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-              },
-              "parameters": [
-                "Socalo_Paises",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "bandera1",
-                "Arrastrable",
-                ""
               ]
             }
           ]
@@ -1511,8 +1656,8 @@
                 "bandera1",
                 "Tween",
                 "\"Bandera1SitioErroneo\"",
-                "120",
-                "90",
+                "115",
+                "100",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
@@ -1614,6 +1759,19 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "Socalo_Paises",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -1675,348 +1833,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "Boton_Ayuda",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "ayudaUsada",
-                "False",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-          },
-          "parameters": [
-            "fondoayuda",
-            "Tween",
-            "\"ayudaActivadoFondo\"",
-            "532",
-            "256",
-            "\"easeInOutBack\"",
-            "1.5",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-          },
-          "parameters": [
-            "Texto_de_Ayuda",
-            "Tween",
-            "\"ayudaActivadoLabel\"",
-            "532",
-            "276",
-            "\"easeInOutBack\"",
-            "1.5",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera1",
-            "Arrastrable",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera2",
-            "Arrastrable",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera3",
-            "Arrastrable",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "ayudaUsada",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "puntajeDeNivel",
-            "-",
-            "5"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Cantidad_de_Puntos",
-            "Text",
-            "=",
-            "ToString(GlobalVariable(puntajeDeNivel))"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "4"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-          },
-          "parameters": [
-            "fondoayuda",
-            "Tween",
-            "\"ayudaActivadoFondo2\"",
-            "532",
-            "1100",
-            "\"easeInOutBack\"",
-            "1.5",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-          },
-          "parameters": [
-            "Texto_de_Ayuda",
-            "Tween",
-            "\"ayudaActivadoLabel2\"",
-            "532",
-            "1120",
-            "\"easeInOutBack\"",
-            "1.5",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Tween::HasFinished"
-          },
-          "parameters": [
-            "Texto_de_Ayuda",
-            "Tween",
-            "\"ayudaActivadoLabel2\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera1",
-            "Arrastrable",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera2",
-            "Arrastrable",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera3",
-            "Arrastrable",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"ayudaActivadoFondo\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"ayudaActivadoLabel\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"ayudaActivadoFondo2\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"ayudaActivadoLabel2\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bandera1",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-          },
-          "parameters": [
-            "bandera1",
-            "Tween",
-            "\"SobreBandera1\"",
-            "0.1",
-            "\"elastic\"",
-            "1.5",
-            "",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"NoSobreBandera1\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bandera1",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-          },
-          "parameters": [
-            "bandera1",
-            "Tween",
-            "\"NoSobreBandera1\"",
-            "0.08",
-            "\"elastic\"",
-            "1.5",
-            "",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"SobreBandera1\""
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -2056,74 +1872,89 @@
               ]
             }
           ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
-                    "value": "DraggableBehavior::Dropped"
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dropped"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Arrastrable"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Socalo_Bandera_Pais",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Socalo_Paises",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
                   },
                   "parameters": [
-                    "bandera2",
-                    "Arrastrable"
+                    "bandera2Lista",
+                    "True"
                   ]
                 },
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
                     "bandera2",
-                    "Socalo_Bandera_Pais",
-                    "",
-                    "",
+                    "Tween",
+                    "\"sitioCorrecto2\"",
+                    "Socalo_Bandera_Pais.X() + 50",
+                    "Socalo_Bandera_Pais.Y() + 10",
+                    "\"swingTo\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Arrastrable",
                     ""
                   ]
                 }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "bandera2Lista",
-                "True"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"sitioCorrecto2\"",
-                "Socalo_Bandera_Pais.X() + 50",
-                "Socalo_Bandera_Pais.Y() + 10",
-                "\"swingTo\"",
-                "0.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "bandera2",
-                "Arrastrable",
-                ""
               ]
             }
           ]
@@ -2193,8 +2024,8 @@
                 "bandera2",
                 "Tween",
                 "\"Bandera2SitioErroneo\"",
-                "125",
-                "350",
+                "115",
+                "370",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
@@ -2296,6 +2127,19 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "Socalo_Bandera_Pais",
+                    "",
+                    "",
+                    ""
+                  ]
                 }
               ]
             },
@@ -2352,103 +2196,6 @@
                 "ToString(GlobalVariable(puntajeDeNivel))"
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bandera2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-          },
-          "parameters": [
-            "bandera2",
-            "Tween",
-            "\"SobreBandera2\"",
-            "0.23",
-            "\"elastic\"",
-            "1.5",
-            "",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"NoSobreBandera2\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bandera2",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-          },
-          "parameters": [
-            "bandera2",
-            "Tween",
-            "\"NoSobreBandera2\"",
-            "0.2",
-            "\"elastic\"",
-            "1.5",
-            "",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"SobreBandera2\""
           ]
         }
       ]
@@ -2611,8 +2358,8 @@
                 "bandera3",
                 "Tween",
                 "\"Bandera3SitioErroneo\"",
-                "120",
-                "630",
+                "115",
+                "640",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
@@ -2683,103 +2430,6 @@
                 "\"linear\""
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bandera3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-          },
-          "parameters": [
-            "bandera3",
-            "Tween",
-            "\"SobreBandera3\"",
-            "0.25",
-            "\"elastic\"",
-            "1.5",
-            "",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"NoSobreBandera3\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "bandera3",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
-          },
-          "parameters": [
-            "bandera3",
-            "Tween",
-            "\"NoSobreBandera2\"",
-            "0.2",
-            "\"elastic\"",
-            "1.5",
-            "",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::RemoveSceneTween"
-          },
-          "parameters": [
-            "",
-            "\"SobreBandera3\""
           ]
         }
       ]
@@ -2880,11 +2530,12 @@
         },
         {
           "type": {
-            "value": "SetSceneVariableAsBoolean"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "completado",
-            "True"
+            "ecuadorCompletado",
+            "True",
+            ""
           ]
         },
         {
@@ -2906,7 +2557,7 @@
             "value": "BooleanVariable"
           },
           "parameters": [
-            "completado",
+            "ecuadorCompletado",
             "True",
             ""
           ]
@@ -2965,39 +2616,6 @@
     }
   ],
   "layers": [
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "atras",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
     {
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
@@ -3074,9 +2692,145 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Socalos",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Texto",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Objetos",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Ayuda",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
