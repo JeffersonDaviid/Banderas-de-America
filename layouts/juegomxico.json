@@ -1668,6 +1668,14 @@
           "parameters": [
             "Informacion"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Socalo_Información"
+          ]
         }
       ]
     },
@@ -2806,6 +2814,15 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Socalo_Información",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Montre"
