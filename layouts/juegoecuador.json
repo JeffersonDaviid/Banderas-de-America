@@ -52,6 +52,30 @@
       "name": "ayudaUsada",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "bPosiciónX",
+      "type": "number",
+      "value": 117
+    },
+    {
+      "folded": true,
+      "name": "bPosiciónY1",
+      "type": "number",
+      "value": 225
+    },
+    {
+      "folded": true,
+      "name": "bPosiciónY2",
+      "type": "number",
+      "value": 427
+    },
+    {
+      "folded": true,
+      "name": "bPosiciónY3",
+      "type": "number",
+      "value": 660
     }
   ],
   "instances": [
@@ -1399,13 +1423,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 3,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 3,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1955,8 +1979,8 @@
                 "bandera1",
                 "Tween",
                 "\"Bandera1SitioErroneo\"",
-                "117",
-                "225",
+                "bPosiciónX",
+                "bPosiciónY1",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
@@ -2331,8 +2355,8 @@
                 "bandera2",
                 "Tween",
                 "\"Bandera2SitioErroneo\"",
-                "117",
-                "441",
+                "bPosiciónX",
+                "bPosiciónY2",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
@@ -2665,8 +2689,8 @@
                 "bandera3",
                 "Tween",
                 "\"Bandera3SitioErroneo\"",
-                "117",
-                "660",
+                "bPosiciónX",
+                "bPosiciónY3",
                 "\"easeInOutQuad\"",
                 "0.5",
                 ""
