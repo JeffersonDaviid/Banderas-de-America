@@ -2391,6 +2391,51 @@
         "metadata": "",
         "name": "assets\\Vanilla Cake Free.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/México/Mexico1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\México\\Mexico1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/México/Mexico2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\México\\Mexico2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/México/Bandera_CDMX.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\México\\Bandera_CDMX.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/México/Bandera_México.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\México\\Bandera_México.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/México/Bandera_Butan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\México\\Bandera_Butan.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2458,113 +2503,6 @@
                       {
                         "x": 0,
                         "y": 266
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Socalo_Paises",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1.2,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 143
-                      },
-                      {
-                        "x": 0,
-                        "y": 143
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 143
-                      },
-                      {
-                        "x": 0,
-                        "y": 143
                       }
                     ]
                   ]
@@ -2966,9 +2904,6 @@
         "objectName": "Socalo_Banderas"
       },
       {
-        "objectName": "Socalo_Paises"
-      },
-      {
         "objectName": "Socalo_Vidas"
       },
       {
@@ -3123,7 +3058,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/juego"
+      "referenceTo": "/layouts/juegoecuador"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegomxico"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juego",
-  "name": "juego",
+  "mangledName": "juegoEcuador",
+  "name": "juegoEcuador",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -241,23 +241,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 304,
-      "keepRatio": true,
-      "layer": "Objetos",
-      "name": "Socalo_Paises",
-      "persistentUuid": "5ca7b3b0-7845-4814-ba71-7bf7ac47739b",
-      "width": 738,
-      "x": 577,
-      "y": 368,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 757,
       "layer": "Socalos",
       "name": "Socalo_Información",
@@ -468,7 +451,7 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "Texto",
+      "layer": "Ayuda",
       "name": "País",
       "persistentUuid": "75b606a8-20b9-4dd4-a8f6-370528c58006",
       "width": 0,
@@ -491,6 +474,22 @@
       "x": 680,
       "y": 882,
       "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.9879503105590062,
+      "height": 304,
+      "layer": "Texto",
+      "name": "Mapa",
+      "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
+      "width": 737.9988819875775,
+      "x": 577,
+      "y": 368,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1348,6 +1347,154 @@
         "characterSize": 40,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mapa",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 316,
+                        "y": 0
+                      },
+                      {
+                        "x": 316,
+                        "y": 143
+                      },
+                      {
+                        "x": 0,
+                        "y": 143
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 316,
+                        "y": 0
+                      },
+                      {
+                        "x": 316,
+                        "y": 143
+                      },
+                      {
+                        "x": 0,
+                        "y": 143
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1400,6 +1547,12 @@
       },
       {
         "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "Mapa"
       }
     ]
   },
@@ -1422,7 +1575,7 @@
             "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
           },
           "parameters": [
-            "Socalo_Paises",
+            "Mapa",
             "Animation"
           ]
         },
@@ -1596,7 +1749,7 @@
           },
           "parameters": [
             "",
-            "\"juego\""
+            "\"juegoEcuador\""
           ]
         }
       ],
@@ -1641,7 +1794,7 @@
                       },
                       "parameters": [
                         "bandera1",
-                        "Socalo_Paises",
+                        "Mapa",
                         "",
                         "",
                         "no"
@@ -1678,7 +1831,7 @@
                     "value": "ChangeSprite"
                   },
                   "parameters": [
-                    "Socalo_Paises",
+                    "Mapa",
                     "=",
                     "1"
                   ]
@@ -1703,7 +1856,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
                   },
                   "parameters": [
-                    "Socalo_Paises",
+                    "Mapa",
                     "Animation"
                   ]
                 },
@@ -1905,7 +2058,7 @@
                   },
                   "parameters": [
                     "bandera1",
-                    "Socalo_Paises",
+                    "Mapa",
                     "",
                     "",
                     ""
@@ -1991,7 +2144,7 @@
           },
           "parameters": [
             "",
-            "\"juego\""
+            "\"juegoEcuador\""
           ]
         }
       ],
@@ -2049,7 +2202,7 @@
                       },
                       "parameters": [
                         "bandera2",
-                        "Socalo_Paises",
+                        "Mapa",
                         "",
                         "",
                         ""
@@ -2268,7 +2421,7 @@
                   },
                   "parameters": [
                     "bandera2",
-                    "Socalo_Paises",
+                    "Mapa",
                     "",
                     "",
                     ""
@@ -2367,7 +2520,7 @@
           },
           "parameters": [
             "",
-            "\"juego\""
+            "\"juegoEcuador\""
           ]
         }
       ],
@@ -2403,7 +2556,7 @@
                       },
                       "parameters": [
                         "bandera3",
-                        "Socalo_Paises",
+                        "Mapa",
                         "",
                         "",
                         ""
