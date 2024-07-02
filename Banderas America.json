@@ -2274,6 +2274,16 @@
         "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "overButton.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "overButton.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2989,6 +2999,12 @@
       "name": "venezuelaCompletado",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "zoomCamara",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
