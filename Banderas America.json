@@ -2391,6 +2391,16 @@
         "metadata": "",
         "name": "assets\\Vanilla Cake Free.ttf",
         "userAdded": true
+      },
+      {
+        "file": "overButton.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "overButton.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

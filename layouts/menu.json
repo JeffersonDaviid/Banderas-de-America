@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2912258866911129,
+    "zoomFactor": 0.44819780454103836,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -51,8 +51,8 @@
       "name": "LogoBanderasDeAmerica",
       "persistentUuid": "d32477a1-9f1a-4c10-b0f2-22b5198a3e8d",
       "width": 1650,
-      "x": 141,
-      "y": 204,
+      "x": 135,
+      "y": -500,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -69,7 +69,7 @@
       "persistentUuid": "6febaae6-6c30-4bfa-bb32-2a2642d3e538",
       "width": 400,
       "x": 450,
-      "y": 775,
+      "y": 1080,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,8 +85,8 @@
       "name": "BotonSalir",
       "persistentUuid": "0d87657f-dc40-4c27-91f2-7369c7ff2e6e",
       "width": 400,
-      "x": 1065,
-      "y": 775,
+      "x": 1070,
+      "y": 1080,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -102,7 +102,7 @@
       "name": "BotonCreditos",
       "persistentUuid": "0b3f2155-5875-4d5a-95b2-f64af21abf69",
       "width": 200,
-      "x": 1650,
+      "x": 1920,
       "y": 80,
       "zOrder": 3,
       "numberProperties": [],
@@ -194,12 +194,16 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 0,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "rightEdgeAnchor": 2,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 0,
           "topEdgeAnchor": 1,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -265,12 +269,16 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 0,
-          "relativeToOriginalWindowSize": true,
+          "leftEdgeAnchor": 1,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
+          "bottomEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -384,12 +392,16 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 2,
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -509,6 +521,10 @@
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -637,183 +653,6 @@
       "conditions": [
         {
           "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "BotonPlay",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "BotonPlay",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "BotonPlay",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "BotonPlay",
-            "Animation",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "BotonCreditos",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "BotonCreditos",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "BotonCreditos",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "BotonCreditos",
-            "Animation",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "BotonSalir",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "BotonSalir",
-            "Animation",
-            "=",
-            "1"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "BotonSalir",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-          },
-          "parameters": [
-            "BotonSalir",
-            "Animation",
-            "=",
-            "0"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "DepartScene"
           },
           "parameters": [
@@ -824,15 +663,408 @@
       "actions": [
         {
           "type": {
-            "value": "PlayMusicCanal"
+            "value": "PlayMusic"
           },
           "parameters": [
             "",
             "assets\\Menu\\SFX\\Soundtrack-Menu.wav",
-            "1",
-            "yes",
+            "",
             "50",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "LogoBanderasDeAmerica",
+            "Tween",
+            "\"movimiento\"",
+            "135",
+            "200",
+            "\"bounce\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "BotonPlay",
+            "Tween",
+            "\"movimiento\"",
+            "450",
+            "775",
+            "\"swingFromTo\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "BotonSalir",
+            "Tween",
+            "\"movimiento\"",
+            "1070",
+            "775",
+            "\"easeFromTo\"",
+            "2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+          },
+          "parameters": [
+            "BotonCreditos",
+            "Tween",
+            "\"movimiento\"",
+            "1650",
+            "80",
+            "\"bounce\"",
+            "2",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "LogoBanderasDeAmerica",
+                "Tween",
+                "\"movimiento\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "BotonPlay",
+                "Tween",
+                "\"movimiento\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "BotonSalir",
+                "Tween",
+                "\"movimiento\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "BotonCreditos",
+                "Tween",
+                "\"movimiento\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "LogoBanderasDeAmerica",
+            "=",
+            "135",
+            "=",
+            "200"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "BotonPlay",
+            "=",
+            "450",
+            "=",
+            "775"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "BotonSalir",
+            "=",
+            "1070",
+            "=",
+            "775"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "BotonCreditos",
+            "=",
+            "1650",
+            "=",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonPlay",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BotonPlay",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "overButton.wav",
+            "",
+            "25",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonPlay",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BotonPlay",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonCreditos",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BotonCreditos",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "overButton.wav",
+            "",
+            "25",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonCreditos",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BotonCreditos",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonSalir",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BotonSalir",
+            "Animation",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "overButton.wav",
+            "",
+            "25",
+            "-1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BotonSalir",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BotonSalir",
+            "Animation",
+            "=",
+            "0"
           ]
         }
       ]
@@ -920,7 +1152,7 @@
             "assets\\Menu\\SFX\\ClickButtons.wav",
             "no",
             "50",
-            "1"
+            "-1"
           ]
         },
         {
@@ -1094,6 +1326,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
