@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "e04b6f10-dd3d-4876-9d45-1460802cbacf",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptHeight",
+    "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.2",
@@ -633,7 +633,7 @@
         "alwaysLoaded": false,
         "file": "assets/Juego/Fondos/General/Soporte_Mapa.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/General/Soporte_Mapa.png\",\"extension\":\".png\"}",
         "name": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
         "smoothed": true,
         "userAdded": true
@@ -642,7 +642,7 @@
         "alwaysLoaded": false,
         "file": "assets/Juego/Fondos/Banderas/Soporte_Bandera.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/Soporte_Bandera.png\",\"extension\":\".png\"}",
         "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
         "smoothed": true,
         "userAdded": true
@@ -714,7 +714,7 @@
         "alwaysLoaded": false,
         "file": "assets/Juego/Fondos/Informacion/Soporte_Info.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Informacion/Soporte_Info.png\",\"extension\":\".png\"}",
         "name": "assets\\Juego\\Fondos\\Informacion\\Soporte_Info.png",
         "smoothed": true,
         "userAdded": true
@@ -1494,6 +1494,152 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "../../../Users/Mateo Narvaez/Downloads/FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Users\\Mateo Narvaez\\Downloads\\FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Recurso 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Recurso 26.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Recurso 20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Recurso 20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/epn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\epn.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/fis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\fis.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/igm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\igm.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "creditos.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "creditos.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Creditos/creditos.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Creditos\\creditos.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntajeSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/returnSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/Black Decorated Button_Hovered.png",
         "kind": "image",
         "metadata": "",
@@ -1792,25 +1938,6 @@
         "userAdded": true
       },
       {
-        "file": "assets/GameOver/SFX/Soundtrack-GameOver.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "assets\\GameOver\\SFX\\Soundtrack-GameOver.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "GAME-OVER.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "GAME-OVER.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "FONDO.png",
         "kind": "image",
@@ -1821,48 +1948,210 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "logoGO.png",
+        "file": "Recurso 17.png",
         "kind": "image",
         "metadata": "",
-        "name": "logoGO.png",
+        "name": "Recurso 17.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "logoGO2.png",
+        "file": "Recurso 23.png",
         "kind": "image",
         "metadata": "",
-        "name": "logoGO2.png",
+        "name": "Recurso 23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Logo-JUEGO-BANDERAS-F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Logo-JUEGO-BANDERAS-F.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/GameOver/logoGO.png",
+        "file": "Recurso18.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\GameOver\\logoGO.png",
+        "name": "Recurso18.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "../../../Users/Mateo Narvaez/Downloads/FONDO.png",
+        "file": "Recurso24.png",
         "kind": "image",
         "metadata": "",
-        "name": "..\\..\\..\\Users\\Mateo Narvaez\\Downloads\\FONDO.png",
+        "name": "Recurso24.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "FONDO.png",
+        "file": "Recurso19.png",
         "kind": "image",
         "metadata": "",
-        "name": "FONDO.png",
+        "name": "Recurso19.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "C:/Users/KealPetu/Downloads/BOTONES[1]/BOTONES/1x/Recurso 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "C:\\Users\\KealPetu\\Downloads\\BOTONES[1]\\BOTONES\\1x\\Recurso 18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/creditos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\creditos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/creditosSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\creditosSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/Logo-JUEGO-BANDERAS-F.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\Logo-JUEGO-BANDERAS-F.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/FONDO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\FONDO.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\play.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/playSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\playSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/salir.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\salir.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu/salirSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu\\salirSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 27.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Recurso 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Recurso 26.png",
+        "smoothed": true,
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1890,6 +2179,218 @@
         "name": "assets\\GameOver\\tryAgainSelect.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Menu-Seleccion_InterfazDeUsuario_Explorador.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\Explorador",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/personaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\personaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\return.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/returnSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\returnSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/puntaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\puntaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/puntajeSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\puntajeSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/returnSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntajeSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuador1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuuador2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Francia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Juego_Fondos_Banderas_Soporte_Bandera.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/socaloNombrePais.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "socaloNombrePais",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelBanderas.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelBanderas.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelInferior.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelVidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelPuntaje.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelPuntaje.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelPuntaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelInformacion.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelInformacion.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInformacion.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Vanilla Cake Free.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Vanilla Cake Free.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Vanilla Cake Free.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Vanilla Cake Free.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1903,7 +2404,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "topEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "socaloDePaíses",
@@ -1915,8 +2427,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Juego\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1964,7 +2476,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1976,7 +2499,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Base.png",
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1993,26 +2516,26 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 1
+                        "x": 316,
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 979
+                        "x": 316,
+                        "y": 143
                       },
                       {
                         "x": 0,
-                        "y": 979
+                        "y": 143
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador_MP_Logro.png",
+                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2029,19 +2552,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 1
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 1
+                        "x": 316,
+                        "y": 0
                       },
                       {
-                        "x": 980,
-                        "y": 979
+                        "x": 316,
+                        "y": 143
                       },
                       {
                         "x": 0,
-                        "y": 979
+                        "y": 143
                       }
                     ]
                   ]
@@ -2123,6 +2646,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
           "name": "Health",
           "type": "Health::Health",
           "Health": 3,
@@ -2163,7 +2696,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Salud.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2179,20 +2712,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 34,
+                        "y": 48
                       },
                       {
-                        "x": 474,
-                        "y": 0
+                        "x": 1141,
+                        "y": 48
                       },
                       {
-                        "x": 474,
-                        "y": 140
+                        "x": 1141,
+                        "y": 412
                       },
                       {
-                        "x": 0,
-                        "y": 140
+                        "x": 34,
+                        "y": 412
                       }
                     ]
                   ]
@@ -2211,7 +2744,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "socaloNombrePais",
@@ -2223,8 +2767,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Bandera_Selec.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Juego\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2272,7 +2816,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "Socalo_Mapa",
@@ -2301,20 +2856,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 13,
+                        "y": 20
                       },
                       {
-                        "x": 1300,
-                        "y": 0
+                        "x": 1398,
+                        "y": 20
                       },
                       {
-                        "x": 1300,
-                        "y": 961
+                        "x": 1398,
+                        "y": 1171
                       },
                       {
-                        "x": 0,
-                        "y": 961
+                        "x": 13,
+                        "y": 1171
                       }
                     ]
                   ]
@@ -2333,7 +2888,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "socaloNombrePais",
@@ -2346,7 +2912,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Informacion\\Soporte_Nom_Pais.png",
+                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2362,20 +2928,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 35,
+                        "y": 49
                       },
                       {
-                        "x": 906,
-                        "y": 0
+                        "x": 3084,
+                        "y": 49
                       },
                       {
-                        "x": 906,
-                        "y": 163
+                        "x": 3084,
+                        "y": 412
                       },
                       {
-                        "x": 0,
-                        "y": 163
+                        "x": 35,
+                        "y": 412
                       }
                     ]
                   ]
@@ -2417,15 +2983,129 @@
   "variables": [
     {
       "folded": true,
-      "name": "tamañoDeSeguimientoDelMouse",
-      "type": "number",
-      "value": 2
+      "name": "argentinaCompletado",
+      "type": "boolean",
+      "value": false
     },
     {
       "folded": true,
-      "name": "numeroDeVidas",
-      "type": "number",
-      "value": 0
+      "name": "boliviaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "beliceCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "brasilCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "chileCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "colombiaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "costaRicaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "ecuadorCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "eeuuCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "elSalvadorCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "guatemalaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "haitiCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "hondurasCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "mexicoCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "nicaraguaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "panamaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "paraguayCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "peruCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "republicaDominicanaCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "uruguayCompletado",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "venezuelaCompletado",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -2452,10 +3132,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/creditos"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/creditos-2"
     }
   ],
   "externalEvents": [

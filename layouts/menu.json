@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2725359896772945,
+    "zoomFactor": 0.2912258866911129,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,12 +28,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 0.9831889964340295,
-      "height": 1090,
+      "height": 1080,
       "keepRatio": true,
       "layer": "",
       "name": "Portada",
       "persistentUuid": "0237edab-a33a-4020-a383-06a49eccc304",
-      "width": 1930,
+      "width": 1920,
       "x": 0,
       "y": 0,
       "zOrder": 0,
@@ -44,16 +44,33 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 190,
+      "depth": 0,
+      "height": 531.8738229755181,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
+      "name": "LogoBanderasDeAmerica",
+      "persistentUuid": "d32477a1-9f1a-4c10-b0f2-22b5198a3e8d",
+      "width": 1650,
+      "x": 141,
+      "y": 204,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0.7999999999999999,
+      "height": 194.40000000000003,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
       "name": "BotonPlay",
-      "persistentUuid": "fa4fe508-f090-46b8-a62d-bb968152a52a",
-      "width": 544,
-      "x": 635,
-      "y": 480,
-      "zOrder": 2,
+      "persistentUuid": "6febaae6-6c30-4bfa-bb32-2a2642d3e538",
+      "width": 400,
+      "x": 450,
+      "y": 775,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -61,33 +78,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 159,
+      "depth": 0,
+      "height": 200,
       "keepRatio": true,
-      "layer": "",
-      "name": "BotonCreditos",
-      "persistentUuid": "cb134b88-c5d3-49d4-bc00-799bc8685849",
-      "width": 355,
-      "x": 84,
-      "y": 832,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 161,
-      "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "BotonSalir",
-      "persistentUuid": "852d552a-c572-40ec-892b-f4cf446179a2",
-      "width": 355,
-      "x": 1491,
-      "y": 830,
-      "zOrder": 4,
+      "persistentUuid": "0d87657f-dc40-4c27-91f2-7369c7ff2e6e",
+      "width": 400,
+      "x": 1065,
+      "y": 775,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -95,63 +95,22 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 95,
+      "depth": 0,
+      "height": 100,
       "keepRatio": true,
-      "layer": "",
-      "name": "TituloJuego",
-      "persistentUuid": "abf6e539-3a85-4797-9457-b1347b960ad8",
-      "width": 999,
-      "x": 427,
-      "y": 243,
-      "zOrder": 5,
+      "layer": "InterfazDeUsuario",
+      "name": "BotonCreditos",
+      "persistentUuid": "0b3f2155-5875-4d5a-95b2-f64af21abf69",
+      "width": 200,
+      "x": 1650,
+      "y": 80,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "MENU",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 100,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "MENU",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 100,
-        "color": "0;0;0"
-      }
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -160,20 +119,30 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
-          "name": "assets\\Menu\\socket",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\Portada.png",
+                  "image": "assets\\Menu\\FONDO.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -189,20 +158,91 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1980,
+                        "y": 0
+                      },
+                      {
+                        "x": 1980,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "LogoBanderasDeAmerica",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Menu\\Logo-JUEGO-BANDERAS-F.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
                         "y": 1
                       },
                       {
-                        "x": 1331,
+                        "x": 3154,
                         "y": 1
                       },
                       {
-                        "x": 1331,
-                        "y": 731
+                        "x": 3154,
+                        "y": 998
                       },
                       {
-                        "x": 1,
-                        "y": 731
+                        "x": 0,
+                        "y": 998
                       }
                     ]
                   ]
@@ -221,117 +261,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "animations": [
+      "behaviors": [
         {
-          "name": "assets\\Menu\\Botón_Play",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\Botón_Play.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 1
-                      },
-                      {
-                        "x": 695,
-                        "y": 1
-                      },
-                      {
-                        "x": 695,
-                        "y": 235
-                      },
-                      {
-                        "x": 7,
-                        "y": 235
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "assets\\Menu\\Botón PlaySegundo",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\Botón PlaySegundo.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 7,
-                        "y": 1
-                      },
-                      {
-                        "x": 695,
-                        "y": 1
-                      },
-                      {
-                        "x": 695,
-                        "y": 235
-                      },
-                      {
-                        "x": 7,
-                        "y": 235
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
         }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BotonCreditos",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
+      ],
       "animations": [
         {
           "name": "",
@@ -343,7 +284,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\BotónCréditos.png",
+                  "image": "assets\\Menu\\play.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -359,20 +300,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 2
+                        "x": 9,
+                        "y": 5
                       },
                       {
-                        "x": 247,
-                        "y": 2
+                        "x": 1015,
+                        "y": 5
                       },
                       {
-                        "x": 247,
-                        "y": 103
+                        "x": 1015,
+                        "y": 489
                       },
                       {
-                        "x": 4,
-                        "y": 103
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -391,7 +332,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\BotónCréditosSegundo.png",
+                  "image": "assets\\Menu\\playSelect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -407,20 +348,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
-                        "y": 2
+                        "x": 9,
+                        "y": 5
                       },
                       {
-                        "x": 247,
-                        "y": 2
+                        "x": 1015,
+                        "y": 5
                       },
                       {
-                        "x": 247,
-                        "y": 103
+                        "x": 1015,
+                        "y": 489
                       },
                       {
-                        "x": 4,
-                        "y": 103
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -439,7 +380,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -451,7 +403,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\BotonSalir.png",
+                  "image": "assets\\Menu\\salir.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -467,20 +419,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 2
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 214,
-                        "y": 2
+                        "x": 1015,
+                        "y": 4
                       },
                       {
-                        "x": 214,
-                        "y": 89
+                        "x": 1015,
+                        "y": 489
                       },
                       {
-                        "x": 3,
-                        "y": 89
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -490,17 +442,16 @@
           ]
         },
         {
-          "name": "assets\\Menu\\BotonSalirSegundo",
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\BotonSalirSegundo.png",
+                  "image": "assets\\Menu\\salirSelect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -516,20 +467,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 2
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 214,
-                        "y": 2
+                        "x": 1015,
+                        "y": 4
                       },
                       {
-                        "x": 214,
-                        "y": 89
+                        "x": 1015,
+                        "y": 489
                       },
                       {
-                        "x": 3,
-                        "y": 89
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -543,12 +494,23 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "TituloJuego",
+      "name": "BotonCreditos",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -560,7 +522,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu\\TextoDescubriendoAmerica.png",
+                  "image": "assets\\Menu\\creditos.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -576,20 +538,68 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 9,
+                        "y": 5
                       },
                       {
-                        "x": 797,
-                        "y": 1
+                        "x": 1015,
+                        "y": 5
                       },
                       {
-                        "x": 797,
-                        "y": 65
+                        "x": 1015,
+                        "y": 489
                       },
                       {
-                        "x": 1,
-                        "y": 65
+                        "x": 9,
+                        "y": 489
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Menu\\creditosSelect.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 5
+                      },
+                      {
+                        "x": 1015,
+                        "y": 5
+                      },
+                      {
+                        "x": 1015,
+                        "y": 489
+                      },
+                      {
+                        "x": 9,
+                        "y": 489
                       }
                     ]
                   ]
@@ -605,22 +615,19 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewText"
+        "objectName": "Portada"
       },
       {
-        "objectName": "Portada"
+        "objectName": "LogoBanderasDeAmerica"
       },
       {
         "objectName": "BotonPlay"
       },
       {
-        "objectName": "BotonCreditos"
-      },
-      {
         "objectName": "BotonSalir"
       },
       {
-        "objectName": "TituloJuego"
+        "objectName": "BotonCreditos"
       }
     ]
   },
@@ -824,7 +831,7 @@
             "assets\\Menu\\SFX\\Soundtrack-Menu.wav",
             "1",
             "yes",
-            "100",
+            "50",
             "1"
           ]
         }
@@ -835,52 +842,6 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
-            "value": "SourisSurObjet"
-          },
-          "parameters": [
-            "BotonPlay",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"juego\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
-        {
-          "type": {
             "value": "SourisSurObjet"
           },
           "parameters": [
@@ -888,6 +849,15 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
           ]
         }
       ],
@@ -901,21 +871,24 @@
             "\"creditos\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Menu\\SFX\\ClickButtons.wav",
+            "no",
+            "50",
+            "1"
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
-        {
-          "type": {
-            "value": "MouseButtonPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        },
         {
           "type": {
             "value": "SourisSurObjet"
@@ -926,24 +899,7 @@
             "",
             ""
           ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"game over\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+        },
         {
           "type": {
             "value": "MouseButtonPressed"
@@ -965,6 +921,14 @@
             "no",
             "50",
             "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
           ]
         }
       ]
@@ -1002,6 +966,18 @@
             "",
             "\"Menu seleccion\"",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets\\Menu\\SFX\\ClickButtons.wav",
+            "no",
+            "50",
+            "1"
           ]
         }
       ]
@@ -1051,9 +1027,46 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "InterfazDeUsuario",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
@@ -1081,10 +1094,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
