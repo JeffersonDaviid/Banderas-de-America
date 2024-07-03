@@ -1582,981 +1582,1420 @@
   },
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-          },
-          "parameters": [
-            "Mapa",
-            "Animation"
-          ]
-        },
-        {
-          "type": {
-            "value": "Health::Health::SetMaxHealthOp"
-          },
-          "parameters": [
-            "Socalo_Vidas",
-            "Health",
-            "=",
-            "3",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "numeroDeVidas",
-            "=",
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
-          },
-          "parameters": [
-            "FlatHeartBar",
-            "=",
-            "Socalo_Vidas.Health::Health()",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "puntajeDeNivel",
-            "=",
-            "250"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "Cantidad_de_Puntos",
-            "Text",
-            "=",
-            "ToString(GlobalVariable(puntajeDeNivel))"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetAdaptGameResolutionAtRuntime"
-          },
-          "parameters": [
-            "",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "ecuadorCompletado",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Socalo_Información",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Puntaje",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Socalo_Mapa",
-            "Opacity",
-            "=",
-            "255"
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Socalo_Nombre_Pais",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "cuadroBanderas",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        },
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Socalo_Vidas",
-            "Opacity",
-            "=",
-            "200"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Informacion"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "Socalo_Información"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "MecanicasDeLaBandera"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DoesSceneExist"
-          },
-          "parameters": [
-            "",
-            "\"juegoEcuador\""
-          ]
-        }
-      ],
-      "actions": [],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Parámetros iniciales",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SceneVariableAsBoolean"
+                "value": "DepartScene"
               },
               "parameters": [
-                "bandera1Lista",
                 ""
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Mapa",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::SetMaxHealthOp"
+              },
+              "parameters": [
+                "Socalo_Vidas",
+                "Health",
+                "=",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "numeroDeVidas",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+              },
+              "parameters": [
+                "FlatHeartBar",
+                "=",
+                "Socalo_Vidas.Health::Health()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "puntajeDeNivel",
+                "=",
+                "250"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Cantidad_de_Puntos",
+                "Text",
+                "=",
+                "ToString(GlobalVariable(puntajeDeNivel))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAdaptGameResolutionAtRuntime"
+              },
+              "parameters": [
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "ecuadorCompletado",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Socalo_Información",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Puntaje",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Socalo_Mapa",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Socalo_Nombre_Pais",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "cuadroBanderas",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Socalo_Vidas",
+                "Opacity",
+                "=",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Informacion"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Socalo_Información"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Mecánicas de las banderas",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Bandera 1",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "DoesSceneExist"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "DraggableBehavior::Dropped"
-                      },
-                      "parameters": [
-                        "bandera1",
-                        "Arrastrable"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "bandera1",
-                        "Mapa",
-                        "",
-                        "",
-                        "no"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "bandera1",
-                        "Socalo_Bandera_Pais",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
+                  "parameters": [
+                    "",
+                    "\"juegoEcuador\""
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "bandera1Lista",
-                    "True"
-                  ]
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Bandera colocada correctamente",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "bandera1",
+                                "Arrastrable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera1",
+                                "Mapa",
+                                "",
+                                "",
+                                "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera1",
+                                "Socalo_Bandera_Pais",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "bandera1Lista",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "Mapa",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Tween",
+                            "\"sitioCorrecto1\"",
+                            "socalo.X() - 150",
+                            "socalo.Y()",
+                            "\"swingTo\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                          },
+                          "parameters": [
+                            "Mapa",
+                            "Animation"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Arrastrable",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "País"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Liberación de memoria"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Tween::HasFinished"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Tween",
+                            "\"sitioCorrecto1\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::RemoveSceneTween"
+                          },
+                          "parameters": [
+                            "",
+                            "\"sitioCorrecto1\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 },
                 {
-                  "type": {
-                    "value": "ChangeSprite"
-                  },
-                  "parameters": [
-                    "Mapa",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                  },
-                  "parameters": [
-                    "bandera1",
-                    "Tween",
-                    "\"sitioCorrecto1\"",
-                    "socalo.X() - 150",
-                    "socalo.Y()",
-                    "\"swingTo\"",
-                    "0.5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
-                  },
-                  "parameters": [
-                    "Mapa",
-                    "Animation"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "bandera1",
-                    "Arrastrable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "País"
-                  ]
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Bandera colocada incorrectamente",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Cayó en el sócalo incorrecto, se restarán puntos."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "bandera1",
+                                "Arrastrable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera1",
+                                "Socalo_Bandera_Pais",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera1",
+                                "Mapa",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Socalo_Vidas",
+                            "Health",
+                            "1",
+                            "no",
+                            "no",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                          },
+                          "parameters": [
+                            "FlatHeartBar",
+                            "=",
+                            "Socalo_Vidas.Health::Health()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "puntajeDeNivel",
+                            "-",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Cantidad_de_Puntos",
+                            "Text",
+                            "=",
+                            "ToString(GlobalVariable(puntajeDeNivel))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Después de caer en el sócalo incorrecto o cualquier otro lugar erróneo, volverá a su posición inicial con un rápido parpadeo rojo."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "bandera1",
+                                "Arrastrable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SceneVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "bandera1Lista",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Tween",
+                            "\"Bandera1SitioErroneo\"",
+                            "bPosiciónX",
+                            "bPosiciónY1",
+                            "\"easeInOutQuad\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Tween",
+                            "\"Bandera1SitioErroneoColor\"",
+                            "\"241;86;86\"",
+                            "\"easeInQuad\"",
+                            "0.07",
+                            "",
+                            "\"linear\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Acabando las animaciones usadas, se liberará memoria."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Tween::HasFinished"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Tween",
+                            "\"Bandera1SitioErroneo\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::RemoveSceneTween"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Bandera1SitioErroneo\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveSceneTween"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Bandera1SitioErroneoColor\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Tween",
+                            "\"Bandera1SitioErroneoColor\"",
+                            "\"255;255;255\"",
+                            "\"easeInQuad\"",
+                            "0.04",
+                            "",
+                            "\"linear\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"sitioCorrecto1\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"sitioCorrecto1\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "bandera1",
-                    "Arrastrable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "bandera1Lista",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"Bandera1SitioErroneo\"",
-                "bPosiciónX",
-                "bPosiciónY1",
-                "\"easeInOutQuad\"",
-                "0.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"Bandera1SitioErroneoColor\"",
-                "\"241;86;86\"",
-                "\"easeInQuad\"",
-                "0.07",
-                "",
-                "\"linear\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"Bandera1SitioErroneo\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"Bandera1SitioErroneo\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"Bandera1SitioErroneoColor\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"Bandera1SitioErroneoColor\"",
-                "\"255;255;255\"",
-                "\"easeInQuad\"",
-                "0.04",
-                "",
-                "\"linear\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "bandera1",
-                    "Arrastrable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bandera1",
-                    "Socalo_Bandera_Pais",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bandera1",
-                    "Mapa",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "Socalo_Vidas",
-                "Health",
-                "1",
-                "no",
-                "no",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
-              },
-              "parameters": [
-                "FlatHeartBar",
-                "=",
-                "Socalo_Vidas.Health::Health()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "puntajeDeNivel",
-                "-",
-                "50"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Cantidad_de_Puntos",
-                "Text",
-                "=",
-                "ToString(GlobalVariable(puntajeDeNivel))"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "BanderaDos"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DoesSceneExist"
-          },
-          "parameters": [
-            "",
-            "\"juegoEcuador\""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SceneVariableAsBoolean"
-              },
-              "parameters": [
-                "bandera2Lista",
-                ""
-              ]
-            }
-          ],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Bandera 2",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "DoesSceneExist"
                   },
-                  "parameters": [],
-                  "subInstructions": [
+                  "parameters": [
+                    "",
+                    "\"juegoEcuador\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Bandera colocada correctamente",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
-                      "type": {
-                        "value": "DraggableBehavior::Dropped"
-                      },
-                      "parameters": [
-                        "bandera2",
-                        "Arrastrable"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "bandera2",
+                                "Arrastrable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera2",
+                                "Socalo_Bandera_Pais",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera2",
+                                "Mapa",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetSceneVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "bandera2Lista",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Tween",
+                            "\"sitioCorrecto2\"",
+                            "Socalo_Bandera_Pais.X() + 50",
+                            "Socalo_Bandera_Pais.Y() + 10",
+                            "\"swingTo\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Arrastrable",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Capital"
+                          ]
+                        }
                       ]
                     },
                     {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Liberación de memoria"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Tween::HasFinished"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Tween",
+                            "\"sitioCorrecto2\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::RemoveSceneTween"
+                          },
+                          "parameters": [
+                            "",
+                            "\"sitioCorrecto2\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Bandera colocada incorrectamente",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Cayó en el sócalo incorrecto, se restarán puntos."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "bandera2",
+                                "Arrastrable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera2",
+                                "Mapa",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera2",
+                                "Socalo_Bandera_Pais",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Socalo_Vidas",
+                            "Health",
+                            "1",
+                            "no",
+                            "no",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                          },
+                          "parameters": [
+                            "FlatHeartBar",
+                            "=",
+                            "Socalo_Vidas.Health::Health()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarGlobal"
+                          },
+                          "parameters": [
+                            "puntajeDeNivel",
+                            "-",
+                            "25"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Cantidad_de_Puntos",
+                            "Text",
+                            "=",
+                            "ToString(GlobalVariable(puntajeDeNivel))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Después de caer en el sócalo incorrecto o cualquier otro lugar erróneo, volverá a su posición inicial con un rápido parpadeo rojo."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::And"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "DraggableBehavior::Dropped"
+                              },
+                              "parameters": [
+                                "bandera2",
+                                "Arrastrable"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SceneVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "bandera2Lista",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Tween",
+                            "\"Bandera2SitioErroneo\"",
+                            "bPosiciónX",
+                            "bPosiciónY2",
+                            "\"easeInOutQuad\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Tween",
+                            "\"Bandera2SitioErroneoColor\"",
+                            "\"241;86;86\"",
+                            "\"easeInQuad\"",
+                            "0.07",
+                            "",
+                            "\"linear\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Acabando las animaciones usadas, se liberará memoria."
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Tween::HasFinished"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Tween",
+                            "\"Bandera2SitioErroneo\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::RemoveSceneTween"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Bandera2SitioErroneo\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::RemoveSceneTween"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Bandera2SitioErroneoColor\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Tween",
+                            "\"Bandera2SitioErroneoColor\"",
+                            "\"255;255;255\"",
+                            "\"easeInQuad\"",
+                            "0.04",
+                            "",
+                            "\"linear\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Bandera 3 (Incorrecta)",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DoesSceneExist"
+                  },
+                  "parameters": [
+                    "",
+                    "\"juegoEcuador\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Cayó en cualquier sócalo, se restarán puntos."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
                       "type": {
-                        "value": "CollisionNP"
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "DraggableBehavior::Dropped"
+                          },
+                          "parameters": [
+                            "bandera3",
+                            "Arrastrable"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera3",
+                                "Mapa",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "bandera3",
+                                "Socalo_Bandera_Pais",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Health::Health::Hit"
                       },
                       "parameters": [
-                        "bandera2",
-                        "Socalo_Bandera_Pais",
-                        "",
-                        "",
+                        "Socalo_Vidas",
+                        "Health",
+                        "1",
+                        "no",
+                        "no",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
                       },
                       "parameters": [
-                        "bandera2",
-                        "Mapa",
-                        "",
-                        "",
+                        "FlatHeartBar",
+                        "=",
+                        "Socalo_Vidas.Health::Health()",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "puntajeDeNivel",
+                        "-",
+                        "15"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Cantidad_de_Puntos",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(puntajeDeNivel))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Después de caer en cualquier sócalo o algún otro lugar erróneo, volverá a su posición inicial con un rápido parpadeo rojo."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "DraggableBehavior::Dropped"
+                          },
+                          "parameters": [
+                            "bandera3",
+                            "Arrastrable"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Tween",
+                        "\"Bandera3SitioErroneo\"",
+                        "bPosiciónX",
+                        "bPosiciónY3",
+                        "\"easeInOutQuad\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Tween",
+                        "\"Bandera3SitioErroneoColor\"",
+                        "\"241;86;86\"",
+                        "\"easeInQuad\"",
+                        "0.07",
+                        "",
+                        "\"linear\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Acabando las animaciones usadas, se liberará memoria."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Tween",
+                        "\"Bandera3SitioErroneo\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveSceneTween"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Bandera3SitioErroneo\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveSceneTween"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Bandera3SitioErroneoColor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Tween",
+                        "\"Bandera3SitioErroneoColor\"",
+                        "\"255;255;255\"",
+                        "\"easeInQuad\"",
+                        "0.04",
+                        "",
+                        "\"linear\""
                       ]
                     }
                   ]
                 }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "bandera2Lista",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                  },
-                  "parameters": [
-                    "bandera2",
-                    "Tween",
-                    "\"sitioCorrecto2\"",
-                    "Socalo_Bandera_Pais.X() + 50",
-                    "Socalo_Bandera_Pais.Y() + 10",
-                    "\"swingTo\"",
-                    "0.5",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "bandera2",
-                    "Arrastrable",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Capital"
-                  ]
-                }
               ]
             }
-          ]
-        },
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Comprobación de nivel fallido (Game Over)",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"sitioCorrecto2\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"sitioCorrecto2\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "bandera2",
-                    "Arrastrable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "bandera2Lista",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"Bandera2SitioErroneo\"",
-                "bPosiciónX",
-                "bPosiciónY2",
-                "\"easeInOutQuad\"",
-                "0.5",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"Bandera2SitioErroneoColor\"",
-                "\"241;86;86\"",
-                "\"easeInQuad\"",
-                "0.07",
-                "",
-                "\"linear\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"Bandera2SitioErroneo\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"Bandera2SitioErroneo\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"Bandera2SitioErroneoColor\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"Bandera2SitioErroneoColor\"",
-                "\"255;255;255\"",
-                "\"easeInQuad\"",
-                "0.04",
-                "",
-                "\"linear\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
-                  },
-                  "parameters": [
-                    "bandera2",
-                    "Arrastrable"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bandera2",
-                    "Mapa",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bandera2",
-                    "Socalo_Bandera_Pais",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
+                "value": "Health::Health::IsDead"
               },
               "parameters": [
                 "Socalo_Vidas",
                 "Health",
-                "1",
-                "no",
-                "no",
                 ""
               ]
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
-                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                "value": "Scene"
               },
               "parameters": [
-                "FlatHeartBar",
-                "=",
-                "Socalo_Vidas.Health::Health()",
+                "",
+                "\"game over\"",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "puntajeDeNivel",
-                "-",
-                "25"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Cantidad_de_Puntos",
-                "Text",
-                "=",
-                "ToString(GlobalVariable(puntajeDeNivel))"
               ]
             }
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "BanderaTres"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DoesSceneExist"
-          },
-          "parameters": [
-            "",
-            "\"juegoEcuador\""
-          ]
-        }
       ],
-      "actions": [],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Comprobación de nivel completado",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -2569,112 +3008,22 @@
               "subInstructions": [
                 {
                   "type": {
-                    "value": "DraggableBehavior::Dropped"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "bandera3",
-                    "Arrastrable"
+                    "bandera1Lista",
+                    "True",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
-                  },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "Mapa",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "Socalo_Bandera_Pais",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "Socalo_Vidas",
-                "Health",
-                "1",
-                "no",
-                "no",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
-              },
-              "parameters": [
-                "FlatHeartBar",
-                "=",
-                "Socalo_Vidas.Health::Health()",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "puntajeDeNivel",
-                "-",
-                "15"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Cantidad_de_Puntos",
-                "Text",
-                "=",
-                "ToString(GlobalVariable(puntajeDeNivel))"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "DraggableBehavior::Dropped"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
-                    "bandera3",
-                    "Arrastrable"
+                    "bandera2Lista",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -2683,285 +3032,120 @@
           "actions": [
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                "value": "ActivateBehavior"
               },
               "parameters": [
                 "bandera3",
-                "Tween",
-                "\"Bandera3SitioErroneo\"",
-                "bPosiciónX",
-                "bPosiciónY3",
-                "\"easeInOutQuad\"",
-                "0.5",
-                ""
+                "Arrastrable",
+                "no"
               ]
             },
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "bandera3",
-                "Tween",
-                "\"Bandera3SitioErroneoColor\"",
-                "\"241;86;86\"",
-                "\"easeInQuad\"",
-                "0.07",
-                "",
-                "\"linear\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Tween::HasFinished"
-              },
-              "parameters": [
-                "bandera3",
-                "Tween",
-                "\"Bandera3SitioErroneo\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"Bandera3SitioErroneo\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::RemoveSceneTween"
-              },
-              "parameters": [
-                "",
-                "\"Bandera3SitioErroneoColor\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "bandera3",
-                "Tween",
-                "\"Bandera3SitioErroneoColor\"",
-                "\"255;255;255\"",
-                "\"easeInQuad\"",
-                "0.04",
-                "",
-                "\"linear\""
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "AnimacionesVida"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Health::Health::IsDead"
-          },
-          "parameters": [
-            "Socalo_Vidas",
-            "Health",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"game over\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "ComprobarNivelCompletado"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::And"
-          },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "bandera1Lista",
+                "ecuadorCompletado",
                 "True",
                 ""
               ]
             },
             {
               "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ayudaUsada",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "bandera2Lista",
+                "ecuadorCompletado",
                 "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Socalo_Información",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Informacion",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera2",
+                "Tween",
+                "\"bandera2Correcta\"",
+                "\"122;192;40\"",
+                "\"easeInQuad\"",
+                "0.1",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectColorTween2"
+              },
+              "parameters": [
+                "bandera1",
+                "Tween",
+                "\"bandera1Correcta\"",
+                "\"122;192;40\"",
+                "\"easeInQuad\"",
+                "0.1",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu seleccion\"",
                 ""
               ]
             }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "bandera3",
-            "Arrastrable",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetBooleanVariable"
-          },
-          "parameters": [
-            "ecuadorCompletado",
-            "True",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "ayudaUsada",
-            "True"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BooleanVariable"
-          },
-          "parameters": [
-            "ecuadorCompletado",
-            "True",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Socalo_Información",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "Informacion",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectColorTween2"
-          },
-          "parameters": [
-            "bandera2",
-            "Tween",
-            "\"bandera2Correcta\"",
-            "\"122;192;40\"",
-            "\"easeInQuad\"",
-            "0.1",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Tween::TweenBehavior::AddObjectColorTween2"
-          },
-          "parameters": [
-            "bandera1",
-            "Tween",
-            "\"bandera1Correcta\"",
-            "\"122;192;40\"",
-            "\"easeInQuad\"",
-            "0.1",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
