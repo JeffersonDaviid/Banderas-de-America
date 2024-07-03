@@ -1648,16 +1648,6 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "puntajeDeNivel",
-                "=",
-                "250"
-              ]
-            },
-            {
-              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -3122,6 +3112,16 @@
                 "0.1",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "puntajeGlobal",
+                "+",
+                "puntajeDeNivel"
               ]
             },
             {

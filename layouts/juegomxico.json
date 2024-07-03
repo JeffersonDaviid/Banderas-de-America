@@ -1580,16 +1580,6 @@
         },
         {
           "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "puntajeDeNivel",
-            "=",
-            "250"
-          ]
-        },
-        {
-          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -1715,6 +1705,7 @@
       "comment": "MecanicasDeLaBandera"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2110,6 +2101,7 @@
       "comment": "BanderaDos"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2486,6 +2478,7 @@
       "comment": "BanderaTres"
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2883,6 +2876,16 @@
             "0.1",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "puntajeGlobal",
+            "+",
+            "puntajeDeNivel"
           ]
         },
         {

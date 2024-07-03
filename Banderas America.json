@@ -3041,6 +3041,18 @@
       "name": "venezuelaCompletado",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "puntajeGlobal",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "puntajeDeNivel",
+      "type": "number",
+      "value": 250
     }
   ],
   "layouts": [
