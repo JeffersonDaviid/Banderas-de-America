@@ -166,6 +166,7 @@
       "customSize": true,
       "depth": 1,
       "height": 155,
+      "keepRatio": true,
       "layer": "Objetos",
       "name": "bandera3",
       "persistentUuid": "c7b336be-407f-4099-a1e2-106fcdd10cb5",
@@ -537,6 +538,10 @@
           "checkCollisionMask": true
         },
         {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -607,6 +612,10 @@
           "checkCollisionMask": true
         },
         {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -675,6 +684,10 @@
           "name": "Arrastrable",
           "type": "DraggableBehavior::Draggable",
           "checkCollisionMask": true
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
         },
         {
           "name": "Tween",
@@ -951,6 +964,13 @@
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
         }
       ],
       "content": {
@@ -1802,6 +1822,59 @@
               "actions": [],
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animación cuando el mouse está sobre la bandera"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "ShakeObject_PositionAngleScale",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "ShakeObject_PositionAngleScale",
+                        "0.2",
+                        "5",
+                        "5",
+                        "0",
+                        "5",
+                        "0.1",
+                        "no",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
@@ -1908,6 +1981,16 @@
                           "parameters": [
                             "bandera1",
                             "Arrastrable",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "ShakeObject_PositionAngleScale",
                             ""
                           ]
                         },
@@ -2080,6 +2163,17 @@
                             "Text",
                             "=",
                             "ToString(GlobalVariable(puntajeDeNivel))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Flash::Flash::Flash"
+                          },
+                          "parameters": [
+                            "FlatHeartBar",
+                            "Flash",
+                            "0.5",
+                            ""
                           ]
                         }
                       ]
@@ -2256,6 +2350,59 @@
               "actions": [],
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animación cuando el mouse está sobre la bandera"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "ShakeObject_PositionAngleScale",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "ShakeObject_PositionAngleScale",
+                        "0.2",
+                        "5",
+                        "5",
+                        "0",
+                        "5",
+                        "0.1",
+                        "no",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
@@ -2343,6 +2490,16 @@
                           "parameters": [
                             "bandera2",
                             "Arrastrable",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "ShakeObject_PositionAngleScale",
                             ""
                           ]
                         },
@@ -2515,6 +2672,17 @@
                             "Text",
                             "=",
                             "ToString(GlobalVariable(puntajeDeNivel))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Flash::Flash::Flash"
+                          },
+                          "parameters": [
+                            "FlatHeartBar",
+                            "Flash",
+                            "0.5",
+                            ""
                           ]
                         }
                       ]
@@ -2800,6 +2968,17 @@
                         "=",
                         "ToString(GlobalVariable(puntajeDeNivel))"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Flash::Flash::Flash"
+                      },
+                      "parameters": [
+                        "FlatHeartBar",
+                        "Flash",
+                        "0.5",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -2930,6 +3109,59 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animación cuando el mouse está sobre la bandera"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "ShakeObject_PositionAngleScale",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "ShakeObject_PositionAngleScale",
+                        "0.2",
+                        "5",
+                        "5",
+                        "0",
+                        "5",
+                        "0.1",
+                        "no",
+                        ""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -2984,7 +3216,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Comprobación de nivel completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3029,6 +3260,16 @@
               "parameters": [
                 "bandera3",
                 "Arrastrable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera3",
+                "ShakeObject_PositionAngleScale",
                 "no"
               ]
             },
@@ -3375,6 +3616,10 @@
       "type": "EffectCapability::EffectBehavior"
     },
     {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
@@ -3393,6 +3638,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngleScale",
+      "type": "ShakeObject::ShakeObject_PositionAngleScale"
     },
     {
       "name": "Text",
