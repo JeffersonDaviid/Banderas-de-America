@@ -63,19 +63,45 @@
       "folded": true,
       "name": "bPosiciónY1",
       "type": "number",
-      "value": 225
+      "value": 0
     },
     {
       "folded": true,
       "name": "bPosiciónY2",
       "type": "number",
-      "value": 427
+      "value": 0
     },
     {
       "folded": true,
       "name": "bPosiciónY3",
       "type": "number",
-      "value": 660
+      "value": 0
+    },
+    {
+      "name": "posicionesDisponibles",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "number",
+          "value": 225
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 441
+        },
+        {
+          "type": "number",
+          "value": 660
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "indiceAleatorio",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -1614,6 +1640,231 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Ubicaciones aleatorias de las banderas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bandera 1"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "indiceAleatorio",
+                    "=",
+                    "RandomInRange(0, 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "bPosiciónY1",
+                    "=",
+                    "posicionesDisponibles[indiceAleatorio]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveVariableAt"
+                  },
+                  "parameters": [
+                    "posicionesDisponibles",
+                    "indiceAleatorio"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bandera 2"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "indiceAleatorio",
+                    "=",
+                    "RandomInRange(0, 1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "bPosiciónY2",
+                    "=",
+                    "posicionesDisponibles[indiceAleatorio]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveVariableAt"
+                  },
+                  "parameters": [
+                    "posicionesDisponibles",
+                    "indiceAleatorio"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bandera 3"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "bPosiciónY3",
+                    "=",
+                    "posicionesDisponibles[0]"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Reposicionamiento"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "=",
+                    "bPosiciónX",
+                    "=",
+                    "bPosiciónY1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "=",
+                    "bPosiciónX",
+                    "=",
+                    "bPosiciónY2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bandera3",
+                    "=",
+                    "bPosiciónX",
+                    "=",
+                    "bPosiciónY3"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1626,6 +1877,31 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetAdaptGameResolutionAtRuntime"
+              },
+              "parameters": [
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Informacion"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Socalo_Información"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
@@ -1643,7 +1919,7 @@
                 "Socalo_Vidas",
                 "Health",
                 "=",
-                "3",
+                "2",
                 ""
               ]
             },
@@ -1654,7 +1930,7 @@
               "parameters": [
                 "numeroDeVidas",
                 "=",
-                "3"
+                "2"
               ]
             },
             {
@@ -1677,15 +1953,6 @@
                 "Text",
                 "=",
                 "ToString(GlobalVariable(puntajeDeNivel))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAdaptGameResolutionAtRuntime"
-              },
-              "parameters": [
-                "",
-                "yes"
               ]
             },
             {
@@ -1762,22 +2029,6 @@
                 "Opacity",
                 "=",
                 "200"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Informacion"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Socalo_Información"
               ]
             }
           ]
@@ -2843,7 +3094,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3216,6 +3466,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Comprobación de nivel completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
