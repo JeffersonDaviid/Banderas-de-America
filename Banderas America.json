@@ -2436,6 +2436,46 @@
         "name": "assets\\Juego\\Banderas\\México\\Bandera_Butan.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/GameMusic.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\GameMusic.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/CorretFlag.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/WrongFlag.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/LevelCompleted.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\LevelCompleted.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2677,7 +2717,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Socalo_Bandera_Pais",
+      "name": "Socalo_Bandera_Capital",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2907,7 +2947,7 @@
         "objectName": "Socalo_Vidas"
       },
       {
-        "objectName": "Socalo_Bandera_Pais"
+        "objectName": "Socalo_Bandera_Capital"
       },
       {
         "objectName": "Socalo_Nombre_Pais"
