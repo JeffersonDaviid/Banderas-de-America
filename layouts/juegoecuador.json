@@ -2138,6 +2138,46 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "ShakeObject_PositionAngleScale",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Resizable",
+                        "=",
+                        "155"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "bandera1",
+                        "Resizable",
+                        "=",
+                        "265"
+                      ]
+                    }
+                  ]
+                },
+                {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
@@ -2191,9 +2231,27 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
                         {
                           "type": {
                             "value": "SetSceneVariableAsBoolean"
@@ -2263,52 +2321,6 @@
                           },
                           "parameters": [
                             "País"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "DraggableBehavior::Dropped"
-                          },
-                          "parameters": [
-                            "bandera1",
-                            "Arrastrable"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "bandera1",
-                            "Mapa",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
-                            "",
-                            "",
-                            ""
                           ]
                         }
                       ]
@@ -2484,41 +2496,7 @@
                             "0.5",
                             ""
                           ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "DraggableBehavior::Dropped"
-                          },
-                          "parameters": [
-                            "bandera1",
-                            "Arrastrable"
-                          ]
                         },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "bandera1",
-                            "Socalo_Bandera_Capital",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
                         {
                           "type": {
                             "value": "PlaySound"
@@ -2689,6 +2667,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2752,6 +2731,46 @@
                         "0.1",
                         "no",
                         ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "ShakeObject_PositionAngleScale",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Resizable",
+                        "=",
+                        "155"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Resizable",
+                        "=",
+                        "265"
                       ]
                     }
                   ]
@@ -2959,6 +2978,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Bandera colocada incorrectamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3288,6 +3308,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3365,9 +3386,27 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Health::Health::Hit"
@@ -3421,72 +3460,6 @@
                         "FlatHeartBar",
                         "Flash",
                         "0.5",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DraggableBehavior::Dropped"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "Arrastrable"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "bandera3",
-                            "Mapa",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "bandera3",
-                            "Socalo_Bandera_Capital",
-                            "",
-                            "",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
-                        "",
-                        "",
                         ""
                       ]
                     }
@@ -3669,6 +3642,46 @@
                         "0.1",
                         "no",
                         ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "ShakeObject_PositionAngleScale",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Resizable",
+                        "=",
+                        "155"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Resizable",
+                        "=",
+                        "265"
                       ]
                     }
                   ]
