@@ -218,7 +218,7 @@
       "height": 200,
       "keepRatio": true,
       "layer": "Socalos",
-      "name": "Socalo_Bandera_Pais",
+      "name": "Socalo_Bandera_Capital",
       "persistentUuid": "95920cd0-c63b-41d5-8799-f2ab8f989df2",
       "width": 350,
       "x": 753,
@@ -1861,7 +1861,7 @@
                               },
                               "parameters": [
                                 "bandera1",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2031,7 +2031,7 @@
                               },
                               "parameters": [
                                 "bandera1",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2376,7 +2376,7 @@
                               },
                               "parameters": [
                                 "bandera2",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2416,8 +2416,8 @@
                             "bandera2",
                             "Tween",
                             "\"sitioCorrecto2\"",
-                            "Socalo_Bandera_Pais.X() + 50",
-                            "Socalo_Bandera_Pais.Y() + 10",
+                            "Socalo_Bandera_Capital.X() + 50",
+                            "Socalo_Bandera_Capital.Y() + 10",
                             "\"swingTo\"",
                             "0.5",
                             ""
@@ -2553,7 +2553,7 @@
                               },
                               "parameters": [
                                 "bandera2",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2852,7 +2852,7 @@
                               },
                               "parameters": [
                                 "bandera3",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""

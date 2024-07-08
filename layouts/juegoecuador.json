@@ -63,19 +63,45 @@
       "folded": true,
       "name": "bPosiciónY1",
       "type": "number",
-      "value": 225
+      "value": 0
     },
     {
       "folded": true,
       "name": "bPosiciónY2",
       "type": "number",
-      "value": 427
+      "value": 0
     },
     {
       "folded": true,
       "name": "bPosiciónY3",
       "type": "number",
-      "value": 660
+      "value": 0
+    },
+    {
+      "name": "posicionesDisponibles",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "number",
+          "value": 225
+        },
+        {
+          "folded": true,
+          "type": "number",
+          "value": 441
+        },
+        {
+          "type": "number",
+          "value": 660
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "indiceAleatorio",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -219,7 +245,7 @@
       "height": 200,
       "keepRatio": true,
       "layer": "Socalos",
-      "name": "Socalo_Bandera_Pais",
+      "name": "Socalo_Bandera_Capital",
       "persistentUuid": "95920cd0-c63b-41d5-8799-f2ab8f989df2",
       "width": 350,
       "x": 753,
@@ -288,8 +314,8 @@
       "name": "Informacion",
       "persistentUuid": "bbf649fe-cf75-4aa0-ba83-60ad2f13cbee",
       "width": 363,
-      "x": 1467,
-      "y": 196,
+      "x": 1473,
+      "y": 217,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -306,7 +332,7 @@
       "persistentUuid": "1cbc731c-c938-4522-8ba2-f55c7711faa1",
       "width": 950,
       "x": 476,
-      "y": 914,
+      "y": 933,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -322,8 +348,8 @@
       "name": "Nombre_País",
       "persistentUuid": "33d2a40f-39fb-4af3-beab-f7e1443b639c",
       "width": 893,
-      "x": 497,
-      "y": 944,
+      "x": 513,
+      "y": 966,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -498,8 +524,8 @@
       "name": "Capital",
       "persistentUuid": "ed0b561b-822d-4370-b3ee-9bf17e6e1351",
       "width": 594,
-      "x": 663,
-      "y": 882,
+      "x": 685,
+      "y": 896,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -1614,6 +1640,231 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Ubicaciones aleatorias de las banderas",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bandera 1"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "indiceAleatorio",
+                    "=",
+                    "RandomInRange(0, 2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "bPosiciónY1",
+                    "=",
+                    "posicionesDisponibles[indiceAleatorio]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveVariableAt"
+                  },
+                  "parameters": [
+                    "posicionesDisponibles",
+                    "indiceAleatorio"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bandera 2"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "indiceAleatorio",
+                    "=",
+                    "RandomInRange(0, 1)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "bPosiciónY2",
+                    "=",
+                    "posicionesDisponibles[indiceAleatorio]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveVariableAt"
+                  },
+                  "parameters": [
+                    "posicionesDisponibles",
+                    "indiceAleatorio"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Bandera 3"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "bPosiciónY3",
+                    "=",
+                    "posicionesDisponibles[0]"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Reposicionamiento"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bandera1",
+                    "=",
+                    "bPosiciónX",
+                    "=",
+                    "bPosiciónY1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bandera2",
+                    "=",
+                    "bPosiciónX",
+                    "=",
+                    "bPosiciónY2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "bandera3",
+                    "=",
+                    "bPosiciónX",
+                    "=",
+                    "bPosiciónY3"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -1626,6 +1877,31 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetAdaptGameResolutionAtRuntime"
+              },
+              "parameters": [
+                "",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Informacion"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Socalo_Información"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
@@ -1643,7 +1919,7 @@
                 "Socalo_Vidas",
                 "Health",
                 "=",
-                "3",
+                "2",
                 ""
               ]
             },
@@ -1654,7 +1930,7 @@
               "parameters": [
                 "numeroDeVidas",
                 "=",
-                "3"
+                "2"
               ]
             },
             {
@@ -1677,15 +1953,6 @@
                 "Text",
                 "=",
                 "ToString(GlobalVariable(puntajeDeNivel))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAdaptGameResolutionAtRuntime"
-              },
-              "parameters": [
-                "",
-                "yes"
               ]
             },
             {
@@ -1766,18 +2033,14 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "PlayMusic"
               },
               "parameters": [
-                "Informacion"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Socalo_Información"
+                "",
+                "assets\\Juego\\Efect Sounds\\GameMusic.mp3",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
@@ -1921,7 +2184,7 @@
                               },
                               "parameters": [
                                 "bandera1",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2000,6 +2263,52 @@
                           },
                           "parameters": [
                             "País"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DraggableBehavior::Dropped"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Arrastrable"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Mapa",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -2091,7 +2400,7 @@
                               },
                               "parameters": [
                                 "bandera1",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2173,6 +2482,52 @@
                             "FlatHeartBar",
                             "Flash",
                             "0.5",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DraggableBehavior::Dropped"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Arrastrable"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Socalo_Bandera_Capital",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
+                            "",
+                            "",
                             ""
                           ]
                         }
@@ -2334,7 +2689,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2436,7 +2790,7 @@
                               },
                               "parameters": [
                                 "bandera2",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2476,8 +2830,8 @@
                             "bandera2",
                             "Tween",
                             "\"sitioCorrecto2\"",
-                            "Socalo_Bandera_Pais.X() + 50",
-                            "Socalo_Bandera_Pais.Y() + 10",
+                            "Socalo_Bandera_Capital.X() + 50",
+                            "Socalo_Bandera_Capital.Y() + 10",
                             "\"swingTo\"",
                             "0.5",
                             ""
@@ -2509,6 +2863,52 @@
                           },
                           "parameters": [
                             "Capital"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DraggableBehavior::Dropped"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Arrastrable"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Socalo_Bandera_Capital",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -2559,7 +2959,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Bandera colocada incorrectamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2613,7 +3012,7 @@
                               },
                               "parameters": [
                                 "bandera2",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2682,6 +3081,52 @@
                             "FlatHeartBar",
                             "Flash",
                             "0.5",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DraggableBehavior::Dropped"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Arrastrable"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "bandera2",
+                            "Mapa",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
+                            "",
+                            "",
                             ""
                           ]
                         }
@@ -2843,7 +3288,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2912,7 +3356,7 @@
                               },
                               "parameters": [
                                 "bandera3",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -2977,6 +3421,72 @@
                         "FlatHeartBar",
                         "Flash",
                         "0.5",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DraggableBehavior::Dropped"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Arrastrable"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "bandera3",
+                            "Mapa",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "bandera3",
+                            "Socalo_Bandera_Capital",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
+                        "",
+                        "",
                         ""
                       ]
                     }
@@ -3216,6 +3726,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Comprobación de nivel completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3290,6 +3801,59 @@
               "parameters": [
                 "ayudaUsada",
                 "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "bandera1Lista",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "bandera2Lista",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Juego\\Efect Sounds\\LevelCompleted.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
