@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoEcuador",
-  "name": "juegoEcuador",
+  "mangledName": "guia",
+  "name": "guia",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4057518905943872,
+    "zoomFactor": 0.28172599320795927,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -282,14 +282,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 632,
+      "height": 160,
       "keepRatio": true,
       "layer": "Texto",
       "name": "Informacion",
       "persistentUuid": "bbf649fe-cf75-4aa0-ba83-60ad2f13cbee",
-      "width": 363,
-      "x": 1467,
-      "y": 196,
+      "width": 333,
+      "x": 1499,
+      "y": 458,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -517,6 +517,227 @@
       "x": 577,
       "y": 368,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 142,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BtnVolver",
+      "persistentUuid": "f41f643d-a332-41d1-aca1-0716b0c285ad",
+      "width": 280,
+      "x": 90,
+      "y": 917,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 605,
+      "keepRatio": true,
+      "layer": "Ayuda",
+      "name": "foco",
+      "persistentUuid": "de8ebe4b-6bc1-408d-b008-3fdab3da03e7",
+      "width": 569,
+      "x": -91,
+      "y": 456,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1337,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "textoguia",
+      "persistentUuid": "33844a2b-fc49-41ce-ab56-be9092723b8b",
+      "width": 2905,
+      "x": -260,
+      "y": -126,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 851,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "Text_guia",
+      "persistentUuid": "3abe5bf8-36fa-41af-8f4e-182e7ecdf233",
+      "width": 1359,
+      "x": 523,
+      "y": 124,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 658,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "NewSprite4",
+      "persistentUuid": "e26fab27-8446-4c87-84f1-1cb17d3d35b0",
+      "width": 604,
+      "x": 1467,
+      "y": 217,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 760,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "text_box_completado",
+      "persistentUuid": "b8ab3c3c-ce97-45a1-ad64-d9fd2068b0fa",
+      "width": 963,
+      "x": 525,
+      "y": 162,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 98,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "text_complete",
+      "persistentUuid": "923f109d-8a50-4cd5-9304-a450b9718a15",
+      "width": 502,
+      "x": 767,
+      "y": 462,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 255,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "GuiaBandera",
+      "persistentUuid": "81e64ebb-9d13-458e-a8de-fd745a0874d5",
+      "width": 358,
+      "x": 1586,
+      "y": 410,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 626,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "capital",
+      "persistentUuid": "b3e5b5c9-e649-4c88-9b5c-48c6ae69c437",
+      "width": 589,
+      "x": 1477,
+      "y": 232,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 274,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "texto_capital",
+      "persistentUuid": "6ff1d23a-6ef1-456c-8711-b91749c7771d",
+      "width": 298,
+      "x": 1635,
+      "y": 406,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 641,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "error",
+      "persistentUuid": "8bb67a27-3c2a-40a6-be6d-eb1409608593",
+      "width": 587,
+      "x": 1480,
+      "y": 227,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 297,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "texto_error",
+      "persistentUuid": "a26c5522-658c-4f59-a161-9b2bff5ed2ad",
+      "width": 370,
+      "x": 1591,
+      "y": 410,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 170,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "BtnSkip",
+      "persistentUuid": "37ff2a84-1d3f-49ca-b7db-a018c131d8fa",
+      "width": 333,
+      "x": 1546,
+      "y": 819,
+      "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -866,7 +1087,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.",
+      "string": "Al acertar el pais, la informacion respectiva se encontrara en este apartado",
       "font": "",
       "textAlignment": "center",
       "characterSize": 30,
@@ -889,7 +1110,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.",
+        "text": "Al acertar el pais, la informacion respectiva se encontrara en este apartado",
         "font": "",
         "textAlignment": "center",
         "characterSize": 30,
@@ -1541,6 +1762,798 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BtnVolver",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\Volver verde.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 977
+                      },
+                      {
+                        "x": 18,
+                        "y": 977
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\Volver azul.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 977
+                      },
+                      {
+                        "x": 18,
+                        "y": 977
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "foco",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\foco.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 67,
+                        "y": 0
+                      },
+                      {
+                        "x": 445,
+                        "y": 0
+                      },
+                      {
+                        "x": 445,
+                        "y": 512
+                      },
+                      {
+                        "x": 67,
+                        "y": 512
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "textoguia",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\4078f205d7edff07bb3c2076e74be1b6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 526,
+                        "y": 191
+                      },
+                      {
+                        "x": 1763,
+                        "y": 191
+                      },
+                      {
+                        "x": 1763,
+                        "y": 2098
+                      },
+                      {
+                        "x": 526,
+                        "y": 2098
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Text_guia",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "¡Bienvenido al Juego de Banderas!\n\nObjetivo:\nArrastra la bandera correcta del país o su capital al centro del mapa.\n\nInstrucciones:\n1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n2. También hay una bandera de la capital que debes arrastrar al centro.\n3. Si aciertas, ganarás puntos y verás información sobre el país o la capital.\n4. Si fallas, perderás puntos y una vida.",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "¡Bienvenido al Juego de Banderas!\n\nObjetivo:\nArrastra la bandera correcta del país o su capital al centro del mapa.\n\nInstrucciones:\n1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n2. También hay una bandera de la capital que debes arrastrar al centro.\n3. Si aciertas, ganarás puntos y verás información sobre el país o la capital.\n4. Si fallas, perderás puntos y una vida.",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\cuadroazul.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 78
+                      },
+                      {
+                        "x": 434,
+                        "y": 78
+                      },
+                      {
+                        "x": 434,
+                        "y": 434
+                      },
+                      {
+                        "x": 78,
+                        "y": 434
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GuiaBandera",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "La bandera debes arrastrala a la silueta del pais",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "La bandera debes arrastrala a la silueta del pais",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "text_box_completado",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\pngtree-square-text-box-label-banner-yellow-brown-png-image_6123166.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 63
+                      },
+                      {
+                        "x": 344,
+                        "y": 63
+                      },
+                      {
+                        "x": 344,
+                        "y": 303
+                      },
+                      {
+                        "x": 20,
+                        "y": 303
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "text_complete",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Enhorabuena!\nHas completado la Guia",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Enhorabuena!\nHas completado la Guia",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_capital",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "La capital del pais debes arrastrala a la parte inferior central",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "La capital del pais debes arrastrala a la parte inferior central",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 45,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "texto_error",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Ten cuidado!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Ten cuidado!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "capital",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\cuadroverde.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 78
+                      },
+                      {
+                        "x": 434,
+                        "y": 78
+                      },
+                      {
+                        "x": 434,
+                        "y": 434
+                      },
+                      {
+                        "x": 78,
+                        "y": 434
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "error",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\cuadrorojo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 78,
+                        "y": 78
+                      },
+                      {
+                        "x": 434,
+                        "y": 78
+                      },
+                      {
+                        "x": 434,
+                        "y": 434
+                      },
+                      {
+                        "x": 78,
+                        "y": 434
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BtnSkip",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\skip verde.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 977
+                      },
+                      {
+                        "x": 18,
+                        "y": 977
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Guia\\skip azul.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 8
+                      },
+                      {
+                        "x": 2030,
+                        "y": 977
+                      },
+                      {
+                        "x": 18,
+                        "y": 977
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1599,6 +2612,45 @@
       },
       {
         "objectName": "Mapa"
+      },
+      {
+        "objectName": "BtnVolver"
+      },
+      {
+        "objectName": "foco"
+      },
+      {
+        "objectName": "textoguia"
+      },
+      {
+        "objectName": "NewSprite4"
+      },
+      {
+        "objectName": "Text_guia"
+      },
+      {
+        "objectName": "GuiaBandera"
+      },
+      {
+        "objectName": "text_box_completado"
+      },
+      {
+        "objectName": "text_complete"
+      },
+      {
+        "objectName": "texto_capital"
+      },
+      {
+        "objectName": "texto_error"
+      },
+      {
+        "objectName": "capital"
+      },
+      {
+        "objectName": "error"
+      },
+      {
+        "objectName": "BtnSkip"
       }
     ]
   },
@@ -1608,7 +2660,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Parámetros iniciales",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1766,10 +2817,56 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "Montre"
               },
               "parameters": [
-                "Informacion"
+                "Informacion",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Socalo_Información",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TempInicial\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "foco",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "textoguia",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Text_guia",
+                ""
               ]
             },
             {
@@ -1777,7 +2874,31 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Socalo_Información"
+                "NewSprite4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "text_box_completado"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "text_complete"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GuiaBandera"
               ]
             }
           ]
@@ -1800,7 +2921,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bandera 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2328,7 +3448,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bandera 2",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -2837,7 +3956,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bandera 3 (Incorrecta)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3176,7 +4294,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Comprobación de nivel fallido (Game Over)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3279,7 +4396,7 @@
               },
               "parameters": [
                 "ecuadorCompletado",
-                "True",
+                "False",
                 ""
               ]
             },
@@ -3290,6 +4407,24 @@
               "parameters": [
                 "ayudaUsada",
                 "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_box_completado",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text_complete",
+                ""
               ]
             }
           ]
@@ -3389,6 +4524,433 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BtnVolver",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BtnVolver",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BtnVolver",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BtnVolver",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BtnVolver",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BtnSkip",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BtnSkip",
+            "Animation",
+            "=",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BtnSkip",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+          },
+          "parameters": [
+            "BtnSkip",
+            "Animation",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "BtnSkip",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "foco"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Text_guia"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "textoguia"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BtnSkip"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera1",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewSprite4",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "GuiaBandera",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera1",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewSprite4"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GuiaBandera"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_capital",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "capital",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "capital"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_capital"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "error",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "texto_error",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "bandera3",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "error"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "texto_error"
+          ]
+        }
+      ]
     }
   ],
   "layers": [

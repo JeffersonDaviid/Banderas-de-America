@@ -2436,6 +2436,171 @@
         "name": "assets\\Juego\\Banderas\\México\\Bandera_Butan.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Guia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Guia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Guia AZUL.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Guia AZUL.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Volver verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Volver verde.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Volver azul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Volver azul.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/arrow-cartoon-doodle-free.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\arrow-cartoon-doodle-free.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/foco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\foco.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/texto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\texto.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/4078f205d7edff07bb3c2076e74be1b6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\4078f205d7edff07bb3c2076e74be1b6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/pngtree-square-text-box-label-banner-yellow-brown-png-image_6123166.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\pngtree-square-text-box-label-banner-yellow-brown-png-image_6123166.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/cuadroazul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\cuadroazul.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/cuadroverde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\cuadroverde.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/cuadrorojo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\cuadrorojo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+          "name": "Grey Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/da7fc2efa0882eb5dfa0266315f2483c2f68d86a6751dc309ea9e9d0dd4759ba_Grey Button_Idle.png",
+          "name": "Grey Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
+          "name": "Grey Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/skip verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\skip verde.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/skip azul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\skip azul.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3083,6 +3248,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/creditos"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/guia"
     }
   ],
   "externalEvents": [
