@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.41943397827591095,
+    "snap": true,
+    "zoomFactor": 0.47893418845353014,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -288,7 +288,7 @@
       "persistentUuid": "bbf649fe-cf75-4aa0-ba83-60ad2f13cbee",
       "width": 363,
       "x": 1467,
-      "y": 196,
+      "y": 290,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -479,24 +479,8 @@
       "name": "País",
       "persistentUuid": "75b606a8-20b9-4dd4-a8f6-370528c58006",
       "width": 0,
-      "x": 737,
-      "y": 473,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Objetos",
-      "name": "Capital",
-      "persistentUuid": "ed0b561b-822d-4370-b3ee-9bf17e6e1351",
-      "width": 0,
-      "x": 680,
-      "y": 882,
+      "x": 760,
+      "y": 828,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -867,7 +851,7 @@
       "string": "La adopción oficial de la bandera nacional fue el 24 de febrero 1821, el estandarte está formado por tres franjas verticales de igual tamaño: el verde representa la esperanza, el blanco la pureza y el rojo la sangre derramada por los héroes nacionales.",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 30,
+      "characterSize": 36,
       "color": {
         "b": 0,
         "g": 0,
@@ -890,7 +874,7 @@
         "text": "La adopción oficial de la bandera nacional fue el 24 de febrero 1821, el estandarte está formado por tres franjas verticales de igual tamaño: el verde representa la esperanza, el blanco la pureza y el rojo la sangre derramada por los héroes nacionales.",
         "font": "",
         "textAlignment": "center",
-        "characterSize": 30,
+        "characterSize": 36,
         "color": "0;0;0"
       }
     },
@@ -1417,7 +1401,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Bandera del país aqui ...",
+      "string": "BANDERA DEL PAÍS AQUÍ ...",
       "font": "",
       "textAlignment": "left",
       "characterSize": 30,
@@ -1440,51 +1424,10 @@
         "shadowOpacity": 100,
         "smoothed": true,
         "underlined": false,
-        "text": "Bandera del país aqui ...",
+        "text": "BANDERA DEL PAÍS AQUÍ ...",
         "font": "",
         "textAlignment": "left",
         "characterSize": 30,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Capital",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Bandera de la capital aqui ...",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 100,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Bandera de la capital aqui ...",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 40,
         "color": "0;0;0"
       }
     }
@@ -1494,9 +1437,6 @@
     "children": [
       {
         "objectName": "País"
-      },
-      {
-        "objectName": "Capital"
       },
       {
         "objectName": "bandera1"
