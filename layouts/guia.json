@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.28172599320795927,
+    "zoomFactor": 0.2636457673770831,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -2694,7 +2694,7 @@
                 "Socalo_Vidas",
                 "Health",
                 "=",
-                "3",
+                "2",
                 ""
               ]
             },
@@ -2705,7 +2705,7 @@
               "parameters": [
                 "numeroDeVidas",
                 "=",
-                "3"
+                "2"
               ]
             },
             {
@@ -2835,15 +2835,6 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"TempInicial\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
@@ -2911,7 +2902,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Mecánicas de las banderas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -2926,7 +2916,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2999,7 +2988,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Bandera colocada correctamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3041,7 +3029,7 @@
                               },
                               "parameters": [
                                 "bandera1",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -3211,7 +3199,7 @@
                               },
                               "parameters": [
                                 "bandera1",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -3453,7 +3441,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -3522,11 +3509,50 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "ShakeObject_PositionAngleScale",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Resizable",
+                        "=",
+                        "155"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Resizable",
+                        "=",
+                        "265"
+                      ]
+                    }
+                  ]
+                },
+                {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Bandera colocada correctamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3555,7 +3581,7 @@
                               },
                               "parameters": [
                                 "bandera2",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -3595,8 +3621,8 @@
                             "bandera2",
                             "Tween",
                             "\"sitioCorrecto2\"",
-                            "Socalo_Bandera_Pais.X() + 50",
-                            "Socalo_Bandera_Pais.Y() + 10",
+                            "Socalo_Bandera_Capital.X() + 50",
+                            "Socalo_Bandera_Capital.Y() + 10",
                             "\"swingTo\"",
                             "0.5",
                             ""
@@ -3678,7 +3704,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Bandera colocada incorrectamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -3732,7 +3757,7 @@
                               },
                               "parameters": [
                                 "bandera2",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -3961,7 +3986,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -4030,7 +4054,7 @@
                               },
                               "parameters": [
                                 "bandera3",
-                                "Socalo_Bandera_Pais",
+                                "Socalo_Bandera_Capital",
                                 "",
                                 "",
                                 ""
@@ -4277,6 +4301,46 @@
                         "0.1",
                         "no",
                         ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "ShakeObject_PositionAngleScale",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Resizable",
+                        "=",
+                        "155"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Resizable",
+                        "=",
+                        "265"
                       ]
                     }
                   ]

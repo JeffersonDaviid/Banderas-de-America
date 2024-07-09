@@ -2476,6 +2476,114 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Guia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Guia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Guia AZUL.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Guia AZUL.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Volver verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Volver verde.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/Volver azul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\Volver azul.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/skip verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\skip verde.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/skip azul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\skip azul.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/cuadrorojo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\cuadrorojo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/cuadroverde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\cuadroverde.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/pngtree-square-text-box-label-banner-yellow-brown-png-image_6123166.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\pngtree-square-text-box-label-banner-yellow-brown-png-image_6123166.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/cuadroazul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\cuadroazul.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/4078f205d7edff07bb3c2076e74be1b6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\4078f205d7edff07bb3c2076e74be1b6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Guia/foco.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Guia\\foco.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
