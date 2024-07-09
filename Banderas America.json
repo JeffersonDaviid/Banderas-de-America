@@ -1530,57 +1530,12 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Creditos/Recurso 26.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\Recurso 26.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Creditos/Recurso 20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\Recurso 20.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Creditos/Hitbox.png",
         "kind": "image",
         "metadata": "",
         "name": "assets\\Creditos\\Hitbox.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Creditos/epn.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\epn.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Creditos/fis.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\fis.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Creditos/igm.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\igm.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "file": "creditos.wav",
@@ -2400,6 +2355,60 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GameOver/logoGO.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GameOver\\logoGO.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Botones/return.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Botones\\return.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Botones/returnSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Botones\\returnSelect.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Logos/epn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Logos\\epn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Logos/fis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Logos\\fis.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Creditos/Logos/igm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Creditos\\Logos\\igm.png",
+        "smoothed": true,
         "userAdded": true
       }
     ],
