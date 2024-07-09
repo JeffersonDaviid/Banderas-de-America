@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2912258866911135,
+    "zoomFactor": 0.23867758270257997,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -440,7 +440,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\Recurso 26.png",
+                  "image": "assets\\Creditos\\Botones\\return.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -488,7 +488,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\Recurso 20.png",
+                  "image": "assets\\Creditos\\Botones\\returnSelect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1276,7 +1276,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\epn.png",
+                  "image": "assets\\Creditos\\Logos\\epn.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1351,7 +1351,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\fis.png",
+                  "image": "assets\\Creditos\\Logos\\fis.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1426,7 +1426,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\igm.png",
+                  "image": "assets\\Creditos\\Logos\\igm.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
