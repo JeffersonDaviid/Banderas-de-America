@@ -3018,12 +3018,6 @@
       "name": "venezuelaCompletado",
       "type": "boolean",
       "value": false
-    },
-    {
-      "folded": true,
-      "name": "zoomCamara",
-      "type": "number",
-      "value": 1
     }
   ],
   "layouts": [
