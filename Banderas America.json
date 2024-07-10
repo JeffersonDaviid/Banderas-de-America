@@ -2094,53 +2094,35 @@
         "alwaysLoaded": false,
         "file": "assets/assets_Juego_Fondos_Banderas_Soporte_Bandera.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera",
+        "metadata": "",
+        "name": "assets\\Menu-Seleccion\\returnSelect.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/socaloNombrePais.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "socaloNombrePais",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Juego/Hitbox.png",
+        "file": "assets/Menu-Seleccion/puntaje.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Juego\\Hitbox.png",
+        "name": "assets\\Menu-Seleccion\\puntaje.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Juego/Fondos/Banderas/PanelBanderas.png",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelBanderas.png\",\"extension\":\".png\"}",
-        "name": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Juego/Fondos/Banderas/PanelInferior.png",
+        "file": "assets/Menu-Seleccion/puntajeSelect.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
+        "name": "assets\\Menu-Seleccion\\puntajeSelect.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Juego/Fondos/Banderas/PanelVidas.png",
+        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
+        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2187,21 +2169,21 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/return.png",
+        "file": "assets/Juego/Fondos/Banderas/PanelInferior.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/returnSelect.png",
+        "file": "assets/Juego/Fondos/Banderas/PanelVidas.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
         "smoothed": true,
-        "userAdded": true
+        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2214,19 +2196,142 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/puntajeSelect.png",
+        "file": "assets/Juego/Fondos/Banderas/PanelPuntaje.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelPuntaje.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelPuntaje.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Menu-Seleccion/InterfazDeUsuario/personaje.png",
+        "file": "assets/Juego/Mapas/Ecuador/Ecuador1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "overButton.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "overButton.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "overButton.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "overButton.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Mapas/Ecuador/Ecuuador2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Banderas/Ecuador/Bandera_Francia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Juego_Fondos_Banderas_Soporte_Bandera.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\Soporte_Bandera",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/socaloNombrePais.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "socaloNombrePais",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelBanderas.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelBanderas.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/GameMusic.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\GameMusic.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/CorretFlag.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/WrongFlag.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Juego/Efect Sounds/LevelCompleted.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Juego\\Efect Sounds\\LevelCompleted.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Juego/Fondos/Banderas/PanelInferior.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -2252,56 +2357,52 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/GameOver/logoGO.png",
+        "file": "assets/Juego/Fondos/Banderas/PanelVidas.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\GameOver\\logoGO.png",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Creditos/Botones/return.png",
+        "file": "assets/Juego/Fondos/Banderas/PanelPuntaje.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\Botones\\return.png",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelPuntaje.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelPuntaje.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Creditos/Botones/returnSelect.png",
+        "file": "assets/Juego/Fondos/Banderas/PanelInformacion.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\Botones\\returnSelect.png",
+        "metadata": "{\"localFilePath\":\"assets/Juego/Fondos/Banderas/PanelInformacion.png\",\"extension\":\".png\"}",
+        "name": "assets\\Juego\\Fondos\\Banderas\\PanelInformacion.png",
         "smoothed": true,
         "userAdded": false
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Creditos/Logos/epn.png",
+        "file": "assets/NewSprite20.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\Creditos\\Logos\\epn.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite20",
         "smoothed": true,
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Creditos/Logos/fis.png",
-        "kind": "image",
+        "file": "Vanilla Cake Free.ttf",
+        "kind": "font",
         "metadata": "",
-        "name": "assets\\Creditos\\Logos\\fis.png",
-        "smoothed": true,
+        "name": "Vanilla Cake Free.ttf",
         "userAdded": true
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Creditos/Logos/igm.png",
-        "kind": "image",
+        "file": "assets/Vanilla Cake Free.ttf",
+        "kind": "font",
         "metadata": "",
-        "name": "assets\\Creditos\\Logos\\igm.png",
-        "smoothed": true,
+        "name": "assets\\Vanilla Cake Free.ttf",
         "userAdded": true
       }
     ],
@@ -2370,113 +2471,6 @@
                       {
                         "x": 0,
                         "y": 266
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Socalo_Paises",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 1.2,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 143
-                      },
-                      {
-                        "x": 0,
-                        "y": 143
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 0
-                      },
-                      {
-                        "x": 316,
-                        "y": 143
-                      },
-                      {
-                        "x": 0,
-                        "y": 143
                       }
                     ]
                   ]
@@ -2570,9 +2564,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 3,
+          "Health": 2,
           "CurrentHealth": 0,
-          "MaxHealth": 3,
+          "MaxHealth": 2,
           "DamageCooldown": 0,
           "AllowOverHealing": false,
           "IsHealthJustDamaged": false,
@@ -2651,7 +2645,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Socalo_Bandera_Pais",
+      "name": "Socalo_Bandera_Capital",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2878,13 +2872,10 @@
         "objectName": "Socalo_Banderas"
       },
       {
-        "objectName": "Socalo_Paises"
-      },
-      {
         "objectName": "Socalo_Vidas"
       },
       {
-        "objectName": "Socalo_Bandera_Pais"
+        "objectName": "Socalo_Bandera_Capital"
       },
       {
         "objectName": "Socalo_Nombre_Pais"
@@ -3018,6 +3009,18 @@
       "name": "venezuelaCompletado",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "puntajeGlobal",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "puntajeDeNivel",
+      "type": "number",
+      "value": 250
     }
   ],
   "layouts": [
@@ -3035,7 +3038,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/juego"
+      "referenceTo": "/layouts/juegoecuador"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegomxico"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3044,6 +3051,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/creditos"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/guia"
     }
   ],
   "externalEvents": [
@@ -3053,6 +3064,14 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/sticker"
