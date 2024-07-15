@@ -2539,6 +2539,46 @@
         "name": "assets\\Sprites\\Hitbox.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Efects/LevelCompleted.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Efects\\LevelCompleted.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Game.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Game.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Efects/CorretFlag.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Efects\\CorretFlag.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Efects/WrongFlag.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Efects\\WrongFlag.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2634,78 +2674,6 @@
                       {
                         "x": 34,
                         "y": 412
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Socalo_Bandera_Capital",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "socaloNombrePais",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\Sprites\\Hitbox.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 512,
-                        "y": 0
-                      },
-                      {
-                        "x": 512,
-                        "y": 382
-                      },
-                      {
-                        "x": 0,
-                        "y": 382
                       }
                     ]
                   ]
@@ -2869,9 +2837,6 @@
       },
       {
         "objectName": "Socalo_Vidas"
-      },
-      {
-        "objectName": "Socalo_Bandera_Capital"
       },
       {
         "objectName": "Socalo_Nombre_Pais"

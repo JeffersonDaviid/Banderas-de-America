@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4057518905943872,
+    "zoomFactor": 0.3797121001947978,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -169,23 +169,6 @@
       "x": 793,
       "y": 28,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 200,
-      "keepRatio": true,
-      "layer": "Socalos",
-      "name": "Socalo_Bandera_Capital",
-      "persistentUuid": "95920cd0-c63b-41d5-8799-f2ab8f989df2",
-      "width": 350,
-      "x": 753,
-      "y": 784,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -441,26 +424,9 @@
       "layer": "Objetos",
       "name": "País",
       "persistentUuid": "75b606a8-20b9-4dd4-a8f6-370528c58006",
-      "width": 374,
-      "x": 737,
-      "y": 473,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "keepRatio": true,
-      "layer": "Objetos",
-      "name": "Capital",
-      "persistentUuid": "ed0b561b-822d-4370-b3ee-9bf17e6e1351",
-      "width": 594,
-      "x": 685,
-      "y": 896,
+      "width": 703,
+      "x": 590,
+      "y": 820,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -1211,7 +1177,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": "Bandera del país aqui ...",
       "font": "",
       "textAlignment": "center",
@@ -1239,47 +1216,6 @@
         "font": "",
         "textAlignment": "center",
         "characterSize": 30,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Capital",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Bandera de la capital aqui ...",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 40,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 100,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Bandera de la capital aqui ...",
-        "font": "",
-        "textAlignment": "center",
-        "characterSize": 40,
         "color": "0;0;0"
       }
     },
@@ -1396,9 +1332,6 @@
     "children": [
       {
         "objectName": "País"
-      },
-      {
-        "objectName": "Capital"
       },
       {
         "objectName": "bandera1"
@@ -1848,7 +1781,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Juego\\Efect Sounds\\GameMusic.mp3",
+                "assets\\Sonidos\\Music\\Game.mp3",
                 "yes",
                 "",
                 ""
@@ -2023,19 +1956,6 @@
                                 "",
                                 "no"
                               ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera1",
-                                "Socalo_Bandera_Capital",
-                                "",
-                                "",
-                                ""
-                              ]
                             }
                           ]
                         },
@@ -2053,7 +1973,7 @@
                           },
                           "parameters": [
                             "",
-                            "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
+                            "assets\\Sonidos\\Efects\\CorretFlag.mp3",
                             "",
                             "",
                             ""
@@ -2182,141 +2102,6 @@
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Cayó en el sócalo incorrecto, se restarán puntos."
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "DraggableBehavior::Dropped"
-                              },
-                              "parameters": [
-                                "bandera1",
-                                "Arrastrable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera1",
-                                "Socalo_Bandera_Capital",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera1",
-                                "Mapa",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Socalo_Vidas",
-                            "Health",
-                            "1",
-                            "no",
-                            "no",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
-                          },
-                          "parameters": [
-                            "FlatHeartBar",
-                            "=",
-                            "Socalo_Vidas.Health::Health()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "puntajeDeNivel",
-                            "-",
-                            "50"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                          },
-                          "parameters": [
-                            "Cantidad_de_Puntos",
-                            "Text",
-                            "=",
-                            "ToString(GlobalVariable(puntajeDeNivel))"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Flash::Flash::Flash"
-                          },
-                          "parameters": [
-                            "FlatHeartBar",
-                            "Flash",
-                            "0.5",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
-                            "",
-                            "",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "BuiltinCommonInstructions::Comment",
                       "color": {
@@ -2467,7 +2252,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Bandera 2",
+          "name": "Bandera 2 (Incorrecta)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -2580,337 +2365,26 @@
                   ]
                 },
                 {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Bandera colocada correctamente",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "DraggableBehavior::Dropped"
-                              },
-                              "parameters": [
-                                "bandera2",
-                                "Arrastrable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera2",
-                                "Socalo_Bandera_Capital",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera2",
-                                "Mapa",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetSceneVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "bandera2Lista",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Tween",
-                            "\"sitioCorrecto2\"",
-                            "Socalo_Bandera_Capital.X() + 50",
-                            "Socalo_Bandera_Capital.Y() + 10",
-                            "\"swingTo\"",
-                            "0.5",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ActivateBehavior"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Arrastrable",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ActivateBehavior"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "ShakeObject_PositionAngleScale",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "Capital"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "DraggableBehavior::Dropped"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Arrastrable"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Socalo_Bandera_Capital",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets\\Juego\\Efect Sounds\\CorretFlag.mp3",
-                            "",
-                            "",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Liberación de memoria"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "Tween::HasFinished"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Tween",
-                            "\"sitioCorrecto2\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::RemoveSceneTween"
-                          },
-                          "parameters": [
-                            "",
-                            "\"sitioCorrecto2\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Cayó en el sócalo incorrecto, se restarán puntos."
                 },
                 {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Bandera colocada incorrectamente",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
                       },
-                      "comment": "Cayó en el sócalo incorrecto, se restarán puntos."
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "DraggableBehavior::Dropped"
-                              },
-                              "parameters": [
-                                "bandera2",
-                                "Arrastrable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera2",
-                                "Mapa",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera2",
-                                "Socalo_Bandera_Capital",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Health::Health::Hit"
-                          },
-                          "parameters": [
-                            "Socalo_Vidas",
-                            "Health",
-                            "1",
-                            "no",
-                            "no",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
-                          },
-                          "parameters": [
-                            "FlatHeartBar",
-                            "=",
-                            "Socalo_Vidas.Health::Health()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ModVarGlobal"
-                          },
-                          "parameters": [
-                            "puntajeDeNivel",
-                            "-",
-                            "25"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                          },
-                          "parameters": [
-                            "Cantidad_de_Puntos",
-                            "Text",
-                            "=",
-                            "ToString(GlobalVariable(puntajeDeNivel))"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Flash::Flash::Flash"
-                          },
-                          "parameters": [
-                            "FlatHeartBar",
-                            "Flash",
-                            "0.5",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      "parameters": [],
+                      "subInstructions": [
                         {
                           "type": {
                             "value": "DraggableBehavior::Dropped"
@@ -2931,168 +2405,223 @@
                             "",
                             ""
                           ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
-                            "",
-                            "",
-                            ""
-                          ]
                         }
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
                       },
-                      "comment": "Después de caer en el sócalo incorrecto o cualquier otro lugar erróneo, volverá a su posición inicial con un rápido parpadeo rojo."
-                    },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::And"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "DraggableBehavior::Dropped"
-                              },
-                              "parameters": [
-                                "bandera2",
-                                "Arrastrable"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SceneVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "bandera2Lista",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Tween",
-                            "\"Bandera2SitioErroneo\"",
-                            "bPosiciónX",
-                            "bPosiciónY2",
-                            "\"easeInOutQuad\"",
-                            "0.5",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectColorTween2"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Tween",
-                            "\"Bandera2SitioErroneoColor\"",
-                            "\"241;86;86\"",
-                            "\"easeInQuad\"",
-                            "0.07",
-                            "",
-                            "\"linear\""
-                          ]
-                        }
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\Sonidos\\Efects\\WrongFlag.mp3",
+                        "",
+                        "",
+                        ""
                       ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
+                      "type": {
+                        "value": "Health::Health::Hit"
                       },
-                      "comment": "Acabando las animaciones usadas, se liberará memoria."
+                      "parameters": [
+                        "Socalo_Vidas",
+                        "Health",
+                        "1",
+                        "no",
+                        "no",
+                        ""
+                      ]
                     },
                     {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      "type": {
+                        "value": "TiledUnitsBar::TiledUnitsBar::SetValue"
+                      },
+                      "parameters": [
+                        "FlatHeartBar",
+                        "=",
+                        "Socalo_Vidas.Health::Health()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "puntajeDeNivel",
+                        "-",
+                        "25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Cantidad_de_Puntos",
+                        "Text",
+                        "=",
+                        "ToString(GlobalVariable(puntajeDeNivel))"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Flash::Flash::Flash"
+                      },
+                      "parameters": [
+                        "FlatHeartBar",
+                        "Flash",
+                        "0.5",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Después de caer en el sócalo incorrecto o cualquier otro lugar erróneo, volverá a su posición inicial con un rápido parpadeo rojo."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
                         {
                           "type": {
-                            "value": "Tween::HasFinished"
+                            "value": "DraggableBehavior::Dropped"
                           },
                           "parameters": [
                             "bandera2",
-                            "Tween",
-                            "\"Bandera2SitioErroneo\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::RemoveSceneTween"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Bandera2SitioErroneo\""
+                            "Arrastrable"
                           ]
                         },
                         {
                           "type": {
-                            "value": "Tween::RemoveSceneTween"
+                            "value": "SceneVariableAsBoolean"
                           },
                           "parameters": [
-                            "",
-                            "\"Bandera2SitioErroneoColor\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectColorTween2"
-                          },
-                          "parameters": [
-                            "bandera2",
-                            "Tween",
-                            "\"Bandera2SitioErroneoColor\"",
-                            "\"255;255;255\"",
-                            "\"easeInQuad\"",
-                            "0.04",
-                            "",
-                            "\"linear\""
+                            "bandera2Lista",
+                            ""
                           ]
                         }
                       ]
                     }
                   ],
-                  "parameters": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Tween",
+                        "\"Bandera2SitioErroneo\"",
+                        "bPosiciónX",
+                        "bPosiciónY2",
+                        "\"easeInOutQuad\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Tween",
+                        "\"Bandera2SitioErroneoColor\"",
+                        "\"241;86;86\"",
+                        "\"easeInQuad\"",
+                        "0.07",
+                        "",
+                        "\"linear\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Acabando las animaciones usadas, se liberará memoria."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Tween",
+                        "\"Bandera2SitioErroneo\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveSceneTween"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Bandera2SitioErroneo\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::RemoveSceneTween"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Bandera2SitioErroneoColor\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                      },
+                      "parameters": [
+                        "bandera2",
+                        "Tween",
+                        "\"Bandera2SitioErroneoColor\"",
+                        "\"255;255;255\"",
+                        "\"easeInQuad\"",
+                        "0.04",
+                        "",
+                        "\"linear\""
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -3133,6 +2662,99 @@
                     "textG": 0,
                     "textR": 0
                   },
+                  "comment": "Animación cuando el mouse está sobre la bandera"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "ShakeObject_PositionAngleScale",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "ShakeObject_PositionAngleScale",
+                        "0.2",
+                        "5",
+                        "5",
+                        "0",
+                        "5",
+                        "0.1",
+                        "no",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "ShakeObject_PositionAngleScale",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Resizable",
+                        "=",
+                        "155"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "bandera3",
+                        "Resizable",
+                        "=",
+                        "265"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Cayó en cualquier sócalo, se restarán puntos."
                 },
                 {
@@ -3155,34 +2777,14 @@
                         },
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "value": "CollisionNP"
                           },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera3",
-                                "Mapa",
-                                "",
-                                "",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "bandera3",
-                                "Socalo_Bandera_Capital",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
+                          "parameters": [
+                            "bandera3",
+                            "Mapa",
+                            "",
+                            "",
+                            ""
                           ]
                         }
                       ]
@@ -3201,7 +2803,7 @@
                       },
                       "parameters": [
                         "",
-                        "assets\\Juego\\Efect Sounds\\WrongFlag.mp3",
+                        "assets\\Sonidos\\Efects\\WrongFlag.mp3",
                         "",
                         "",
                         ""
@@ -3392,99 +2994,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Animación cuando el mouse está sobre la bandera"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "SourisSurObjet"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "ShakeObject_PositionAngleScale",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "ShakeObject_PositionAngleScale",
-                        "0.2",
-                        "5",
-                        "5",
-                        "0",
-                        "5",
-                        "0.1",
-                        "no",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "ShakeObject::ShakeObject_PositionAngleScale::IsShaking"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "ShakeObject_PositionAngleScale",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "Resizable",
-                        "=",
-                        "155"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                      },
-                      "parameters": [
-                        "bandera3",
-                        "Resizable",
-                        "=",
-                        "265"
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -3547,30 +3056,12 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "BooleanVariable"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "bandera1Lista",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "bandera2Lista",
-                    "True",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "bandera1Lista",
+                "True",
+                ""
               ]
             }
           ],
@@ -3590,7 +3081,27 @@
                 "value": "ActivateBehavior"
               },
               "parameters": [
+                "bandera2",
+                "Arrastrable",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
                 "bandera3",
+                "ShakeObject_PositionAngleScale",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "bandera2",
                 "ShakeObject_PositionAngleScale",
                 "no"
               ]
@@ -3604,15 +3115,6 @@
                 "True",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "SetSceneVariableAsBoolean"
-              },
-              "parameters": [
-                "ayudaUsada",
-                "True"
-              ]
             }
           ]
         },
@@ -3621,30 +3123,12 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "BooleanVariable"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "bandera1Lista",
-                    "True",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "bandera2Lista",
-                    "True",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "bandera1Lista",
+                "True",
+                ""
               ]
             },
             {
@@ -3661,7 +3145,7 @@
               },
               "parameters": [
                 "",
-                "assets\\Juego\\Efect Sounds\\LevelCompleted.mp3",
+                "assets\\Sonidos\\Efects\\LevelCompleted.mp3",
                 "",
                 "",
                 ""
@@ -3699,21 +3183,6 @@
               },
               "parameters": [
                 "Informacion",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "bandera2",
-                "Tween",
-                "\"bandera2Correcta\"",
-                "\"122;192;40\"",
-                "\"easeInQuad\"",
-                "0.1",
-                "",
                 ""
               ]
             },
