@@ -109,54 +109,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 200,
-      "layer": "Socalos",
-      "name": "Socalo_Banderas",
-      "persistentUuid": "efba964b-c0ba-493e-9f27-a667c1c8a636",
-      "width": 320,
-      "x": 92,
-      "y": 204,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 200,
-      "layer": "Socalos",
-      "name": "Socalo_Banderas",
-      "persistentUuid": "6a119d50-f386-4428-9835-4767eed68116",
-      "width": 320,
-      "x": 92,
-      "y": 427,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 200,
-      "layer": "Socalos",
-      "name": "Socalo_Banderas",
-      "persistentUuid": "5610e971-7838-429c-bf29-054e93bc723d",
-      "width": 320,
-      "x": 92,
-      "y": 643,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 155,
       "keepRatio": true,
       "layer": "Objetos",
@@ -200,23 +152,6 @@
       "x": 117,
       "y": 660,
       "zOrder": 22,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 52,
-      "keepRatio": true,
-      "layer": "",
-      "name": "socalo",
-      "persistentUuid": "6ae50c2c-96d1-418f-aafc-ba12dde76098",
-      "width": 54,
-      "x": 989,
-      "y": 316,
-      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -583,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -603,16 +538,16 @@
                         "y": 0
                       },
                       {
-                        "x": 2560,
+                        "x": 901,
                         "y": 0
                       },
                       {
-                        "x": 2560,
-                        "y": 1707
+                        "x": 901,
+                        "y": 561
                       },
                       {
                         "x": 0,
-                        "y": 1707
+                        "y": 561
                       }
                     ]
                   ]
@@ -657,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -731,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -778,7 +713,7 @@
       "leftMargin": 64,
       "name": "WoodBackground",
       "rightMargin": 64,
-      "texture": "assets\\Juego\\Fondos\\General\\Background.png",
+      "texture": "assets\\Fondos\\Fondo_Juego.png",
       "tiled": true,
       "topMargin": 64,
       "type": "PanelSpriteObject::PanelSprite",
@@ -830,7 +765,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelInformacion.png",
+                  "image": "assets\\Recuadros\\Panel_Informacion.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1012,19 +947,19 @@
           "height": 90,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Flat Heart Empty.png",
+          "texture": "assets\\Sprites\\Life_Empty.png",
           "tiled": false,
           "topMargin": 0,
           "width": 270
         },
         "Bar": {
           "height": 90,
-          "texture": "Flat Heart Empty.png",
+          "texture": "assets\\Sprites\\Life_Empty.png",
           "width": 90
         },
         "FillBar": {
           "height": 90,
-          "texture": "Flat Heart Filled.png",
+          "texture": "assets\\Sprites\\Life.png",
           "width": 90
         }
       }
@@ -1061,7 +996,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelPuntaje.png",
+                  "image": "assets\\Recuadros\\Panel_Puntaje.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1226,7 +1161,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas.png",
+                  "image": "assets\\Recuadros\\Panel_Banderas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1256,78 +1191,6 @@
                       {
                         "x": 35,
                         "y": 2467
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite20",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
                       }
                     ]
                   ]
@@ -1421,47 +1284,6 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Text",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Text",
-        "font": "",
-        "textAlignment": "left",
-        "characterSize": 20,
-        "color": "0;0;0"
-      }
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Mapa",
@@ -1492,7 +1314,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1528,7 +1350,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1613,15 +1435,6 @@
       },
       {
         "objectName": "cuadroBanderas"
-      },
-      {
-        "objectName": "NewSprite"
-      },
-      {
-        "objectName": "NewSprite2"
-      },
-      {
-        "objectName": "NewText"
       },
       {
         "objectName": "Mapa"
@@ -2273,8 +2086,8 @@
                             "bandera1",
                             "Tween",
                             "\"sitioCorrecto1\"",
-                            "socalo.X() - 150",
-                            "socalo.Y()",
+                            "Socalo_Mapa.X() + 300",
+                            "Socalo_Mapa.Y() + 300",
                             "\"swingTo\"",
                             "0.5",
                             ""

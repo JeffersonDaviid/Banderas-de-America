@@ -2404,144 +2404,146 @@
         "metadata": "",
         "name": "assets\\Vanilla Cake Free.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Ecuador/Bandera_Ecuador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Ecuador/Bandera_Quito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Ecuador/Bandera_Francia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Life.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Life.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Life_Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Life_Empty.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Ecuador_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Ecuador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fondos/Fondo_Juego.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fondos\\Fondo_Juego.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Banderas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Banderas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fondos/Fondo_Mapa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fondos\\Fondo_Mapa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Guia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Guia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Puntaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Puntaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Informacion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Informacion.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Vidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Vidas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Socalo_Banderas",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 1,
-          "topEdgeAnchor": 0,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "socaloDePaíses",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "assets\\Juego\\Hitbox.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 499,
-                        "y": 0
-                      },
-                      {
-                        "x": 499,
-                        "y": 266
-                      },
-                      {
-                        "x": 0,
-                        "y": 266
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "socalo",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "socalo",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Botones\\Btn_Ayuda.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 48,
-                        "y": 126
-                      },
-                      {
-                        "x": 49,
-                        "y": 126
-                      },
-                      {
-                        "x": 49,
-                        "y": 127
-                      },
-                      {
-                        "x": 48,
-                        "y": 127
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -2602,7 +2604,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
+                  "image": "assets\\Recuadros\\Panel_Vidas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2674,7 +2676,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Juego\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2746,7 +2748,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
+                  "image": "assets\\Fondos\\Fondo_Mapa.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2762,20 +2764,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 20
+                        "x": 17,
+                        "y": 24
                       },
                       {
-                        "x": 1398,
-                        "y": 20
+                        "x": 1422,
+                        "y": 24
                       },
                       {
-                        "x": 1398,
-                        "y": 1171
+                        "x": 1422,
+                        "y": 1188
                       },
                       {
-                        "x": 13,
-                        "y": 1171
+                        "x": 17,
+                        "y": 1188
                       }
                     ]
                   ]
@@ -2818,7 +2820,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
+                  "image": "assets\\Recuadros\\Panel_Guia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2864,12 +2866,6 @@
     "children": [
       {
         "objectName": "Socalo_Mapa"
-      },
-      {
-        "objectName": "socalo"
-      },
-      {
-        "objectName": "Socalo_Banderas"
       },
       {
         "objectName": "Socalo_Vidas"
@@ -3039,10 +3035,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegoecuador"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/juegomxico"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
