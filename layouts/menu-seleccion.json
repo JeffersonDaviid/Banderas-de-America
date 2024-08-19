@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2972026041726898,
+    "zoomFactor": 0.36263603371144787,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -69,7 +69,7 @@
       "persistentUuid": "906fdfe1-d485-428f-ac83-869e5941822f",
       "width": 266,
       "x": 116,
-      "y": 751,
+      "y": 749,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -577,7 +577,7 @@
       "width": 0,
       "x": 1036,
       "y": 527,
-      "zOrder": -1,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -704,7 +704,7 @@
       "width": 0,
       "x": 324,
       "y": 61,
-      "zOrder": 2,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -969,23 +969,6 @@
       "width": 93,
       "x": 1264,
       "y": 639,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 56,
-      "keepRatio": true,
-      "layer": "SeleccionPaises",
-      "name": "Venezuela_Hitbox",
-      "persistentUuid": "3cf21f76-df09-4bd7-b239-4f4dbd46ed0d",
-      "width": 113,
-      "x": 551,
-      "y": 161,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -2721,7 +2704,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 12
+                      },
+                      {
+                        "x": 84,
+                        "y": 12
+                      },
+                      {
+                        "x": 84,
+                        "y": 81
+                      },
+                      {
+                        "x": 6,
+                        "y": 81
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -6861,7 +6863,7 @@
               "parameters": [
                 "TextoDeDialogo",
                 "=",
-                "750"
+                "735"
               ]
             },
             {

@@ -2872,6 +2872,15 @@
         "name": "Ecuador",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Life_Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Life_Empty.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
