@@ -2404,6 +2404,474 @@
         "metadata": "",
         "name": "assets\\Vanilla Cake Free.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Dialogo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Dialogo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Main_Character.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Main_Character.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Back_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Back_Select.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Score.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Score.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Score_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Score_Select.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fondos/Fondo_Mar1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fondos\\Fondo_Mar1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Hitbox.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Hitbox.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/MapaMundi/PaisSinSeleccionar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\MapaMundi\\PaisSinSeleccionar.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Chile_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Chile_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Chile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Chile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Belice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Belice.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Belice_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Belice_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Brasil_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Brasil_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Brasil.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Brasil.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Colombia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Colombia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Colombia_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Colombia_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/CostaRica_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\CostaRica_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/CostaRica.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\CostaRica.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Ecuador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Ecuador_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/EEUU_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\EEUU_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/EEUU.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\EEUU.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/ElSalvador_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\ElSalvador_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/ElSalvador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\ElSalvador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Guatemala_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Guatemala_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Guatemala.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Guatemala.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Haiti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Haiti.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Haiti_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Haiti_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Honduras_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Honduras_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Honduras.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Honduras.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Mexico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Mexico.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Mexico_Slect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Mexico_Slect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Nicaragua_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Nicaragua_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Nicaragua.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Nicaragua.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Panama.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Panama.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Panama_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Panama_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Paraguay_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Paraguay_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Paraguay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Paraguay.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Peru.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Peru.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Peru_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Peru_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/RepublicaDominicana_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\RepublicaDominicana_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/RepublicaDominicana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\RepublicaDominicana.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Uruguay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Uruguay.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Uruguay_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Uruguay_Select.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Venezuela_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Venezuela_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Venezuela.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Venezuela.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Bolivia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Bolivia.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Bolivia_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Bolivia_Select.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Argentina_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Argentina_Select.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisCompletado/Argentina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisCompletado\\Argentina.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ecuador.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ecuador",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

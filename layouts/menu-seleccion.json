@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6809716786828467,
+    "zoomFactor": 0.2972026041726898,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -45,14 +45,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 210,
+      "height": 223,
       "keepRatio": true,
       "layer": "InterfazDeUsuario",
       "name": "BurbujaDeDialogo",
       "persistentUuid": "e6c9d2c8-296e-4a6e-beb5-5dcf5d0171f1",
       "width": 345,
       "x": 75,
-      "y": 686,
+      "y": 673,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -97,14 +97,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 192,
+      "height": 258,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Argentina_Hitbox",
       "persistentUuid": "eb859afd-8237-4fea-ae5b-380317990453",
-      "width": 204,
-      "x": 1256,
-      "y": 1582,
+      "width": 152,
+      "x": 1283,
+      "y": 1422,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -114,15 +114,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 416,
+      "height": 684,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Chile_Hitbox",
       "persistentUuid": "25a500ab-3ee5-42ed-95ec-eb75cd01c4ae",
-      "width": 32,
-      "x": 1202,
-      "y": 1204,
-      "zOrder": 1,
+      "width": 23,
+      "x": 1203,
+      "y": 1276,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -170,9 +170,9 @@
       "name": "Brasil_Hitbox",
       "persistentUuid": "e2335a1e-3df4-4ead-b02a-d75839e09aca",
       "width": 354,
-      "x": 1458,
-      "y": 860,
-      "zOrder": 1,
+      "x": 1456,
+      "y": 893,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -215,31 +215,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "SeleccionPaises",
-      "name": "Ecuador_Hitbox",
-      "persistentUuid": "bb1fcaaf-987e-4793-b5de-65e75c5efcc5",
-      "width": 28,
-      "x": 1017,
-      "y": 778,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
+      "height": 22,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Ecuador_Hitbox",
       "persistentUuid": "00c7e84d-9aa2-437a-b53c-96d28e15c05e",
-      "width": 32,
-      "x": 800,
-      "y": 800,
+      "width": 22,
+      "x": 795,
+      "y": 804,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -469,15 +452,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 284,
+      "height": 146,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Peru_Hitbox",
       "persistentUuid": "e149c11a-9e43-4945-8147-5d358c397dc7",
-      "width": 64,
-      "x": 1072,
-      "y": 867,
-      "zOrder": 1,
+      "width": 71,
+      "x": 1060,
+      "y": 917,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -520,15 +503,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 96,
+      "height": 54,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Uruguay_Hitbox",
       "persistentUuid": "541200d0-8462-47ee-9267-54f618a160f0",
-      "width": 86,
-      "x": 1461,
-      "y": 1491,
-      "zOrder": 1,
+      "width": 54,
+      "x": 1479,
+      "y": 1527,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -561,23 +544,24 @@
       "width": 0,
       "x": 1133,
       "y": 688,
-      "zOrder": 2,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 143,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Ecuador",
       "persistentUuid": "1b5006ca-7521-4699-9263-28d2f20bbab8",
-      "width": 0,
-      "x": 793,
-      "y": 772,
-      "zOrder": 2,
+      "width": 315,
+      "x": 795,
+      "y": 773,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -593,7 +577,7 @@
       "width": 0,
       "x": 1036,
       "y": 527,
-      "zOrder": 2,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -625,7 +609,7 @@
       "width": 0,
       "x": 1458,
       "y": 1483,
-      "zOrder": 2,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -639,9 +623,9 @@
       "name": "Peru",
       "persistentUuid": "70742a88-7aac-4e06-b853-aa55fbf5bf68",
       "width": 0,
-      "x": 992,
+      "x": 993,
       "y": 805,
-      "zOrder": 2,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -689,7 +673,7 @@
       "width": 0,
       "x": 1042,
       "y": 1192,
-      "zOrder": 2,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -705,7 +689,7 @@
       "width": 0,
       "x": 1222,
       "y": 1290,
-      "zOrder": 2,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -892,14 +876,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 249,
+      "height": 314,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Argentina_Hitbox",
       "persistentUuid": "45e6a6a6-b680-4212-827e-0623cd252f5e",
-      "width": 116,
-      "x": 1257,
-      "y": 1733,
+      "width": 87,
+      "x": 1266,
+      "y": 1668,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -909,14 +893,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 222,
+      "height": 167,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Brasil_Hitbox",
       "persistentUuid": "efbff80c-a89b-4a01-9950-d19ca97756bc",
-      "width": 171,
-      "x": 1225,
-      "y": 790,
+      "width": 254,
+      "x": 1275,
+      "y": 828,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -931,9 +915,9 @@
       "layer": "SeleccionPaises",
       "name": "Brasil_Hitbox",
       "persistentUuid": "ac61d610-2cf0-44de-b458-9342d1a24fe9",
-      "width": 248,
-      "x": 1537,
-      "y": 1246,
+      "width": 112,
+      "x": 1549,
+      "y": 1176,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -960,31 +944,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 416,
-      "keepRatio": true,
-      "layer": "SeleccionPaises",
-      "name": "Chile_Hitbox",
-      "persistentUuid": "a9fc8b26-8ff1-435f-96a0-9560273668f7",
-      "width": 32,
-      "x": 1201,
-      "y": 1624,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 71,
+      "height": 54,
       "keepRatio": true,
       "layer": "SeleccionPaises",
       "name": "Ecuador_Hitbox",
       "persistentUuid": "04533172-8b6a-4a6f-934f-28e956f91086",
-      "width": 29,
-      "x": 1046,
-      "y": 791,
+      "width": 51,
+      "x": 1027,
+      "y": 804,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1107,6 +1074,39 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Peru_Hitbox",
+      "persistentUuid": "78912221-39b6-4d79-8225-1f6f85448f22",
+      "width": 0,
+      "x": 1068,
+      "y": 1077,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 101,
+      "keepRatio": true,
+      "layer": "SeleccionPaises",
+      "name": "Peru_Hitbox",
+      "persistentUuid": "48b6892b-e804-4ef6-a57f-18b0964c4d5b",
+      "width": 83,
+      "x": 1103,
+      "y": 1035,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1160,7 +1160,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\BackgroundMar.jpeg",
+                  "image": "assets\\Fondos\\Fondo_Mar1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1180,16 +1180,16 @@
                         "y": 0
                       },
                       {
-                        "x": 804,
+                        "x": 1920,
                         "y": 0
                       },
                       {
-                        "x": 804,
-                        "y": 544
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 544
+                        "y": 1080
                       }
                     ]
                   ]
@@ -1235,7 +1235,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\personaje.png",
+                  "image": "assets\\Sprites\\Main_Character.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1302,7 +1302,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Argentina_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Argentina_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1318,20 +1318,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 35,
-                        "y": 4
+                        "x": 1,
+                        "y": 0
                       },
                       {
-                        "x": 331,
-                        "y": 4
+                        "x": 317,
+                        "y": 0
                       },
                       {
-                        "x": 331,
-                        "y": 736
+                        "x": 317,
+                        "y": 832
                       },
                       {
-                        "x": 35,
-                        "y": 736
+                        "x": 1,
+                        "y": 832
                       }
                     ]
                   ]
@@ -1350,7 +1350,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Argentina.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Argentina.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1366,20 +1366,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 35,
-                        "y": 4
+                        "x": 1,
+                        "y": 0
                       },
                       {
-                        "x": 331,
-                        "y": 4
+                        "x": 317,
+                        "y": 0
                       },
                       {
-                        "x": 331,
-                        "y": 736
+                        "x": 317,
+                        "y": 832
                       },
                       {
-                        "x": 35,
-                        "y": 736
+                        "x": 1,
+                        "y": 832
                       }
                     ]
                   ]
@@ -1417,7 +1417,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Select_Chile.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Chile_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1433,20 +1433,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 108,
-                        "y": 17
+                        "x": 0,
+                        "y": 1
                       },
                       {
-                        "x": 230,
-                        "y": 17
+                        "x": 331,
+                        "y": 1
                       },
                       {
-                        "x": 230,
-                        "y": 720
+                        "x": 331,
+                        "y": 954
                       },
                       {
-                        "x": 108,
-                        "y": 720
+                        "x": 0,
+                        "y": 954
                       }
                     ]
                   ]
@@ -1465,7 +1465,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Chile.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Chile.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1481,20 +1481,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 108,
-                        "y": 17
+                        "x": 0,
+                        "y": 1
                       },
                       {
-                        "x": 230,
-                        "y": 17
+                        "x": 331,
+                        "y": 1
                       },
                       {
-                        "x": 230,
-                        "y": 720
+                        "x": 331,
+                        "y": 954
                       },
                       {
-                        "x": 108,
-                        "y": 720
+                        "x": 0,
+                        "y": 954
                       }
                     ]
                   ]
@@ -1532,7 +1532,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1580,7 +1580,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1632,7 +1632,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Dialogo.png",
+                  "image": "assets\\Recuadros\\Panel_Dialogo.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1757,7 +1757,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSinSeleccionar.png",
+                  "image": "assets\\Mapas\\MapaMundi\\PaisSinSeleccionar.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1824,7 +1824,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1872,7 +1872,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1920,7 +1920,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1968,7 +1968,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2016,7 +2016,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2060,11 +2060,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2077,7 +2078,26 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2112,7 +2132,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2160,7 +2180,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2208,7 +2228,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2256,7 +2276,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2304,7 +2324,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2352,7 +2372,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2400,7 +2420,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2448,7 +2468,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2496,7 +2516,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2544,7 +2564,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2592,7 +2612,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2640,7 +2660,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2688,7 +2708,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Menu-Seleccion\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2736,7 +2756,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Belice_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Belice_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2784,7 +2804,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Belice.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Belice.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2851,7 +2871,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Bolivia_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Bolivia_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2899,7 +2919,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Bolivia.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Bolivia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2966,7 +2986,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Brasil_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Brasil_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3014,7 +3034,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Brasil.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Brasil.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3081,7 +3101,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Colombia_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Colombia_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3129,7 +3149,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Colombia.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Colombia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3196,7 +3216,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\CostaRica_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\CostaRica_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3244,7 +3264,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\CostaRica.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\CostaRica.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3311,7 +3331,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Ecuador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3359,7 +3379,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Ecuador.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3426,7 +3446,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\EEUU_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\EEUU_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3474,7 +3494,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\EEUU.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\EEUU.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3541,7 +3561,55 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\ElSalvador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\ElSalvador_Select.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 0
+                      },
+                      {
+                        "x": 46,
+                        "y": 30
+                      },
+                      {
+                        "x": 0,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ElSalvador_Completado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Mapas\\PaisCompletado\\ElSalvador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3608,7 +3676,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Guatemala_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Guatemala_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3656,7 +3724,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Guatemala.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Guatemala.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3723,7 +3791,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Haiti_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Haiti_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3771,7 +3839,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Haiti.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Haiti.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3838,7 +3906,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Honduras_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Honduras_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3886,7 +3954,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Honduras.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Honduras.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3953,7 +4021,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Mexico_Slect.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Mexico_Slect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4001,7 +4069,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Mexico.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Mexico.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4068,7 +4136,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Nicaragua_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Nicaragua_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4116,7 +4184,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Nicaragua.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Nicaragua.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4183,7 +4251,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Panama_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Panama_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4231,7 +4299,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Panama.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Panama.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4298,7 +4366,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Paraguay_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Paraguay_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4346,7 +4414,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Paraguay.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Paraguay.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4413,7 +4481,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Peru_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Peru_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4461,7 +4529,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Peru.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Peru.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4528,7 +4596,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\RepublicaDominicana_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\RepublicaDominicana_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4576,7 +4644,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\RepublicaDominicana.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\RepublicaDominicana.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4643,7 +4711,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Uruguay_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Uruguay_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4691,7 +4759,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Uruguay.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Uruguay.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4758,7 +4826,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisSeleccionado\\Venezuela_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Venezuela_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4806,7 +4874,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\PaisCompletado\\Venezuela.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Venezuela.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4877,7 +4945,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntaje.png",
+                  "image": "assets\\Botones\\Btn_Score.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4893,20 +4961,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 567,
-                        "y": 4
+                        "x": 1132,
+                        "y": 8
                       },
                       {
-                        "x": 567,
-                        "y": 489
+                        "x": 1132,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -4925,7 +4993,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\puntajeSelect.png",
+                  "image": "assets\\Botones\\Btn_Score_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4941,20 +5009,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 567,
-                        "y": 4
+                        "x": 1132,
+                        "y": 8
                       },
                       {
-                        "x": 567,
-                        "y": 489
+                        "x": 1132,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -4985,7 +5053,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\return.png",
+                  "image": "assets\\Botones\\Btn_Back.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5001,20 +5069,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 4
+                        "x": 1132,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 489
+                        "x": 1132,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -5033,7 +5101,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Menu-Seleccion\\InterfazDeUsuario\\returnSelect.png",
+                  "image": "assets\\Botones\\Btn_Back_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5049,20 +5117,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 4
+                        "x": 1132,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 489
+                        "x": 1132,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -5252,6 +5320,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cursor",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5603,7 +5672,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pais",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7519,7 +7587,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8099,7 +8166,7 @@
                 "ElSalvador",
                 "Animation",
                 "=",
-                "\"ElSalvador_Select\""
+                "\"ElSalvador_Completado\""
               ]
             },
             {
