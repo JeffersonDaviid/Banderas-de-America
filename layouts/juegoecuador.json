@@ -793,7 +793,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.",
+      "string": "La información se mostrara al acertar la bandera ...",
       "font": "",
       "textAlignment": "center",
       "characterSize": 30,
@@ -816,7 +816,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.",
+        "text": "La información se mostrara al acertar la bandera ...",
         "font": "",
         "textAlignment": "center",
         "characterSize": 30,
@@ -1179,13 +1179,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 3,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 3,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1632,22 +1632,6 @@
             },
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Informacion"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Socalo_Información"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
               },
               "parameters": [
@@ -2048,6 +2032,28 @@
                           },
                           "parameters": [
                             "País"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Nombre_País",
+                            "Text",
+                            "=",
+                            "\"ECUADOR\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Informacion",
+                            "Text",
+                            "=",
+                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
                           ]
                         }
                       ]
