@@ -3209,6 +3209,69 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Guia_Jugador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Guia_Jugador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Guide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Guide.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Recuadro_Rojo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Recuadro_Rojo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Skip.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Skip.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Skip_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Skip_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Recuadro_Azul.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Recuadro_Azul.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Recuadro_Verde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Recuadro_Verde.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
