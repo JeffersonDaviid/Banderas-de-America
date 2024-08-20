@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2435758714405998,
+    "zoomFactor": 0.25178933022515865,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -5322,6 +5322,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cursor",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5673,7 +5674,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pais",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7452,6 +7452,18 @@
                 "Chile_Hitbox",
                 "Sticker",
                 "Chile",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "Cocktail on the Seaside (128kbit_AAC).aac",
+                "",
+                "50",
                 ""
               ]
             }

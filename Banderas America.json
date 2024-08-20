@@ -3090,6 +3090,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "Cocktail on the Seaside (128kbit_AAC).aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cocktail on the Seaside (128kbit_AAC).aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
