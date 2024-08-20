@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.23867758270257997,
+    "zoomFactor": 0.2022070730360202,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -369,7 +369,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\FONDO.png",
+                  "image": "assets\\Fondos\\Fondo_General.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -440,7 +440,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\Botones\\return.png",
+                  "image": "assets\\Botones\\Btn_Back.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -456,20 +456,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 4
+                        "x": 1132,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 489
+                        "x": 1132,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -488,7 +488,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\Botones\\returnSelect.png",
+                  "image": "assets\\Botones\\Btn_Back_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -504,20 +504,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 4
+                        "x": 1132,
+                        "y": 8
                       },
                       {
-                        "x": 566,
-                        "y": 489
+                        "x": 1132,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -604,7 +604,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Creditos\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1276,7 +1276,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\Logos\\epn.png",
+                  "image": "assets\\Logos\\Logo_EPN.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1351,7 +1351,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\Logos\\fis.png",
+                  "image": "assets\\Logos\\Logo_FIS.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1426,7 +1426,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Creditos\\Logos\\igm.png",
+                  "image": "assets\\Logos\\Logo_IGM.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

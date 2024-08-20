@@ -2926,6 +2926,42 @@
         "name": "assets\\Botones\\Btn_Play_Select.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fondos/Fondo_General.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fondos\\Fondo_General.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Logos/Logo_IGM.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Logos\\Logo_IGM.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Logos/Logo_FIS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Logos\\Logo_FIS.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Logos/Logo_EPN.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Logos\\Logo_EPN.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
