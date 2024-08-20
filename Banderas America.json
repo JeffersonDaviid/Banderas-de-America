@@ -3052,6 +3052,24 @@
         "metadata": "",
         "name": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_BackToMenu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_BackToMenu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_BackToMenu_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_BackToMenu_Select.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
