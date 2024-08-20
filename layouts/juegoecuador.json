@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3797121001947978,
+    "zoomFactor": 0.34375202416123557,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -880,7 +880,7 @@
         }
       ],
       "string": "ARRASTRA LA BANDERA CORRECTA",
-      "font": "assets\\Vanilla Cake Free.ttf",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 45,
       "color": {
@@ -903,13 +903,19 @@
         "smoothed": true,
         "underlined": false,
         "text": "ARRASTRA LA BANDERA CORRECTA",
-        "font": "assets\\Vanilla Cake Free.ttf",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 45,
         "color": "0;0;0"
       }
     },
     {
+      "areaMaxX": 64,
+      "areaMaxY": 64,
+      "areaMaxZ": 64,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
       "assetStoreId": "c807d51d4bab0016401aef4d64d10d137f5ac8738ffa15865e1bc81435b9720b",
       "name": "FlatHeartBar",
       "type": "TiledUnitsBar::TiledUnitsBar",
@@ -962,7 +968,38 @@
           "texture": "assets\\Sprites\\Life.png",
           "width": 90
         }
-      }
+      },
+      "instances": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1059,7 +1096,7 @@
         }
       ],
       "string": "Puntos",
-      "font": "assets\\Vanilla Cake Free.ttf",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
@@ -1082,7 +1119,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Puntos",
-        "font": "assets\\Vanilla Cake Free.ttf",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 50,
         "color": "0;0;0"

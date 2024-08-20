@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.25178933022515865,
+    "zoomFactor": 0.2781291415511554,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -5674,6 +5674,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Pais",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6945,7 +6946,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Camara",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7461,7 +7461,7 @@
               },
               "parameters": [
                 "",
-                "Cocktail on the Seaside (128kbit_AAC).aac",
+                "assets\\Sonidos\\Music\\MenuSeleccion.aac",
                 "",
                 "50",
                 ""

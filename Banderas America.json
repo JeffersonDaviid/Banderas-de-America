@@ -3199,6 +3199,16 @@
         "name": "assets\\Recuadros\\Panel_Vidas.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/MenuSeleccion.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\MenuSeleccion.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3665,6 +3675,15 @@
       },
       {
         "objectName": "Socalo_Nombre_Pais"
+      },
+      {
+        "objectName": "Socalo_Banderas"
+      },
+      {
+        "objectName": "socalo"
+      },
+      {
+        "objectName": "Socalo_Bandera_Capital"
       }
     ]
   },
