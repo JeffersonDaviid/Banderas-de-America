@@ -3398,6 +3398,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Recuadros\\Panel_Vidas.png",
+                  "image": "assets\\Recuadros\\Panel_Vidas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3542,6 +3543,7 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Fondos\\Fondo_Mapa.png",
+                  "image": "assets\\Fondos\\Fondo_Mapa.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3559,16 +3561,24 @@
                       {
                         "x": 17,
                         "y": 24
+                        "x": 17,
+                        "y": 24
                       },
                       {
+                        "x": 1422,
+                        "y": 24
                         "x": 1422,
                         "y": 24
                       },
                       {
                         "x": 1422,
                         "y": 1188
+                        "x": 1422,
+                        "y": 1188
                       },
                       {
+                        "x": 17,
+                        "y": 1188
                         "x": 17,
                         "y": 1188
                       }
@@ -3613,6 +3623,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
+                  "image": "assets\\Recuadros\\Panel_Guia.png",
                   "image": "assets\\Recuadros\\Panel_Guia.png",
                   "points": [],
                   "originPoint": {
@@ -3661,16 +3672,7 @@
         "objectName": "Socalo_Mapa"
       },
       {
-        "objectName": "socalo"
-      },
-      {
-        "objectName": "Socalo_Banderas"
-      },
-      {
         "objectName": "Socalo_Vidas"
-      },
-      {
-        "objectName": "Socalo_Bandera_Capital"
       },
       {
         "objectName": "Socalo_Nombre_Pais"
