@@ -497,7 +497,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cursor",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -552,6 +551,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -564,6 +569,18 @@
                 "Animation",
                 "=",
                 "\"Seleccionado\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sonidos\\Efects\\overButton.wav",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -648,6 +665,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -660,6 +683,18 @@
                 "Animation",
                 "=",
                 "\"Seleccionado\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sonidos\\Efects\\overButton.wav",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -716,7 +751,7 @@
           },
           "parameters": [
             "",
-            "assets\\GameOver\\SFX\\Soundtrack-GameOver.mp3",
+            "assets\\Sonidos\\Music\\GameOver.mp3",
             "",
             "",
             ""
