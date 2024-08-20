@@ -3045,6 +3045,13 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "assets/Fuentes/Vanilla Cake Free.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
