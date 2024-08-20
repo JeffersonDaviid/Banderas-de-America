@@ -484,14 +484,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 757,
+      "height": 209,
       "keepRatio": true,
       "layer": "Socalos",
       "name": "cuadroBanderas",
       "persistentUuid": "687351a3-6cea-46f4-92b1-7369d2005295",
-      "width": 435,
-      "x": 45,
-      "y": 145,
+      "width": 338,
+      "x": 90,
+      "y": 200,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -546,6 +546,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 209,
+      "keepRatio": true,
+      "layer": "Socalos",
+      "name": "cuadroBanderas",
+      "persistentUuid": "cdb39294-2ab2-4e6a-8724-a248b4411d45",
+      "width": 338,
+      "x": 88,
+      "y": 419,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 209,
+      "keepRatio": true,
+      "layer": "Socalos",
+      "name": "cuadroBanderas",
+      "persistentUuid": "0cced0f8-7663-4333-963d-794005414ca8",
+      "width": 338,
+      "x": 89,
+      "y": 634,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -583,7 +617,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -603,16 +637,16 @@
                         "y": 0
                       },
                       {
-                        "x": 2560,
+                        "x": 901,
                         "y": 0
                       },
                       {
-                        "x": 2560,
-                        "y": 1707
+                        "x": 901,
+                        "y": 561
                       },
                       {
                         "x": 0,
-                        "y": 1707
+                        "y": 561
                       }
                     ]
                   ]
@@ -657,7 +691,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -731,7 +765,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -778,7 +812,7 @@
       "leftMargin": 64,
       "name": "WoodBackground",
       "rightMargin": 64,
-      "texture": "assets\\Juego\\Fondos\\General\\Background.png",
+      "texture": "assets\\Fondos\\Fondo_Juego.png",
       "tiled": true,
       "topMargin": 64,
       "type": "PanelSpriteObject::PanelSprite",
@@ -830,7 +864,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelInformacion.png",
+                  "image": "assets\\Recuadros\\Panel_Informacion.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1012,19 +1046,19 @@
           "height": 90,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Flat Heart Empty.png",
+          "texture": "assets\\Sprites\\Life_Empty.png",
           "tiled": false,
           "topMargin": 0,
           "width": 270
         },
         "Bar": {
           "height": 90,
-          "texture": "Flat Heart Empty.png",
+          "texture": "assets\\Sprites\\Life_Empty.png",
           "width": 90
         },
         "FillBar": {
           "height": 90,
-          "texture": "Flat Heart Filled.png",
+          "texture": "assets\\Sprites\\Life.png",
           "width": 90
         }
       }
@@ -1061,7 +1095,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelPuntaje.png",
+                  "image": "assets\\Recuadros\\Panel_Puntaje.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1226,7 +1260,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelBanderas.png",
+                  "image": "assets\\Recuadros\\Panel_Banderas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1276,67 +1310,6 @@
       "effects": [],
       "behaviors": [],
       "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite2",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite20",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "assetStoreId": "",
@@ -1492,7 +1465,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuador1.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1528,7 +1501,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Mapas\\Ecuador\\Ecuuador2.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1616,9 +1589,6 @@
       },
       {
         "objectName": "NewSprite"
-      },
-      {
-        "objectName": "NewSprite2"
       },
       {
         "objectName": "NewText"

@@ -3100,6 +3100,105 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fondos/Fondo_Juego.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fondos\\Fondo_Juego.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Fondos/Fondo_Mapa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fondos\\Fondo_Mapa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Informacion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Informacion.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Guia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Guia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Puntaje.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Puntaje.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Ecuador/Bandera_Ecuador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Ecuador/Bandera_Quito.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Ecuador/Bandera_Francia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/Life.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\Life.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Banderas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Banderas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Recuadros/Panel_Vidas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Recuadros\\Panel_Vidas.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3137,7 +3236,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Juego\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3197,8 +3296,8 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Botones\\Btn_Ayuda.png",
+                  "hasCustomCollisionMask": false,
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3298,7 +3397,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelVidas.png",
+                  "image": "assets\\Recuadros\\Panel_Vidas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3370,7 +3469,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\Juego\\Hitbox.png",
+                  "image": "assets\\Sprites\\Hitbox.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3442,7 +3541,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\General\\Soporte_Mapa.png",
+                  "image": "assets\\Fondos\\Fondo_Mapa.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3458,20 +3557,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
-                        "y": 20
+                        "x": 17,
+                        "y": 24
                       },
                       {
-                        "x": 1398,
-                        "y": 20
+                        "x": 1422,
+                        "y": 24
                       },
                       {
-                        "x": 1398,
-                        "y": 1171
+                        "x": 1422,
+                        "y": 1188
                       },
                       {
-                        "x": 13,
-                        "y": 1171
+                        "x": 17,
+                        "y": 1188
                       }
                     ]
                   ]
@@ -3514,7 +3613,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Juego\\Fondos\\Banderas\\PanelInferior.png",
+                  "image": "assets\\Recuadros\\Panel_Guia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3735,10 +3834,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegoecuador"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/juegomxico"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
