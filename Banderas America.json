@@ -3025,6 +3025,26 @@
         "name": "assets\\Botones\\Btn_Guide_Select.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Menu.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Menu.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Efects/overButton.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Efects\\overButton.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
