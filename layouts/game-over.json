@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30104611971824646,
+    "zoomFactor": 0.29122588669111193,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -124,7 +124,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\Menu.png",
+                  "image": "assets\\Botones\\Btn_Menu.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -140,20 +140,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 1015,
-                        "y": 4
+                        "x": 2030,
+                        "y": 8
                       },
                       {
-                        "x": 1015,
-                        "y": 488
+                        "x": 2030,
+                        "y": 976
                       },
                       {
-                        "x": 9,
-                        "y": 488
+                        "x": 18,
+                        "y": 976
                       }
                     ]
                   ]
@@ -172,7 +172,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\menuSelect.png",
+                  "image": "assets\\Botones\\Btn_Menu_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -188,20 +188,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 4
+                        "x": 18,
+                        "y": 8
                       },
                       {
-                        "x": 1015,
-                        "y": 4
+                        "x": 2030,
+                        "y": 8
                       },
                       {
-                        "x": 1015,
-                        "y": 488
+                        "x": 2030,
+                        "y": 976
                       },
                       {
-                        "x": 9,
-                        "y": 488
+                        "x": 18,
+                        "y": 976
                       }
                     ]
                   ]
@@ -243,7 +243,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\tryAgain.png",
+                  "image": "assets\\Botones\\Btn_Play.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -259,20 +259,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 5
+                        "x": 18,
+                        "y": 9
                       },
                       {
-                        "x": 1015,
-                        "y": 5
+                        "x": 2030,
+                        "y": 9
                       },
                       {
-                        "x": 1015,
-                        "y": 489
+                        "x": 2030,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -291,7 +291,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\tryAgainSelect.png",
+                  "image": "assets\\Botones\\Btn_Play_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -307,20 +307,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 5
+                        "x": 18,
+                        "y": 9
                       },
                       {
-                        "x": 1015,
-                        "y": 5
+                        "x": 2030,
+                        "y": 9
                       },
                       {
-                        "x": 1015,
-                        "y": 489
+                        "x": 2030,
+                        "y": 977
                       },
                       {
-                        "x": 9,
-                        "y": 489
+                        "x": 18,
+                        "y": 977
                       }
                     ]
                   ]
@@ -362,7 +362,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\FONDO.png",
+                  "image": "assets\\Fondos\\Fondo_Mar1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -382,11 +382,11 @@
                         "y": 0
                       },
                       {
-                        "x": 1980,
+                        "x": 1920,
                         "y": 0
                       },
                       {
-                        "x": 1980,
+                        "x": 1920,
                         "y": 1080
                       },
                       {
@@ -433,7 +433,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\GameOver\\logoGO.png",
+                  "image": "assets\\Logos\\Logo_GAME-OVER.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",

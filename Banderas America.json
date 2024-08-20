@@ -2881,6 +2881,51 @@
         "name": "assets\\Sprites\\Life_Empty.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Logos/Logo_GAME-OVER.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Logos\\Logo_GAME-OVER.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Menu.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Menu_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Menu_Select.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Play.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Play_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Play_Select.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
