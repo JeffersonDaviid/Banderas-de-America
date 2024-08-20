@@ -3080,6 +3080,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Sonidos/Music/Credits.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Credits.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
