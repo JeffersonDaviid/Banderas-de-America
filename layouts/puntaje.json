@@ -262,6 +262,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -274,6 +280,18 @@
                 "Animation",
                 "=",
                 "\"Seleccionado\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sonidos\\Efects\\overButton.wav",
+                "",
+                "25",
+                ""
               ]
             }
           ]
