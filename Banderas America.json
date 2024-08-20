@@ -2962,6 +2962,69 @@
         "name": "assets\\Logos\\Logo_EPN.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Logos/Logo_General.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Logos\\Logo_General.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Exit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Exit_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Exit_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Cred.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Cred.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Cred_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Cred_Select.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Guide.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Guide.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/Btn_Guide_Select.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\Btn_Guide_Select.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
