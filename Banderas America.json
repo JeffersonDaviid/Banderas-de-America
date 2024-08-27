@@ -3437,6 +3437,87 @@
         "name": "assets\\Banderas\\Panamá\\Bandera_PanamáCapital.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Haití/Bandera_Haití.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Haití\\Bandera_Haití.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Haití/Bandera_Nepal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Haití\\Bandera_Nepal.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Haití/Bandera_PuertoPrincipe.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Haití\\Bandera_PuertoPrincipe.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/RepúblicaDominicana/Bandera_RepDominicana.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\RepúblicaDominicana\\Bandera_RepDominicana.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/RepúblicaDominicana/Bandera_PuertoPrincipe.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\RepúblicaDominicana\\Bandera_PuertoPrincipe.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/RepúblicaDominicana/Bandera_StoDomingo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\RepúblicaDominicana\\Bandera_StoDomingo.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Paraguay/Bandera_Paraguay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Paraguay\\Bandera_Paraguay.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Paraguay/Bandera_Asunción.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Paraguay\\Bandera_Asunción.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Paraguay/Bandera_Perú.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Paraguay\\Bandera_Perú.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4072,6 +4153,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegoecuador"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegoparaguay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegorepdominicana"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegohaiti"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
