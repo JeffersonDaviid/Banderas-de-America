@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6587581368647311,
+    "zoomFactor": 0.47281954063696424,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -5196,7 +5196,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "alto-volumen.png",
+                  "image": "assets\\Sprites\\volumenIcono.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5237,6 +5237,12 @@
       ]
     },
     {
+      "areaMaxX": 64,
+      "areaMaxY": 64,
+      "areaMaxZ": 64,
+      "areaMinX": 0,
+      "areaMinY": 0,
+      "areaMinZ": 0,
       "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
       "name": "SmallPlasticGreenRoundSlider",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
@@ -5254,7 +5260,7 @@
           "height": 63,
           "leftMargin": 31,
           "rightMargin": 31,
-          "texture": "Small Plastic Green Round Slider Border.png",
+          "texture": "assets\\Sprites\\barra.png",
           "tiled": false,
           "topMargin": 31,
           "width": 583
@@ -5264,7 +5270,7 @@
           "height": 16,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Transparent.png",
+          "texture": "assets\\Sprites\\Hitbox.png",
           "tiled": false,
           "topMargin": 0,
           "width": 16
@@ -5279,9 +5285,9 @@
           "textAlignment": "",
           "characterSize": 20,
           "color": {
-            "b": 221,
-            "g": 221,
-            "r": 221
+            "b": 0,
+            "g": 0,
+            "r": 0
           },
           "content": {
             "bold": false,
@@ -5301,7 +5307,7 @@
             "font": "",
             "textAlignment": "",
             "characterSize": 20,
-            "color": "221;221;221"
+            "color": "0;0;0"
           }
         },
         "Thumb": {
@@ -5309,12 +5315,43 @@
           "height": 59,
           "leftMargin": 0,
           "rightMargin": 0,
-          "texture": "Small Plastic Green Round Slider Thumb.png",
+          "texture": "assets\\Sprites\\puntoVerde.png",
           "tiled": false,
           "topMargin": 0,
           "width": 63
         }
-      }
+      },
+      "instances": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {

@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 209,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -3329,6 +3329,33 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
           "name": "Small Plastic Green Round Slider Thumb.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/puntoVerde.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\puntoVerde.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/barra.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\barra.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprites/volumenIcono.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprites\\volumenIcono.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
