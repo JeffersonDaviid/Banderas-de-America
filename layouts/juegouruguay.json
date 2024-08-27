@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoEcuador",
-  "name": "juegoEcuador",
+  "mangledName": "juegoUruguay",
+  "name": "juegoUruguay",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -435,14 +435,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9879503105590062,
-      "height": 304,
+      "depth": 1,
+      "height": 328,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 737.9988819875775,
-      "x": 577,
-      "y": 368,
+      "width": 339,
+      "x": 786,
+      "y": 343,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\Uruguay\\Bander_Uruguay.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\Uruguay\\Bandera_ElSalvador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -612,16 +612,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1200,
+                        "x": 901,
                         "y": 0
                       },
                       {
-                        "x": 1200,
-                        "y": 800
+                        "x": 901,
+                        "y": 561
                       },
                       {
                         "x": 0,
-                        "y": 800
+                        "y": 561
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\Uruguay\\Bandera_Montevideo.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 200,
+                        "x": 1280,
                         "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 133
+                        "x": 1280,
+                        "y": 720
                       },
                       {
                         "x": 0,
-                        "y": 133
+                        "y": 720
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Uruguay_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1341,23 +1341,23 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 99,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 99,
+                        "y": 117
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 117
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Uruguay.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1377,16 +1377,16 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 99,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 99,
+                        "y": 117
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 117
                       }
                     ]
                   ]
@@ -1759,7 +1759,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "uruguayCompletado",
                 "False",
                 ""
               ]
@@ -1874,7 +1874,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoUruguay\""
                   ]
                 }
               ],
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"ECUADOR\""
+                            "\"URUGUAY\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
+                            "\"Las características del pabellón actual se definieron en el año 1952, cuando el decreto del Poder Ejecutivo del 18 de febrero estableció que “Sus colores serán el banco y el azul, teniendo el sol, que ocupa el cuadro, color oro”.\n\""
                           ]
                         }
                       ]
@@ -2342,7 +2342,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoUruguay\""
                   ]
                 }
               ],
@@ -2723,7 +2723,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoUruguay\""
                   ]
                 }
               ],
@@ -3188,7 +3188,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "uruguayCompletado",
                 "True",
                 ""
               ]

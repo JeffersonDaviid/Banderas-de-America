@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoEcuador",
-  "name": "juegoEcuador",
+  "mangledName": "juegoPanama",
+  "name": "juegoPanama",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3010461197182496,
+    "zoomFactor": 0.40575189059438765,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -435,14 +435,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9879503105590062,
-      "height": 304,
+      "depth": 1,
+      "height": 184,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 737.9988819875775,
-      "x": 577,
-      "y": 368,
+      "width": 377,
+      "x": 751,
+      "y": 414,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\Panamá\\Bandera_Panamá.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\Panamá\\Bandera_Managua.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\Panamá\\Bandera_PanamáCapital.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 200,
+                        "x": 279,
                         "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 133
+                        "x": 279,
+                        "y": 181
                       },
                       {
                         "x": 0,
-                        "y": 133
+                        "y": 181
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Panama_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1337,27 +1337,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 114,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 114,
+                        "y": 55
                       },
                       {
-                        "x": 0,
-                        "y": 143
+                        "x": 1,
+                        "y": 55
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Panama.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1373,20 +1373,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 114,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 114,
+                        "y": 55
                       },
                       {
-                        "x": 0,
-                        "y": 143
+                        "x": 1,
+                        "y": 55
                       }
                     ]
                   ]
@@ -1759,7 +1759,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "panamaCompletado",
                 "False",
                 ""
               ]
@@ -1874,7 +1874,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoPanama\""
                   ]
                 }
               ],
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"ECUADOR\""
+                            "\"PANAMÁ\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
+                            "\"Adoptada el 25 de marzo de 1925, su diseño incluye el rojo por el Partido Liberal de Colombia, el blanco por la paz y unidad, y el azul por el Partido Conservador y el tiempo en que Panamá fue parte de Colombia. La estrella azul simboliza pureza y honestidad, mientras que la roja representa autoridad y ley..\""
                           ]
                         }
                       ]
@@ -2342,7 +2342,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoPanama\""
                   ]
                 }
               ],
@@ -2723,7 +2723,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoPanama\""
                   ]
                 }
               ],
@@ -3188,7 +3188,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "panamaCompletado",
                 "True",
                 ""
               ]
@@ -3238,7 +3238,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "panamaCompletado",
                 "True",
                 ""
               ]

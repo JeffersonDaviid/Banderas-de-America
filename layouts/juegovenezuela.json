@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoEcuador",
-  "name": "juegoEcuador",
+  "mangledName": "juegoVenezuela",
+  "name": "juegoVenezuela",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -435,14 +435,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9879503105590062,
-      "height": 304,
+      "depth": 1,
+      "height": 403,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 737.9988819875775,
-      "x": 577,
-      "y": 368,
+      "width": 459,
+      "x": 705,
+      "y": 324,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\Venezuela\\Bandera_Venezuela.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\Venezuela\\Bandera_Caracas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -617,11 +617,11 @@
                       },
                       {
                         "x": 1200,
-                        "y": 800
+                        "y": 762
                       },
                       {
                         "x": 0,
-                        "y": 800
+                        "y": 762
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\Venezuela\\Bandera_Belice.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 200,
+                        "x": 901,
                         "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 133
+                        "x": 901,
+                        "y": 561
                       },
                       {
                         "x": 0,
-                        "y": 133
+                        "y": 561
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Venezuela_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1341,23 +1341,23 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 261,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 261,
+                        "y": 257
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 257
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Venezuela.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1377,16 +1377,16 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 261,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 261,
+                        "y": 257
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 257
                       }
                     ]
                   ]
@@ -1759,7 +1759,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "venezuelaCompletado",
                 "False",
                 ""
               ]
@@ -1874,7 +1874,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoVenezuela\""
                   ]
                 }
               ],
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"ECUADOR\""
+                            "\"VENEZUELA\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
+                            "\"El 15 de julio de 1811, el Congreso reconoció el estandarte nacional con tres franjas horizontales: amarillo por las riquezas, azul por el mar Caribe, y rojo por la sangre derramada en la Independencia. En la franja azul hay un arco de ocho estrellas blancas, representando las provincias que firmaron el Acta de Independencia el 5 de julio de 1811.\""
                           ]
                         }
                       ]
@@ -2342,7 +2342,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoVenezuela\""
                   ]
                 }
               ],
@@ -2723,7 +2723,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoVenezuela\""
                   ]
                 }
               ],
@@ -3188,7 +3188,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "venezuelaCompletado",
                 "True",
                 ""
               ]
@@ -3238,7 +3238,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "venezuelaCompletado",
                 "True",
                 ""
               ]

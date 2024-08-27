@@ -3356,6 +3356,87 @@
         "name": "assets\\Sprites\\volumenIcono.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Uruguay/Bandera_ElSalvador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Uruguay\\Bandera_ElSalvador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Uruguay/Bander_Uruguay.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Uruguay\\Bander_Uruguay.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Uruguay/Bandera_Montevideo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Uruguay\\Bandera_Montevideo.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Venezuela/Bandera_Venezuela.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Venezuela\\Bandera_Venezuela.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Venezuela/Bandera_Caracas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Venezuela\\Bandera_Caracas.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Venezuela/Bandera_Belice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Venezuela\\Bandera_Belice.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Panamá/Bandera_Managua.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Panamá\\Bandera_Managua.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Panamá/Bandera_Panamá.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Panamá\\Bandera_Panamá.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Panamá/Bandera_PanamáCapital.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Panamá\\Bandera_PanamáCapital.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3991,6 +4072,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegoecuador"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegopanama"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegovenezuela"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegouruguay"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
