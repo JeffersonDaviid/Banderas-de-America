@@ -3518,6 +3518,114 @@
         "name": "assets\\Banderas\\Paraguay\\Bandera_Perú.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Chile/Bandera_Chile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Chile\\Bandera_Chile.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Chile/Bandera_Butan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Chile\\Bandera_Butan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Chile/Bandera_SantiagoDeChile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Chile\\Bandera_SantiagoDeChile.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Bolivia/Bandera_Bolivia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Bolivia\\Bandera_Bolivia.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Bolivia/Bandera_Kuwait.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Bolivia\\Bandera_Kuwait.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Bolivia/Bandera_LaPaz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Bolivia\\Bandera_LaPaz.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Guatemala/Bandera_Guatemala.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Guatemala\\Bandera_Guatemala.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Guatemala/Bandera_CiudadDeGuatemala.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Guatemala\\Bandera_CiudadDeGuatemala.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Guatemala/Bandera_Argentina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Guatemala\\Bandera_Argentina.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Honduras/Bandera_Honduras.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Honduras\\Bandera_Honduras.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Honduras/Bandera_Tegucigalpa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Honduras\\Bandera_Tegucigalpa.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Honduras/Bandera_Yemen.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Honduras\\Bandera_Yemen.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4153,6 +4261,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegoecuador"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegohonduras"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegoguatemala"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegochile"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegobolivia"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
