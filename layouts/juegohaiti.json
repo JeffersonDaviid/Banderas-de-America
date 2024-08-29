@@ -110,7 +110,6 @@
       "customSize": true,
       "depth": 1,
       "height": 155,
-      "keepRatio": true,
       "layer": "Objetos",
       "name": "bandera1",
       "persistentUuid": "e5821fb3-82d2-4094-9e7e-ab978d05d9d1",
@@ -127,7 +126,6 @@
       "customSize": true,
       "depth": 1,
       "height": 155,
-      "keepRatio": true,
       "layer": "Objetos",
       "name": "bandera2",
       "persistentUuid": "d75c66af-c42d-4a1c-a77b-4cde31b69bd8",
@@ -144,7 +142,6 @@
       "customSize": true,
       "depth": 1,
       "height": 155,
-      "keepRatio": true,
       "layer": "Objetos",
       "name": "bandera3",
       "persistentUuid": "c7b336be-407f-4099-a1e2-106fcdd10cb5",
@@ -1759,7 +1756,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "haitiCompletado",
                 "False",
                 ""
               ]
@@ -1874,7 +1871,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoHaiti\""
                   ]
                 }
               ],
@@ -2352,7 +2349,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoHaiti\""
                   ]
                 }
               ],
@@ -2733,7 +2730,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoHaiti\""
                   ]
                 }
               ],
@@ -3198,7 +3195,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "haitiCompletado",
                 "True",
                 ""
               ]
@@ -3248,7 +3245,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "haitiCompletado",
                 "True",
                 ""
               ]
@@ -3303,7 +3300,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "5"
               ]
             },
             {

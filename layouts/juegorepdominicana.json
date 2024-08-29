@@ -1759,7 +1759,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "republicaDominicanaCompletado",
                 "False",
                 ""
               ]
@@ -1874,7 +1874,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoRepDominicana\""
                   ]
                 }
               ],
@@ -2342,7 +2342,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoRepDominicana\""
                   ]
                 }
               ],
@@ -2723,7 +2723,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoEcuador\""
+                    "\"juegoRepDominicana\""
                   ]
                 }
               ],
@@ -3188,7 +3188,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "republicaDominicanaCompletado",
                 "True",
                 ""
               ]
@@ -3238,7 +3238,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "republicaDominicanaCompletado",
                 "True",
                 ""
               ]
@@ -3293,7 +3293,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "3"
+                "7"
               ]
             },
             {
