@@ -5278,7 +5278,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cursor",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5472,16 +5471,6 @@
               },
               "parameters": [
                 "sliderVolumen"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModGlobalVolume"
-              },
-              "parameters": [
-                "",
-                "=",
-                "sliderVolumen.Value()"
               ]
             }
           ]
@@ -8662,6 +8651,13 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ControlDeVolumen"
     }
   ],
   "layers": [
