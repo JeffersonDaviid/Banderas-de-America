@@ -18,29 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.16031528804546766,
+    "zoomFactor": 0.2912258866911132,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0.9831889964340295,
-      "height": 1080,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Portada",
-      "persistentUuid": "0237edab-a33a-4020-a383-06a49eccc304",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -125,80 +108,25 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FondoCielo",
+      "persistentUuid": "ebde0055-279a-465a-8516-86b385306049",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Portada",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fondos\\Fondo_Mar1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -771,9 +699,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Portada"
-      },
-      {
         "objectName": "LogoBanderasDeAmerica"
       },
       {
@@ -796,113 +721,10 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Presentación Inicio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\Menu\\SFX\\Soundtrack-Menu.wav",
-                "",
-                "50",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "LogoBanderasDeAmerica",
-                "Tween",
-                "\"movimiento\"",
-                "135",
-                "200",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonPlay",
-                "Tween",
-                "\"movimiento\"",
-                "450",
-                "775",
-                "\"swingFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonSalir",
-                "Tween",
-                "\"movimiento\"",
-                "1070",
-                "775",
-                "\"easeFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonCreditos",
-                "Tween",
-                "\"movimiento\"",
-                "1650",
-                "80",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BtnGuia",
-                "Tween",
-                "\"movimiento\"",
-                "125",
-                "40",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -1119,139 +941,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "LogoBanderasDeAmerica",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonPlay",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonSalir",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonCreditos",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "LogoBanderasDeAmerica",
-                "=",
-                "135",
-                "=",
-                "200"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonPlay",
-                "=",
-                "450",
-                "=",
-                "775"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonSalir",
-                "=",
-                "1070",
-                "=",
-                "775"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonCreditos",
-                "=",
-                "1650",
-                "=",
-                "80"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BtnGuia",
-                "=",
-                "125",
-                "=",
-                "40"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "",
-                "25",
-                "1"
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -1266,22 +955,12 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BotonPlay",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
                 "",
@@ -1289,172 +968,116 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu seleccion\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BotonSalir",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "no",
-                "50",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BotonCreditos",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"creditos\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BtnGuia",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"guia\"",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "no",
-                "50",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BtnGuia",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"guia\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BotonCreditos",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"creditos\"",
+                    ""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "no",
-                "50",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BotonSalir",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "no",
-                "50",
-                "-1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Quit"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BotonPlay",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu seleccion\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -1705,18 +1328,6 @@
                 "=",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "",
-                "25",
-                "2"
-              ]
             }
           ]
         },
@@ -1752,18 +1363,6 @@
                 "Animation",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "",
-                "25",
-                "-1"
               ]
             }
           ]
@@ -1801,18 +1400,6 @@
                 "=",
                 "0"
               ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "",
-                "25",
-                "-1"
-              ]
             }
           ]
         },
@@ -1848,18 +1435,6 @@
                 "Animation",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Efects\\overButton.wav",
-                "",
-                "25",
-                ""
               ]
             }
           ]
