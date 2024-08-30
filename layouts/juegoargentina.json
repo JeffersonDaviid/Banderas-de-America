@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoUruguay",
-  "name": "juegoUruguay",
+  "mangledName": "juegoArgentina",
+  "name": "juegoArgentina",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -436,13 +436,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 328,
+      "height": 449,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 339,
-      "x": 786,
-      "y": 343,
+      "width": 287,
+      "x": 805,
+      "y": 293,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Uruguay\\Bander_Uruguay.png",
+                  "image": "assets\\Banderas\\Argentina\\Bandera_Argentina.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Uruguay\\Bandera_ElSalvador.png",
+                  "image": "assets\\Banderas\\Argentina\\Bandera_BuenosAires.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -612,16 +612,16 @@
                         "y": 0
                       },
                       {
-                        "x": 901,
+                        "x": 2560,
                         "y": 0
                       },
                       {
-                        "x": 901,
-                        "y": 561
+                        "x": 2560,
+                        "y": 1699
                       },
                       {
                         "x": 0,
-                        "y": 561
+                        "y": 1699
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Uruguay\\Bandera_Montevideo.jpg",
+                  "image": "assets\\Banderas\\Argentina\\Bandera_Kazakhstan.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -691,11 +691,11 @@
                       },
                       {
                         "x": 1280,
-                        "y": 720
+                        "y": 640
                       },
                       {
                         "x": 0,
-                        "y": 720
+                        "y": 640
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Uruguay_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Argentina_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1337,27 +1337,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 99,
+                        "x": 317,
                         "y": 0
                       },
                       {
-                        "x": 99,
-                        "y": 117
+                        "x": 317,
+                        "y": 832
                       },
                       {
-                        "x": 0,
-                        "y": 117
+                        "x": 1,
+                        "y": 832
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Uruguay.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Argentina.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1373,20 +1373,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
+                        "x": 1,
                         "y": 0
                       },
                       {
-                        "x": 99,
+                        "x": 317,
                         "y": 0
                       },
                       {
-                        "x": 99,
-                        "y": 117
+                        "x": 317,
+                        "y": 832
                       },
                       {
-                        "x": 0,
-                        "y": 117
+                        "x": 1,
+                        "y": 832
                       }
                     ]
                   ]
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"URUGUAY\""
+                            "\"ARGENTINA\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"Las características del pabellón actual se definieron en el año 1952, cuando el decreto del Poder Ejecutivo del 18 de febrero estableció que “Sus colores serán el banco y el azul, teniendo el sol, que ocupa el cuadro, color oro”.\n\""
+                            "\"El diseño definitivo de la bandera oficial fue establecido en el Congreso de Tucumán el 26 de julio de 1816. La incorporación del “sol del Mayo” en el centro fue inspirado en la primera moneda argentina que consta de un sol personificado con 32 rayos: 16 rectos y 16 flamígeros.\""
                           ]
                         }
                       ]

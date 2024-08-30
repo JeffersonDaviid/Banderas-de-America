@@ -3734,6 +3734,87 @@
         "name": "assets\\Banderas\\Belice\\Bandera_Philippinas.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Colombia/Bandera_Colombia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Colombia\\Bandera_Colombia.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Colombia/Bandera_Bogota.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Colombia\\Bandera_Bogota.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Colombia/Bandera_Armenia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Colombia\\Bandera_Armenia.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Argentina/Bandera_Argentina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Argentina\\Bandera_Argentina.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Argentina/Bandera_BuenosAires.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Argentina\\Bandera_BuenosAires.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Argentina/Bandera_Kazakhstan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Argentina\\Bandera_Kazakhstan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Perú/Bandera_Perú.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Perú\\Bandera_Perú.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Perú/Bandera_Lima.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Perú\\Bandera_Lima.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Perú/Bandera_Austria.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Perú\\Bandera_Austria.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4425,6 +4506,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegouruguay"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegocolombia"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegoargentina"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegoper"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

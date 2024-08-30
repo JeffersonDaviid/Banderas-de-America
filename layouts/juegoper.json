@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoUruguay",
-  "name": "juegoUruguay",
+  "mangledName": "juegoPer_250",
+  "name": "juegoPerú",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Uruguay\\Bander_Uruguay.png",
+                  "image": "assets\\Banderas\\Perú\\Bandera_Perú.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Uruguay\\Bandera_ElSalvador.png",
+                  "image": "assets\\Banderas\\Perú\\Bandera_Lima.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -612,16 +612,16 @@
                         "y": 0
                       },
                       {
-                        "x": 901,
+                        "x": 1200,
                         "y": 0
                       },
                       {
-                        "x": 901,
-                        "y": 561
+                        "x": 1200,
+                        "y": 800
                       },
                       {
                         "x": 0,
-                        "y": 561
+                        "y": 800
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Uruguay\\Bandera_Montevideo.jpg",
+                  "image": "assets\\Banderas\\Perú\\Bandera_Austria.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1280,
+                        "x": 1200,
                         "y": 0
                       },
                       {
-                        "x": 1280,
-                        "y": 720
+                        "x": 1200,
+                        "y": 800
                       },
                       {
                         "x": 0,
-                        "y": 720
+                        "y": 800
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Uruguay_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Peru_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1341,23 +1341,23 @@
                         "y": 0
                       },
                       {
-                        "x": 99,
+                        "x": 247,
                         "y": 0
                       },
                       {
-                        "x": 99,
-                        "y": 117
+                        "x": 247,
+                        "y": 408
                       },
                       {
                         "x": 0,
-                        "y": 117
+                        "y": 408
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Uruguay.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Peru.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1377,16 +1377,16 @@
                         "y": 0
                       },
                       {
-                        "x": 99,
+                        "x": 247,
                         "y": 0
                       },
                       {
-                        "x": 99,
-                        "y": 117
+                        "x": 247,
+                        "y": 408
                       },
                       {
                         "x": 0,
-                        "y": 117
+                        "y": 408
                       }
                     ]
                   ]
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"URUGUAY\""
+                            "\"PERÚ\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"Las características del pabellón actual se definieron en el año 1952, cuando el decreto del Poder Ejecutivo del 18 de febrero estableció que “Sus colores serán el banco y el azul, teniendo el sol, que ocupa el cuadro, color oro”.\n\""
+                            "\"Se estableció el 25 de febrero de 1825, durante el gobierno de Simón Bolívar, formada por dos franjas rojas verticales y una blanca. Además, el escudo en el centro, en el que se observa el árbol de la quina, la cornucopia y la vicuña, que representan la riqueza vegetal, mineral y animal del país.\""
                           ]
                         }
                       ]
