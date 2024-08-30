@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoHonduras",
-  "name": "juegoHonduras",
+  "mangledName": "juegoMexico",
+  "name": "juegoMexico",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -436,13 +436,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 308,
+      "height": 458,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 449,
-      "x": 735,
-      "y": 340,
+      "width": 738,
+      "x": 566,
+      "y": 281,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Honduras\\Bandera_Honduras.png",
+                  "image": "assets\\Banderas\\México\\Bandera_México.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Honduras\\Bandera_Tegucigalpa.png",
+                  "image": "assets\\Banderas\\México\\Bandera_CDMX.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -617,11 +617,11 @@
                       },
                       {
                         "x": 800,
-                        "y": 519
+                        "y": 514
                       },
                       {
                         "x": 0,
-                        "y": 519
+                        "y": 514
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Honduras\\Bandera_Yemen.png",
+                  "image": "assets\\Banderas\\México\\Bandera_Butan.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Honduras_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Mexico_Slect.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1341,23 +1341,23 @@
                         "y": 0
                       },
                       {
-                        "x": 120,
+                        "x": 581,
                         "y": 0
                       },
                       {
-                        "x": 120,
-                        "y": 81
+                        "x": 581,
+                        "y": 420
                       },
                       {
                         "x": 0,
-                        "y": 81
+                        "y": 420
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Honduras.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Mexico.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1377,16 +1377,16 @@
                         "y": 0
                       },
                       {
-                        "x": 120,
+                        "x": 581,
                         "y": 0
                       },
                       {
-                        "x": 120,
-                        "y": 81
+                        "x": 581,
+                        "y": 420
                       },
                       {
                         "x": 0,
-                        "y": 81
+                        "y": 420
                       }
                     ]
                   ]
@@ -1759,7 +1759,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hondurasCompletado",
+                "ecuadorCompletado",
                 "False",
                 ""
               ]
@@ -1874,7 +1874,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoHonduras\""
+                    "\"juegoEcuador\""
                   ]
                 }
               ],
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"HONDURAS\""
+                            "\"MÉXICO\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"Fue instituida en 1866 y modificada en 1949, las franjas azules representan el cielo hondureño, los océanos Atlántico y Pacífico, la justicia, la lealtad, la fraternidad, la fortaleza, la dulzura, el valor, el amor fraternal y los generosos ideales que unen a los hondureños. Las cinco estrellas azules simbolizan los cinco países que formaron la antigua Federación Centroamericana y el ideal de la unión de Centroamérica.\""
+                            "\"La adopción oficial de la bandera nacional fue el 24 de febrero 1821, el estandarte está formado por tres franjas verticales de igual tamaño: el verde representa la esperanza, el blanco la pureza y el rojo la sangre derramada por los héroes nacionales.\""
                           ]
                         }
                       ]
@@ -2342,7 +2342,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoHonduras\""
+                    "\"juegoEcuador\""
                   ]
                 }
               ],
@@ -2723,7 +2723,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoHonduras\""
+                    "\"juegoEcuador\""
                   ]
                 }
               ],
@@ -3188,7 +3188,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hondurasCompletado",
+                "ecuadorCompletado",
                 "True",
                 ""
               ]
@@ -3238,7 +3238,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hondurasCompletado",
+                "ecuadorCompletado",
                 "True",
                 ""
               ]

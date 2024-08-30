@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoHonduras",
-  "name": "juegoHonduras",
+  "mangledName": "juegoCostaRica",
+  "name": "juegoCostaRica",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -436,13 +436,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 308,
+      "height": 633,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 449,
-      "x": 735,
-      "y": 340,
+      "width": 738,
+      "x": 577,
+      "y": 204,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Honduras\\Bandera_Honduras.png",
+                  "image": "assets\\Banderas\\CostaRica\\Bandera_CostaRica.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Honduras\\Bandera_Tegucigalpa.png",
+                  "image": "assets\\Banderas\\CostaRica\\Bandera_SanJosé.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -612,16 +612,16 @@
                         "y": 0
                       },
                       {
-                        "x": 800,
+                        "x": 1200,
                         "y": 0
                       },
                       {
-                        "x": 800,
-                        "y": 519
+                        "x": 1200,
+                        "y": 764
                       },
                       {
                         "x": 0,
-                        "y": 519
+                        "y": 764
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Honduras\\Bandera_Yemen.png",
+                  "image": "assets\\Banderas\\CostaRica\\Bandera_Laos.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 275,
+                        "x": 640,
                         "y": 0
                       },
                       {
-                        "x": 275,
-                        "y": 183
+                        "x": 640,
+                        "y": 427
                       },
                       {
                         "x": 0,
-                        "y": 183
+                        "y": 427
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Honduras_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\CostaRica_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1341,23 +1341,23 @@
                         "y": 0
                       },
                       {
-                        "x": 120,
+                        "x": 91,
                         "y": 0
                       },
                       {
-                        "x": 120,
-                        "y": 81
+                        "x": 91,
+                        "y": 126
                       },
                       {
                         "x": 0,
-                        "y": 81
+                        "y": 126
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Honduras.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\CostaRica.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1377,16 +1377,16 @@
                         "y": 0
                       },
                       {
-                        "x": 120,
+                        "x": 91,
                         "y": 0
                       },
                       {
-                        "x": 120,
-                        "y": 81
+                        "x": 91,
+                        "y": 126
                       },
                       {
                         "x": 0,
-                        "y": 81
+                        "y": 126
                       }
                     ]
                   ]
@@ -1759,7 +1759,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hondurasCompletado",
+                "ecuadorCompletado",
                 "False",
                 ""
               ]
@@ -1874,7 +1874,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoHonduras\""
+                    "\"juegoEcuador\""
                   ]
                 }
               ],
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"HONDURAS\""
+                            "\"COSTA RICA\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"Fue instituida en 1866 y modificada en 1949, las franjas azules representan el cielo hondureño, los océanos Atlántico y Pacífico, la justicia, la lealtad, la fraternidad, la fortaleza, la dulzura, el valor, el amor fraternal y los generosos ideales que unen a los hondureños. Las cinco estrellas azules simbolizan los cinco países que formaron la antigua Federación Centroamericana y el ideal de la unión de Centroamérica.\""
+                            "\"Adoptada desde el año 1848, formada por cinco franjas de tres colores: el azul representa el cielo que cubre y protege a Costa Rica; el blanco simboliza la paz que se vive en el país y la pureza de sus ideales; el rojo evoca la energía, valentía y el desprendimiento de las personas costarricenses cuando defienden su sistema democrático.\""
                           ]
                         }
                       ]
@@ -2342,7 +2342,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoHonduras\""
+                    "\"juegoEcuador\""
                   ]
                 }
               ],
@@ -2723,7 +2723,7 @@
                   },
                   "parameters": [
                     "",
-                    "\"juegoHonduras\""
+                    "\"juegoEcuador\""
                   ]
                 }
               ],
@@ -3188,7 +3188,7 @@
                 "value": "SetBooleanVariable"
               },
               "parameters": [
-                "hondurasCompletado",
+                "ecuadorCompletado",
                 "True",
                 ""
               ]
@@ -3238,7 +3238,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "hondurasCompletado",
+                "ecuadorCompletado",
                 "True",
                 ""
               ]
