@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoEcuador",
-  "name": "juegoEcuador",
+  "mangledName": "juegoNicaragua",
+  "name": "juegoNicaragua",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -435,14 +435,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9879503105590062,
-      "height": 304,
+      "depth": 1,
+      "height": 191,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 737.9988819875775,
-      "x": 577,
-      "y": 379,
+      "width": 408,
+      "x": 734,
+      "y": 429,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\Nicaragua\\Bandera_Nicaragua.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\Nicaragua\\Bandera_PuertoPrincipe.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -612,16 +612,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1200,
+                        "x": 1280,
                         "y": 0
                       },
                       {
-                        "x": 1200,
-                        "y": 800
+                        "x": 1280,
+                        "y": 720
                       },
                       {
                         "x": 0,
-                        "y": 800
+                        "y": 720
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\Nicaragua\\Bandera_Managua.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 200,
+                        "x": 1200,
                         "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 133
+                        "x": 1200,
+                        "y": 800
                       },
                       {
                         "x": 0,
-                        "y": 133
+                        "y": 800
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Nicaragua_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1341,23 +1341,23 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 97,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 97,
+                        "y": 97
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 97
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Nicaragua.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1377,16 +1377,16 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 97,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 97,
+                        "y": 97
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 97
                       }
                     ]
                   ]
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"ECUADOR\""
+                            "\"NICARAGUA\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
+                            "\"Adoptada el 15 de septiembre de 1821 y modificada por última vez en 1971, el azul representaría la justicia y libertad, mientras que el blanco la pureza y la integridad nacional.\""
                           ]
                         }
                       ]

@@ -3626,6 +3626,114 @@
         "name": "assets\\Banderas\\Honduras\\Bandera_Yemen.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/USA/Bandera_USA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\USA\\Bandera_USA.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/USA/Bandera_WashintongDC.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\USA\\Bandera_WashintongDC.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/USA/Bandera_Malaysia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\USA\\Bandera_Malaysia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/ElSalvador/Bandera_ElSalvador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\ElSalvador\\Bandera_ElSalvador.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/ElSalvador/Bandera_Cambodia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\ElSalvador\\Bandera_Cambodia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/ElSalvador/Bandera_SanSalvador.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\ElSalvador\\Bandera_SanSalvador.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Nicaragua/Bandera_Nicaragua.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Nicaragua\\Bandera_Nicaragua.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Nicaragua/Bandera_PuertoPrincipe.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Nicaragua\\Bandera_PuertoPrincipe.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Nicaragua/Bandera_Managua.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Nicaragua\\Bandera_Managua.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Belice/Bandera_Belice.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Belice\\Bandera_Belice.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Belice/Bandera_Belmopan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Belice\\Bandera_Belmopan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Belice/Bandera_Philippinas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Belice\\Bandera_Philippinas.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4261,6 +4369,22 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegoecuador"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegobelice"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegonicaragua"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegoeeuu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegoelsalvador"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

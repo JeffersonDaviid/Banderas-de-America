@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoEcuador",
-  "name": "juegoEcuador",
+  "mangledName": "juegoEEUU",
+  "name": "juegoEEUU",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\USA\\Bandera_USA.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\USA\\Bandera_WashintongDC.jpg",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -612,16 +612,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1200,
+                        "x": 1300,
                         "y": 0
                       },
                       {
-                        "x": 1200,
-                        "y": 800
+                        "x": 1300,
+                        "y": 650
                       },
                       {
                         "x": 0,
-                        "y": 800
+                        "y": 650
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\USA\\Bandera_Malaysia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 200,
+                        "x": 300,
                         "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 133
+                        "x": 300,
+                        "y": 150
                       },
                       {
                         "x": 0,
-                        "y": 133
+                        "y": 150
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\EEUU_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1337,27 +1337,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 316,
-                        "y": 0
+                        "x": 1925,
+                        "y": 1
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 1925,
+                        "y": 1269
                       },
                       {
-                        "x": 0,
-                        "y": 143
+                        "x": 1,
+                        "y": 1269
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\EEUU.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1373,20 +1373,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 316,
-                        "y": 0
+                        "x": 1925,
+                        "y": 1
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 1925,
+                        "y": 1269
                       },
                       {
-                        "x": 0,
-                        "y": 143
+                        "x": 1,
+                        "y": 1269
                       }
                     ]
                   ]
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"ECUADOR\""
+                            "\"EEUU\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
+                            "\"Adoptada desde 1912, es un paralelogramo compuesto de tres franjas horizontales: la primera y la tercera azules que simbolizan los dos océanos que bañan a Centroamérica: el Océano Pacifico y el Atlántico y la del centro color blanco, simboliza la paz.\""
                           ]
                         }
                       ]

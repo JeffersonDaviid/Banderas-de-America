@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "juegoEcuador",
-  "name": "juegoEcuador",
+  "mangledName": "juegoElSalvador",
+  "name": "juegoElSalvador",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -435,14 +435,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9879503105590062,
-      "height": 304,
+      "depth": 1,
+      "height": 112,
       "layer": "Objetos",
       "name": "Mapa",
       "persistentUuid": "65fa0ecf-8756-49ea-a934-c1e7f2329ca5",
-      "width": 737.9988819875775,
-      "x": 577,
-      "y": 379,
+      "width": 231,
+      "x": 779,
+      "y": 451,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,7 +518,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Ecuador.png",
+                  "image": "assets\\Banderas\\ElSalvador\\Bandera_ElSalvador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -592,7 +592,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Quito.png",
+                  "image": "assets\\Banderas\\ElSalvador\\Bandera_Cambodia.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -612,16 +612,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1200,
+                        "x": 800,
                         "y": 0
                       },
                       {
-                        "x": 1200,
-                        "y": 800
+                        "x": 800,
+                        "y": 512
                       },
                       {
                         "x": 0,
-                        "y": 800
+                        "y": 512
                       }
                     ]
                   ]
@@ -666,7 +666,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Ecuador\\Bandera_Francia.png",
+                  "image": "assets\\Banderas\\ElSalvador\\Bandera_SanSalvador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -686,16 +686,16 @@
                         "y": 0
                       },
                       {
-                        "x": 200,
+                        "x": 3350,
                         "y": 0
                       },
                       {
-                        "x": 200,
-                        "y": 133
+                        "x": 3350,
+                        "y": 1890
                       },
                       {
                         "x": 0,
-                        "y": 133
+                        "y": 1890
                       }
                     ]
                   ]
@@ -1321,7 +1321,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Ecuador_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\ElSalvador_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1341,23 +1341,23 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 46,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 46,
+                        "y": 30
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 30
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Ecuador.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\ElSalvador.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1377,16 +1377,16 @@
                         "y": 0
                       },
                       {
-                        "x": 316,
+                        "x": 46,
                         "y": 0
                       },
                       {
-                        "x": 316,
-                        "y": 143
+                        "x": 46,
+                        "y": 30
                       },
                       {
                         "x": 0,
-                        "y": 143
+                        "y": 30
                       }
                     ]
                   ]
@@ -2113,7 +2113,7 @@
                             "Nombre_País",
                             "Text",
                             "=",
-                            "\"ECUADOR\""
+                            "\"EL SALVADOR\""
                           ]
                         },
                         {
@@ -2124,7 +2124,7 @@
                             "Informacion",
                             "Text",
                             "=",
-                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
+                            "\"Adoptada desde 1912, es un paralelogramo compuesto de tres franjas horizontales: la primera y la tercera azules que simbolizan los dos océanos que bañan a Centroamérica: el Océano Pacifico y el Atlántico y la del centro color blanco, simboliza la paz.\""
                           ]
                         }
                       ]
