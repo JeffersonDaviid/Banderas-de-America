@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 99,
-    "major": 4,
-    "minor": 0,
+    "build": 209,
+    "major": 5,
+    "minor": 4,
     "revision": 0
   },
   "properties": {
@@ -3813,6 +3813,87 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Banderas\\CostaRica\\Bandera_Laos.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Argentina/Bandera_Argentina.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Argentina\\Bandera_Argentina.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Argentina/Bandera_BuenosAires.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Argentina\\Bandera_BuenosAires.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Argentina/Bandera_Kazakhstan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Argentina\\Bandera_Kazakhstan.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Perú/Bandera_Perú.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Perú\\Bandera_Perú.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Perú/Bandera_Lima.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Perú\\Bandera_Lima.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Perú/Bandera_Austria.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Perú\\Bandera_Austria.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Colombia/Bandera_Colombia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Colombia\\Bandera_Colombia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Colombia/Bandera_Bogota.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Colombia\\Bandera_Bogota.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Colombia/Bandera_Armenia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Colombia\\Bandera_Armenia.png",
         "smoothed": true,
         "userAdded": true
       }
