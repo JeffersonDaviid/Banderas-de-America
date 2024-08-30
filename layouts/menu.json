@@ -124,6 +124,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "sliderVolumen",
+      "persistentUuid": "691cca85-396a-40e9-b4f3-32b3078e3b6a",
+      "width": 0,
+      "x": 128,
+      "y": 34,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1290,7 +1306,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Boton sin Presionar",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1441,6 +1456,13 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ControlDeVolumen"
     }
   ],
   "layers": [

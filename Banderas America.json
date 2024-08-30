@@ -4752,6 +4752,12 @@
       "name": "puntajeDeNivel",
       "type": "number",
       "value": 250
+    },
+    {
+      "folded": true,
+      "name": "volumenJuego",
+      "type": "number",
+      "value": 100
     }
   ],
   "layouts": [
@@ -4867,7 +4873,7 @@
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/menueventos"
+      "referenceTo": "/externalEvents/controldevolumen"
     }
   ],
   "eventsFunctionsExtensions": [
