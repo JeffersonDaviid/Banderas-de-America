@@ -1,9 +1,9 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 209,
-    "major": 5,
-    "minor": 4,
+    "build": 99,
+    "major": 4,
+    "minor": 0,
     "revision": 0
   },
   "properties": {
@@ -3737,84 +3737,84 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Banderas/Colombia/Bandera_Colombia.png",
+        "file": "assets/Banderas/México/Bandera_México.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Banderas\\Colombia\\Bandera_Colombia.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Banderas/Colombia/Bandera_Bogota.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Banderas\\Colombia\\Bandera_Bogota.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Banderas/Colombia/Bandera_Armenia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Banderas\\Colombia\\Bandera_Armenia.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Banderas/Argentina/Bandera_Argentina.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Banderas\\Argentina\\Bandera_Argentina.png",
+        "name": "assets\\Banderas\\México\\Bandera_México.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Banderas/Argentina/Bandera_BuenosAires.png",
+        "file": "assets/Banderas/México/Bandera_CDMX.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Banderas\\Argentina\\Bandera_BuenosAires.png",
+        "name": "assets\\Banderas\\México\\Bandera_CDMX.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Banderas/Argentina/Bandera_Kazakhstan.png",
+        "file": "assets/Banderas/México/Bandera_Butan.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Banderas\\Argentina\\Bandera_Kazakhstan.png",
+        "name": "assets\\Banderas\\México\\Bandera_Butan.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Banderas/Perú/Bandera_Perú.png",
+        "file": "assets/Banderas/Brasil/Bandera_Brazil.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Banderas\\Perú\\Bandera_Perú.png",
+        "name": "assets\\Banderas\\Brasil\\Bandera_Brazil.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Banderas/Perú/Bandera_Lima.png",
+        "file": "assets/Banderas/Brasil/Bandera_Brasilia.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Banderas\\Perú\\Bandera_Lima.png",
+        "name": "assets\\Banderas\\Brasil\\Bandera_Brasilia.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Banderas/Perú/Bandera_Austria.png",
+        "file": "assets/Banderas/Brasil/Bandera_Chipre.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Banderas\\Perú\\Bandera_Austria.png",
+        "name": "assets\\Banderas\\Brasil\\Bandera_Chipre.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/CostaRica/Bandera_CostaRica.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\CostaRica\\Bandera_CostaRica.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/CostaRica/Bandera_SanJosé.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\CostaRica\\Bandera_SanJosé.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/CostaRica/Bandera_Laos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\CostaRica\\Bandera_Laos.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4450,6 +4450,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/juegoecuador"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegocostarica"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegobrazil"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/juegomexico"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
