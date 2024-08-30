@@ -3238,7 +3238,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "ecuadorCompletado",
+                "elSalvadorCompletado",
                 "True",
                 ""
               ]
