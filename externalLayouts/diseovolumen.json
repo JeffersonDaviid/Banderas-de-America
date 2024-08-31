@@ -1,0 +1,52 @@
+{
+  "associatedLayout": "Menu",
+  "name": "diseñoVolumen",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "sliderVolumen",
+      "persistentUuid": "9b8831ee-d678-4f19-ac2a-fc54e5a78475",
+      "width": 0,
+      "x": 555,
+      "y": 80,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "iconoVolumen",
+      "persistentUuid": "f0404d24-f5ed-47b1-9e1a-143dd917c11f",
+      "width": 100,
+      "x": 450,
+      "y": 60,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4448515998886648,
+    "windowMask": false
+  }
+}

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4140789814490197,
+    "zoomFactor": 0.44247557423675665,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1087,39 +1087,6 @@
       "x": 1103,
       "y": 1035,
       "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 100,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "iconoVolumen",
-      "persistentUuid": "71988da4-8988-474d-889c-85fa45d667d9",
-      "width": 100,
-      "x": 235,
-      "y": 60,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 63,
-      "layer": "InterfazDeUsuario",
-      "name": "sliderVolumen",
-      "persistentUuid": "e9b21822-e795-416f-a435-f6bcc5094638",
-      "width": 600,
-      "x": 340,
-      "y": 80,
-      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7023,7 +6990,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Camara",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7541,8 +7507,20 @@
                 "",
                 "assets\\Sonidos\\Music\\MenuSeleccion.aac",
                 "",
-                "sliderVolumen.Value()",
+                "volumenJuego",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"diseñoVolumen\"",
+                "0",
+                "0",
+                "0"
               ]
             }
           ]
@@ -7555,6 +7533,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cambios Escenas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8418,6 +8397,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

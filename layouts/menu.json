@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2912258866911132,
+    "zoomFactor": 0.4335774304702403,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -121,22 +121,6 @@
       "x": 0,
       "y": 0,
       "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "sliderVolumen",
-      "persistentUuid": "691cca85-396a-40e9-b4f3-32b3078e3b6a",
-      "width": 0,
-      "x": 128,
-      "y": 34,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1463,6 +1447,33 @@
         "includeConfig": 0
       },
       "target": "ControlDeVolumen"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+          },
+          "parameters": [
+            "",
+            "\"diseñoVolumen\"",
+            "0",
+            "0",
+            "1"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
