@@ -1460,6 +1460,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ubicaciones aleatorias de las banderas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1978,6 +1979,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Bandera colocada correctamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2175,6 +2177,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Bandera colocada incorrectamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -2334,6 +2337,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -2715,6 +2719,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
