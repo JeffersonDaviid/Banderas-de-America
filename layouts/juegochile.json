@@ -427,7 +427,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisCompletado\\Chile.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Chile_Select.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -463,7 +463,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Chile_Select.png",
+                  "image": "assets\\Mapas\\PaisCompletado\\Chile.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
