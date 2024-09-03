@@ -433,6 +433,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bandera 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -550,7 +551,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Bandera colocada correctamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -676,28 +676,6 @@
                           },
                           "parameters": [
                             "País"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                          },
-                          "parameters": [
-                            "Nombre_País",
-                            "Text",
-                            "=",
-                            "\"ECUADOR\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                          },
-                          "parameters": [
-                            "Informacion",
-                            "Text",
-                            "=",
-                            "\"El 26 de septiembre de 1860 Dr. Gabriel García Moreno, en su calidad de Presidente del Ecuador ordenó que se adoptaran los colores gran colombinos en la bandera nacional, cada color tiene un significado, amarillo simboliza el oro, la riqueza y los recursos naturales, azul representa al océano y el cielo ecuatoriano, finalmente, el rojo simboliza la sangre que fue derramada por los héroes en las luchas libertarias.\""
                           ]
                         }
                       ]
@@ -903,6 +881,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bandera 2 (Incorrecta)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1285,12 +1264,12 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bandera 3 (Incorrecta)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {

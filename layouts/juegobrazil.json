@@ -545,6 +545,70 @@
         "includeConfig": 0
       },
       "target": "eventosJuegoGeneral"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dropped"
+              },
+              "parameters": [
+                "bandera1",
+                "Arrastrable"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "bandera1",
+                "Mapa",
+                "",
+                "",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Nombre_País",
+            "Text",
+            "=",
+            "\"Brazil\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Informacion",
+            "Text",
+            "=",
+            "\"NoInfo\""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
