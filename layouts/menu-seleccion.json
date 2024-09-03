@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.374864240467187,
+    "zoomFactor": 0.44247557423675665,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1093,129 +1093,22 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 100,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "iconoVolumen",
-      "persistentUuid": "71988da4-8988-474d-889c-85fa45d667d9",
-      "width": 100,
-      "x": 235,
-      "y": 60,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 48,
-      "height": 63,
-      "layer": "InterfazDeUsuario",
-      "name": "SmallPlasticGreenRoundSlider",
-      "persistentUuid": "e9b21822-e795-416f-a435-f6bcc5094638",
-      "width": 600,
-      "x": 340,
-      "y": 80,
-      "zOrder": 18,
+      "layer": "",
+      "name": "FondoCielo",
+      "persistentUuid": "2b42ff92-9589-4ecc-8901-3f9d5ac8a049",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "FondoCielo",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Godray",
-          "name": "efectoOnda",
-          "doubleParameters": {
-            "angle": 30,
-            "animationSpeed": 0.5,
-            "gain": 0.6,
-            "lacunarity": 2.75,
-            "light": 30,
-            "padding": 0,
-            "x": 100,
-            "y": 100
-          },
-          "stringParameters": {},
-          "booleanParameters": {
-            "parallel": true
-          }
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fondos\\Fondo_Mar1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -5175,183 +5068,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "iconoVolumen",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Sprites\\volumenIcono.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 16
-                      },
-                      {
-                        "x": 512,
-                        "y": 16
-                      },
-                      {
-                        "x": 512,
-                        "y": 496
-                      },
-                      {
-                        "x": 0,
-                        "y": 496
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "areaMaxX": 64,
-      "areaMaxY": 64,
-      "areaMaxZ": 64,
-      "areaMinX": 0,
-      "areaMinY": 0,
-      "areaMinZ": 0,
-      "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
-      "name": "SmallPlasticGreenRoundSlider",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "LabelMargin": 8,
-        "BarLeftPadding": 31,
-        "BarRightPadding": 31
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 31,
-          "height": 63,
-          "leftMargin": 31,
-          "rightMargin": 31,
-          "texture": "assets\\Sprites\\barra.png",
-          "tiled": false,
-          "topMargin": 31,
-          "width": 583
-        },
-        "FillBar": {
-          "bottomMargin": 0,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\Sprites\\Hitbox.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 16
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "It displays the value when it changes.",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "It displays the value when it changes.",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "0;0;0"
-          }
-        },
-        "Thumb": {
-          "bottomMargin": 0,
-          "height": 59,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "assets\\Sprites\\puntoVerde.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 63
-        }
-      },
-      "instances": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5511,9 +5227,6 @@
             "objectName": "Return"
           },
           {
-            "objectName": "FondoCielo"
-          },
-          {
             "objectName": "BurbujaDeDialogo"
           },
           {
@@ -5523,12 +5236,6 @@
       },
       {
         "objectName": "PaisSinSeleccionar"
-      },
-      {
-        "objectName": "iconoVolumen"
-      },
-      {
-        "objectName": "SmallPlasticGreenRoundSlider"
       }
     ]
   },
@@ -5538,6 +5245,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cursor",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5730,17 +5438,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "SmallPlasticGreenRoundSlider"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModGlobalVolume"
-              },
-              "parameters": [
-                "",
-                "=",
-                "SmallPlasticGreenRoundSlider.Value()"
+                "sliderVolumen"
               ]
             }
           ]
@@ -5907,7 +5605,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "SmallPlasticGreenRoundSlider",
+                "sliderVolumen",
                 "",
                 "",
                 ""
@@ -5920,7 +5618,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "SmallPlasticGreenRoundSlider",
+                "sliderVolumen",
                 ""
               ]
             },
@@ -5957,7 +5655,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "SmallPlasticGreenRoundSlider",
+                "sliderVolumen",
                 ""
               ]
             }
@@ -5978,7 +5676,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "SmallPlasticGreenRoundSlider",
+                    "sliderVolumen",
                     "",
                     "no",
                     ""
@@ -7809,8 +7507,20 @@
                 "",
                 "assets\\Sonidos\\Music\\MenuSeleccion.aac",
                 "",
-                "SmallPlasticGreenRoundSlider.Value()",
+                "volumenJuego",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"diseñoVolumen\"",
+                "0",
+                "0",
+                "0"
               ]
             }
           ]
@@ -7833,7 +7543,7 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonPressed"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
                 "",
@@ -7870,7 +7580,7 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonPressed"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
                 "",
@@ -7907,7 +7617,192 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonPressed"
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Argentina_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoArgentina\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Bolivia_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoBolivia\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Brasil_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoBrazil\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Chile_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoChile\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Colombia_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoColombia\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
               },
               "parameters": [
                 "",
@@ -7934,6 +7829,561 @@
               "parameters": [
                 "",
                 "\"juegoEcuador\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Paraguay_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoParaguay\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Peru_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoPerú\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Uruguay_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoUruguay\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Venezuela_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoVenezuela\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Belice_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoBelice\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CostaRica_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoCostaRica\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "ElSalvador_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoElSalvador\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Guatemala_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoGuatemala\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Haiti_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoHaiti\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Honduras_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoHonduras\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Nicaragua_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoNicaragua\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Panama_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoPanama\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "RepublicaDominicana_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoRepDominicana\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "EEUU_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoEEUU\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Mexico_Hitbox",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"juegoMexico\"",
                 ""
               ]
             }
@@ -8920,6 +9370,13 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "ControlDeVolumen"
     }
   ],
   "layers": [
@@ -9046,10 +9503,6 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
-    },
-    {
-      "name": "Flash",
-      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",
