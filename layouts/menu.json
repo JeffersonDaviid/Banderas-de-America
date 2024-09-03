@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3216911764705908,
+    "zoomFactor": 0.2725359896772949,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -710,66 +710,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "FondoMenu",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fondos\\Fondo_General.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -789,9 +729,6 @@
       },
       {
         "objectName": "BtnGuia"
-      },
-      {
-        "objectName": "FondoMenu"
       }
     ]
   },
@@ -801,6 +738,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Presentación Inicio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1030,6 +968,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cambio Escenas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1170,6 +1109,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Boton Presionado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1370,6 +1310,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Boton sin Presionar",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

@@ -18,29 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1713093451124199,
+    "zoomFactor": 0.30104611971824835,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1124,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FondoCreditos",
-      "persistentUuid": "24c59772-110f-4a7e-b29a-47cacab923ae",
-      "width": 1976,
-      "x": -28,
-      "y": -18,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -335,80 +318,26 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FondoMenu",
+      "persistentUuid": "3fee3d51-e218-4156-918f-ba5b2c88df5d",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "FondoCreditos",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fondos\\Fondo_General.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
@@ -555,7 +484,7 @@
         }
       ],
       "string": "BANDERAS DE AMÉRICA",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 110,
       "color": {
@@ -578,7 +507,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "BANDERAS DE AMÉRICA",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 110,
         "color": "44;80;4"
@@ -652,7 +581,7 @@
         }
       ],
       "string": "Directores de Desarrollo",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
@@ -675,7 +604,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Directores de Desarrollo",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
         "color": "44;80;4"
@@ -708,7 +637,7 @@
         }
       ],
       "string": "KEVIN ALEXANDER PAÑAFIEL\nDOMÉNICA CAMILA SÁNCHEZ\nJONATHAN STEEVEN ANGULO\nSEBASTIAN PATRICIO RAMOS\nERIC DANIEL NONO\n",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 55,
       "color": {
@@ -731,7 +660,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "KEVIN ALEXANDER PAÑAFIEL\nDOMÉNICA CAMILA SÁNCHEZ\nJONATHAN STEEVEN ANGULO\nSEBASTIAN PATRICIO RAMOS\nERIC DANIEL NONO\n",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 55,
         "color": "44;80;4"
@@ -764,7 +693,7 @@
         }
       ],
       "string": "Eliana Lisbeth Pinargote\nGregory Jhair Zambrano\nIsaac Joshua Proaño\nDoménica Camila Sánchez\nKevin Alexander Peñafiel \nEduardo Emmanuel Arcos\nJonathan Steveen Angulo \nDorian Joel Albán \nSebastian Patricio Ramos  \nSantos Misael Villareal\nLuis Andrés  Guerrero \nDanny Alexander Iñaguazo\nAlegria Isabel Farinango \nKevin Joel Villacís\nSebastian Patricio Ramos \nSantos Misael Villareal \nEric Daniel Nono\nJulián Aleksei Narváez",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -787,7 +716,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Eliana Lisbeth Pinargote\nGregory Jhair Zambrano\nIsaac Joshua Proaño\nDoménica Camila Sánchez\nKevin Alexander Peñafiel \nEduardo Emmanuel Arcos\nJonathan Steveen Angulo \nDorian Joel Albán \nSebastian Patricio Ramos  \nSantos Misael Villareal\nLuis Andrés  Guerrero \nDanny Alexander Iñaguazo\nAlegria Isabel Farinango \nKevin Joel Villacís\nSebastian Patricio Ramos \nSantos Misael Villareal \nEric Daniel Nono\nJulián Aleksei Narváez",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "left",
         "characterSize": 50,
         "color": "65;117;5"
@@ -820,7 +749,7 @@
         }
       ],
       "string": "Control de versiones",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
@@ -843,7 +772,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Control de versiones",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
         "color": "44;80;4"
@@ -876,7 +805,7 @@
         }
       ],
       "string": "JEFFERSON DAVID CHILENO\n",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 55,
       "color": {
@@ -899,7 +828,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "JEFFERSON DAVID CHILENO\n",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 55,
         "color": "44;80;4"
@@ -932,7 +861,7 @@
         }
       ],
       "string": "Programadores",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
@@ -955,7 +884,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Programadores",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
         "color": "44;80;4"
@@ -988,7 +917,7 @@
         }
       ],
       "string": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCreditos",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "right",
       "characterSize": 38,
       "color": {
@@ -1011,7 +940,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCreditos",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "right",
         "characterSize": 38,
         "color": "65;117;5"
@@ -1044,7 +973,7 @@
         }
       ],
       "string": "Diseñadores\n",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
@@ -1067,7 +996,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Diseñadores\n",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
         "color": "44;80;4"
@@ -1100,7 +1029,7 @@
         }
       ],
       "string": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nDirección Geográfica IGM",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
@@ -1123,7 +1052,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nDirección Geográfica IGM",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "left",
         "characterSize": 50,
         "color": "65;117;5"
@@ -1156,7 +1085,7 @@
         }
       ],
       "string": "Diseño videojuego",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "right",
       "characterSize": 38,
       "color": {
@@ -1179,7 +1108,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Diseño videojuego",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "right",
         "characterSize": 38,
         "color": "65;117;5"
@@ -1212,7 +1141,7 @@
         }
       ],
       "string": "Realizado por",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
       "color": {
@@ -1235,7 +1164,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Realizado por",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
         "color": "44;80;4"
@@ -1470,9 +1399,6 @@
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
-      {
-        "objectName": "FondoCreditos"
-      },
       {
         "objectName": "Regresar"
       },

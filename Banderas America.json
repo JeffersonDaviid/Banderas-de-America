@@ -4395,7 +4395,7 @@
       "bottomMargin": 64,
       "height": 192,
       "leftMargin": 64,
-      "name": "WoodBackground",
+      "name": "FondoMadera",
       "rightMargin": 64,
       "texture": "assets\\Fondos\\Fondo_Juego.png",
       "tiled": true,
@@ -4737,7 +4737,7 @@
         }
       ],
       "string": "Bandera del país aqui ...",
-      "font": "",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 30,
       "color": {
@@ -4760,7 +4760,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Bandera del país aqui ...",
-        "font": "",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 30,
         "color": "0;0;0"
@@ -4789,7 +4789,7 @@
         }
       ],
       "string": "Puntos",
-      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+      "font": "",
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
@@ -4812,7 +4812,7 @@
         "smoothed": true,
         "underlined": false,
         "text": "Puntos",
-        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+        "font": "",
         "textAlignment": "center",
         "characterSize": 50,
         "color": "0;0;0"
@@ -4944,7 +4944,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "0",
+      "string": "",
       "font": "",
       "textAlignment": "center",
       "characterSize": 60,
@@ -4967,7 +4967,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "0",
+        "text": "",
         "font": "",
         "textAlignment": "center",
         "characterSize": 60,
@@ -4984,13 +4984,13 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 3,
           "leftEdgeAnchor": 3,
-          "name": "Anchor",
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 3,
-          "type": "AnchorBehavior::AnchorBehavior",
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -5044,6 +5044,77 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FondoMenu",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fondos\\Fondo_General.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1980,
+                        "y": 0
+                      },
+                      {
+                        "x": 1980,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -5068,7 +5139,7 @@
         "objectName": "Socalo_Bandera_Capital"
       },
       {
-        "objectName": "WoodBackground"
+        "objectName": "FondoMadera"
       },
       {
         "objectName": "FlatHeartBar"
@@ -5099,6 +5170,9 @@
       },
       {
         "objectName": "Cantidad_de_Puntos"
+      },
+      {
+        "objectName": "FondoMenu"
       }
     ]
   },
