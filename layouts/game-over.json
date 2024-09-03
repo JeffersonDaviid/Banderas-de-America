@@ -61,22 +61,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 1080,
-      "layer": "",
-      "name": "Background",
-      "persistentUuid": "a9ea8603-ecca-4f3f-b70b-8194490f6b90",
-      "width": 1920,
-      "x": -1,
-      "y": 0,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 1,
       "height": 767,
       "keepRatio": true,
@@ -87,6 +71,22 @@
       "x": 201,
       "y": 58,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FondoGeneral",
+      "persistentUuid": "00448f82-5521-4761-bfcd-7159388e8f2c",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -334,77 +334,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Background",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fondos\\Fondo_Mar1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 0
-                      },
-                      {
-                        "x": 1920,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "GameOverTexto",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -479,9 +408,6 @@
     "children": [
       {
         "objectName": "GameOverTexto"
-      },
-      {
-        "objectName": "Background"
       },
       {
         "objectName": "BotonMenu"

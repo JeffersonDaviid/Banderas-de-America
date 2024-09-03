@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4335774304702403,
+    "zoomFactor": 0.3216911764705908,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -118,6 +118,23 @@
       "name": "FondoCielo",
       "persistentUuid": "ebde0055-279a-465a-8516-86b385306049",
       "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1080,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FondoMenu",
+      "persistentUuid": "aa773d8d-66bf-4138-a7ec-e0eac26dab7e",
+      "width": 1920,
       "x": 0,
       "y": 0,
       "zOrder": 0,
@@ -693,6 +710,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FondoMenu",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Fondos\\Fondo_General.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1980,
+                        "y": 0
+                      },
+                      {
+                        "x": 1980,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -712,6 +789,9 @@
       },
       {
         "objectName": "BtnGuia"
+      },
+      {
+        "objectName": "FondoMenu"
       }
     ]
   },
@@ -1440,40 +1520,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "ControlDeVolumen"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-          },
-          "parameters": [
-            "",
-            "\"diseñoVolumen\"",
-            "0",
-            "0",
-            "1"
-          ]
-        }
-      ]
     }
   ],
   "layers": [

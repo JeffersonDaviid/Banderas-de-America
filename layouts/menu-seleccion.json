@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44247557423675665,
+    "zoomFactor": 0.31758408138897815,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1103,6 +1103,22 @@
       "x": 0,
       "y": 0,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FondoGeneral",
+      "persistentUuid": "148e4a95-1601-4272-91da-bcd9cc5bb7eb",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5432,14 +5448,6 @@
                 "=",
                 "\"Selecciona un pais\""
               ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "sliderVolumen"
-              ]
             }
           ]
         },
@@ -5593,119 +5601,6 @@
                 "Animation",
                 "=",
                 "\"SinSeleccionar\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "sliderVolumen",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "sliderVolumen",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "PaisSinSeleccionar",
-                "Arrastrable",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "iconoVolumen",
-                "",
-                "no",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "sliderVolumen",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "sliderVolumen",
-                    "",
-                    "no",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "iconoVolumen",
-                    "",
-                    "no",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "PaisSinSeleccionar",
-                "Arrastrable",
-                "yes"
               ]
             }
           ]
@@ -7507,20 +7402,8 @@
                 "",
                 "assets\\Sonidos\\Music\\MenuSeleccion.aac",
                 "",
-                "volumenJuego",
+                "50",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"diseñoVolumen\"",
-                "0",
-                "0",
-                "0"
               ]
             }
           ]
@@ -7533,7 +7416,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cambios Escenas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -8397,7 +8279,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -9370,13 +9251,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "ControlDeVolumen"
     }
   ],
   "layers": [
@@ -9503,6 +9377,10 @@
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",

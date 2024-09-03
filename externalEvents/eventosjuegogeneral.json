@@ -315,16 +315,6 @@
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "ecuadorCompletado",
-                "False",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -1680,7 +1670,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Comprobación de nivel completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1739,16 +1728,6 @@
                 "ShakeObject_PositionAngleScale",
                 "no"
               ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "ecuadorCompletado",
-                "True",
-                ""
-              ]
             }
           ]
         },
@@ -1782,84 +1761,6 @@
                 "assets\\Sonidos\\Efects\\LevelCompleted.mp3",
                 "",
                 "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "ecuadorCompletado",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Socalo_Información",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Informacion",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectColorTween2"
-              },
-              "parameters": [
-                "bandera1",
-                "Tween",
-                "\"bandera1Correcta\"",
-                "\"122;192;40\"",
-                "\"easeInQuad\"",
-                "0.1",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "puntajeGlobal",
-                "+",
-                "puntajeDeNivel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu seleccion\"",
                 ""
               ]
             }
