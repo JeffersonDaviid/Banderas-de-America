@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30722437408610076,
+    "zoomFactor": 0.7276711643507102,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -62,14 +62,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 106,
+      "height": 100,
       "keepRatio": true,
       "layer": "InterfazDeUsuario",
       "name": "TextoDeDialogo",
       "persistentUuid": "906fdfe1-d485-428f-ac83-869e5941822f",
-      "width": 266,
-      "x": 116,
-      "y": 749,
+      "width": 250,
+      "x": 120,
+      "y": 750,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -1658,7 +1658,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "Selecciona \nel país ",
+      "string": "Selecciona un país.",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
@@ -1681,7 +1681,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Selecciona \nel país ",
+        "text": "Selecciona un país.",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
@@ -5521,7 +5521,7 @@
                 "TextoDeDialogo",
                 "Text",
                 "=",
-                "\"Selecciona un pais\""
+                "\"Selecciona un país.\""
               ]
             },
             {
@@ -5533,6 +5533,18 @@
                 "Text",
                 "=",
                 "ToString(puntajeGlobal)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TextoDeDialogo",
+                "=",
+                "120",
+                "=",
+                "750"
               ]
             }
           ]
