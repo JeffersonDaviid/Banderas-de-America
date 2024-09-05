@@ -800,6 +800,7 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -880,7 +881,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Boton Presionado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -976,6 +976,16 @@
                 "25",
                 "2"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "nuevaPartida",
+                "True",
+                ""
+              ]
             }
           ]
         }
@@ -987,6 +997,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Boton no Presionado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
