@@ -18,28 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2233600589381141,
+    "zoomFactor": 0.2912258866911116,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1286,
-      "layer": "",
-      "name": "Fondo",
-      "persistentUuid": "344093f8-f8d4-4a6e-a842-968f24763fe5",
-      "width": 2359,
-      "x": -215,
-      "y": -112,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -53,6 +37,22 @@
       "x": 75,
       "y": 60,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FondoGeneral",
+      "persistentUuid": "9862c7a2-81a9-4dd4-9c0f-fa48e1c27cc4",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []

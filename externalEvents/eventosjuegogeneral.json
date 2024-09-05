@@ -304,17 +304,6 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Cantidad_de_Puntos",
-                "Text",
-                "=",
-                "ToString(GlobalVariable(puntajeDeNivel))"
-              ]
-            },
-            {
-              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -387,7 +376,7 @@
                 "",
                 "assets\\Sonidos\\Music\\Game.mp3",
                 "yes",
-                "",
+                "50",
                 ""
               ]
             },
@@ -401,6 +390,25 @@
                 "0",
                 "0",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"chrono\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "puntajeDeNivel",
+                "=",
+                "250"
               ]
             }
           ]
@@ -423,7 +431,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Bandera 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -667,6 +674,34 @@
                           "parameters": [
                             "País"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "PauseTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"chrono\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"chrono\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "puntajeDeNivel",
+                            "+",
+                            "1"
+                          ]
                         }
                       ]
                     },
@@ -716,7 +751,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Bandera colocada incorrectamente",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -877,7 +911,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -1462,7 +1495,7 @@
                       "parameters": [
                         "puntajeDeNivel",
                         "-",
-                        "15"
+                        "25"
                       ]
                     },
                     {
@@ -1670,6 +1703,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Comprobación de nivel completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1768,6 +1802,64 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"chrono\"",
+            ">=",
+            "0.1"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "puntajeDeNivel",
+            ">=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Cantidad_de_Puntos",
+            "Text",
+            "=",
+            "ToString(puntajeDeNivel)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "puntajeDeNivel",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"chrono\""
+          ]
+        }
+      ]
     }
   ]
 }
