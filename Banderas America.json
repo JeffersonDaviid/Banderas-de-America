@@ -1766,7 +1766,7 @@
       "bottomMargin": 64,
       "height": 192,
       "leftMargin": 64,
-      "name": "WoodBackground",
+      "name": "FondoMadera",
       "rightMargin": 64,
       "texture": "assets\\Fondos\\Fondo_Juego.png",
       "tiled": true,
@@ -2433,7 +2433,7 @@
         "objectName": "Socalo_Nombre_Pais"
       },
       {
-        "objectName": "WoodBackground"
+        "objectName": "FondoMadera"
       },
       {
         "objectName": "FlatHeartBar"
