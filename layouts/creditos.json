@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.30104611971824835,
+    "zoomFactor": 0.44819780454103936,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -332,6 +332,39 @@
       "x": 0,
       "y": 0,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SquareWhiteSlider",
+      "persistentUuid": "5748d5a8-7431-49b1-9d04-36f9ae4356a9",
+      "width": 0,
+      "x": 350,
+      "y": 90,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "",
+      "name": "volumen",
+      "persistentUuid": "9f7e58f5-9a7f-4dab-afaf-04e6a2b49b2b",
+      "width": 50,
+      "x": 250,
+      "y": 80,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1867,6 +1900,13 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "controlDeVolumen"
     }
   ],
   "layers": [
