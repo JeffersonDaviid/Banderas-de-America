@@ -1,0 +1,59 @@
+{
+  "associatedLayout": "Menu",
+  "lastChangeTimeStamp": 0,
+  "name": "controlDeVolumen",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteSlider::PanelSpriteSlider::SetValue"
+          },
+          "parameters": [
+            "SquareWhiteSlider",
+            "=",
+            "volumenGeneral",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "volumenGeneral",
+            "=",
+            "SquareWhiteSlider.Value()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModGlobalVolume"
+          },
+          "parameters": [
+            "",
+            "=",
+            "volumenGeneral"
+          ]
+        }
+      ]
+    }
+  ]
+}

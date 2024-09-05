@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.272535989677295,
+    "zoomFactor": 0.4633111824514012,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -138,6 +138,39 @@
       "x": 0,
       "y": 0,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "volumen",
+      "persistentUuid": "d8274c39-f6e1-4862-8951-bf2753e50bbd",
+      "width": 50,
+      "x": 450,
+      "y": 80,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "SquareWhiteSlider",
+      "persistentUuid": "bd109bad-a0fe-4a72-9ccc-6153a2821a3d",
+      "width": 0,
+      "x": 525,
+      "y": 90,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -710,77 +743,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "FondoMenu",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Fondos\\Fondo_General.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 0
-                      },
-                      {
-                        "x": 1980,
-                        "y": 1080
-                      },
-                      {
-                        "x": 0,
-                        "y": 1080
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -800,9 +762,6 @@
       },
       {
         "objectName": "BtnGuia"
-      },
-      {
-        "objectName": "FondoMenu"
       }
     ]
   },
@@ -812,7 +771,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Presentación Inicio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -830,6 +788,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"diseñoVolumen\"",
+                "0",
+                "0",
+                "2"
+              ]
+            },
             {
               "type": {
                 "value": "PlayMusic"
@@ -1042,6 +1012,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cambio Escenas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1191,6 +1162,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Boton Presionado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1391,6 +1363,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Boton sin Presionar",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1541,6 +1514,13 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "controlDeVolumen"
     }
   ],
   "layers": [

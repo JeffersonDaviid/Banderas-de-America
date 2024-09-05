@@ -249,6 +249,56 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 131.08695652173913,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Return",
+      "persistentUuid": "f21e07da-2228-45d6-b94b-1d9cea66b41f",
+      "width": 150,
+      "x": 50,
+      "y": 40,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 50,
+      "keepRatio": true,
+      "layer": "Objetos",
+      "name": "volumen",
+      "persistentUuid": "938ea8a0-d03c-4073-b586-7ef1957a70de",
+      "width": 50,
+      "x": 210,
+      "y": 80,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SquareWhiteSlider",
+      "persistentUuid": "611c2bf7-c00e-4b31-86c1-7b687e7f0fda",
+      "width": 0,
+      "x": 270,
+      "y": 90,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -261,7 +311,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.41630252177333305,
+    "zoomFactor": 0.7562477198107304,
     "windowMask": false
   }
 }
