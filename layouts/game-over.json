@@ -435,7 +435,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "PresentacionObjetos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -508,6 +507,16 @@
                 "\"easeFromTo\"",
                 "2",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "puntajeGlobal",
+                "=",
+                "0"
               ]
             }
           ]
@@ -601,13 +610,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Cambio Escenas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
