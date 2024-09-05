@@ -801,10 +801,113 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Presentación Inicio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sonidos\\Music\\Menu.wav",
+                "",
+                "50",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "LogoBanderasDeAmerica",
+                "Tween",
+                "\"movimiento\"",
+                "135",
+                "200",
+                "\"bounce\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BotonPlay",
+                "Tween",
+                "\"movimiento\"",
+                "450",
+                "775",
+                "\"swingFromTo\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BotonSalir",
+                "Tween",
+                "\"movimiento\"",
+                "1070",
+                "775",
+                "\"easeFromTo\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BotonCreditos",
+                "Tween",
+                "\"movimiento\"",
+                "1650",
+                "80",
+                "\"bounce\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BtnGuia",
+                "Tween",
+                "\"movimiento\"",
+                "125",
+                "40",
+                "\"bounce\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -919,108 +1022,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Music\\Menu.wav",
-                "",
-                "50",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "LogoBanderasDeAmerica",
-                "Tween",
-                "\"movimiento\"",
-                "135",
-                "200",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonPlay",
-                "Tween",
-                "\"movimiento\"",
-                "450",
-                "775",
-                "\"swingFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonSalir",
-                "Tween",
-                "\"movimiento\"",
-                "1070",
-                "775",
-                "\"easeFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonCreditos",
-                "Tween",
-                "\"movimiento\"",
-                "1650",
-                "80",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BtnGuia",
-                "Tween",
-                "\"movimiento\"",
-                "125",
-                "40",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            }
-          ]
         }
       ],
       "parameters": []
@@ -1030,12 +1031,12 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Cambio Escenas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
