@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2467258695740632,
+    "zoomFactor": 0.3437520241612323,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,16 +27,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 251,
+      "depth": 0.9598470363288719,
+      "height": 250,
       "keepRatio": true,
       "layer": "UI Capa",
       "name": "BotonMenu",
       "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
-      "width": 523,
-      "x": 1292,
-      "y": 773,
-      "zOrder": 2,
+      "width": 500,
+      "x": 1290,
+      "y": 1080,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -50,10 +50,10 @@
       "layer": "UI Capa",
       "name": "BotonTryAgain",
       "persistentUuid": "47c742f2-29cb-4aac-8f67-ecece499c270",
-      "width": 502,
-      "x": 132,
-      "y": 764,
-      "zOrder": 3,
+      "width": 500,
+      "x": 130,
+      "y": 1080,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -62,15 +62,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 767,
+      "height": 776,
       "keepRatio": true,
       "layer": "UI Capa",
       "name": "GameOverTexto",
       "persistentUuid": "a98058d1-fb9b-4a1a-aef2-2a63cbae1ba4",
-      "width": 1483,
-      "x": 201,
-      "y": 58,
-      "zOrder": 4,
+      "width": 1090,
+      "x": 415,
+      "y": -776,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,6 +111,10 @@
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -230,6 +234,10 @@
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -349,6 +357,10 @@
           "rightEdgeAnchor": 3,
           "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -423,7 +435,261 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Cursor",
+      "folded": true,
+      "name": "PresentacionObjetos",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sonidos\\Music\\GameOver.mp3",
+                "",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "GameOverTexto",
+                "Tween",
+                "\"movimiento\"",
+                "415",
+                "50",
+                "\"bounce\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BotonMenu",
+                "Tween",
+                "\"movimiento\"",
+                "1290",
+                "790",
+                "\"swingFromTo\"",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+              },
+              "parameters": [
+                "BotonTryAgain",
+                "Tween",
+                "\"movimiento\"",
+                "130",
+                "790",
+                "\"easeFromTo\"",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "GameOverTexto",
+                    "Tween",
+                    "\"movimiento\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "BotonMenu",
+                    "Tween",
+                    "\"movimiento\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "BotonTryAgain",
+                    "Tween",
+                    "\"movimiento\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "GameOverTexto",
+                "=",
+                "415",
+                "=",
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "BotonMenu",
+                "=",
+                "1290",
+                "=",
+                "790"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "BotonTryAgain",
+                "=",
+                "130",
+                "=",
+                "790"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Cambio Escenas",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BotonMenu",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "BotonTryAgain",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Menu seleccion\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Boton Presionado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -443,43 +709,6 @@
             },
             {
               "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BotonMenu",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -488,92 +717,25 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "BotonMenu",
                 "Animation",
                 "=",
-                "\"Seleccionado\""
+                "1"
               ]
             },
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
                 "assets\\Sonidos\\Efects\\overButton.wav",
                 "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BotonMenu",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "BotonMenu",
-                "Animation",
-                "=",
-                "\"Sin seleccionar\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BotonTryAgain",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu seleccion\"",
-                ""
+                "25",
+                "1"
               ]
             }
           ]
@@ -602,55 +764,25 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
                 "BotonTryAgain",
                 "Animation",
                 "=",
-                "\"Seleccionado\""
+                "1"
               ]
             },
             {
               "type": {
-                "value": "PlayMusic"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
                 "assets\\Sonidos\\Efects\\overButton.wav",
                 "",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "BotonTryAgain",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "BotonTryAgain",
-                "Animation",
-                "=",
-                "\"Sin Seleccionar\""
+                "25",
+                "2"
               ]
             }
           ]
@@ -659,31 +791,88 @@
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Boton no Presionado",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "DepartScene"
-          },
-          "parameters": [
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BotonMenu",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BotonMenu",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "BotonTryAgain",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "BotonTryAgain",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "assets\\Sonidos\\Music\\GameOver.mp3",
-            "",
-            "",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
@@ -805,6 +994,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
     }
   ]
 }
