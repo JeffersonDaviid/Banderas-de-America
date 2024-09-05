@@ -2603,6 +2603,12 @@
       "name": "puntajeDeNivel",
       "type": "number",
       "value": 250
+    },
+    {
+      "folded": true,
+      "name": "nuevaPartida",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

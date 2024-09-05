@@ -812,6 +812,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Presentación Inicio",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1158,6 +1159,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "nuevaPartida",
+                    "True",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
