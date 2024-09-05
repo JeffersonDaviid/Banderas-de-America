@@ -720,6 +720,32 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Cantidad_de_Puntos",
+            "Text",
+            "=",
+            "puntajeDeNivel"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
