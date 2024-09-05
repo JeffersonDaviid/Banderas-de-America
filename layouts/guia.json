@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.43357743047024416,
+    "zoomFactor": 0.3216911764705937,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -176,15 +176,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 512,
+      "depth": 0.7354497354497354,
+      "height": 376.5502645502645,
       "keepRatio": true,
       "layer": "InstruccionesPrincipales",
       "name": "foco",
       "persistentUuid": "de8ebe4b-6bc1-408d-b008-3fdab3da03e7",
-      "width": 378,
-      "x": 10,
-      "y": 558,
+      "width": 278,
+      "x": 153,
+      "y": 698,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -211,14 +211,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 600,
+      "height": 450,
       "keepRatio": true,
       "layer": "InstruccionesPrincipales",
       "name": "Text_guia",
       "persistentUuid": "3abe5bf8-36fa-41af-8f4e-182e7ecdf233",
-      "width": 1293,
-      "x": 399,
-      "y": 305,
+      "width": 1126,
+      "x": 396,
+      "y": 329,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,15 +244,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.989345509893455,
-      "height": 150,
+      "depth": 1,
+      "height": 281,
       "keepRatio": true,
       "layer": "InstruccionesSecundarias",
       "name": "text_complete",
       "persistentUuid": "923f109d-8a50-4cd5-9304-a450b9718a15",
       "width": 650,
       "x": 635,
-      "y": 465,
+      "y": 416,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -262,13 +262,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 350,
+      "height": 238,
       "layer": "InstruccionesSecundarias",
       "name": "GuiaBandera",
       "persistentUuid": "81e64ebb-9d13-458e-a8de-fd745a0874d5",
-      "width": 310,
-      "x": 1515,
-      "y": 310,
+      "width": 301,
+      "x": 1516,
+      "y": 380,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -285,7 +285,7 @@
       "persistentUuid": "b3e5b5c9-e649-4c88-9b5c-48c6ae69c437",
       "width": 356,
       "x": 1490,
-      "y": 300,
+      "y": 301,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -310,15 +310,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.9126795366795363,
-      "height": 331.9999999999998,
+      "depth": 1,
+      "height": 239,
       "keepRatio": true,
       "layer": "InstruccionesSecundarias",
       "name": "texto_error",
       "persistentUuid": "a26c5522-658c-4f59-a161-9b2bff5ed2ad",
-      "width": 332,
-      "x": 1505,
-      "y": 319,
+      "width": 304,
+      "x": 1514,
+      "y": 356,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -334,9 +334,26 @@
       "name": "BtnSkip",
       "persistentUuid": "37ff2a84-1d3f-49ca-b7db-a018c131d8fa",
       "width": 333,
-      "x": 1500,
-      "y": 900,
+      "x": 1498,
+      "y": 871,
       "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "keepRatio": true,
+      "layer": "InstruccionesPrincipales",
+      "name": "Titulo_Ag",
+      "persistentUuid": "9b583eea-1db6-4f34-888c-02d58561919f",
+      "width": 1154,
+      "x": 384,
+      "y": 234,
+      "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -774,7 +791,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Recuadros\\Panel_Dialogo.png",
+                  "image": "assets\\Recuadros\\Recuadro_Azul.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -790,20 +807,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 78,
+                        "y": 78
                       },
                       {
-                        "x": 664,
-                        "y": 0
+                        "x": 434,
+                        "y": 78
                       },
                       {
-                        "x": 664,
-                        "y": 376
+                        "x": 434,
+                        "y": 434
                       },
                       {
-                        "x": 0,
-                        "y": 376
+                        "x": 78,
+                        "y": 434
                       }
                     ]
                   ]
@@ -842,10 +859,10 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "¡Bienvenido al Juego de Banderas!\n\nObjetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n2. A medida que pasa el tiempo, tu puntaje disminuirá.\n3. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho pais.\n4. Si fallas, perderás puntos y una vida.\n\n          Buena Suerte!",
+      "string": "Objetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n   1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n   2. A medida que pasa el tiempo, tu puntaje disminuirá.\n   3. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho pais.\n   4. Si fallas, perderás puntos y una vida.\n\n",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 40,
+      "characterSize": 38,
       "color": {
         "b": 0,
         "g": 0,
@@ -865,10 +882,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "¡Bienvenido al Juego de Banderas!\n\nObjetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n2. A medida que pasa el tiempo, tu puntaje disminuirá.\n3. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho pais.\n4. Si fallas, perderás puntos y una vida.\n\n          Buena Suerte!",
+        "text": "Objetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n   1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n   2. A medida que pasa el tiempo, tu puntaje disminuirá.\n   3. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho pais.\n   4. Si fallas, perderás puntos y una vida.\n\n",
         "font": "",
         "textAlignment": "left",
-        "characterSize": 40,
+        "characterSize": 38,
         "color": "0;0;0"
       }
     },
@@ -890,10 +907,10 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "La bandera debes arrastrala a la silueta del pais",
+      "string": "¡EXCELENTE!\nAhora, arrastra la bendera a la silueta del país",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 50,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -913,10 +930,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "La bandera debes arrastrala a la silueta del pais",
+        "text": "¡EXCELENTE!\nAhora, arrastra la bendera a la silueta del país",
         "font": "",
         "textAlignment": "center",
-        "characterSize": 50,
+        "characterSize": 40,
         "color": "0;0;0"
       }
     },
@@ -1019,10 +1036,10 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "Enhorabuena!\nHas completado la Guia",
-      "font": "",
+      "string": "!BIEN HECHO!\nHas completado la Guia",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
-      "characterSize": 60,
+      "characterSize": 75,
       "color": {
         "b": 0,
         "g": 0,
@@ -1042,10 +1059,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Enhorabuena!\nHas completado la Guia",
-        "font": "",
+        "text": "!BIEN HECHO!\nHas completado la Guia",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
-        "characterSize": 60,
+        "characterSize": 75,
         "color": "0;0;0"
       }
     },
@@ -1067,10 +1084,10 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "Ten cuidado!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
+      "string": "¡TEN CUIDADO!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 34,
       "color": {
         "b": 0,
         "g": 0,
@@ -1090,10 +1107,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Ten cuidado!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
+        "text": "¡TEN CUIDADO!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
         "font": "",
         "textAlignment": "center",
-        "characterSize": 40,
+        "characterSize": 34,
         "color": "0;0;0"
       }
     },
@@ -1349,6 +1366,64 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Titulo_Ag",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 3,
+          "leftEdgeAnchor": 3,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 3,
+          "topEdgeAnchor": 3,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "¡BIENVENIDO AL JUEGO BANDERAS DE AMÉRICA!\n\n\n\n\n\n\n\n\n\n\n¡BUENA SUERTE!",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+      "textAlignment": "center",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "¡BIENVENIDO AL JUEGO BANDERAS DE AMÉRICA!\n\n\n\n\n\n\n\n\n\n\n¡BUENA SUERTE!",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+        "textAlignment": "center",
+        "characterSize": 45,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1374,6 +1449,9 @@
       },
       {
         "objectName": "Text_guia"
+      },
+      {
+        "objectName": "Titulo_Ag"
       },
       {
         "objectName": "GuiaBandera"
@@ -1657,6 +1735,14 @@
             "value": "Cache"
           },
           "parameters": [
+            "Titulo_Ag"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
             "textoguia"
           ]
         },
@@ -1923,7 +2009,7 @@
       "isLocked": false,
       "name": "InstruccionesPrincipales",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
