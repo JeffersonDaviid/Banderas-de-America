@@ -18,97 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4633111824514012,
+    "zoomFactor": 0.28172599320795805,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 531.8738229755181,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "LogoBanderasDeAmerica",
-      "persistentUuid": "d32477a1-9f1a-4c10-b0f2-22b5198a3e8d",
-      "width": 1650,
-      "x": 135,
-      "y": -500,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0.7999999999999999,
-      "height": 194.40000000000003,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "BotonPlay",
-      "persistentUuid": "6febaae6-6c30-4bfa-bb32-2a2642d3e538",
-      "width": 400,
-      "x": 450,
-      "y": 1080,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 200,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "BotonSalir",
-      "persistentUuid": "0d87657f-dc40-4c27-91f2-7369c7ff2e6e",
-      "width": 400,
-      "x": 1070,
-      "y": 1080,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 100,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
-      "name": "BotonCreditos",
-      "persistentUuid": "0b3f2155-5875-4d5a-95b2-f64af21abf69",
-      "width": 200,
-      "x": 1920,
-      "y": 80,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 153,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BtnGuia",
-      "persistentUuid": "56aa3310-c764-41ec-a47c-6800a8341146",
-      "width": 300,
-      "x": -311,
-      "y": 40,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": false,
@@ -174,6 +89,90 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 531.8738229755179,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "LogoBanderasDeAmerica",
+      "persistentUuid": "d450bc4f-4208-4d34-b382-abb5aca103a2",
+      "width": 1650,
+      "x": 135,
+      "y": 200,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 200,
+      "layer": "",
+      "name": "BotonPlay",
+      "persistentUuid": "f0c80217-441c-4344-a4b8-1427797a92db",
+      "width": 400,
+      "x": 450,
+      "y": 775,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 153,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BotonGuia",
+      "persistentUuid": "8caed6be-e851-4281-a127-b72155897beb",
+      "width": 300,
+      "x": 125,
+      "y": 40,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 100,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BotonCreditos",
+      "persistentUuid": "3f7041f7-aa5a-4c7a-954c-da64896282d8",
+      "width": 200,
+      "x": 1650,
+      "y": 80,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 200,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BotonSalir",
+      "persistentUuid": "52de7e95-e25b-453b-8036-4cc9c764dc41",
+      "width": 400,
+      "x": 1070,
+      "y": 775,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -189,16 +188,12 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 1,
-          "rightEdgeAnchor": 2,
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "relativeToOriginalWindowSize": true,
-          "topEdgeAnchor": 1,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -260,22 +255,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "leftEdgeAnchor": 1,
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 0,
-          "bottomEdgeAnchor": 2,
-          "relativeToOriginalWindowSize": true,
-          "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "",
@@ -387,16 +367,12 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "rightEdgeAnchor": 2,
           "bottomEdgeAnchor": 2,
           "leftEdgeAnchor": 0,
-          "relativeToOriginalWindowSize": true,
           "topEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -516,10 +492,6 @@
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -624,7 +596,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "BtnGuia",
+      "name": "BotonGuia",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -633,16 +605,12 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "rightEdgeAnchor": 0,
           "bottomEdgeAnchor": 0,
           "leftEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
           "topEdgeAnchor": 1,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -761,7 +729,7 @@
         "objectName": "BotonCreditos"
       },
       {
-        "objectName": "BtnGuia"
+        "objectName": "BotonGuia"
       }
     ]
   },
@@ -790,18 +758,6 @@
           "actions": [
             {
               "type": {
-                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
-              },
-              "parameters": [
-                "",
-                "\"diseñoVolumen\"",
-                "0",
-                "0",
-                "2"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlayMusic"
               },
               "parameters": [
@@ -810,196 +766,6 @@
                 "",
                 "50",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "LogoBanderasDeAmerica",
-                "Tween",
-                "\"movimiento\"",
-                "135",
-                "200",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonPlay",
-                "Tween",
-                "\"movimiento\"",
-                "450",
-                "775",
-                "\"swingFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonSalir",
-                "Tween",
-                "\"movimiento\"",
-                "1070",
-                "775",
-                "\"easeFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonCreditos",
-                "Tween",
-                "\"movimiento\"",
-                "1650",
-                "80",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BtnGuia",
-                "Tween",
-                "\"movimiento\"",
-                "125",
-                "40",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "LogoBanderasDeAmerica",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonPlay",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonSalir",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonCreditos",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "LogoBanderasDeAmerica",
-                "=",
-                "135",
-                "=",
-                "200"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonPlay",
-                "=",
-                "450",
-                "=",
-                "775"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonSalir",
-                "=",
-                "1070",
-                "=",
-                "775"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonCreditos",
-                "=",
-                "1650",
-                "=",
-                "80"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BtnGuia",
-                "=",
-                "125",
-                "=",
-                "40"
               ]
             }
           ]
@@ -1065,7 +831,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "BtnGuia",
+                    "BotonGuia",
                     "",
                     "",
                     ""
@@ -1161,7 +927,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Boton Presionado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1268,7 +1033,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "BtnGuia",
+                "BotonGuia",
                 "",
                 "",
                 ""
@@ -1287,7 +1052,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "BtnGuia",
+                "BotonGuia",
                 "Animation",
                 "=",
                 "1"
@@ -1362,7 +1127,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Boton sin Presionar",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1448,7 +1212,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "BtnGuia",
+                "BotonGuia",
                 "",
                 "",
                 ""
@@ -1467,7 +1231,7 @@
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
-                "BtnGuia",
+                "BotonGuia",
                 "Animation",
                 "=",
                 "0"
