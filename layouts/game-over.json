@@ -35,7 +35,7 @@
       "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
       "width": 500,
       "x": 1290,
-      "y": 1080,
+      "y": 790,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -52,7 +52,7 @@
       "persistentUuid": "47c742f2-29cb-4aac-8f67-ecece499c270",
       "width": 500,
       "x": 130,
-      "y": 1080,
+      "y": 790,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -69,7 +69,7 @@
       "persistentUuid": "a98058d1-fb9b-4a1a-aef2-2a63cbae1ba4",
       "width": 1090,
       "x": 415,
-      "y": -776,
+      "y": 50,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -101,7 +101,7 @@
       "name": "volumen",
       "persistentUuid": "69a0a903-61fb-4fb4-9dea-ad0f5d54e5e8",
       "width": 50,
-      "x": 50,
+      "x": 1525,
       "y": 80,
       "zOrder": 3,
       "numberProperties": [],
@@ -115,9 +115,9 @@
       "keepRatio": true,
       "layer": "",
       "name": "SquareWhiteSlider",
-      "persistentUuid": "e4107e95-d30b-45bc-b677-99ed68e63a4e",
+      "persistentUuid": "8394b77e-64a6-4d0f-9a6f-7d4d020dcc41",
       "width": 0,
-      "x": 150,
+      "x": 1600,
       "y": 90,
       "zOrder": 4,
       "numberProperties": [],
@@ -144,10 +144,6 @@
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -267,10 +263,6 @@
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -384,16 +376,12 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -446,148 +434,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
-      "name": "SquareWhiteSlider",
-      "type": "PanelSpriteSlider::PanelSpriteSlider",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "BarTopPadding": 6,
-        "BarLeftPadding": 6,
-        "BarRightPadding": 6,
-        "BarBottomPadding": 6,
-        "LabelMargin": 6
-      },
-      "childrenContent": {
-        "Background": {
-          "bottomMargin": 4,
-          "height": 28,
-          "leftMargin": 2,
-          "rightMargin": 2,
-          "texture": "Square White Slider Border.png",
-          "tiled": false,
-          "topMargin": 4,
-          "width": 265
-        },
-        "FillBar": {
-          "bottomMargin": 2,
-          "height": 16,
-          "leftMargin": 0,
-          "rightMargin": 0,
-          "texture": "Square White Slider Fill Bar.png",
-          "tiled": false,
-          "topMargin": 0,
-          "width": 16
-        },
-        "Label": {
-          "bold": false,
-          "italic": false,
-          "smoothed": true,
-          "underlined": false,
-          "string": "It displays the value when it changes.",
-          "font": "",
-          "textAlignment": "",
-          "characterSize": 20,
-          "color": {
-            "b": 221,
-            "g": 221,
-            "r": 221
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "It displays the value when it changes.",
-            "font": "",
-            "textAlignment": "",
-            "characterSize": 20,
-            "color": "221;221;221"
-          }
-        },
-        "Thumb": {
-          "bottomMargin": 2,
-          "height": 36,
-          "leftMargin": 1,
-          "rightMargin": 1,
-          "texture": "Square White Slider Thumb.png",
-          "tiled": false,
-          "topMargin": 2,
-          "width": 22
-        }
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "NewSprite",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Sprites\\volumenIcono.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 16
-                      },
-                      {
-                        "x": 512,
-                        "y": 16
-                      },
-                      {
-                        "x": 512,
-                        "y": 496
-                      },
-                      {
-                        "x": 0,
-                        "y": 496
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -601,12 +447,6 @@
       },
       {
         "objectName": "BotonTryAgain"
-      },
-      {
-        "objectName": "SquareWhiteSlider"
-      },
-      {
-        "objectName": "NewSprite"
       }
     ]
   },
@@ -647,138 +487,12 @@
             },
             {
               "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "GameOverTexto",
-                "Tween",
-                "\"movimiento\"",
-                "415",
-                "50",
-                "\"bounce\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonMenu",
-                "Tween",
-                "\"movimiento\"",
-                "1290",
-                "790",
-                "\"swingFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-              },
-              "parameters": [
-                "BotonTryAgain",
-                "Tween",
-                "\"movimiento\"",
-                "130",
-                "790",
-                "\"easeFromTo\"",
-                "2",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
                 "puntajeGlobal",
                 "=",
                 "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "GameOverTexto",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonMenu",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::HasFinished"
-                  },
-                  "parameters": [
-                    "BotonTryAgain",
-                    "Tween",
-                    "\"movimiento\""
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "GameOverTexto",
-                "=",
-                "415",
-                "=",
-                "50"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonMenu",
-                "=",
-                "1290",
-                "=",
-                "790"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "BotonTryAgain",
-                "=",
-                "130",
-                "=",
-                "790"
               ]
             }
           ]
@@ -1200,10 +914,6 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
-    },
-    {
-      "name": "Tween",
-      "type": "Tween::TweenBehavior"
     }
   ]
 }

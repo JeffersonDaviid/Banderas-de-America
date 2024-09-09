@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3216911764705937,
+    "zoomFactor": 0.4057518905943892,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -193,15 +193,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0.7820773930753565,
-      "height": 1080,
+      "depth": 0.65173116089613,
+      "height": 900,
       "keepRatio": true,
       "layer": "InstruccionesPrincipales",
       "name": "textoguia",
       "persistentUuid": "33844a2b-fc49-41ce-ab56-be9092723b8b",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
+      "width": 1600,
+      "x": 160,
+      "y": 88,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -284,8 +284,8 @@
       "name": "capital",
       "persistentUuid": "b3e5b5c9-e649-4c88-9b5c-48c6ae69c437",
       "width": 356,
-      "x": 1490,
-      "y": 301,
+      "x": 1497,
+      "y": 402,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -592,13 +592,13 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
           "name": "Anchor",
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -770,13 +770,13 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
           "name": "Anchor",
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -843,13 +843,13 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
           "name": "Anchor",
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         },
         {
@@ -947,13 +947,13 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
           "name": "Anchor",
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1020,20 +1020,20 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
           "name": "Anchor",
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         },
         {
           "name": "Sticker",
           "type": "Sticker::Sticker",
-          "OnlyFollowPosition": true,
-          "IsDestroyedWithParent": true
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
         }
       ],
       "string": "!BIEN HECHO!\nHas completado la Guia",
@@ -1124,6 +1124,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 4,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
           "name": "Sticker",
           "type": "Sticker::Sticker",
           "OnlyFollowPosition": true,
@@ -1190,6 +1200,16 @@
       "variables": [],
       "effects": [],
       "behaviors": [
+        {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 0,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 4,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        },
         {
           "name": "Sticker",
           "type": "Sticker::Sticker",
@@ -1379,13 +1399,13 @@
       "effects": [],
       "behaviors": [
         {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
           "name": "Anchor",
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         },
         {
@@ -1553,6 +1573,16 @@
             "text_complete",
             "Sticker",
             "text_box_completado",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "nuevaPartida",
+            "True",
             ""
           ]
         }
@@ -2009,7 +2039,7 @@
       "isLocked": false,
       "name": "InstruccionesPrincipales",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5580983064507961,
+    "zoomFactor": 0.6164812573094642,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1112,22 +1112,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "InterfazDeUsuario",
-      "name": "Puntaje_Titulo",
-      "persistentUuid": "18450784-792a-4cf4-8c9b-212417a61610",
-      "width": 0,
-      "x": 50,
-      "y": 200,
-      "zOrder": 18,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "InterfazDeUsuario",
       "name": "PuntajeGeneral",
       "persistentUuid": "d0c9cba6-cf29-4bfb-88b8-8300b7e4bf12",
       "width": 0,
@@ -1170,6 +1154,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PuntajeMenu",
+      "persistentUuid": "1c181cdd-6c2a-415e-b03a-0b88412d79a0",
+      "width": 0,
+      "x": 50,
+      "y": 200,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1185,8 +1185,8 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 0,
           "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 1,
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
@@ -1586,8 +1586,8 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "leftEdgeAnchor": 0,
           "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 1,
           "relativeToOriginalWindowSize": true,
           "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
@@ -1664,14 +1664,10 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 1,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 0,
-          "useLegacyBottomAndRightAnchors": false
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
         }
       ],
       "string": "Selecciona un país.",
@@ -4916,7 +4912,18 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "string": "0",
       "font": "",
       "textAlignment": "center",
@@ -4953,7 +4960,18 @@
       "type": "PanelSpriteSlider::PanelSpriteSlider",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "BarTopPadding": 6,
         "BarLeftPadding": 6,
@@ -5088,6 +5106,58 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PuntajeMenu",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 1,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "Puntaje:",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Puntaje:",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5259,6 +5329,9 @@
       },
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "PuntajeMenu"
       }
     ]
   },
@@ -7426,13 +7499,24 @@
             },
             {
               "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "TextoDeDialogo",
+                "Sticker",
+                "BurbujaDeDialogo",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PlayMusic"
               },
               "parameters": [
                 "",
                 "assets\\Sonidos\\Music\\MenuSeleccion.aac",
                 "",
-                "50",
+                "100",
                 ""
               ]
             },

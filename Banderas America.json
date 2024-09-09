@@ -19,7 +19,7 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "name": "Banderas de America",
     "description": "",
     "author": "",
@@ -1603,11 +1603,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 4,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 1,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         },
         {
@@ -1703,11 +1703,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1775,11 +1775,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 4,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -1872,11 +1872,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 4,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 1,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         },
         {
@@ -1929,11 +1929,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 0,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 4,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2001,11 +2001,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2136,11 +2136,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 4,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2188,11 +2188,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "leftEdgeAnchor": 0,
+          "rightEdgeAnchor": 2,
+          "bottomEdgeAnchor": 2,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
+          "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2240,11 +2240,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 0,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 4,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2292,11 +2292,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 4,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2344,11 +2344,11 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 3,
-          "leftEdgeAnchor": 3,
+          "leftEdgeAnchor": 0,
+          "rightEdgeAnchor": 2,
+          "bottomEdgeAnchor": 2,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 3,
-          "topEdgeAnchor": 3,
+          "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
       ],
@@ -2638,7 +2638,18 @@
       "type": "PanelSpriteSlider::PanelSpriteSlider",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "content": {
         "BarTopPadding": 6,
         "BarLeftPadding": 6,
@@ -2722,7 +2733,18 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 1,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
       "animations": [
         {
           "name": "",
