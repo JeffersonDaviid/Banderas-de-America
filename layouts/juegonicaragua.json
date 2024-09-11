@@ -583,6 +583,17 @@
             "=",
             "\"Adoptada el 15 de septiembre de 1821 y modificada por última vez en 1971, el azul representaría la justicia y libertad, mientras que el blanco la pureza y la integridad nacional.\""
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
+          ]
         }
       ]
     },
@@ -675,24 +686,6 @@
             "puntajeGlobal",
             "+",
             "puntajeDeNivel"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
           ]
         }
       ]

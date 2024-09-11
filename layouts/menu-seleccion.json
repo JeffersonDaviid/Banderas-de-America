@@ -4948,12 +4948,6 @@
       }
     },
     {
-      "areaMaxX": 64,
-      "areaMaxY": 64,
-      "areaMaxZ": 64,
-      "areaMinX": 0,
-      "areaMinY": 0,
-      "areaMinZ": 0,
       "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
       "name": "SquareWhiteSlider",
       "type": "PanelSpriteSlider::PanelSpriteSlider",
@@ -5033,38 +5027,7 @@
           "topMargin": 2,
           "width": 22
         }
-      },
-      "instances": [],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ]
+      }
     },
     {
       "adaptCollisionMaskAutomatically": true,

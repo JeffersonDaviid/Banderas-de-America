@@ -1889,30 +1889,13 @@
         },
         {
           "type": {
-            "value": "Wait"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "puntajeGlobal",
-            "+",
-            "puntajeDeNivel"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]

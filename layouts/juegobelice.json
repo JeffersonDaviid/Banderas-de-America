@@ -619,24 +619,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -700,6 +682,17 @@
             "Text",
             "=",
             "\"Fue adoptada oficialmente el 21 de septiembre de 1981, la franja azul del centro representa el cielo y el Mar Caribe, el disco blanco en el centro de la bandera representa la paz y la unidad, finalmente, las franjas rojas simbolizan el coraje, la sangre y el esfuerzo de los habitantes para construir su nación.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]

@@ -619,24 +619,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -700,6 +682,17 @@
             "Text",
             "=",
             "\"Está vigente desde noviembre de 1842, es el único pabellón del mundo con dos escudos diferentes en el anverso y el reverso. El rojo, blanco y azul representan la identidad del Paraguay, el rojo simboliza la justicia, el blanco la paz y el azul la libertad.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         },
         {

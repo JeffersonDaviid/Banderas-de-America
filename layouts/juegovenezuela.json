@@ -619,24 +619,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -700,6 +682,17 @@
             "Text",
             "=",
             "\"El 15 de julio de 1811, el Congreso reconoció el estandarte nacional con tres franjas horizontales: amarillo por las riquezas, azul por el mar Caribe, y rojo por la sangre derramada en la Independencia. En la franja azul hay un arco de ocho estrellas blancas, representando las provincias que firmaron el Acta de Independencia el 5 de julio de 1811.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]

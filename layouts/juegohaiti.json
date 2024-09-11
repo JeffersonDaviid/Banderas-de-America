@@ -616,24 +616,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -707,6 +689,17 @@
             "Informacion",
             "=",
             "33"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]

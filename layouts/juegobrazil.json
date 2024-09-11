@@ -636,24 +636,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -717,6 +699,17 @@
             "Text",
             "=",
             "\"Fue adoptada del 19 de noviembre de 1889, está conformada por un rectángulo verde, sobre el cual hay un rombo amarillo en posición horizontal que tiene adentro un círculo azul, en su parte interior hay una franja blanca ondulada que contiene el lema Ordem e progresso (“Orden y progreso” en portugués) y además veintisiete estrellas blancas repartidas en su mitad inferior, que hacen referencia a los 26 estados y al Distrito Federal (Brasilia).\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]

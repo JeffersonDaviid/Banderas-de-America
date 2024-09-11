@@ -619,24 +619,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -700,6 +682,17 @@
             "Text",
             "=",
             "\"Se estableció el 25 de febrero de 1825, durante el gobierno de Simón Bolívar, formada por dos franjas rojas verticales y una blanca. Además, el escudo en el centro, en el que se observa el árbol de la quina, la cornucopia y la vicuña, que representan la riqueza vegetal, mineral y animal del país.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]
