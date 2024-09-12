@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210189,
+    "zoomFactor": 0.46331118245139896,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -69,7 +69,7 @@
       "persistentUuid": "a98058d1-fb9b-4a1a-aef2-2a63cbae1ba4",
       "width": 1090,
       "x": 415,
-      "y": 50,
+      "y": 26,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -128,14 +128,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 103,
+      "height": 135,
       "keepRatio": true,
       "layer": "UI Capa",
       "name": "textoTryAgain",
       "persistentUuid": "717021b0-1111-4739-ad5e-bba0219222f6",
-      "width": 300,
-      "x": 868,
-      "y": 873,
+      "width": 339,
+      "x": 857,
+      "y": 842,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -145,14 +145,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 112,
+      "height": 149,
       "keepRatio": true,
       "layer": "UI Capa",
       "name": "textoMenu",
       "persistentUuid": "7d5c0036-f9a4-429f-af25-c6f314920ec3",
-      "width": 237,
-      "x": 193,
-      "y": 869,
+      "width": 294,
+      "x": 175,
+      "y": 840,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -177,15 +177,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 93,
       "keepRatio": true,
       "layer": "UI Capa",
       "name": "textoSalir",
       "persistentUuid": "8a90d55d-20fb-463a-b173-19594907c26c",
-      "width": 0,
-      "x": 1572,
-      "y": 888,
+      "width": 156,
+      "x": 1545,
+      "y": 867,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -504,7 +505,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoTryAgain",
       "smoothed": true,
@@ -523,19 +524,19 @@
       "string": "Intentar de Nuevo",
       "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 45,
+      "characterSize": 50,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -546,13 +547,13 @@
         "text": "Intentar de Nuevo",
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 45,
-        "color": "0;0;0"
+        "characterSize": 50,
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoMenu",
       "smoothed": true,
@@ -573,17 +574,17 @@
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -595,7 +596,7 @@
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
         "characterSize": 50,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -719,7 +720,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoSalir",
       "smoothed": true,
@@ -738,19 +739,19 @@
       "string": "Salir",
       "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 50,
+      "characterSize": 55,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -761,8 +762,8 @@
         "text": "Salir",
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 50,
-        "color": "0;0;0"
+        "characterSize": 55,
+        "color": "255;255;255"
       }
     }
   ],
@@ -946,6 +947,42 @@
                 "Sticker",
                 "botonSalir",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoSalir",
+                "=",
+                "botonSalir.CenterX()",
+                "=",
+                "botonSalir.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoTryAgain",
+                "=",
+                "BotonTryAgain.CenterX()",
+                "=",
+                "BotonTryAgain.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoMenu",
+                "=",
+                "BotonMenu.CenterX()",
+                "=",
+                "BotonMenu.CenterY()"
               ]
             }
           ]

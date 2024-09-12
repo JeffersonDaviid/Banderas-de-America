@@ -367,8 +367,8 @@
       "name": "textoSkip",
       "persistentUuid": "2eeeb692-43e7-4e4f-a648-d2677fb65d02",
       "width": 0,
-      "x": 1592,
-      "y": 920,
+      "x": 1576,
+      "y": 905,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -1496,7 +1496,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoSkip",
       "smoothed": true,
@@ -1515,19 +1515,19 @@
       "string": "Saltar",
       "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 50,
+      "characterSize": 55,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -1538,8 +1538,8 @@
         "text": "Saltar",
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 50,
-        "color": "0;0;0"
+        "characterSize": 55,
+        "color": "255;255;255"
       }
     },
     {
@@ -1843,6 +1843,18 @@
             "error.CenterX()",
             "=",
             "error.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "textoSkip",
+            "=",
+            "BtnSkip.CenterX()",
+            "=",
+            "BtnSkip.CenterY()"
           ]
         }
       ]
