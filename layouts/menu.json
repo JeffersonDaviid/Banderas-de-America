@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3553434558817022,
+    "zoomFactor": 0.3673257545058861,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1056,6 +1056,18 @@
                 "Sticker",
                 "BotonCreditos",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "LogoBanderasDeAmerica",
+                "=",
+                "FondoGeneral.CenterX()",
+                "=",
+                "FondoGeneral.CenterY()"
               ]
             }
           ]

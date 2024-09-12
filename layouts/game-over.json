@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4481978045410368,
+    "zoomFactor": 0.5117784035210189,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,8 +34,8 @@
       "name": "BotonMenu",
       "persistentUuid": "88aa71ad-9df4-4f57-af83-27841bf3fcb7",
       "width": 500,
-      "x": 1290,
-      "y": 790,
+      "x": 63,
+      "y": 800,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -51,8 +51,8 @@
       "name": "BotonTryAgain",
       "persistentUuid": "47c742f2-29cb-4aac-8f67-ecece499c270",
       "width": 500,
-      "x": 130,
-      "y": 790,
+      "x": 756,
+      "y": 800,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -134,8 +134,8 @@
       "name": "textoTryAgain",
       "persistentUuid": "717021b0-1111-4739-ad5e-bba0219222f6",
       "width": 300,
-      "x": 229,
-      "y": 858,
+      "x": 868,
+      "y": 873,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -151,9 +151,42 @@
       "name": "textoMenu",
       "persistentUuid": "7d5c0036-f9a4-429f-af25-c6f314920ec3",
       "width": 237,
-      "x": 1428,
-      "y": 853,
+      "x": 193,
+      "y": 869,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 245.5,
+      "keepRatio": true,
+      "layer": "",
+      "name": "botonSalir",
+      "persistentUuid": "17023a3c-4bf1-4274-9f02-9bea672b3225",
+      "width": 500,
+      "x": 1371,
+      "y": 800,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Capa",
+      "name": "textoSalir",
+      "persistentUuid": "8a90d55d-20fb-463a-b173-19594907c26c",
+      "width": 0,
+      "x": 1572,
+      "y": 888,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -170,12 +203,12 @@
       "effects": [],
       "behaviors": [
         {
+          "leftEdgeAnchor": 1,
           "name": "Anchor",
+          "rightEdgeAnchor": 0,
           "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 0,
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
@@ -289,12 +322,12 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
           "bottomEdgeAnchor": 2,
-          "leftEdgeAnchor": 1,
+          "leftEdgeAnchor": 4,
+          "name": "Anchor",
+          "rightEdgeAnchor": 4,
+          "type": "AnchorBehavior::AnchorBehavior",
           "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 0,
           "topEdgeAnchor": 0,
           "useLegacyBottomAndRightAnchors": false
         }
@@ -564,6 +597,173 @@
         "characterSize": 50,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "botonSalir",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "rightEdgeAnchor": 2,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Botones\\frame0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 4
+                      },
+                      {
+                        "x": 991,
+                        "y": 4
+                      },
+                      {
+                        "x": 991,
+                        "y": 478
+                      },
+                      {
+                        "x": 9,
+                        "y": 478
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Botones\\frame1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 4
+                      },
+                      {
+                        "x": 991,
+                        "y": 4
+                      },
+                      {
+                        "x": 991,
+                        "y": 478
+                      },
+                      {
+                        "x": 9,
+                        "y": 478
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoSalir",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Salir",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Salir",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -577,6 +777,12 @@
       },
       {
         "objectName": "BotonTryAgain"
+      },
+      {
+        "objectName": "botonSalir"
+      },
+      {
+        "objectName": "textoSalir"
       },
       {
         "objectName": "textoTryAgain"
@@ -633,6 +839,84 @@
             },
             {
               "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "BotonTryAgain",
+                "=",
+                "FondoMenu.CenterX()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "BotonMenu",
+                "=",
+                "FondoMenu.CenterX()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "botonSalir",
+                "=",
+                "FondoGeneral.CenterX() + FondoGeneral.CenterX()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "GameOverTexto",
+                "=",
+                "FondoMenu.CenterX()",
+                "=",
+                "FondoMenu.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoTryAgain",
+                "=",
+                "BotonTryAgain.CenterX()",
+                "=",
+                "BotonTryAgain.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoMenu",
+                "=",
+                "BotonMenu.CenterX()",
+                "=",
+                "BotonMenu.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoSalir",
+                "=",
+                "botonSalir.CenterX()",
+                "=",
+                "botonSalir.CenterY()"
+              ]
+            },
+            {
+              "type": {
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
@@ -652,6 +936,17 @@
                 "BotonTryAgain",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "textoSalir",
+                "Sticker",
+                "botonSalir",
+                ""
+              ]
             }
           ]
         }
@@ -668,7 +963,6 @@
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -706,6 +1000,32 @@
                   "parameters": [
                     "",
                     "\"Menu\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "botonSalir",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
                     ""
                   ]
                 }
@@ -856,6 +1176,53 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botonSalir",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "botonSalir",
+                "Animation",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\Sonidos\\Efects\\overButton.wav",
+                "",
+                "25",
+                "2"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -865,7 +1232,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Boton no Presionado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -935,6 +1301,42 @@
               },
               "parameters": [
                 "BotonTryAgain",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "botonSalir",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "botonSalir",
                 "Animation",
                 "=",
                 "0"

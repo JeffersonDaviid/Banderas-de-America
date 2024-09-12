@@ -384,7 +384,7 @@
       "persistentUuid": "66119902-1eb3-4ee0-80aa-79be481d2c39",
       "width": 0,
       "x": 1560,
-      "y": 326,
+      "y": 359,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -392,15 +392,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 39,
       "keepRatio": true,
       "layer": "InstruccionesSecundarias",
       "name": "textoCuidado",
       "persistentUuid": "55d0f7c2-3ece-4ba6-9062-72305d05a14f",
-      "width": 0,
+      "width": 221,
       "x": 1543,
-      "y": 325,
+      "y": 338,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -958,7 +959,7 @@
       "string": "Ahora, arrastra la bandera a la silueta del respectivo país.",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 34,
       "color": {
         "b": 0,
         "g": 0,
@@ -981,7 +982,7 @@
         "text": "Ahora, arrastra la bandera a la silueta del respectivo país.",
         "font": "",
         "textAlignment": "center",
-        "characterSize": 40,
+        "characterSize": 34,
         "color": "0;0;0"
       }
     },
@@ -1818,6 +1819,30 @@
             "Sticker",
             "error",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "GuiaBandera",
+            "=",
+            "capital.CenterX()",
+            "=",
+            "capital.CenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "texto_error",
+            "=",
+            "error.CenterX()",
+            "=",
+            "error.CenterY()"
           ]
         }
       ]
