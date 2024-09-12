@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3553434558816993,
+    "zoomFactor": 0.4481978045410368,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -123,6 +123,40 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 103,
+      "keepRatio": true,
+      "layer": "UI Capa",
+      "name": "textoTryAgain",
+      "persistentUuid": "717021b0-1111-4739-ad5e-bba0219222f6",
+      "width": 300,
+      "x": 229,
+      "y": 858,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "UI Capa",
+      "name": "textoMenu",
+      "persistentUuid": "7d5c0036-f9a4-429f-af25-c6f314920ec3",
+      "width": 237,
+      "x": 1428,
+      "y": 853,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -157,7 +191,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Menu.png",
+                  "image": "assets\\Botones\\frame0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -173,20 +207,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 976
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 976
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -205,7 +239,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Menu_Select.png",
+                  "image": "assets\\Botones\\frame1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -221,20 +255,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 976
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 976
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -276,7 +310,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Play.png",
+                  "image": "assets\\Botones\\frame0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -292,20 +326,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 9
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 9
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -324,7 +358,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Play_Select.png",
+                  "image": "assets\\Botones\\frame1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -340,20 +374,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 9
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 9
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -434,6 +468,102 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoTryAgain",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Intentar de Nuevo",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Intentar de Nuevo",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 45,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoMenu",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Menú Principal",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Menú Principal",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -447,6 +577,12 @@
       },
       {
         "objectName": "BotonTryAgain"
+      },
+      {
+        "objectName": "textoTryAgain"
+      },
+      {
+        "objectName": "textoMenu"
       }
     ]
   },
@@ -493,6 +629,28 @@
                 "puntajeGlobal",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "textoMenu",
+                "Sticker",
+                "BotonMenu",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "textoTryAgain",
+                "Sticker",
+                "BotonTryAgain",
+                ""
               ]
             }
           ]
@@ -910,6 +1068,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "Text",

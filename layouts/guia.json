@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4057518905943892,
+    "zoomFactor": 0.5117784035210268,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -267,7 +267,7 @@
       "name": "GuiaBandera",
       "persistentUuid": "81e64ebb-9d13-458e-a8de-fd745a0874d5",
       "width": 301,
-      "x": 1516,
+      "x": 1501,
       "y": 380,
       "zOrder": 3,
       "numberProperties": [],
@@ -284,8 +284,8 @@
       "name": "capital",
       "persistentUuid": "b3e5b5c9-e649-4c88-9b5c-48c6ae69c437",
       "width": 356,
-      "x": 1497,
-      "y": 402,
+      "x": 1475,
+      "y": 300,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -300,7 +300,7 @@
       "name": "error",
       "persistentUuid": "8bb67a27-3c2a-40a6-be6d-eb1409608593",
       "width": 356,
-      "x": 1490,
+      "x": 1475,
       "y": 300,
       "zOrder": 1,
       "numberProperties": [],
@@ -317,7 +317,7 @@
       "name": "texto_error",
       "persistentUuid": "a26c5522-658c-4f59-a161-9b2bff5ed2ad",
       "width": 304,
-      "x": 1514,
+      "x": 1499,
       "y": 356,
       "zOrder": 3,
       "numberProperties": [],
@@ -354,6 +354,54 @@
       "x": 384,
       "y": 234,
       "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InstruccionesPrincipales",
+      "name": "textoSkip",
+      "persistentUuid": "2eeeb692-43e7-4e4f-a648-d2677fb65d02",
+      "width": 0,
+      "x": 1592,
+      "y": 920,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InstruccionesSecundarias",
+      "name": "textoExcelente",
+      "persistentUuid": "66119902-1eb3-4ee0-80aa-79be481d2c39",
+      "width": 0,
+      "x": 1560,
+      "y": 326,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InstruccionesSecundarias",
+      "name": "textoCuidado",
+      "persistentUuid": "55d0f7c2-3ece-4ba6-9062-72305d05a14f",
+      "width": 0,
+      "x": 1543,
+      "y": 325,
+      "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -859,7 +907,7 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "Objetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n   1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n   2. A medida que pasa el tiempo, tu puntaje disminuirá.\n   3. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho pais.\n   4. Si fallas, perderás puntos y una vida.\n\n",
+      "string": "Objetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n   1. Al inicio de cada nivel, tendrás 2 vidas y 250 puntos. \n   2. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n   3. A medida que pasa el tiempo, tu puntaje disminuirá.\n   4. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho país.\n   5. Si fallas, perderás 15 puntos y una vida.\n",
       "font": "",
       "textAlignment": "left",
       "characterSize": 38,
@@ -882,7 +930,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Objetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n   1. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n   2. A medida que pasa el tiempo, tu puntaje disminuirá.\n   3. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho pais.\n   4. Si fallas, perderás puntos y una vida.\n\n",
+        "text": "Objetivo:\nArrastra la bandera correcta del país al centro del mapa.\n\nInstrucciones:\n   1. Al inicio de cada nivel, tendrás 2 vidas y 250 puntos. \n   2. Selecciona y arrastra la bandera del país al área marcada en el centro del mapa.\n   3. A medida que pasa el tiempo, tu puntaje disminuirá.\n   4. Si aciertas, ganarás puntos y verás información sobre la bandera de dicho país.\n   5. Si fallas, perderás 15 puntos y una vida.\n",
         "font": "",
         "textAlignment": "left",
         "characterSize": 38,
@@ -907,7 +955,7 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "¡EXCELENTE!\nAhora, arrastra la bendera a la silueta del país",
+      "string": "Ahora, arrastra la bandera a la silueta del respectivo país.",
       "font": "",
       "textAlignment": "center",
       "characterSize": 40,
@@ -930,7 +978,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "¡EXCELENTE!\nAhora, arrastra la bendera a la silueta del país",
+        "text": "Ahora, arrastra la bandera a la silueta del respectivo país.",
         "font": "",
         "textAlignment": "center",
         "characterSize": 40,
@@ -1036,7 +1084,7 @@
           "IsDestroyedWithParent": false
         }
       ],
-      "string": "!BIEN HECHO!\nHas completado la Guia",
+      "string": "!BIEN HECHO!\nHas completado la Guía",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 75,
@@ -1059,7 +1107,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "!BIEN HECHO!\nHas completado la Guia",
+        "text": "!BIEN HECHO!\nHas completado la Guía",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 75,
@@ -1084,7 +1132,7 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "¡TEN CUIDADO!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
+      "string": "Existen distractores que te pude restar puntaje y vidas.\nRecuerda que solo tienes 2 vidas",
       "font": "",
       "textAlignment": "center",
       "characterSize": 34,
@@ -1107,7 +1155,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "¡TEN CUIDADO!\nExisten distractores que te pude restar puntaje y vidas\nRecuerda que solo tienes 2 vidas",
+        "text": "Existen distractores que te pude restar puntaje y vidas.\nRecuerda que solo tienes 2 vidas",
         "font": "",
         "textAlignment": "center",
         "characterSize": 34,
@@ -1299,7 +1347,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Skip.png",
+                  "image": "assets\\Botones\\frame0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1315,20 +1363,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -1347,7 +1395,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Skip_Select.png",
+                  "image": "assets\\Botones\\frame1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1363,20 +1411,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -1415,7 +1463,7 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "¡BIENVENIDO AL JUEGO BANDERAS DE AMÉRICA!\n\n\n\n\n\n\n\n\n\n\n¡BUENA SUERTE!",
+      "string": "¡BIENVENIDO AL JUEGO BANDERAS DE AMÉRICA!\n\n\n\n\n\n\n\n\n\n\n¡VAMOS A APRENDER!",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 45,
@@ -1438,10 +1486,154 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "¡BIENVENIDO AL JUEGO BANDERAS DE AMÉRICA!\n\n\n\n\n\n\n\n\n\n\n¡BUENA SUERTE!",
+        "text": "¡BIENVENIDO AL JUEGO BANDERAS DE AMÉRICA!\n\n\n\n\n\n\n\n\n\n\n¡VAMOS A APRENDER!",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 45,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoSkip",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Saltar",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Saltar",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoExcelente",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "!Excelente!",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 34,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "!Excelente!",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 34,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoCuidado",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "!Ten cuidado!",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 34,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "!Ten cuidado!",
+        "font": "",
+        "textAlignment": "center",
+        "characterSize": 34,
         "color": "0;0;0"
       }
     }
@@ -1493,6 +1685,15 @@
       },
       {
         "objectName": "BtnSkip"
+      },
+      {
+        "objectName": "textoSkip"
+      },
+      {
+        "objectName": "textoExcelente"
+      },
+      {
+        "objectName": "textoCuidado"
       }
     ]
   },
@@ -1585,6 +1786,39 @@
             "True",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "textoSkip",
+            "Sticker",
+            "BtnSkip",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "textoExcelente",
+            "Sticker",
+            "capital",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "textoCuidado",
+            "Sticker",
+            "error",
+            ""
+          ]
         }
       ]
     },
@@ -1638,6 +1872,22 @@
           },
           "parameters": [
             "text_complete"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "textoExcelente"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "textoCuidado"
           ]
         }
       ]
@@ -1735,7 +1985,7 @@
         },
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "MouseButtonReleased"
           },
           "parameters": [
             "",
@@ -1746,31 +1996,34 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
-            "foco"
+            "foco",
+            ""
           ]
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
-            "Text_guia"
+            "Text_guia",
+            ""
           ]
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
-            "Titulo_Ag"
+            "Titulo_Ag",
+            ""
           ]
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
             "textoguia"
@@ -1778,10 +2031,11 @@
         },
         {
           "type": {
-            "value": "Cache"
+            "value": "Delete"
           },
           "parameters": [
-            "BtnSkip"
+            "BtnSkip",
+            ""
           ]
         }
       ]
@@ -1817,6 +2071,15 @@
           },
           "parameters": [
             "GuiaBandera",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "textoExcelente",
             ""
           ]
         }
@@ -1872,6 +2135,15 @@
           },
           "parameters": [
             "texto_error",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "textoCuidado",
             ""
           ]
         }

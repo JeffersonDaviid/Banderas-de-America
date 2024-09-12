@@ -1543,7 +1543,7 @@
         "alwaysLoaded": false,
         "file": "assets/Square White Slider Border.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Square White Slider Border.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Square White Slider Border.png",
         "smoothed": false,
         "userAdded": false,
@@ -1556,7 +1556,7 @@
         "alwaysLoaded": false,
         "file": "assets/Square White Slider Fill Bar.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Square White Slider Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Square White Slider Fill Bar.png",
         "smoothed": false,
         "userAdded": false,
@@ -1569,7 +1569,7 @@
         "alwaysLoaded": false,
         "file": "assets/Square White Slider Thumb.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Square White Slider Thumb.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Square White Slider Thumb.png",
         "smoothed": false,
         "userAdded": false,
@@ -1586,6 +1586,31 @@
         "name": "assets\\Sprites\\volumenIcono.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/frame0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\frame0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Botones/frame1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Botones\\frame1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fuentes/LuckiestGuy-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2144,7 +2169,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "Bandera del país aqui ...",
+      "string": "Bandera del país aquí...",
       "font": "",
       "textAlignment": "center",
       "characterSize": 30,
@@ -2167,7 +2192,7 @@
         "shadowOpacity": 100,
         "smoothed": true,
         "underlined": false,
-        "text": "Bandera del país aqui ...",
+        "text": "Bandera del país aquí...",
         "font": "",
         "textAlignment": "center",
         "characterSize": 30,
@@ -2240,12 +2265,12 @@
         {
           "name": "Anchor",
           "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false,
           "bottomEdgeAnchor": 4,
           "leftEdgeAnchor": 0,
           "rightEdgeAnchor": 2,
           "topEdgeAnchor": 4,
-          "relativeToOriginalWindowSize": true,
-          "useLegacyBottomAndRightAnchors": false
+          "relativeToOriginalWindowSize": true
         }
       ],
       "string": "La información se mostrara al acertar la bandera ...",

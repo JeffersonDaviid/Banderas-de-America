@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126354,
+    "zoomFactor": 0.3553434558817022,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -61,14 +61,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 0,
-      "height": 50,
+      "height": 25,
       "keepRatio": true,
       "layer": "InterfazDeUsuario",
       "name": "volumen",
       "persistentUuid": "d8274c39-f6e1-4862-8951-bf2753e50bbd",
-      "width": 50,
-      "x": 1525,
-      "y": 80,
+      "width": 25,
+      "x": 1550,
+      "y": 90,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -112,7 +112,7 @@
       "customSize": true,
       "depth": 0,
       "height": 200,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "BotonPlay",
       "persistentUuid": "f0c80217-441c-4344-a4b8-1427797a92db",
       "width": 400,
@@ -129,7 +129,7 @@
       "depth": 0,
       "height": 153,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "BotonGuia",
       "persistentUuid": "8caed6be-e851-4281-a127-b72155897beb",
       "width": 300,
@@ -146,7 +146,7 @@
       "depth": 0,
       "height": 100,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "BotonCreditos",
       "persistentUuid": "3f7041f7-aa5a-4c7a-954c-da64896282d8",
       "width": 200,
@@ -163,13 +163,77 @@
       "depth": 0,
       "height": 200,
       "keepRatio": true,
-      "layer": "",
+      "layer": "InterfazDeUsuario",
       "name": "BotonSalir",
       "persistentUuid": "52de7e95-e25b-453b-8036-4cc9c764dc41",
       "width": 400,
       "x": 1070,
       "y": 775,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "textoGuia",
+      "persistentUuid": "d7d35844-2846-4bd0-9f2a-e59238dcb9d3",
+      "width": 0,
+      "x": 222,
+      "y": 76,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "textoJugar",
+      "persistentUuid": "c6ea411f-81ec-40f0-9f42-08f47b5a441e",
+      "width": 0,
+      "x": 573,
+      "y": 837,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "textoSalir",
+      "persistentUuid": "ec090f83-e3b0-4088-ba47-30422f1b8dfc",
+      "width": 0,
+      "x": 1209,
+      "y": 841,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "textoCreditos",
+      "persistentUuid": "62fc1a18-ce79-45c9-88eb-c8eb7390a23a",
+      "width": 0,
+      "x": 1665,
+      "y": 974,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -267,7 +331,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Play.png",
+                  "image": "assets\\Botones\\frame0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -283,20 +347,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 9
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 9
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -315,7 +379,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Play_Select.png",
+                  "image": "assets\\Botones\\frame1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -331,20 +395,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 9
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 9
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -386,7 +450,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Exit.png",
+                  "image": "assets\\Botones\\frame0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -402,20 +466,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -434,7 +498,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Exit_Select.png",
+                  "image": "assets\\Botones\\frame1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -450,20 +514,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -505,7 +569,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Cred.png",
+                  "image": "assets\\Botones\\frame0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -521,20 +585,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 9
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 9
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -553,7 +617,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Cred_Select.png",
+                  "image": "assets\\Botones\\frame1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -569,20 +633,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 9
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 9
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -624,7 +688,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Guide.png",
+                  "image": "assets\\Botones\\frame0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -640,20 +704,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -672,7 +736,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Botones\\Btn_Guide_Select.png",
+                  "image": "assets\\Botones\\frame1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -688,20 +752,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 18,
-                        "y": 8
+                        "x": 9,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 8
+                        "x": 991,
+                        "y": 4
                       },
                       {
-                        "x": 2030,
-                        "y": 977
+                        "x": 991,
+                        "y": 478
                       },
                       {
-                        "x": 18,
-                        "y": 977
+                        "x": 9,
+                        "y": 478
                       }
                     ]
                   ]
@@ -711,6 +775,198 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoGuia",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Guía",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Guía",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoJugar",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Jugar",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Jugar",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoSalir",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Salir",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Salir",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "textoCreditos",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "Creditos",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Creditos",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 40,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -730,6 +986,18 @@
       },
       {
         "objectName": "BotonGuia"
+      },
+      {
+        "objectName": "textoGuia"
+      },
+      {
+        "objectName": "textoJugar"
+      },
+      {
+        "objectName": "textoSalir"
+      },
+      {
+        "objectName": "textoCreditos"
       }
     ]
   },
@@ -766,6 +1034,28 @@
                 "",
                 "50",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "textoSalir",
+                "Sticker",
+                "BotonSalir",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "textoCreditos",
+                "Sticker",
+                "BotonCreditos",
+                ""
               ]
             }
           ]
@@ -1401,6 +1691,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "Text",
