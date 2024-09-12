@@ -8,7 +8,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Parámetros iniciales",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -103,6 +102,18 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sonidos\\Music\\Game.mp3",
+                    "yes",
+                    "50",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberVariable"
@@ -369,18 +380,6 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Music\\Game.mp3",
-                "yes",
-                "50",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
@@ -420,7 +419,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Mecánicas de las banderas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1652,7 +1650,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Comprobación de nivel fallido (Game Over)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1692,7 +1689,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Comprobación de nivel completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

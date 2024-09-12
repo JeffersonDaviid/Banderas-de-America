@@ -58,6 +58,7 @@
       "customSize": true,
       "depth": 0,
       "height": 209,
+      "keepRatio": true,
       "layer": "",
       "name": "cuadroBanderas",
       "persistentUuid": "ff3508da-7bdf-4381-ae63-9c8937f67715",
@@ -91,6 +92,7 @@
       "customSize": true,
       "depth": 0,
       "height": 209,
+      "keepRatio": true,
       "layer": "",
       "name": "cuadroBanderas",
       "persistentUuid": "8b94cf4c-2944-4a4e-8ec0-a8f797ba7e60",
@@ -312,7 +314,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8353591827059905,
+    "zoomFactor": 0.4753585087126942,
     "windowMask": false
   }
 }

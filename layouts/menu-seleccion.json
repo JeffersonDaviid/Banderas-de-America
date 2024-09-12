@@ -7007,6 +7007,18 @@
           "actions": [
             {
               "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\Sonidos\\Music\\MenuSeleccion.aac",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PinchGesture::EnableCameraPinch"
               },
               "parameters": [
@@ -7505,18 +7517,6 @@
                 "TextoDeDialogo",
                 "Sticker",
                 "BurbujaDeDialogo",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\Sonidos\\Music\\MenuSeleccion.aac",
-                "",
-                "100",
                 ""
               ]
             },
