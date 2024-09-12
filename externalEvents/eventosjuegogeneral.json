@@ -420,7 +420,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Mecánicas de las banderas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -664,14 +663,6 @@
                             "bandera1",
                             "ShakeObject_PositionAngleScale",
                             ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Cache"
-                          },
-                          "parameters": [
-                            "País"
                           ]
                         },
                         {
