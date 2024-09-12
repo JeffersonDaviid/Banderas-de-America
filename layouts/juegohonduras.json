@@ -619,24 +619,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -700,6 +682,17 @@
             "Text",
             "=",
             "\"Fue instituida en 1866 y modificada en 1949, las franjas azules representan el cielo hondureño, los océanos Atlántico y Pacífico, la justicia, la lealtad, la fraternidad, la fortaleza, la dulzura, el valor, el amor fraternal y los generosos ideales que unen a los hondureños. Las cinco estrellas azules simbolizan los cinco países que formaron la antigua Federación Centroamericana y el ideal de la unión de Centroamérica.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]

@@ -583,6 +583,17 @@
             "=",
             "\"El 17 de agosto de 1871 se determinó que la Bandera tuviera dos colores: el blanco representa pureza, integridad, fe, obediencia, firmeza, vigilancia, paz y nación, el azul simboliza justicia, lealtad, dulzura, fortaleza, cielo guatemalteco y los dos mares que bañan las costas del país, océano Pacífico al sur y el mar Caribe al noroeste.\""
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
+          ]
         }
       ]
     },
@@ -675,24 +686,6 @@
             "puntajeGlobal",
             "+",
             "puntajeDeNivel"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
           ]
         }
       ]

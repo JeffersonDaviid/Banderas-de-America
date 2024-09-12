@@ -1196,24 +1196,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -1277,6 +1259,17 @@
             "Text",
             "=",
             "\"Adoptada desde 1912, es un paralelogramo compuesto de tres franjas horizontales: la primera y la tercera azules que simbolizan los dos océanos que bañan a Centroamérica: el Océano Pacifico y el Atlántico y la del centro color blanco, simboliza la paz.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]

@@ -619,24 +619,6 @@
             "+",
             "puntajeDeNivel"
           ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Menu seleccion\"",
-            ""
-          ]
         }
       ]
     },
@@ -700,6 +682,17 @@
             "Text",
             "=",
             "\"Se enarboló por primera vez el 27 de febrero del 1844, está formada por tres colores: Azul Ultramar que representa el cielo que cubre la Patria, que Dios protege la nación dominicana y los ideales de progreso de los dominicanos, rojo bermellón representa la sangre derramada por los patriotas en las batallas para conseguir la independencia y el blanco que representa la paz y unión entre todos los dominicanos.\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "País",
+            "Text",
+            "=",
+            "\"Presiona VOLVER para cambiar de país\""
           ]
         }
       ]
