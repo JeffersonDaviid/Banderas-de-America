@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 211,
+    "build": 212,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -1610,6 +1610,20 @@
         "kind": "font",
         "metadata": "",
         "name": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fuentes/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Fuentes\\Kenney Mini Square.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets/Fuentes/ArchitectsDaughter.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\Fuentes\\ArchitectsDaughter.ttf",
         "userAdded": true
       }
     ],

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3673257545058861,
+    "zoomFactor": 0.3925161175488267,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -183,8 +183,8 @@
       "name": "textoGuia",
       "persistentUuid": "d7d35844-2846-4bd0-9f2a-e59238dcb9d3",
       "width": 0,
-      "x": 222,
-      "y": 76,
+      "x": 207,
+      "y": 67,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -199,8 +199,8 @@
       "name": "textoJugar",
       "persistentUuid": "c6ea411f-81ec-40f0-9f42-08f47b5a441e",
       "width": 0,
-      "x": 573,
-      "y": 837,
+      "x": 557,
+      "y": 820,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -215,8 +215,8 @@
       "name": "textoSalir",
       "persistentUuid": "ec090f83-e3b0-4088-ba47-30422f1b8dfc",
       "width": 0,
-      "x": 1209,
-      "y": 841,
+      "x": 1194,
+      "y": 818,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -232,7 +232,7 @@
       "persistentUuid": "62fc1a18-ce79-45c9-88eb-c8eb7390a23a",
       "width": 0,
       "x": 1665,
-      "y": 974,
+      "y": 962,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -778,7 +778,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoGuia",
       "smoothed": true,
@@ -799,17 +799,17 @@
       "textAlignment": "center",
       "characterSize": 50,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -821,12 +821,12 @@
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
         "characterSize": 50,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoJugar",
       "smoothed": true,
@@ -845,19 +845,19 @@
       "string": "Jugar",
       "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 50,
+      "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -868,13 +868,13 @@
         "text": "Jugar",
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 50,
-        "color": "0;0;0"
+        "characterSize": 60,
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoSalir",
       "smoothed": true,
@@ -893,19 +893,19 @@
       "string": "Salir",
       "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 50,
+      "characterSize": 60,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -916,13 +916,13 @@
         "text": "Salir",
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 50,
-        "color": "0;0;0"
+        "characterSize": 60,
+        "color": "255;255;255"
       }
     },
     {
       "assetStoreId": "",
-      "bold": true,
+      "bold": false,
       "italic": false,
       "name": "textoCreditos",
       "smoothed": true,
@@ -941,19 +941,19 @@
       "string": "Créditos",
       "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
       "textAlignment": "center",
-      "characterSize": 40,
+      "characterSize": 35,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
-        "bold": true,
-        "isOutlineEnabled": false,
+        "bold": false,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
+        "outlineColor": "49;89;39",
+        "outlineThickness": 18,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
         "shadowColor": "0;0;0",
@@ -964,8 +964,8 @@
         "text": "Créditos",
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
-        "characterSize": 40,
-        "color": "0;0;0"
+        "characterSize": 35,
+        "color": "255;255;255"
       }
     }
   ],
@@ -1068,6 +1068,54 @@
                 "FondoGeneral.CenterX()",
                 "=",
                 "FondoGeneral.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoGuia",
+                "=",
+                "BotonGuia.CenterX()",
+                "=",
+                "BotonGuia.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoJugar",
+                "=",
+                "BotonPlay.CenterX()",
+                "=",
+                "BotonPlay.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoSalir",
+                "=",
+                "BotonSalir.CenterX()",
+                "=",
+                "BotonSalir.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "textoCreditos",
+                "=",
+                "BotonCreditos.CenterX()",
+                "=",
+                "BotonCreditos.CenterY()"
               ]
             }
           ]
