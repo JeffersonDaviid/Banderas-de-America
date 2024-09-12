@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.3",
-    "name": "Banderas de America",
+    "name": "Banderas de América",
     "description": "",
     "author": "",
     "windowWidth": 1920,
@@ -43,7 +43,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -59,6 +59,21 @@
         "extension": "AdMob",
         "property": "AdMobAppIdAndroid",
         "value": ""
+      },
+      {
+        "extension": "AdMob",
+        "property": "AdMobAppIdIos",
+        "value": ""
+      },
+      {
+        "extension": "Firebase",
+        "property": "FirebaseConfig",
+        "value": ""
+      },
+      {
+        "extension": "Steamworks",
+        "property": "AppID",
+        "value": "0"
       }
     ],
     "platforms": [
@@ -2290,7 +2305,7 @@
       "string": "La información se mostrara al acertar la bandera ...",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 30,
+      "characterSize": 28,
       "color": {
         "b": 0,
         "g": 0,
@@ -2313,7 +2328,7 @@
         "text": "La información se mostrara al acertar la bandera ...",
         "font": "",
         "textAlignment": "center",
-        "characterSize": 30,
+        "characterSize": 28,
         "color": "0;0;0"
       }
     },
