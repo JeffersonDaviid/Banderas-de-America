@@ -8,6 +8,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Parámetros iniciales",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17,7 +18,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ubicaciones aleatorias de las banderas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -420,6 +420,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Mecánicas de las banderas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1651,6 +1652,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Comprobación de nivel fallido (Game Over)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1974,6 +1976,24 @@
         "includeConfig": 0
       },
       "target": "controlDeVolumen"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Informacion",
+            "=",
+            "Socalo_Información.CenterX()",
+            "=",
+            "Socalo_Información.CenterY()"
+          ]
+        }
+      ]
     }
   ]
 }
