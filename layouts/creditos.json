@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3437520241612344,
+    "zoomFactor": 0.6244537826600054,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -230,23 +230,6 @@
       "x": 996,
       "y": 3150,
       "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 79.68051118210863,
-      "keepRatio": true,
-      "layer": "",
-      "name": "IzqDis",
-      "persistentUuid": "25396d0d-95a8-4081-9df6-ce01f31a71e3",
-      "width": 580,
-      "x": 395,
-      "y": 3160,
-      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -949,7 +932,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCreditos",
+      "string": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCréditos",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "right",
       "characterSize": 38,
@@ -972,7 +955,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCreditos",
+        "text": "Menú Principal\n\n\n\nMenú Selección\n\n\n\nGameplay\n\n\n\n\n\n\n\n\n\n\nGameOver\n\nCréditos",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "right",
         "characterSize": 38,
@@ -1005,7 +988,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Diseñadores\n",
+      "string": "Instituto Geográfico Militar",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 40,
@@ -1028,7 +1011,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Diseñadores\n",
+        "text": "Instituto Geográfico Militar",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 40,
@@ -1061,7 +1044,7 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nDirección Geográfica IGM",
+      "string": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nMsc. Pablo Montenegro",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "left",
       "characterSize": 50,
@@ -1084,7 +1067,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nDirección Geográfica IGM",
+        "text": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nMsc. Pablo Montenegro",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "left",
         "characterSize": 50,

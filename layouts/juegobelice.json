@@ -78,6 +78,7 @@
       "value": 0
     },
     {
+      "folded": true,
       "name": "posicionesDisponibles",
       "type": "array",
       "children": [

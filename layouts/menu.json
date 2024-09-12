@@ -938,7 +938,7 @@
           "IsDestroyedWithParent": true
         }
       ],
-      "string": "Creditos",
+      "string": "Créditos",
       "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
       "textAlignment": "center",
       "characterSize": 40,
@@ -961,7 +961,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Creditos",
+        "text": "Créditos",
         "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
         "textAlignment": "center",
         "characterSize": 40,

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.38750478639102026,
+    "zoomFactor": 0.44247557423675865,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -5716,7 +5716,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Pais",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6178,7 +6177,7 @@
                 "TextoDeDialogo",
                 "Text",
                 "=",
-                "\"PERU\""
+                "\"PERÚ\""
               ]
             },
             {
@@ -6988,6 +6987,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "InicializarEscena",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

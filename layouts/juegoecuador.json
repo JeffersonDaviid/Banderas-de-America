@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.34375202416123674,
+    "zoomFactor": 0.4335774304702442,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -57,7 +57,7 @@
       "folded": true,
       "name": "bPosiciónX",
       "type": "number",
-      "value": 117
+      "value": 280
     },
     {
       "folded": true,
@@ -84,16 +84,16 @@
         {
           "folded": true,
           "type": "number",
-          "value": 225
+          "value": 325
         },
         {
           "folded": true,
           "type": "number",
-          "value": 441
+          "value": 500
         },
         {
           "type": "number",
-          "value": 660
+          "value": 675
         }
       ]
     },

@@ -2107,7 +2107,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Recuadros\\Panel_Banderas.png",
+                  "image": "assets\\Recuadros\\Panel_Informacion.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2123,20 +2123,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 35,
-                        "y": 48
+                        "x": 0,
+                        "y": 0
                       },
                       {
-                        "x": 1132,
-                        "y": 48
+                        "x": 1317,
+                        "y": 0
                       },
                       {
-                        "x": 1132,
-                        "y": 2467
+                        "x": 1317,
+                        "y": 2032
                       },
                       {
-                        "x": 35,
-                        "y": 2467
+                        "x": 0,
+                        "y": 2032
                       }
                     ]
                   ]
