@@ -34,10 +34,10 @@
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
+      "gdevelopLogoStyle": "dark",
       "logoAndProgressFadeInDuration": 0.2,
-      "logoAndProgressLogoFadeInDelay": 0.2,
-      "minDuration": 1.5,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 0,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -48,7 +48,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [],
     "authorUsernames": [],
