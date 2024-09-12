@@ -1974,6 +1974,24 @@
         "includeConfig": 0
       },
       "target": "controlDeVolumen"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "Informacion",
+            "=",
+            "Socalo_Información.CenterX()",
+            "=",
+            "Socalo_Información.CenterY()"
+          ]
+        }
+      ]
     }
   ]
 }
