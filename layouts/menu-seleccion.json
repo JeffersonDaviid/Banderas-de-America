@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.44247557423675865,
+    "zoomFactor": 0.6372692087942213,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1167,6 +1167,39 @@
       "x": 50,
       "y": 200,
       "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 743.827160493827,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "PanelJuegoCompletado",
+      "persistentUuid": "f77753b0-cfad-449e-9154-2b53ed4f8edd",
+      "width": 1000,
+      "x": 460,
+      "y": 168.0864,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "InterfazDeUsuario",
+      "name": "MensajeJuegoCompletado",
+      "persistentUuid": "4a34ab20-c6e2-4e42-94ea-4fafbed49125",
+      "width": 0,
+      "x": 551,
+      "y": 396,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5158,6 +5191,125 @@
         "characterSize": 50,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PanelJuegoCompletado",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "bottomEdgeAnchor": 4,
+          "leftEdgeAnchor": 4,
+          "name": "Anchor",
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 4,
+          "type": "AnchorBehavior::AnchorBehavior",
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Recuadros\\Panel_Guia_Jugador.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 1
+                      },
+                      {
+                        "x": 323,
+                        "y": 1
+                      },
+                      {
+                        "x": 323,
+                        "y": 240
+                      },
+                      {
+                        "x": 1,
+                        "y": 240
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "MensajeJuegoCompletado",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": true,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "string": "¡Felicidades!\nHas completado el juego \n¡eres un crack!",
+      "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "¡Felicidades!\nHas completado el juego \n¡eres un crack!",
+        "font": "assets\\Fuentes\\LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -5332,6 +5484,12 @@
       },
       {
         "objectName": "PuntajeMenu"
+      },
+      {
+        "objectName": "PanelJuegoCompletado"
+      },
+      {
+        "objectName": "MensajeJuegoCompletado"
       }
     ]
   },
@@ -5716,6 +5874,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Pais",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -6987,7 +7146,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "InicializarEscena",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -7007,13 +7165,37 @@
           "actions": [
             {
               "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "PanelJuegoCompletado",
+                "=",
+                "960",
+                "=",
+                "540"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenter"
+              },
+              "parameters": [
+                "MensajeJuegoCompletado",
+                "=",
+                "PanelJuegoCompletado.CenterX()",
+                "=",
+                "PanelJuegoCompletado.CenterY()"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlayMusic"
               },
               "parameters": [
                 "",
                 "assets\\Sonidos\\Music\\MenuSeleccion.aac",
                 "",
-                "100",
+                "75",
                 ""
               ]
             },
@@ -7522,6 +7704,17 @@
             },
             {
               "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "MensajeJuegoCompletado",
+                "Sticker",
+                "PanelJuegoCompletado",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
               },
               "parameters": [
@@ -7530,6 +7723,22 @@
                 "0",
                 "0",
                 "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PanelJuegoCompletado"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "MensajeJuegoCompletado"
               ]
             }
           ],
@@ -7776,6 +7985,75 @@
                   "parameters": [
                     "boliviaCompletado",
                     "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "cantPaisesCompletados",
+                    "=",
+                    "21"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "MensajeJuegoCompletado",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "PanelJuegoCompletado",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\Sonidos\\Efects\\LevelCompleted.mp3",
+                    "",
+                    "200",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Quit"
+                  },
+                  "parameters": [
                     ""
                   ]
                 }

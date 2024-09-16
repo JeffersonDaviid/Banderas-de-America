@@ -984,6 +984,16 @@
                 "=",
                 "BotonMenu.CenterY()"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "cantPaisesCompletados",
+                "=",
+                "0"
+              ]
             }
           ]
         }

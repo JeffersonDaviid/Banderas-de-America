@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210231,
+    "zoomFactor": 0.40575189059438704,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1116,6 +1116,16 @@
                 "BotonCreditos.CenterX()",
                 "=",
                 "BotonCreditos.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "cantPaisesCompletados",
+                "=",
+                "0"
               ]
             }
           ]

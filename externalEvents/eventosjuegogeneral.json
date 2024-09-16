@@ -746,6 +746,16 @@
                             "+",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "cantPaisesCompletados",
+                            "+",
+                            "1"
+                          ]
                         }
                       ]
                     },
@@ -949,6 +959,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bandera 2 (Incorrecta)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1330,6 +1341,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bandera 3 (Incorrecta)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",

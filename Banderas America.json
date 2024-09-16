@@ -3073,6 +3073,12 @@
       "name": "anchoVentana",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "cantPaisesCompletados",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [

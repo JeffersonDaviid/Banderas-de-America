@@ -2236,6 +2236,16 @@
             "=",
             "\"Presiona VOLVER para cambiar de país\""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "cantPaisesCompletados",
+            "=",
+            "0"
+          ]
         }
       ]
     }
