@@ -212,8 +212,8 @@
       "name": "Nombre_País",
       "persistentUuid": "20d2a6d6-d18a-4101-9392-80fd90889fe5",
       "width": 893,
-      "x": 515,
-      "y": 966,
+      "x": 517,
+      "y": 158,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -268,6 +268,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GameText",
+      "persistentUuid": "0bd5cabb-cefe-4199-9868-209bbbf2fa96",
+      "width": 0,
+      "x": 657,
+      "y": 962,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -280,7 +296,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4303403802207668,
+    "zoomFactor": 0.41630252177333416,
     "windowMask": false
   }
 }

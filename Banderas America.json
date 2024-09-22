@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 212,
+    "build": 211,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -2354,7 +2354,7 @@
           "useLegacyBottomAndRightAnchors": false
         }
       ],
-      "string": "ARRASTRA LA BANDERA CORRECTA",
+      "string": "...",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
       "characterSize": 45,
@@ -2377,7 +2377,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "ARRASTRA LA BANDERA CORRECTA",
+        "text": "...",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
         "characterSize": 45,
@@ -2849,6 +2849,58 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "GameText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 2,
+          "leftEdgeAnchor": 4,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 4,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "ARRASTRA LA BANDERA CORRECTA",
+      "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+      "textAlignment": "left",
+      "characterSize": 45,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "ARRASTRA LA BANDERA CORRECTA",
+        "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
+        "textAlignment": "left",
+        "characterSize": 45,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2907,6 +2959,9 @@
       },
       {
         "objectName": "volumen"
+      },
+      {
+        "objectName": "GameText"
       }
     ]
   },

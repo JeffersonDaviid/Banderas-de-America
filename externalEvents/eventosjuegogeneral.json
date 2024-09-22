@@ -8,6 +8,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Parámetros iniciales",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -17,6 +18,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Ubicaciones aleatorias de las banderas",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -474,6 +476,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Mecánicas de las banderas",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -483,11 +486,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bandera 1",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -793,6 +798,21 @@
                           "parameters": [
                             "",
                             "\"sitioCorrecto1\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                          },
+                          "parameters": [
+                            "bandera1",
+                            "Tween",
+                            "\"sitioCorrecto1\"",
+                            "\"255;255;255\"",
+                            "\"easeInQuad\"",
+                            "0.06",
+                            "no",
+                            "\"linear\""
                           ]
                         }
                       ]
@@ -1717,6 +1737,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Comprobación de nivel fallido (Game Over)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1756,6 +1777,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Comprobación de nivel completado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
