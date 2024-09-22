@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5117784035210268,
+    "zoomFactor": 0.565315805512641,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -177,7 +177,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 0.7354497354497354,
-      "height": 376.5502645502645,
+      "height": 377,
       "keepRatio": true,
       "layer": "InstruccionesPrincipales",
       "name": "foco",
@@ -1990,6 +1990,12 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -2068,11 +2074,61 @@
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "textoSkip",
+            "Text",
+            "=",
+            "\"Cerrar\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
           },
           "parameters": [
             "BtnSkip",
+            "",
+            "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::Value"
+          },
+          "parameters": [
+            "textoSkip",
+            "Text",
+            "=",
+            "\"Cerrar\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Menu\"",
+            "yes"
           ]
         }
       ]
@@ -2187,13 +2243,6 @@
       ]
     },
     {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "eventosJuegoGeneral"
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -2248,6 +2297,13 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "eventosJuegoGeneral"
     }
   ],
   "layers": [
@@ -2339,7 +2395,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "InstruccionesPrincipales",
+      "name": "InstruccionesSecundarias",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -2372,7 +2428,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "InstruccionesSecundarias",
+      "name": "InstruccionesPrincipales",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -2403,6 +2459,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

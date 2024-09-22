@@ -1669,6 +1669,7 @@
       "defaultName": "Slider",
       "description": "Let users select a numerical value by dragging a slider.",
       "fullName": "Slider",
+      "isUsingLegacyInstancesRenderer": true,
       "name": "PanelSpriteSlider",
       "eventsFunctions": [
         {

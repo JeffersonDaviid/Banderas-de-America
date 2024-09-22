@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 211,
+    "build": 213,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -86,20 +86,6 @@
   "resources": {
     "resources": [
       {
-        "file": "assets/Vanilla Cake Free.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\Vanilla Cake Free.ttf",
-        "userAdded": true
-      },
-      {
-        "file": "assets/Vanilla Cake Free.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\Vanilla Cake Free.ttf",
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/Recuadros/Panel_Dialogo.png",
         "kind": "image",
@@ -132,24 +118,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Botones\\Btn_Back_Select.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Score.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Score.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Score_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Score_Select.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -578,42 +546,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Menu.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Menu.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Menu_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Menu_Select.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Play.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Play.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Play_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Play_Select.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Fondos/Fondo_General.png",
         "kind": "image",
         "metadata": "",
@@ -658,60 +590,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Exit.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Exit.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Exit_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Exit_Select.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Cred.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Cred.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Cred_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Cred_Select.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Guide.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Guide.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Guide_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Guide_Select.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
         "file": "assets/Sonidos/Music/Menu.wav",
         "kind": "audio",
         "metadata": "",
@@ -736,24 +614,6 @@
         "kind": "font",
         "metadata": "",
         "name": "assets\\Fuentes\\Vanilla Cake Free.ttf",
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_BackToMenu.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_BackToMenu.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_BackToMenu_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_BackToMenu_Select.png",
-        "smoothed": true,
         "userAdded": false
       },
       {
@@ -909,24 +769,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Recuadros\\Recuadro_Rojo.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Skip.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Skip.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Botones/Btn_Skip_Select.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Botones\\Btn_Skip_Select.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1530,32 +1372,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Gold Round Toggle_Off.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gold Round Toggle_Off.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/7bf53b28aa4f451084f9c4d52408ffc1748253be56957512909864ec0caef7e0_Gold Round Toggle_Off.png",
-          "name": "Gold Round Toggle_Off.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Gold Round Toggle_On.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Gold Round Toggle_On.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Toggle Switch/pixel art/1272aa3720a7e69e9125f5d854b17c086f16bee709886fd248220da68259d2e4_Gold Round Toggle_On.png",
-          "name": "Gold Round Toggle_On.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Square White Slider Border.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Square White Slider Border.png\",\"extension\":\".png\",\"pskl\":{}}",
@@ -1628,17 +1444,12 @@
         "userAdded": true
       },
       {
-        "file": "assets/Fuentes/Kenney Mini Square.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\Fuentes\\Kenney Mini Square.ttf",
-        "userAdded": true
-      },
-      {
-        "file": "assets/Fuentes/ArchitectsDaughter.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "assets\\Fuentes\\ArchitectsDaughter.ttf",
+        "alwaysLoaded": false,
+        "file": "assets/BotonSalir.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BotonSalir",
+        "smoothed": true,
         "userAdded": true
       }
     ],
@@ -3134,6 +2945,12 @@
       "name": "cantPaisesCompletados",
       "type": "number",
       "value": 0
+    },
+    {
+      "folded": true,
+      "name": "esGuia",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [

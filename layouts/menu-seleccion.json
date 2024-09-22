@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6372692087942213,
+    "zoomFactor": 0.3626360337114509,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,15 +27,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 200,
+      "depth": 0.8196721311475407,
+      "height": 209,
       "keepRatio": true,
       "layer": "InterfazDeUsuario",
       "name": "Explorador",
       "persistentUuid": "bb772c0b-d41d-4ee2-ab9d-702bd3c13c24",
-      "width": 183,
-      "x": 128,
-      "y": 857,
+      "width": 150,
+      "x": 125,
+      "y": 865,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -9859,6 +9859,10 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",
