@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.37971210019479745,
+    "zoomFactor": 0.2725359896772962,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -653,10 +653,10 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "KEVIN ALEXANDER PAÑAFIEL\nDOMÉNICA CAMILA SÁNCHEZ\nJONATHAN STEEVEN ANGULO\nSEBASTIAN PATRICIO RAMOS\n",
+      "string": "Kevin Alexander Peñafiel\nDoménica Camila Sánchez\nJonathan Steeven Angulo\nSebastian Patricio Ramos\n\n",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 50,
       "color": {
         "b": 4,
         "g": 80,
@@ -676,10 +676,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "KEVIN ALEXANDER PAÑAFIEL\nDOMÉNICA CAMILA SÁNCHEZ\nJONATHAN STEEVEN ANGULO\nSEBASTIAN PATRICIO RAMOS\n",
+        "text": "Kevin Alexander Peñafiel\nDoménica Camila Sánchez\nJonathan Steeven Angulo\nSebastian Patricio Ramos\n\n",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
-        "characterSize": 55,
+        "characterSize": 50,
         "color": "44;80;4"
       }
     },
@@ -714,9 +714,9 @@
       "textAlignment": "left",
       "characterSize": 50,
       "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
+        "b": 4,
+        "g": 80,
+        "r": 44
       },
       "content": {
         "bold": true,
@@ -736,7 +736,7 @@
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "left",
         "characterSize": 50,
-        "color": "65;117;5"
+        "color": "44;80;4"
       }
     },
     {
@@ -821,10 +821,10 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "JEFFERSON DAVID CHILENO\n",
+      "string": "Jefferson David Chileno\n",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 50,
       "color": {
         "b": 4,
         "g": 80,
@@ -844,10 +844,10 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "JEFFERSON DAVID CHILENO\n",
+        "text": "Jefferson David Chileno\n",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
-        "characterSize": 55,
+        "characterSize": 50,
         "color": "44;80;4"
       }
     },
@@ -933,14 +933,14 @@
           "type": "Tween::TweenBehavior"
         }
       ],
-      "string": "Menú Principal y Selección\n\n\n\nGameplay\n\n\n\n\n\n\nGameOver\n\nCréditos\n\n\nGuía",
+      "string": "Menú Principal y Selección\n\n\n\nGameplay\n\n\n\n\n\n\nGameOver\n\n\nCréditos\n\n\nGuía",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "right",
-      "characterSize": 38,
+      "characterSize": 37,
       "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
+        "b": 4,
+        "g": 80,
+        "r": 44
       },
       "content": {
         "bold": false,
@@ -956,11 +956,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Menú Principal y Selección\n\n\n\nGameplay\n\n\n\n\n\n\nGameOver\n\nCréditos\n\n\nGuía",
+        "text": "Menú Principal y Selección\n\n\n\nGameplay\n\n\n\n\n\n\nGameOver\n\n\nCréditos\n\n\nGuía",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "right",
-        "characterSize": 38,
-        "color": "65;117;5"
+        "characterSize": 37,
+        "color": "44;80;4"
       }
     },
     {
@@ -1048,11 +1048,11 @@
       "string": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nMsc. Pablo Montenegro",
       "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
       "textAlignment": "center",
-      "characterSize": 55,
+      "characterSize": 50,
       "color": {
-        "b": 5,
-        "g": 117,
-        "r": 65
+        "b": 4,
+        "g": 80,
+        "r": 44
       },
       "content": {
         "bold": true,
@@ -1071,8 +1071,8 @@
         "text": "Dr. Rosa Cuesta\nIng. Daniel Padilla\nDis. Xavier Vivas\nIng. Danny Lincango\nMsc. Pablo Montenegro",
         "font": "assets\\Fuentes\\Vanilla Cake Free.ttf",
         "textAlignment": "center",
-        "characterSize": 55,
-        "color": "65;117;5"
+        "characterSize": 50,
+        "color": "44;80;4"
       }
     },
     {
@@ -1947,10 +1947,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "ButtonFSM",
-      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",
