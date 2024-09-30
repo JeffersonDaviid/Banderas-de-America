@@ -1890,6 +1890,7 @@
       "defaultName": "ToggleSwitch",
       "description": "A toggle switch that users can click or touch.",
       "fullName": "Toggle switch",
+      "isUsingLegacyInstancesRenderer": true,
       "name": "SpriteToggleSwitch",
       "eventsFunctions": [
         {

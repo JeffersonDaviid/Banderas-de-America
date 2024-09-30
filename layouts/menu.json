@@ -1270,6 +1270,16 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
+                    "esGuia",
+                    "False",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
                     "nuevaPartida",
                     "True",
                     ""

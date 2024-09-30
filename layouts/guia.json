@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.565315805512641,
+    "zoomFactor": 0.32169117647059453,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -183,8 +183,8 @@
       "name": "foco",
       "persistentUuid": "de8ebe4b-6bc1-408d-b008-3fdab3da03e7",
       "width": 278,
-      "x": 153,
-      "y": 698,
+      "x": 126,
+      "y": 691,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -334,8 +334,8 @@
       "name": "BtnSkip",
       "persistentUuid": "37ff2a84-1d3f-49ca-b7db-a018c131d8fa",
       "width": 333,
-      "x": 1498,
-      "y": 871,
+      "x": 1451,
+      "y": 884,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -367,8 +367,8 @@
       "name": "textoSkip",
       "persistentUuid": "2eeeb692-43e7-4e4f-a648-d2677fb65d02",
       "width": 0,
-      "x": 1576,
-      "y": 905,
+      "x": 1517,
+      "y": 915,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -1926,6 +1926,14 @@
           "parameters": [
             "textoCuidado"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Puntaje"
+          ]
         }
       ]
     },
@@ -2082,6 +2090,18 @@
             "=",
             "\"Cerrar\""
           ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "textoSkip",
+            "=",
+            "BtnSkip.CenterX()",
+            "=",
+            "BtnSkip.CenterY()"
+          ]
         }
       ]
     },
@@ -2121,6 +2141,14 @@
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.1"
+          ]
+        },
         {
           "type": {
             "value": "Scene"
