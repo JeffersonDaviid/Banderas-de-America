@@ -282,7 +282,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\Nicaragua\\Bandera_PuertoPrincipe.jpg",
+                  "image": "assets\\Banderas\\Nicaragua\\Bandera_Haiti.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -307,11 +307,11 @@
                       },
                       {
                         "x": 1280,
-                        "y": 720
+                        "y": 768
                       },
                       {
                         "x": 0,
-                        "y": 720
+                        "y": 768
                       }
                     ]
                   ]
@@ -785,10 +785,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "ButtonFSM",
-      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

@@ -1180,6 +1180,24 @@
                   "parameters": [
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "LaunchFile"
+                  },
+                  "parameters": [
+                    "\"https://www.geoportaligm.gob.ec/portal/\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneBackground"
+                  },
+                  "parameters": [
+                    "",
+                    "\"0;0;0\""
+                  ]
                 }
               ]
             },

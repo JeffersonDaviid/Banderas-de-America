@@ -282,7 +282,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Banderas\\USA\\Bandera_WashintongDC.jpg",
+                  "image": "assets\\Banderas\\USA\\Bandera_WashintongDC.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -302,16 +302,16 @@
                         "y": 0
                       },
                       {
-                        "x": 1300,
+                        "x": 1200,
                         "y": 0
                       },
                       {
-                        "x": 1300,
-                        "y": 650
+                        "x": 1200,
+                        "y": 600
                       },
                       {
                         "x": 0,
-                        "y": 650
+                        "y": 600
                       }
                     ]
                   ]
@@ -785,10 +785,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "ButtonFSM",
-      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

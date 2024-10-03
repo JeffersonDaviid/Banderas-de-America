@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\juegi",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -1449,6 +1449,24 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "BotonSalir",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/USA/Bandera_WashintongDC.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\USA\\Bandera_WashintongDC.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Banderas/Nicaragua/Bandera_Haiti.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Banderas\\Nicaragua\\Bandera_Haiti.png",
         "smoothed": true,
         "userAdded": true
       }
