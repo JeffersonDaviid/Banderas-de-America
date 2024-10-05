@@ -1469,6 +1469,95 @@
         "name": "assets\\Banderas\\Nicaragua\\Bandera_Haiti.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Map Selector Melody (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Map Selector Melody (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Map Selector Melody.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Map Selector Melody.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Mapas/PaisSeleccionado/Brasil_Select-min.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Mapas\\PaisSeleccionado\\Brasil_Select-min.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Game2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Game2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Creditos.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Creditos.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Bailando en el Ritmo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Bailando en el Ritmo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/MenuPrincipal.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\MenuPrincipal.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/MenuSeleccionBanderas.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\MenuSeleccionBanderas.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Sonidos/Music/Juego.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Sonidos\\Music\\Juego.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3075,6 +3164,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/guia"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/autoblank"
     }
   ],
   "externalEvents": [

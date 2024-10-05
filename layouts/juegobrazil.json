@@ -445,7 +445,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Mapas\\PaisSeleccionado\\Brasil_Select.png",
+                  "image": "assets\\Mapas\\PaisSeleccionado\\Brasil_Select-min.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -470,11 +470,11 @@
                       },
                       {
                         "x": 863,
-                        "y": 884
+                        "y": 883
                       },
                       {
                         "x": 1,
-                        "y": 884
+                        "y": 883
                       }
                     ]
                   ]
@@ -506,11 +506,11 @@
                       },
                       {
                         "x": 863,
-                        "y": 884
+                        "y": 883
                       },
                       {
                         "x": 1,
-                        "y": 884
+                        "y": 883
                       }
                     ]
                   ]
@@ -803,10 +803,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "ButtonFSM",
-      "type": "ButtonStates::ButtonFSM"
     },
     {
       "name": "Effect",

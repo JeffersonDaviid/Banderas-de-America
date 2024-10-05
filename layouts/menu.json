@@ -1030,10 +1030,10 @@
               },
               "parameters": [
                 "",
-                "assets\\Sonidos\\Music\\Menu.wav",
+                "assets\\Sonidos\\Music\\MenuPrincipal.mp3",
                 "",
                 "50",
-                "1"
+                ""
               ]
             },
             {
@@ -1192,11 +1192,12 @@
                 },
                 {
                   "type": {
-                    "value": "SceneBackground"
+                    "value": "Scene"
                   },
                   "parameters": [
                     "",
-                    "\"0;0;0\""
+                    "\"autoBlank\"",
+                    ""
                   ]
                 }
               ]
@@ -1682,6 +1683,27 @@
         "includeConfig": 0
       },
       "target": "controlDeVolumen"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DoesSceneExist"
+          },
+          "parameters": [
+            "",
+            "\"Menu\""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": []
     }
   ],
   "layers": [
